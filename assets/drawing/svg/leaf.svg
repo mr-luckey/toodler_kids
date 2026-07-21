@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<path id="leaf" d="M100,30 Q130,60 125,100 Q120,140 100,170 Q80,140 75,100 Q70,60 100,30" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="vein" d="M100,35 L100,165" fill="none" stroke="#222" stroke-width="1.5"/>
+<path id="vein_l1" d="M100,70 Q80,75 70,85" fill="none" stroke="#222" stroke-width="1"/>
+<path id="vein_r1" d="M100,70 Q120,75 130,85" fill="none" stroke="#222" stroke-width="1"/>
+<path id="vein_l2" d="M100,110 Q78,118 68,130" fill="none" stroke="#222" stroke-width="1"/>
+<path id="vein_r2" d="M100,110 Q122,118 132,130" fill="none" stroke="#222" stroke-width="1"/>
+</svg>

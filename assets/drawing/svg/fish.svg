@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="body" cx="100" cy="100" rx="55" ry="35" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<polygon id="tail" points="155,100 190,70 190,130" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="eye" cx="65" cy="92" r="8" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="pupil" cx="67" cy="92" r="3" fill="#222"/>
+<path id="fin_top" d="M90,65 Q100,40 120,65" fill="#FFF" stroke="#222" stroke-width="2"/>
+<path id="fin_bot" d="M85,130 Q100,155 115,130" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="scale1" cx="90" cy="100" rx="8" ry="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+<ellipse id="scale2" cx="110" cy="95" rx="8" ry="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+<ellipse id="scale3" cx="120" cy="108" rx="8" ry="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

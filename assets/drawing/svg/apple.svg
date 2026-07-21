@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<circle id="fruit" cx="100" cy="115" r="45" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="stem" d="M100,70 Q105,55 100,45" fill="none" stroke="#222" stroke-width="3"/>
+<ellipse id="leaf" cx="115" cy="55" rx="15" ry="8" fill="#FFF" stroke="#222" stroke-width="2" transform="rotate(30 115 55)"/>
+<ellipse id="highlight" cx="85" cy="95" rx="10" ry="15" fill="#FFF" stroke="#222" stroke-width="1" transform="rotate(-20 85 95)"/>
+</svg>

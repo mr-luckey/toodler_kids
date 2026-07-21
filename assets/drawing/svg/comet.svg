@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<circle id="head" cx="140" cy="60" r="20" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="tail1" d="M120,65 Q80,80 40,100" fill="none" stroke="#222" stroke-width="3"/>
+<path id="tail2" d="M125,70 Q70,95 30,120" fill="none" stroke="#222" stroke-width="2"/>
+<path id="tail3" d="M130,75 Q90,100 50,130" fill="none" stroke="#222" stroke-width="2"/>
+<circle id="star1" cx="30" cy="40" r="3" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="star2" cx="170" cy="100" r="4" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="star3" cx="80" cy="30" r="3" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

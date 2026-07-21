@@ -1,0 +1,3604 @@
+{
+  "levels": [
+    {
+      "id": "animal_world_001",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Lion!",
+      "targetId": "lion",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": true
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.lion"
+      ]
+    },
+    {
+      "id": "animal_world_002",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Elephant!",
+      "targetId": "elephant",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": true
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.elephant"
+      ]
+    },
+    {
+      "id": "animal_world_003",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Giraffe!",
+      "targetId": "giraffe",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.giraffe"
+      ]
+    },
+    {
+      "id": "animal_world_004",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Monkey!",
+      "targetId": "monkey",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": true
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.monkey"
+      ]
+    },
+    {
+      "id": "animal_world_005",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Cow!",
+      "targetId": "cow",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.cow"
+      ]
+    },
+    {
+      "id": "animal_world_006",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Sheep!",
+      "targetId": "sheep",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": true
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.sheep"
+      ]
+    },
+    {
+      "id": "animal_world_007",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Pig!",
+      "targetId": "pig",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": true
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.pig"
+      ]
+    },
+    {
+      "id": "animal_world_008",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Chicken!",
+      "targetId": "chicken",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": true
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.chicken"
+      ]
+    },
+    {
+      "id": "animal_world_009",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Horse!",
+      "targetId": "horse",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": true
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.horse"
+      ]
+    },
+    {
+      "id": "animal_world_010",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Duck!",
+      "targetId": "duck",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.duck"
+      ]
+    },
+    {
+      "id": "animal_world_011",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Frog!",
+      "targetId": "frog",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.frog"
+      ]
+    },
+    {
+      "id": "animal_world_012",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Bear!",
+      "targetId": "bear",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.bear"
+      ]
+    },
+    {
+      "id": "animal_world_013",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Penguin!",
+      "targetId": "penguin",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": true
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.penguin"
+      ]
+    },
+    {
+      "id": "animal_world_014",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Shark!",
+      "targetId": "shark",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": true
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.shark"
+      ]
+    },
+    {
+      "id": "animal_world_015",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Butterfly!",
+      "targetId": "butterfly",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": true
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.butterfly"
+      ]
+    },
+    {
+      "id": "animal_world_016",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Lion!",
+      "targetId": "lion",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": true
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.lion"
+      ]
+    },
+    {
+      "id": "animal_world_017",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Elephant!",
+      "targetId": "elephant",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.elephant"
+      ]
+    },
+    {
+      "id": "animal_world_018",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Giraffe!",
+      "targetId": "giraffe",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": true
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.giraffe"
+      ]
+    },
+    {
+      "id": "animal_world_019",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Monkey!",
+      "targetId": "monkey",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": true
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.monkey"
+      ]
+    },
+    {
+      "id": "animal_world_020",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Cow!",
+      "targetId": "cow",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": true
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.cow"
+      ]
+    },
+    {
+      "id": "animal_world_021",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 21,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Sheep!",
+      "targetId": "sheep",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": true
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.sheep"
+      ]
+    },
+    {
+      "id": "animal_world_022",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 22,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Pig!",
+      "targetId": "pig",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.pig"
+      ]
+    },
+    {
+      "id": "animal_world_023",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 23,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Chicken!",
+      "targetId": "chicken",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": true
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.chicken"
+      ]
+    },
+    {
+      "id": "animal_world_024",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 24,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Horse!",
+      "targetId": "horse",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": true
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.horse"
+      ]
+    },
+    {
+      "id": "animal_world_025",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 25,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Duck!",
+      "targetId": "duck",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.duck"
+      ]
+    },
+    {
+      "id": "animal_world_026",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 26,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Frog!",
+      "targetId": "frog",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.frog"
+      ]
+    },
+    {
+      "id": "animal_world_027",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 27,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Bear!",
+      "targetId": "bear",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": true
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.bear"
+      ]
+    },
+    {
+      "id": "animal_world_028",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 28,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Penguin!",
+      "targetId": "penguin",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": true
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.penguin"
+      ]
+    },
+    {
+      "id": "animal_world_029",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 29,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Shark!",
+      "targetId": "shark",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.shark"
+      ]
+    },
+    {
+      "id": "animal_world_030",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 30,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Butterfly!",
+      "targetId": "butterfly",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": true
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.butterfly"
+      ]
+    },
+    {
+      "id": "animal_world_031",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 31,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Lion!",
+      "targetId": "lion",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": true
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.lion"
+      ]
+    },
+    {
+      "id": "animal_world_032",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 32,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Elephant!",
+      "targetId": "elephant",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.elephant"
+      ]
+    },
+    {
+      "id": "animal_world_033",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 33,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Giraffe!",
+      "targetId": "giraffe",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": true
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.giraffe"
+      ]
+    },
+    {
+      "id": "animal_world_034",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 34,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Monkey!",
+      "targetId": "monkey",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": true
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.monkey"
+      ]
+    },
+    {
+      "id": "animal_world_035",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 35,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Cow!",
+      "targetId": "cow",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": true
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.cow"
+      ]
+    },
+    {
+      "id": "animal_world_036",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 36,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Sheep!",
+      "targetId": "sheep",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": true
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.sheep"
+      ]
+    },
+    {
+      "id": "animal_world_037",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 37,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Pig!",
+      "targetId": "pig",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": true
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.pig"
+      ]
+    },
+    {
+      "id": "animal_world_038",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 38,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Chicken!",
+      "targetId": "chicken",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.chicken"
+      ]
+    },
+    {
+      "id": "animal_world_039",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 39,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Horse!",
+      "targetId": "horse",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": true
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.horse"
+      ]
+    },
+    {
+      "id": "animal_world_040",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 40,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Duck!",
+      "targetId": "duck",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": true
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.duck"
+      ]
+    },
+    {
+      "id": "animal_world_041",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 41,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Frog!",
+      "targetId": "frog",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": true
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.frog"
+      ]
+    },
+    {
+      "id": "animal_world_042",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 42,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Bear!",
+      "targetId": "bear",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": true
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.bear"
+      ]
+    },
+    {
+      "id": "animal_world_043",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 43,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Penguin!",
+      "targetId": "penguin",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": true
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.penguin"
+      ]
+    },
+    {
+      "id": "animal_world_044",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 44,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Shark!",
+      "targetId": "shark",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": true
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.shark"
+      ]
+    },
+    {
+      "id": "animal_world_045",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 45,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Butterfly!",
+      "targetId": "butterfly",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.butterfly"
+      ]
+    },
+    {
+      "id": "animal_world_046",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 46,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Lion!",
+      "targetId": "lion",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": true
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.lion"
+      ]
+    },
+    {
+      "id": "animal_world_047",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 47,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Elephant!",
+      "targetId": "elephant",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.elephant"
+      ]
+    },
+    {
+      "id": "animal_world_048",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 48,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Giraffe!",
+      "targetId": "giraffe",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": true
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.giraffe"
+      ]
+    },
+    {
+      "id": "animal_world_049",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 49,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Monkey!",
+      "targetId": "monkey",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.monkey"
+      ]
+    },
+    {
+      "id": "animal_world_050",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 50,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Cow!",
+      "targetId": "cow",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": true
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.cow"
+      ]
+    },
+    {
+      "id": "animal_world_051",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 51,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Sheep!",
+      "targetId": "sheep",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": true
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.sheep"
+      ]
+    },
+    {
+      "id": "animal_world_052",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 52,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Pig!",
+      "targetId": "pig",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": true
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.pig"
+      ]
+    },
+    {
+      "id": "animal_world_053",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 53,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Chicken!",
+      "targetId": "chicken",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.chicken"
+      ]
+    },
+    {
+      "id": "animal_world_054",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 54,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Horse!",
+      "targetId": "horse",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.horse"
+      ]
+    },
+    {
+      "id": "animal_world_055",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 55,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Duck!",
+      "targetId": "duck",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.duck"
+      ]
+    },
+    {
+      "id": "animal_world_056",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 56,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Frog!",
+      "targetId": "frog",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.frog"
+      ]
+    },
+    {
+      "id": "animal_world_057",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 57,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Bear!",
+      "targetId": "bear",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": true
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.bear"
+      ]
+    },
+    {
+      "id": "animal_world_058",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 58,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Penguin!",
+      "targetId": "penguin",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.penguin"
+      ]
+    },
+    {
+      "id": "animal_world_059",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 59,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Shark!",
+      "targetId": "shark",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.shark"
+      ]
+    },
+    {
+      "id": "animal_world_060",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 60,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Butterfly!",
+      "targetId": "butterfly",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": true
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.butterfly"
+      ]
+    },
+    {
+      "id": "animal_world_061",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 61,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Lion!",
+      "targetId": "lion",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.lion"
+      ]
+    },
+    {
+      "id": "animal_world_062",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 62,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Elephant!",
+      "targetId": "elephant",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": true
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.elephant"
+      ]
+    },
+    {
+      "id": "animal_world_063",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 63,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Giraffe!",
+      "targetId": "giraffe",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.giraffe"
+      ]
+    },
+    {
+      "id": "animal_world_064",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 64,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Monkey!",
+      "targetId": "monkey",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": true
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.monkey"
+      ]
+    },
+    {
+      "id": "animal_world_065",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 65,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Cow!",
+      "targetId": "cow",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.cow"
+      ]
+    },
+    {
+      "id": "animal_world_066",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 66,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Sheep!",
+      "targetId": "sheep",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": true
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.sheep"
+      ]
+    },
+    {
+      "id": "animal_world_067",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 67,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Pig!",
+      "targetId": "pig",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": true
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.pig"
+      ]
+    },
+    {
+      "id": "animal_world_068",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 68,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Chicken!",
+      "targetId": "chicken",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": true
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.chicken"
+      ]
+    },
+    {
+      "id": "animal_world_069",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 69,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Horse!",
+      "targetId": "horse",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": true
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.horse"
+      ]
+    },
+    {
+      "id": "animal_world_070",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 70,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Duck!",
+      "targetId": "duck",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.duck"
+      ]
+    },
+    {
+      "id": "animal_world_071",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 71,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Frog!",
+      "targetId": "frog",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": true
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.frog"
+      ]
+    },
+    {
+      "id": "animal_world_072",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 72,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Bear!",
+      "targetId": "bear",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.bear"
+      ]
+    },
+    {
+      "id": "animal_world_073",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 73,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Penguin!",
+      "targetId": "penguin",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": true
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.penguin"
+      ]
+    },
+    {
+      "id": "animal_world_074",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 74,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Shark!",
+      "targetId": "shark",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.shark"
+      ]
+    },
+    {
+      "id": "animal_world_075",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 75,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Butterfly!",
+      "targetId": "butterfly",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": true
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.butterfly"
+      ]
+    },
+    {
+      "id": "animal_world_076",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 76,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Lion!",
+      "targetId": "lion",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": true
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.lion"
+      ]
+    },
+    {
+      "id": "animal_world_077",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 77,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Elephant!",
+      "targetId": "elephant",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": true
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.elephant"
+      ]
+    },
+    {
+      "id": "animal_world_078",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 78,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Giraffe!",
+      "targetId": "giraffe",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": true
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.giraffe"
+      ]
+    },
+    {
+      "id": "animal_world_079",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 79,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Monkey!",
+      "targetId": "monkey",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": true
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.monkey"
+      ]
+    },
+    {
+      "id": "animal_world_080",
+      "gameType": "animal_world",
+      "zoneId": "jungle_grove",
+      "levelNumber": 80,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Tap the Cow!",
+      "targetId": "cow",
+      "mode": "quick_tap",
+      "items": [
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "jungle_grove.cow"
+      ]
+    }
+  ]
+}

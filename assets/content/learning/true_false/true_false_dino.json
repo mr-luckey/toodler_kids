@@ -1,0 +1,1444 @@
+{
+  "levels": [
+    {
+      "id": "true_false_dino_001",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 1,
+      "difficulty": 0,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_002",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_003",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_004",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_005",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_006",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_007",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_008",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_009",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_010",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_011",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_012",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_013",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_014",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_015",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_016",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_017",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_018",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_019",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_020",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_021",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 21,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_022",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 22,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_023",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 23,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_024",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 24,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_025",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 25,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_026",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 26,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_027",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 27,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_028",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 28,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_029",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 29,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_030",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 30,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_031",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 31,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_032",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 32,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_033",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 33,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_034",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 34,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_035",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 35,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_036",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 36,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_037",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 37,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_038",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 38,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_039",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 39,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_040",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 40,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_041",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 41,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_042",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 42,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_043",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 43,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_044",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 44,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_045",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 45,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_046",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 46,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_047",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 47,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_048",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 48,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_049",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 49,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_050",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 50,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_051",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 51,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_052",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 52,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_053",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 53,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_054",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 54,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_055",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 55,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_056",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 56,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_057",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 57,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_058",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 58,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_059",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 59,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_060",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 60,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_061",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 61,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_062",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 62,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_063",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 63,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_064",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 64,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_065",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 65,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_066",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 66,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_067",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 67,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_068",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 68,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_069",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 69,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_070",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 70,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_071",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 71,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_072",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 72,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_073",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 73,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_074",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 74,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_075",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 75,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_076",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 76,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "T-Rex had tiny arms.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_077",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 77,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dinosaurs are still alive as birds.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_078",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 78,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Stegosaurus ate meat.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_079",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 79,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brachiosaurus had a very long neck.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    },
+    {
+      "id": "true_false_dino_080",
+      "gameType": "true_false_dino",
+      "zoneId": "dinosaurs",
+      "levelNumber": 80,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All dinosaurs lived in water.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_dino"
+      ]
+    }
+  ]
+}

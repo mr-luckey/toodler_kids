@@ -1,0 +1,1804 @@
+{
+  "levels": [
+    {
+      "id": "true_false_animals_001",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 1,
+      "difficulty": 0,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_002",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_003",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_004",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_005",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_006",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_007",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_008",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_009",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_010",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_011",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_012",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_013",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_014",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_015",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_016",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_017",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_018",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_019",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_020",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_021",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 21,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_022",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 22,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_023",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 23,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_024",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 24,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_025",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 25,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_026",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 26,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_027",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 27,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_028",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 28,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_029",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 29,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_030",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 30,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_031",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 31,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_032",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 32,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_033",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 33,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_034",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 34,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_035",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 35,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_036",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 36,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_037",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 37,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_038",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 38,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_039",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 39,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_040",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 40,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_041",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 41,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_042",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 42,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_043",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 43,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_044",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 44,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_045",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 45,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_046",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 46,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_047",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 47,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_048",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 48,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_049",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 49,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_050",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 50,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_051",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 51,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_052",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 52,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_053",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 53,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_054",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 54,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_055",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 55,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_056",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 56,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_057",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 57,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_058",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 58,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_059",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 59,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_060",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 60,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_061",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 61,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_062",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 62,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_063",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 63,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_064",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 64,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_065",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 65,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_066",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 66,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_067",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 67,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_068",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 68,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_069",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 69,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_070",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 70,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_071",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 71,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_072",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 72,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_073",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 73,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_074",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 74,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_075",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 75,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_076",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 76,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_077",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 77,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_078",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 78,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_079",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 79,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_080",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 80,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_081",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 81,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_082",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 82,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_083",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 83,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_084",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 84,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_085",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 85,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_086",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 86,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_087",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 87,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_088",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 88,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_089",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 89,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_090",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 90,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_091",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 91,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_092",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 92,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_093",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 93,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Bees make honey.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_094",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 94,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins can fly high in the sky.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_095",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 95,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Owls can turn their heads far around.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_096",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 96,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "All snakes have legs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_097",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 97,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Elephants can recognize themselves in a mirror.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_098",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 98,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Cats bark like dogs.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_099",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 99,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Dolphins are mammals.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    },
+    {
+      "id": "true_false_animals_100",
+      "gameType": "true_false_animals",
+      "zoneId": "jungle_grove",
+      "levelNumber": 100,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Fish have lungs like humans.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_animals"
+      ]
+    }
+  ]
+}

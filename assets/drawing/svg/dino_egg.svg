@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="egg" cx="100" cy="110" rx="40" ry="55" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="crack1" d="M85,80 L90,100 L82,115" fill="none" stroke="#222" stroke-width="2"/>
+<path id="crack2" d="M100,75 L105,95 L98,110" fill="none" stroke="#222" stroke-width="2"/>
+<circle id="baby_head" cx="100" cy="95" r="12" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="baby_eye" cx="97" cy="93" r="2" fill="#222"/>
+<ellipse id="nest" cx="100" cy="170" rx="55" ry="15" fill="#FFF" stroke="#222" stroke-width="2"/>
+</svg>

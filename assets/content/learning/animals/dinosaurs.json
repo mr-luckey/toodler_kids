@@ -1,0 +1,984 @@
+{
+  "levels": [
+    {
+      "id": "dino_001",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the T-Rex!",
+      "items": [
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": true
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.trex"
+      ]
+    },
+    {
+      "id": "dino_002",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Triceratops!",
+      "items": [
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": true
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.triceratops"
+      ]
+    },
+    {
+      "id": "dino_003",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Stegosaurus!",
+      "items": [
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": true
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.stego"
+      ]
+    },
+    {
+      "id": "dino_004",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Brachiosaurus!",
+      "items": [
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": true
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.brachio"
+      ]
+    },
+    {
+      "id": "dino_005",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Velociraptor!",
+      "items": [
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": true
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.veloci"
+      ]
+    },
+    {
+      "id": "dino_006",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the T-Rex!",
+      "items": [
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": true
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.trex"
+      ]
+    },
+    {
+      "id": "dino_007",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Triceratops!",
+      "items": [
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": true
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.triceratops"
+      ]
+    },
+    {
+      "id": "dino_008",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Stegosaurus!",
+      "items": [
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": true
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.stego"
+      ]
+    },
+    {
+      "id": "dino_009",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Brachiosaurus!",
+      "items": [
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": true
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.brachio"
+      ]
+    },
+    {
+      "id": "dino_010",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Velociraptor!",
+      "items": [
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": true
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.veloci"
+      ]
+    },
+    {
+      "id": "dino_011",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the T-Rex!",
+      "items": [
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "dino.trex"
+      ]
+    },
+    {
+      "id": "dino_012",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Triceratops!",
+      "items": [
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": true
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.triceratops"
+      ]
+    },
+    {
+      "id": "dino_013",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Stegosaurus!",
+      "items": [
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": true
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.stego"
+      ]
+    },
+    {
+      "id": "dino_014",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Brachiosaurus!",
+      "items": [
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": true
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.brachio"
+      ]
+    },
+    {
+      "id": "dino_015",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Velociraptor!",
+      "items": [
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "dino.veloci"
+      ]
+    },
+    {
+      "id": "dino_016",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the T-Rex!",
+      "items": [
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "dino.trex"
+      ]
+    },
+    {
+      "id": "dino_017",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Triceratops!",
+      "items": [
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": true
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.triceratops"
+      ]
+    },
+    {
+      "id": "dino_018",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Stegosaurus!",
+      "items": [
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": true
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.stego"
+      ]
+    },
+    {
+      "id": "dino_019",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Brachiosaurus!",
+      "items": [
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": true
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.brachio"
+      ]
+    },
+    {
+      "id": "dino_020",
+      "gameType": "dino_names",
+      "zoneId": "dinosaurs",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Velociraptor!",
+      "items": [
+        {
+          "id": "triceratops",
+          "emoji": "🦕",
+          "label": "Triceratops",
+          "isCorrect": false
+        },
+        {
+          "id": "brachio",
+          "emoji": "🦕",
+          "label": "Brachiosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "veloci",
+          "emoji": "🦖",
+          "label": "Velociraptor",
+          "isCorrect": true
+        },
+        {
+          "id": "stego",
+          "emoji": "🦴",
+          "label": "Stegosaurus",
+          "isCorrect": false
+        },
+        {
+          "id": "trex",
+          "emoji": "🦖",
+          "label": "T-Rex",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "dino.veloci"
+      ]
+    }
+  ]
+}

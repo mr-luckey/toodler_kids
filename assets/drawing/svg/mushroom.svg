@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect id="stem" x="88" y="110" width="24" height="60" rx="5" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="cap" cx="100" cy="95" rx="50" ry="30" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="spot1" cx="75" cy="88" r="8" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="spot2" cx="100" cy="80" r="10" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="spot3" cx="125" cy="90" r="7" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<ellipse id="grass" cx="100" cy="175" rx="60" ry="10" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+</svg>

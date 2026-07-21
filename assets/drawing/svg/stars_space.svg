@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<polygon id="star1" points="50,40 53,50 63,50 55,57 58,67 50,60 42,67 45,57 37,50 47,50" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<polygon id="star2" points="120,30 123,40 133,40 125,47 128,57 120,50 112,57 115,47 107,40 117,40" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<polygon id="star3" points="160,80 163,90 173,90 165,97 168,107 160,100 152,107 155,97 147,90 157,90" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<polygon id="star4" points="80,120 83,130 93,130 85,137 88,147 80,140 72,147 75,137 67,130 77,130" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="moon_c" cx="100" cy="160" r="20" fill="#FFF" stroke="#222" stroke-width="2"/>
+</svg>

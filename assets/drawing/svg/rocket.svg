@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<path id="body" d="M100,20 L130,140 L100,130 L70,140 Z" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="window" cx="100" cy="80" r="18" fill="#FFF" stroke="#222" stroke-width="2"/>
+<path id="fin_l" d="M70,140 L50,170 L70,155" fill="#FFF" stroke="#222" stroke-width="2"/>
+<path id="fin_r" d="M130,140 L150,170 L130,155" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="flame" cx="100" cy="155" rx="12" ry="20" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="star1" cx="30" cy="40" r="4" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="star2" cx="170" cy="60" r="3" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="star3" cx="160" cy="30" r="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

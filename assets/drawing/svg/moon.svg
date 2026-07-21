@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<circle id="moon" cx="100" cy="100" r="55" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="crater1" cx="80" cy="85" r="12" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="crater2" cx="120" cy="95" r="8" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="crater3" cx="95" cy="120" r="10" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="crater4" cx="110" cy="70" r="6" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

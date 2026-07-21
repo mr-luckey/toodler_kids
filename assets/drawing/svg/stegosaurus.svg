@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="body" cx="100" cy="130" rx="55" ry="30" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="head" cx="40" cy="120" r="15" fill="#FFF" stroke="#222" stroke-width="2"/>
+<polygon id="plate1" points="80,95 85,60 90,95" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<polygon id="plate2" points="95,95 100,55 105,95" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<polygon id="plate3" points="110,95 115,60 120,95" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<polygon id="plate4" points="125,95 130,65 135,95" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<path id="tail" d="M150,130 Q175,120 185,100" fill="none" stroke="#222" stroke-width="3"/>
+<polygon id="spike" points="183,98 188,88 193,98" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<rect id="leg1" x="70" y="150" width="12" height="30" rx="3" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="leg2" x="110" y="150" width="12" height="30" rx="3" fill="#FFF" stroke="#222" stroke-width="2"/>
+</svg>

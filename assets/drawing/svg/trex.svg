@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="body" cx="110" cy="120" rx="50" ry="35" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="head" cx="55" cy="75" r="28" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="eye" cx="48" cy="70" r="6" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<path id="jaw" d="M35,85 Q55,100 75,85" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="arm" x="85" y="105" width="8" height="15" rx="3" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<rect id="leg_l" x="85" y="145" width="16" height="35" rx="4" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="leg_r" x="115" y="145" width="16" height="35" rx="4" fill="#FFF" stroke="#222" stroke-width="2"/>
+<path id="tail" d="M155,115 Q185,100 190,80" fill="none" stroke="#222" stroke-width="4"/>
+<polygon id="teeth" points="40,88 42,95 44,88" fill="#222"/>
+</svg>

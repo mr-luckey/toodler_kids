@@ -1,0 +1,649 @@
+{
+  "levels": [
+    {
+      "id": "sport_001",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Football!",
+      "items": [
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": true
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.football"
+      ]
+    },
+    {
+      "id": "sport_002",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Basketball!",
+      "items": [
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": true
+        },
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.basketball"
+      ]
+    },
+    {
+      "id": "sport_003",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Tennis!",
+      "items": [
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": true
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.tennis"
+      ]
+    },
+    {
+      "id": "sport_004",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Swimming!",
+      "items": [
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": true
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.swimming"
+      ]
+    },
+    {
+      "id": "sport_005",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Football!",
+      "items": [
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": true
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.football"
+      ]
+    },
+    {
+      "id": "sport_006",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Basketball!",
+      "items": [
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        },
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "sport.basketball"
+      ]
+    },
+    {
+      "id": "sport_007",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Tennis!",
+      "items": [
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        },
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": true
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.tennis"
+      ]
+    },
+    {
+      "id": "sport_008",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Swimming!",
+      "items": [
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": true
+        },
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.swimming"
+      ]
+    },
+    {
+      "id": "sport_009",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Football!",
+      "items": [
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": true
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.football"
+      ]
+    },
+    {
+      "id": "sport_010",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Basketball!",
+      "items": [
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": true
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.basketball"
+      ]
+    },
+    {
+      "id": "sport_011",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Tennis!",
+      "items": [
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": true
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.tennis"
+      ]
+    },
+    {
+      "id": "sport_012",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Swimming!",
+      "items": [
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": true
+        },
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.swimming"
+      ]
+    },
+    {
+      "id": "sport_013",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Football!",
+      "items": [
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": true
+        },
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.football"
+      ]
+    },
+    {
+      "id": "sport_014",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Basketball!",
+      "items": [
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": true
+        },
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.basketball"
+      ]
+    },
+    {
+      "id": "sport_015",
+      "gameType": "sports_names",
+      "zoneId": "sports_body",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Tennis!",
+      "items": [
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "label": "Football",
+          "isCorrect": false
+        },
+        {
+          "id": "tennis",
+          "emoji": "🎾",
+          "label": "Tennis",
+          "isCorrect": true
+        },
+        {
+          "id": "swimming",
+          "emoji": "🏊",
+          "label": "Swimming",
+          "isCorrect": false
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "label": "Basketball",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "sport.tennis"
+      ]
+    }
+  ]
+}

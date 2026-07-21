@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<path id="trunk" d="M95,170 Q100,120 95,70 Q105,120 100,170" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="leaf1" cx="60" cy="65" rx="30" ry="8" fill="#FFF" stroke="#222" stroke-width="1.5" transform="rotate(-40 60 65)"/>
+<ellipse id="leaf2" cx="100" cy="50" rx="30" ry="8" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<ellipse id="leaf3" cx="140" cy="65" rx="30" ry="8" fill="#FFF" stroke="#222" stroke-width="1.5" transform="rotate(40 140 65)"/>
+<ellipse id="leaf4" cx="75" cy="80" rx="25" ry="7" fill="#FFF" stroke="#222" stroke-width="1.5" transform="rotate(-20 75 80)"/>
+<ellipse id="leaf5" cx="125" cy="80" rx="25" ry="7" fill="#FFF" stroke="#222" stroke-width="1.5" transform="rotate(20 125 80)"/>
+<ellipse id="coconut" cx="100" cy="68" rx="8" ry="8" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+</svg>

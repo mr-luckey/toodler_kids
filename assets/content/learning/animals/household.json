@@ -1,0 +1,649 @@
+{
+  "levels": [
+    {
+      "id": "home_001",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Fridge!",
+      "items": [
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": true
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.fridge"
+      ]
+    },
+    {
+      "id": "home_002",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Bed!",
+      "items": [
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        },
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "home.bed"
+      ]
+    },
+    {
+      "id": "home_003",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Sofa!",
+      "items": [
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": true
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.sofa"
+      ]
+    },
+    {
+      "id": "home_004",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Toilet!",
+      "items": [
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": true
+        },
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.toilet"
+      ]
+    },
+    {
+      "id": "home_005",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Fridge!",
+      "items": [
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        },
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": true
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.fridge"
+      ]
+    },
+    {
+      "id": "home_006",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Bed!",
+      "items": [
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        },
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "home.bed"
+      ]
+    },
+    {
+      "id": "home_007",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Sofa!",
+      "items": [
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": true
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.sofa"
+      ]
+    },
+    {
+      "id": "home_008",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Toilet!",
+      "items": [
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": true
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        },
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.toilet"
+      ]
+    },
+    {
+      "id": "home_009",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Fridge!",
+      "items": [
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        },
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": true
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.fridge"
+      ]
+    },
+    {
+      "id": "home_010",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Bed!",
+      "items": [
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": true
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.bed"
+      ]
+    },
+    {
+      "id": "home_011",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Sofa!",
+      "items": [
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": true
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.sofa"
+      ]
+    },
+    {
+      "id": "home_012",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Toilet!",
+      "items": [
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        },
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": true
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.toilet"
+      ]
+    },
+    {
+      "id": "home_013",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Fridge!",
+      "items": [
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": true
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        },
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.fridge"
+      ]
+    },
+    {
+      "id": "home_014",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Bed!",
+      "items": [
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": true
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        },
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.bed"
+      ]
+    },
+    {
+      "id": "home_015",
+      "gameType": "household_items",
+      "zoneId": "household_daily",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Sofa!",
+      "items": [
+        {
+          "id": "sofa",
+          "emoji": "🛋️",
+          "label": "Sofa",
+          "isCorrect": true
+        },
+        {
+          "id": "fridge",
+          "emoji": "🧊",
+          "label": "Fridge",
+          "isCorrect": false
+        },
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "label": "Bed",
+          "isCorrect": false
+        },
+        {
+          "id": "toilet",
+          "emoji": "🚽",
+          "label": "Toilet",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "home.sofa"
+      ]
+    }
+  ]
+}

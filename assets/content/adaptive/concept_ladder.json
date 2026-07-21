@@ -1,0 +1,24 @@
+{
+  "conceptLadder": {
+    "math.number": {
+      "rungs": ["concrete", "picture", "symbol", "abstract", "application"],
+      "gateRule": "sequential"
+    },
+    "alphabet.letter": {
+      "rungs": ["recognition", "phonics", "tracing", "word_building"],
+      "gateRule": "sequential"
+    }
+  },
+  "scaffoldRules": {
+    "attempt1": "none",
+    "attempt2": "glow_piece",
+    "attempt3": "arrow_hint",
+    "attempt4": "gold_slot",
+    "attempt5": "lumi_auto_place"
+  },
+  "spacedRepetition": {
+    "weakIntervalDays": 1,
+    "mediumIntervalDays": 4,
+    "masteredIntervalDays": 8
+  }
+}

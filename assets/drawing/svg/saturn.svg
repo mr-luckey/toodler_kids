@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<circle id="planet" cx="100" cy="100" r="35" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="ring" cx="100" cy="100" rx="60" ry="15" fill="none" stroke="#222" stroke-width="3"/>
+<ellipse id="ring_inner" cx="100" cy="100" rx="45" ry="10" fill="none" stroke="#222" stroke-width="1.5"/>
+<ellipse id="stripe1" cx="100" cy="90" rx="30" ry="4" fill="#FFF" stroke="#222" stroke-width="1"/>
+<ellipse id="stripe2" cx="100" cy="105" rx="28" ry="4" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

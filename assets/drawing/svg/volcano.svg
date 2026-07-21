@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<polygon id="mountain" points="100,40 40,170 160,170" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="crater" cx="100" cy="55" rx="15" ry="8" fill="#FFF" stroke="#222" stroke-width="2"/>
+<path id="lava1" d="M95,55 Q90,30 100,20 Q110,30 105,55" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<path id="lava2" d="M100,20 Q95,5 100,0 Q105,5 100,20" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<ellipse id="rock1" cx="70" cy="140" rx="8" ry="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+<ellipse id="rock2" cx="130" cy="150" rx="10" ry="6" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

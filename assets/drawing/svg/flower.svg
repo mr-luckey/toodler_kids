@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect id="stem" x="97" y="100" width="6" height="80" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="leaf_l" cx="80" cy="130" rx="18" ry="8" fill="#FFF" stroke="#222" stroke-width="2" transform="rotate(-30 80 130)"/>
+<ellipse id="leaf_r" cx="120" cy="150" rx="18" ry="8" fill="#FFF" stroke="#222" stroke-width="2" transform="rotate(30 120 150)"/>
+<circle id="center" cx="100" cy="70" r="18" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="petal1" cx="100" cy="40" rx="10" ry="18" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<ellipse id="petal2" cx="130" cy="55" rx="10" ry="18" fill="#FFF" stroke="#222" stroke-width="1.5" transform="rotate(60 130 55)"/>
+<ellipse id="petal3" cx="130" cy="85" rx="10" ry="18" fill="#FFF" stroke="#222" stroke-width="1.5" transform="rotate(120 130 85)"/>
+<ellipse id="petal4" cx="100" cy="100" rx="10" ry="18" fill="#FFF" stroke="#222" stroke-width="1.5" transform="rotate(180 100 100)"/>
+<ellipse id="petal5" cx="70" cy="85" rx="10" ry="18" fill="#FFF" stroke="#222" stroke-width="1.5" transform="rotate(240 70 85)"/>
+<ellipse id="petal6" cx="70" cy="55" rx="10" ry="18" fill="#FFF" stroke="#222" stroke-width="1.5" transform="rotate(300 70 55)"/>
+</svg>

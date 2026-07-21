@@ -1,0 +1,70 @@
+name: toodler_kids
+description: KidsLearnPlay - Educational games for toddlers 3-5
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  get_it: ^8.0.3
+  go_router: ^15.1.2
+  hive_flutter: ^1.1.0
+  audioplayers: ^6.4.0
+  flutter_svg: ^2.1.0
+  path_drawing: ^1.0.1
+  json_annotation: ^4.9.0
+  cached_network_image: ^3.4.1
+  lottie: ^3.3.1
+  pdf: ^3.11.3
+  path_provider: ^2.1.5
+  share_plus: ^11.0.0
+  uuid: ^4.5.1
+  collection: ^1.19.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.15
+  json_serializable: ^6.9.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/content/
+    - assets/content/games/
+    - assets/content/games/complete_picture/
+    - assets/content/games/drawing_den/
+    - assets/content/games/shadow_game/
+    - assets/content/games/build_scene/
+    - assets/content/games/what_am_i/
+    - assets/content/games/tools/
+    - assets/content/learning/
+    - assets/content/learning/alphabet/
+    - assets/content/learning/math/
+    - assets/content/learning/animals/
+    - assets/content/learning/colors/
+    - assets/content/learning/true_false/
+    - assets/content/rewards/
+    - assets/content/adaptive/
+    - assets/content/localization/
+    - assets/content/fun_facts/
+    - assets/drawing/svg/
+    - assets/audio/sfx/
+    - assets/audio/voice/
+    - assets/images/game/
+    - assets/images/game/animals/
+    - assets/images/game/dinosaurs/
+    - assets/images/game/space/
+    - assets/images/game/sports/
+    - assets/images/game/tools/
+    - assets/images/game/colors/
+    - assets/images/game/numbers/
+    - assets/images/game/letters/
+    - assets/lottie/

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="head" cx="100" cy="80" rx="35" ry="40" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="eye_l" cx="82" cy="75" rx="12" ry="18" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="eye_r" cx="118" cy="75" rx="12" ry="18" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="pupil_l" cx="82" cy="78" r="5" fill="#222"/>
+<circle id="pupil_r" cx="118" cy="78" r="5" fill="#222"/>
+<path id="smile" d="M85,100 Q100,115 115,100" fill="none" stroke="#222" stroke-width="2"/>
+<ellipse id="body" cx="100" cy="150" rx="25" ry="30" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="arm_l" x="60" y="140" width="20" height="8" rx="4" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<rect id="arm_r" x="120" y="140" width="20" height="8" rx="4" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+</svg>

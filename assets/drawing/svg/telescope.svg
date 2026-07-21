@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect id="tube" x="60" y="70" width="80" height="20" rx="5" fill="#FFF" stroke="#222" stroke-width="2.5" transform="rotate(-20 100 80)"/>
+<circle id="lens" cx="145" cy="55" r="12" fill="#FFF" stroke="#222" stroke-width="2"/>
+<path id="tripod1" d="M80,130 L70,170" fill="none" stroke="#222" stroke-width="3"/>
+<path id="tripod2" d="M100,135 L100,170" fill="none" stroke="#222" stroke-width="3"/>
+<path id="tripod3" d="M120,130 L130,170" fill="none" stroke="#222" stroke-width="3"/>
+<circle id="star1" cx="40" cy="50" r="4" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="star2" cx="170" cy="90" r="3" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

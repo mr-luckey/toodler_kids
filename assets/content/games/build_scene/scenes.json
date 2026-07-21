@@ -1,0 +1,688 @@
+{
+  "levels": [
+    {
+      "id": "scene_farm_1",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌾",
+      "itemTray": [
+        {
+          "id": "🐄",
+          "emoji": "🐄"
+        },
+        {
+          "id": "🐔",
+          "emoji": "🐔"
+        },
+        {
+          "id": "🚜",
+          "emoji": "🚜"
+        },
+        {
+          "id": "🏚️",
+          "emoji": "🏚️"
+        },
+        {
+          "id": "🌻",
+          "emoji": "🌻"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.farm"
+      ]
+    },
+    {
+      "id": "scene_farm_2",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 2,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌾",
+      "itemTray": [
+        {
+          "id": "🐄",
+          "emoji": "🐄"
+        },
+        {
+          "id": "🐔",
+          "emoji": "🐔"
+        },
+        {
+          "id": "🚜",
+          "emoji": "🚜"
+        },
+        {
+          "id": "🏚️",
+          "emoji": "🏚️"
+        },
+        {
+          "id": "🌻",
+          "emoji": "🌻"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.farm"
+      ]
+    },
+    {
+      "id": "scene_farm_3",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 3,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌾",
+      "itemTray": [
+        {
+          "id": "🐄",
+          "emoji": "🐄"
+        },
+        {
+          "id": "🐔",
+          "emoji": "🐔"
+        },
+        {
+          "id": "🚜",
+          "emoji": "🚜"
+        },
+        {
+          "id": "🏚️",
+          "emoji": "🏚️"
+        },
+        {
+          "id": "🌻",
+          "emoji": "🌻"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.farm"
+      ]
+    },
+    {
+      "id": "scene_ocean_1",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌊",
+      "itemTray": [
+        {
+          "id": "🐟",
+          "emoji": "🐟"
+        },
+        {
+          "id": "⛵",
+          "emoji": "⛵"
+        },
+        {
+          "id": "🐋",
+          "emoji": "🐋"
+        },
+        {
+          "id": "🏖️",
+          "emoji": "🏖️"
+        },
+        {
+          "id": "🦀",
+          "emoji": "🦀"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.ocean"
+      ]
+    },
+    {
+      "id": "scene_ocean_2",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 5,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌊",
+      "itemTray": [
+        {
+          "id": "🐟",
+          "emoji": "🐟"
+        },
+        {
+          "id": "⛵",
+          "emoji": "⛵"
+        },
+        {
+          "id": "🐋",
+          "emoji": "🐋"
+        },
+        {
+          "id": "🏖️",
+          "emoji": "🏖️"
+        },
+        {
+          "id": "🦀",
+          "emoji": "🦀"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.ocean"
+      ]
+    },
+    {
+      "id": "scene_ocean_3",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 6,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌊",
+      "itemTray": [
+        {
+          "id": "🐟",
+          "emoji": "🐟"
+        },
+        {
+          "id": "⛵",
+          "emoji": "⛵"
+        },
+        {
+          "id": "🐋",
+          "emoji": "🐋"
+        },
+        {
+          "id": "🏖️",
+          "emoji": "🏖️"
+        },
+        {
+          "id": "🦀",
+          "emoji": "🦀"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.ocean"
+      ]
+    },
+    {
+      "id": "scene_city_1",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌆",
+      "itemTray": [
+        {
+          "id": "🏢",
+          "emoji": "🏢"
+        },
+        {
+          "id": "🚗",
+          "emoji": "🚗"
+        },
+        {
+          "id": "🌳",
+          "emoji": "🌳"
+        },
+        {
+          "id": "🚦",
+          "emoji": "🚦"
+        },
+        {
+          "id": "🏪",
+          "emoji": "🏪"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.city"
+      ]
+    },
+    {
+      "id": "scene_city_2",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 8,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌆",
+      "itemTray": [
+        {
+          "id": "🏢",
+          "emoji": "🏢"
+        },
+        {
+          "id": "🚗",
+          "emoji": "🚗"
+        },
+        {
+          "id": "🌳",
+          "emoji": "🌳"
+        },
+        {
+          "id": "🚦",
+          "emoji": "🚦"
+        },
+        {
+          "id": "🏪",
+          "emoji": "🏪"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.city"
+      ]
+    },
+    {
+      "id": "scene_city_3",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 9,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌆",
+      "itemTray": [
+        {
+          "id": "🏢",
+          "emoji": "🏢"
+        },
+        {
+          "id": "🚗",
+          "emoji": "🚗"
+        },
+        {
+          "id": "🌳",
+          "emoji": "🌳"
+        },
+        {
+          "id": "🚦",
+          "emoji": "🚦"
+        },
+        {
+          "id": "🏪",
+          "emoji": "🏪"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.city"
+      ]
+    },
+    {
+      "id": "scene_jungle_1",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌳",
+      "itemTray": [
+        {
+          "id": "🦁",
+          "emoji": "🦁"
+        },
+        {
+          "id": "🐒",
+          "emoji": "🐒"
+        },
+        {
+          "id": "🦜",
+          "emoji": "🦜"
+        },
+        {
+          "id": "🌴",
+          "emoji": "🌴"
+        },
+        {
+          "id": "🐍",
+          "emoji": "🐍"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.jungle"
+      ]
+    },
+    {
+      "id": "scene_jungle_2",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 11,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌳",
+      "itemTray": [
+        {
+          "id": "🦁",
+          "emoji": "🦁"
+        },
+        {
+          "id": "🐒",
+          "emoji": "🐒"
+        },
+        {
+          "id": "🦜",
+          "emoji": "🦜"
+        },
+        {
+          "id": "🌴",
+          "emoji": "🌴"
+        },
+        {
+          "id": "🐍",
+          "emoji": "🐍"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.jungle"
+      ]
+    },
+    {
+      "id": "scene_jungle_3",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 12,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🌳",
+      "itemTray": [
+        {
+          "id": "🦁",
+          "emoji": "🦁"
+        },
+        {
+          "id": "🐒",
+          "emoji": "🐒"
+        },
+        {
+          "id": "🦜",
+          "emoji": "🦜"
+        },
+        {
+          "id": "🌴",
+          "emoji": "🌴"
+        },
+        {
+          "id": "🐍",
+          "emoji": "🐍"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.jungle"
+      ]
+    },
+    {
+      "id": "scene_space_1",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🚀",
+      "itemTray": [
+        {
+          "id": "🪐",
+          "emoji": "🪐"
+        },
+        {
+          "id": "👨‍🚀",
+          "emoji": "👨‍🚀"
+        },
+        {
+          "id": "⭐",
+          "emoji": "⭐"
+        },
+        {
+          "id": "🛸",
+          "emoji": "🛸"
+        },
+        {
+          "id": "🌙",
+          "emoji": "🌙"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.space"
+      ]
+    },
+    {
+      "id": "scene_space_2",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 14,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🚀",
+      "itemTray": [
+        {
+          "id": "🪐",
+          "emoji": "🪐"
+        },
+        {
+          "id": "👨‍🚀",
+          "emoji": "👨‍🚀"
+        },
+        {
+          "id": "⭐",
+          "emoji": "⭐"
+        },
+        {
+          "id": "🛸",
+          "emoji": "🛸"
+        },
+        {
+          "id": "🌙",
+          "emoji": "🌙"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.space"
+      ]
+    },
+    {
+      "id": "scene_space_3",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 15,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🚀",
+      "itemTray": [
+        {
+          "id": "🪐",
+          "emoji": "🪐"
+        },
+        {
+          "id": "👨‍🚀",
+          "emoji": "👨‍🚀"
+        },
+        {
+          "id": "⭐",
+          "emoji": "⭐"
+        },
+        {
+          "id": "🛸",
+          "emoji": "🛸"
+        },
+        {
+          "id": "🌙",
+          "emoji": "🌙"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.space"
+      ]
+    },
+    {
+      "id": "scene_beach_1",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🏖️",
+      "itemTray": [
+        {
+          "id": "🏖️",
+          "emoji": "🏖️"
+        },
+        {
+          "id": "🦀",
+          "emoji": "🦀"
+        },
+        {
+          "id": "⛱️",
+          "emoji": "⛱️"
+        },
+        {
+          "id": "🐚",
+          "emoji": "🐚"
+        },
+        {
+          "id": "🏄",
+          "emoji": "🏄"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.beach"
+      ]
+    },
+    {
+      "id": "scene_beach_2",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 17,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🏖️",
+      "itemTray": [
+        {
+          "id": "🏖️",
+          "emoji": "🏖️"
+        },
+        {
+          "id": "🦀",
+          "emoji": "🦀"
+        },
+        {
+          "id": "⛱️",
+          "emoji": "⛱️"
+        },
+        {
+          "id": "🐚",
+          "emoji": "🐚"
+        },
+        {
+          "id": "🏄",
+          "emoji": "🏄"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.beach"
+      ]
+    },
+    {
+      "id": "scene_beach_3",
+      "gameType": "build_scene",
+      "zoneId": "world_village",
+      "levelNumber": 18,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 0,
+      "learningMethod": [
+        "play_based"
+      ],
+      "backgroundImage": "🏖️",
+      "itemTray": [
+        {
+          "id": "🏖️",
+          "emoji": "🏖️"
+        },
+        {
+          "id": "🦀",
+          "emoji": "🦀"
+        },
+        {
+          "id": "⛱️",
+          "emoji": "⛱️"
+        },
+        {
+          "id": "🐚",
+          "emoji": "🐚"
+        },
+        {
+          "id": "🏄",
+          "emoji": "🏄"
+        }
+      ],
+      "relatedConcepts": [
+        "scene.beach"
+      ]
+    }
+  ]
+}

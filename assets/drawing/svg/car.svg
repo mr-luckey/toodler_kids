@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<path id="body" d="M30,120 L50,90 L150,90 L170,120 L170,140 L30,140 Z" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<rect id="window_f" x="55" y="95" width="35" height="22" rx="3" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="window_b" x="100" y="95" width="35" height="22" rx="3" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="wheel_fl" cx="60" cy="140" r="15" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="wheel_fr" cx="140" cy="140" r="15" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="hub_fl" cx="60" cy="140" r="5" fill="#222"/>
+<circle id="hub_fr" cx="140" cy="140" r="5" fill="#222"/>
+<rect id="headlight" x="165" y="115" width="8" height="10" rx="2" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

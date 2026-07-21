@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="disc" cx="100" cy="110" rx="55" ry="18" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="dome" d="M60,110 Q100,60 140,110" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="alien_head" cx="100" cy="90" r="12" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="eye_l" cx="94" cy="88" r="4" fill="#222"/>
+<circle id="eye_r" cx="106" cy="88" r="4" fill="#222"/>
+<circle id="light1" cx="60" cy="118" r="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="light2" cx="80" cy="122" r="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="light3" cx="100" cy="124" r="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="light4" cx="120" cy="122" r="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="light5" cx="140" cy="118" r="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

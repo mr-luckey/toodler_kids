@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<circle id="helmet" cx="100" cy="70" r="35" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="visor" cx="100" cy="72" rx="25" ry="20" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="body" x="75" y="105" width="50" height="55" rx="10" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<rect id="pack" x="125" y="110" width="20" height="40" rx="5" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="arm_l" x="55" y="110" width="20" height="12" rx="5" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="arm_r" x="125" y="110" width="20" height="12" rx="5" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="leg_l" x="80" y="160" width="15" height="25" rx="4" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="leg_r" x="105" y="160" width="15" height="25" rx="4" fill="#FFF" stroke="#222" stroke-width="2"/>
+</svg>

@@ -1,0 +1,4504 @@
+{
+  "levels": [
+    {
+      "id": "color_recognition_001",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_002",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_003",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_004",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_005",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_006",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_007",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_008",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_009",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_010",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_011",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_012",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_013",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_014",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_015",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_016",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_017",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_018",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_019",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_020",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_021",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 21,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_022",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 22,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_023",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 23,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_024",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 24,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_025",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 25,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_026",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 26,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_027",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 27,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_028",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 28,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_029",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 29,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_030",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 30,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_031",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 31,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_032",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 32,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_033",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 33,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_034",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 34,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_035",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 35,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_036",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 36,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_037",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 37,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_038",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 38,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_039",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 39,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_040",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 40,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_041",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 41,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_042",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 42,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_043",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 43,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_044",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 44,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_045",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 45,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_046",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 46,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_047",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 47,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_048",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 48,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_049",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 49,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_050",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 50,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_051",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 51,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_052",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 52,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_053",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 53,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_054",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 54,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_055",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 55,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_056",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 56,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_057",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 57,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_058",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 58,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_059",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 59,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_060",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 60,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_061",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 61,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_062",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 62,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_063",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 63,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_064",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 64,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_065",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 65,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_066",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 66,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_067",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 67,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_068",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 68,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_069",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 69,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_070",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 70,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_071",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 71,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_072",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 72,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_073",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 73,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_074",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 74,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_075",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 75,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_076",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 76,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_077",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 77,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_078",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 78,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_079",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 79,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_080",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 80,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_081",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 81,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_082",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 82,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_083",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 83,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_084",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 84,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_085",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 85,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_086",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 86,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_087",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 87,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_088",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 88,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_089",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 89,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_090",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 90,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_091",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 91,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_092",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 92,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    },
+    {
+      "id": "color_recognition_093",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 93,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Orange!",
+      "targetId": "orange",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.orange"
+      ]
+    },
+    {
+      "id": "color_recognition_094",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 94,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Purple!",
+      "targetId": "purple",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.purple"
+      ]
+    },
+    {
+      "id": "color_recognition_095",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 95,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Pink!",
+      "targetId": "pink",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.pink"
+      ]
+    },
+    {
+      "id": "color_recognition_096",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 96,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Brown!",
+      "targetId": "brown",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.brown"
+      ]
+    },
+    {
+      "id": "color_recognition_097",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 97,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Red!",
+      "targetId": "red",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "emoji": "🔴",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.red"
+      ]
+    },
+    {
+      "id": "color_recognition_098",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 98,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Blue!",
+      "targetId": "blue",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "emoji": "🔵",
+          "label": "Blue",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.blue"
+      ]
+    },
+    {
+      "id": "color_recognition_099",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 99,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Green!",
+      "targetId": "green",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "purple",
+          "emoji": "🟣",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "emoji": "🩷",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.green"
+      ]
+    },
+    {
+      "id": "color_recognition_100",
+      "gameType": "color_recognition",
+      "zoneId": "color_canyon",
+      "levelNumber": 100,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Yellow!",
+      "targetId": "yellow",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "green",
+          "emoji": "🟢",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "emoji": "🟤",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "emoji": "🟠",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "emoji": "🟡",
+          "label": "Yellow",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "color_canyon.yellow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "levels": [
+    {
+      "id": "season_001",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Spring!",
+      "items": [
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "season.spring"
+      ]
+    },
+    {
+      "id": "season_002",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Summer!",
+      "items": [
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": true
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.summer"
+      ]
+    },
+    {
+      "id": "season_003",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Autumn!",
+      "items": [
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": true
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.autumn"
+      ]
+    },
+    {
+      "id": "season_004",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Winter!",
+      "items": [
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": true
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.winter"
+      ]
+    },
+    {
+      "id": "season_005",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Spring!",
+      "items": [
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": true
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.spring"
+      ]
+    },
+    {
+      "id": "season_006",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Summer!",
+      "items": [
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": true
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.summer"
+      ]
+    },
+    {
+      "id": "season_007",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Autumn!",
+      "items": [
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "season.autumn"
+      ]
+    },
+    {
+      "id": "season_008",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Winter!",
+      "items": [
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "season.winter"
+      ]
+    },
+    {
+      "id": "season_009",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Spring!",
+      "items": [
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": true
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.spring"
+      ]
+    },
+    {
+      "id": "season_010",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Summer!",
+      "items": [
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "season.summer"
+      ]
+    },
+    {
+      "id": "season_011",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Autumn!",
+      "items": [
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": true
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.autumn"
+      ]
+    },
+    {
+      "id": "season_012",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Winter!",
+      "items": [
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": true
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.winter"
+      ]
+    },
+    {
+      "id": "season_013",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Spring!",
+      "items": [
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": true
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.spring"
+      ]
+    },
+    {
+      "id": "season_014",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Summer!",
+      "items": [
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": false
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "season.summer"
+      ]
+    },
+    {
+      "id": "season_015",
+      "gameType": "four_seasons",
+      "zoneId": "seasons_holidays",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Autumn!",
+      "items": [
+        {
+          "id": "winter",
+          "emoji": "❄️",
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "id": "autumn",
+          "emoji": "🍂",
+          "label": "Autumn",
+          "isCorrect": true
+        },
+        {
+          "id": "spring",
+          "emoji": "🌸",
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "id": "summer",
+          "emoji": "☀️",
+          "label": "Summer",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "season.autumn"
+      ]
+    }
+  ]
+}

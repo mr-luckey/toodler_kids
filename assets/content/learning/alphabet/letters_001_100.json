@@ -1,0 +1,884 @@
+{
+  "levels": [
+    {
+      "id": "let_001",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter A!",
+      "phonicsSound": "/a/",
+      "items": [
+        {
+          "id": "letter_A",
+          "emoji": "A",
+          "label": "A",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_B",
+          "emoji": "B",
+          "label": "B",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_C",
+          "emoji": "C",
+          "label": "C",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_D",
+          "emoji": "D",
+          "label": "D",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.A"
+      ]
+    },
+    {
+      "id": "let_002",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter B!",
+      "phonicsSound": "/b/",
+      "items": [
+        {
+          "id": "letter_B",
+          "emoji": "B",
+          "label": "B",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_C",
+          "emoji": "C",
+          "label": "C",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_D",
+          "emoji": "D",
+          "label": "D",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_E",
+          "emoji": "E",
+          "label": "E",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.B"
+      ]
+    },
+    {
+      "id": "let_003",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter C!",
+      "phonicsSound": "/c/",
+      "items": [
+        {
+          "id": "letter_C",
+          "emoji": "C",
+          "label": "C",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_D",
+          "emoji": "D",
+          "label": "D",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_E",
+          "emoji": "E",
+          "label": "E",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_F",
+          "emoji": "F",
+          "label": "F",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.C"
+      ]
+    },
+    {
+      "id": "let_004",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter D!",
+      "phonicsSound": "/d/",
+      "items": [
+        {
+          "id": "letter_D",
+          "emoji": "D",
+          "label": "D",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_E",
+          "emoji": "E",
+          "label": "E",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_F",
+          "emoji": "F",
+          "label": "F",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_G",
+          "emoji": "G",
+          "label": "G",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.D"
+      ]
+    },
+    {
+      "id": "let_005",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter E!",
+      "phonicsSound": "/e/",
+      "items": [
+        {
+          "id": "letter_E",
+          "emoji": "E",
+          "label": "E",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_F",
+          "emoji": "F",
+          "label": "F",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_G",
+          "emoji": "G",
+          "label": "G",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_H",
+          "emoji": "H",
+          "label": "H",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.E"
+      ]
+    },
+    {
+      "id": "let_006",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter F!",
+      "phonicsSound": "/f/",
+      "items": [
+        {
+          "id": "letter_F",
+          "emoji": "F",
+          "label": "F",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_G",
+          "emoji": "G",
+          "label": "G",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_H",
+          "emoji": "H",
+          "label": "H",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_I",
+          "emoji": "I",
+          "label": "I",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.F"
+      ]
+    },
+    {
+      "id": "let_007",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter G!",
+      "phonicsSound": "/g/",
+      "items": [
+        {
+          "id": "letter_G",
+          "emoji": "G",
+          "label": "G",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_H",
+          "emoji": "H",
+          "label": "H",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_I",
+          "emoji": "I",
+          "label": "I",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_J",
+          "emoji": "J",
+          "label": "J",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.G"
+      ]
+    },
+    {
+      "id": "let_008",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter H!",
+      "phonicsSound": "/h/",
+      "items": [
+        {
+          "id": "letter_H",
+          "emoji": "H",
+          "label": "H",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_I",
+          "emoji": "I",
+          "label": "I",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_J",
+          "emoji": "J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_K",
+          "emoji": "K",
+          "label": "K",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.H"
+      ]
+    },
+    {
+      "id": "let_009",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter I!",
+      "phonicsSound": "/i/",
+      "items": [
+        {
+          "id": "letter_I",
+          "emoji": "I",
+          "label": "I",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_J",
+          "emoji": "J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_K",
+          "emoji": "K",
+          "label": "K",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_L",
+          "emoji": "L",
+          "label": "L",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.I"
+      ]
+    },
+    {
+      "id": "let_010",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter J!",
+      "phonicsSound": "/j/",
+      "items": [
+        {
+          "id": "letter_J",
+          "emoji": "J",
+          "label": "J",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_K",
+          "emoji": "K",
+          "label": "K",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_L",
+          "emoji": "L",
+          "label": "L",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_M",
+          "emoji": "M",
+          "label": "M",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.J"
+      ]
+    },
+    {
+      "id": "let_011",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter K!",
+      "phonicsSound": "/k/",
+      "items": [
+        {
+          "id": "letter_K",
+          "emoji": "K",
+          "label": "K",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_L",
+          "emoji": "L",
+          "label": "L",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_M",
+          "emoji": "M",
+          "label": "M",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_N",
+          "emoji": "N",
+          "label": "N",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.K"
+      ]
+    },
+    {
+      "id": "let_012",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter L!",
+      "phonicsSound": "/l/",
+      "items": [
+        {
+          "id": "letter_L",
+          "emoji": "L",
+          "label": "L",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_M",
+          "emoji": "M",
+          "label": "M",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_N",
+          "emoji": "N",
+          "label": "N",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_O",
+          "emoji": "O",
+          "label": "O",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.L"
+      ]
+    },
+    {
+      "id": "let_013",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter M!",
+      "phonicsSound": "/m/",
+      "items": [
+        {
+          "id": "letter_M",
+          "emoji": "M",
+          "label": "M",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_N",
+          "emoji": "N",
+          "label": "N",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_O",
+          "emoji": "O",
+          "label": "O",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_P",
+          "emoji": "P",
+          "label": "P",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.M"
+      ]
+    },
+    {
+      "id": "let_014",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter N!",
+      "phonicsSound": "/n/",
+      "items": [
+        {
+          "id": "letter_N",
+          "emoji": "N",
+          "label": "N",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_O",
+          "emoji": "O",
+          "label": "O",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_P",
+          "emoji": "P",
+          "label": "P",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Q",
+          "emoji": "Q",
+          "label": "Q",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.N"
+      ]
+    },
+    {
+      "id": "let_015",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter O!",
+      "phonicsSound": "/o/",
+      "items": [
+        {
+          "id": "letter_O",
+          "emoji": "O",
+          "label": "O",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_P",
+          "emoji": "P",
+          "label": "P",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Q",
+          "emoji": "Q",
+          "label": "Q",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_R",
+          "emoji": "R",
+          "label": "R",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.O"
+      ]
+    },
+    {
+      "id": "let_016",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter P!",
+      "phonicsSound": "/p/",
+      "items": [
+        {
+          "id": "letter_P",
+          "emoji": "P",
+          "label": "P",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_Q",
+          "emoji": "Q",
+          "label": "Q",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_R",
+          "emoji": "R",
+          "label": "R",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_S",
+          "emoji": "S",
+          "label": "S",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.P"
+      ]
+    },
+    {
+      "id": "let_017",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter Q!",
+      "phonicsSound": "/q/",
+      "items": [
+        {
+          "id": "letter_Q",
+          "emoji": "Q",
+          "label": "Q",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_R",
+          "emoji": "R",
+          "label": "R",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_S",
+          "emoji": "S",
+          "label": "S",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_T",
+          "emoji": "T",
+          "label": "T",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.Q"
+      ]
+    },
+    {
+      "id": "let_018",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter R!",
+      "phonicsSound": "/r/",
+      "items": [
+        {
+          "id": "letter_R",
+          "emoji": "R",
+          "label": "R",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_S",
+          "emoji": "S",
+          "label": "S",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_T",
+          "emoji": "T",
+          "label": "T",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_U",
+          "emoji": "U",
+          "label": "U",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.R"
+      ]
+    },
+    {
+      "id": "let_019",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter S!",
+      "phonicsSound": "/s/",
+      "items": [
+        {
+          "id": "letter_S",
+          "emoji": "S",
+          "label": "S",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_T",
+          "emoji": "T",
+          "label": "T",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_U",
+          "emoji": "U",
+          "label": "U",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_V",
+          "emoji": "V",
+          "label": "V",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.S"
+      ]
+    },
+    {
+      "id": "let_020",
+      "gameType": "letter_recognition",
+      "zoneId": "letter_lane",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "phonics",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find letter T!",
+      "phonicsSound": "/t/",
+      "items": [
+        {
+          "id": "letter_T",
+          "emoji": "T",
+          "label": "T",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_U",
+          "emoji": "U",
+          "label": "U",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_V",
+          "emoji": "V",
+          "label": "V",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_W",
+          "emoji": "W",
+          "label": "W",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "alphabet.T"
+      ]
+    }
+  ]
+}

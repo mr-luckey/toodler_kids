@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="body" cx="100" cy="100" rx="60" ry="15" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="wing_l" d="M60,100 L20,120 L60,110" fill="#FFF" stroke="#222" stroke-width="2"/>
+<path id="wing_r" d="M140,100 L180,120 L140,110" fill="#FFF" stroke="#222" stroke-width="2"/>
+<path id="tail" d="M155,95 L175,70 L165,95" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="window1" cx="70" cy="97" r="6" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="window2" cx="90" cy="97" r="6" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="window3" cx="110" cy="97" r="6" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="window4" cx="130" cy="97" r="6" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+</svg>

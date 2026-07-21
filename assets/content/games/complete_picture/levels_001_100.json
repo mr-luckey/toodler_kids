@@ -1,0 +1,6004 @@
+{
+  "levels": [
+    {
+      "id": "cp_001",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 1,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_002",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 2,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_003",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 3,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.lion.default",
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_004",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 4,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_005",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 5,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_006",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 6,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.monkey.default",
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_007",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 7,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_008",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 8,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_009",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 9,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.tree.default",
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_010",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 10,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    },
+    {
+      "id": "cp_011",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 11,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_012",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 12,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.pig.default",
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_013",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 13,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_014",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 14,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_015",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 15,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.giraffe.default",
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_016",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 16,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_017",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 17,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_018",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 18,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.dino.default",
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_019",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 19,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_020",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 20,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    },
+    {
+      "id": "cp_021",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 21,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.sheep.default",
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_022",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 22,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_023",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 23,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_024",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 24,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.elephant.default",
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_025",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 25,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_026",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 26,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_027",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 27,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.rocket.default",
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_028",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 28,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_029",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 29,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_030",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 30,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.cow.default",
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    },
+    {
+      "id": "cp_031",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 31,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_032",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 32,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_033",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 33,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.lion.default",
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_034",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 34,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_035",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 35,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_036",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 36,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.monkey.default",
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_037",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 37,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_038",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 38,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_039",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 39,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.tree.default",
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_040",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 40,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    },
+    {
+      "id": "cp_041",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 41,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_042",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 42,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.pig.default",
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_043",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 43,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_044",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 44,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_045",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 45,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.giraffe.default",
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_046",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 46,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_047",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 47,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_048",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 48,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.dino.default",
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_049",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 49,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_050",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 50,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 1,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    },
+    {
+      "id": "cp_051",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 51,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.sheep.default",
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_052",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 52,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_053",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 53,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_054",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 54,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.elephant.default",
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_055",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 55,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_056",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 56,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_057",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 57,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.rocket.default",
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_058",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 58,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_059",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 59,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_060",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 60,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.cow.default",
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    },
+    {
+      "id": "cp_061",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 61,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_062",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 62,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_063",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 63,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.lion.default",
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_064",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 64,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_065",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 65,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_066",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 66,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.monkey.default",
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_067",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 67,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_068",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 68,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_069",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 69,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.tree.default",
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_070",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 70,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    },
+    {
+      "id": "cp_071",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 71,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_072",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 72,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.pig.default",
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_073",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 73,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_074",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 74,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_075",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 75,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.giraffe.default",
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_076",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 76,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_077",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 77,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_078",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 78,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.dino.default",
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_079",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 79,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_080",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 80,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    },
+    {
+      "id": "cp_081",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 81,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.sheep.default",
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_082",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 82,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_083",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 83,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_084",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 84,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.elephant.default",
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_085",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 85,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_086",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 86,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_087",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 87,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.rocket.default",
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_088",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 88,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_089",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 89,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_090",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 90,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.cow.default",
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    },
+    {
+      "id": "cp_091",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 91,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/sheep_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.sheep"
+      ]
+    },
+    {
+      "id": "cp_092",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 92,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/pig_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/pig.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.pig"
+      ]
+    },
+    {
+      "id": "cp_093",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 93,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/lion_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/lion.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.lion.default",
+      "relatedConcepts": [
+        "visual.complete.lion"
+      ]
+    },
+    {
+      "id": "cp_094",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 94,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/elephant_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/elephant.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.elephant"
+      ]
+    },
+    {
+      "id": "cp_095",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 95,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/giraffe_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/giraffe.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.giraffe"
+      ]
+    },
+    {
+      "id": "cp_096",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 96,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/monkey_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/monkey.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.monkey.default",
+      "relatedConcepts": [
+        "visual.complete.monkey"
+      ]
+    },
+    {
+      "id": "cp_097",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 97,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/rocket_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/games/rocket.png",
+          "isCorrect": true
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.rocket"
+      ]
+    },
+    {
+      "id": "cp_098",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 98,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/dino_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/dino.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.dino"
+      ]
+    },
+    {
+      "id": "cp_099",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 99,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/tree_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/tree.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": "facts.tree.default",
+      "relatedConcepts": [
+        "visual.complete.tree"
+      ]
+    },
+    {
+      "id": "cp_100",
+      "gameType": "complete_picture",
+      "zoneId": "puzzle_palace",
+      "subMode": "single_missing_piece",
+      "levelNumber": 100,
+      "ageTier": [
+        "little_learners"
+      ],
+      "difficulty": 2,
+      "learningMethod": [
+        "montessori",
+        "scaffolding"
+      ],
+      "starsAvailable": 3,
+      "scaffoldHints": 3,
+      "prompt": {
+        "type": "none",
+        "lumiLineKey": "lumi.complete_picture.hint"
+      },
+      "referenceImage": "assets/images/games/cow_full.png",
+      "board": {
+        "gridRows": 3,
+        "gridCols": 3,
+        "missingSlots": [
+          {
+            "row": 1,
+            "col": 1
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "correct",
+          "image": "assets/images/games/cow.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/games/sheep.png",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "funFactKey": null,
+      "relatedConcepts": [
+        "visual.complete.cow"
+      ]
+    }
+  ]
+}

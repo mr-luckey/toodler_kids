@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect id="walls" x="50" y="100" width="100" height="80" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<polygon id="roof" points="100,40 40,100 160,100" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<rect id="door" x="85" y="130" width="30" height="50" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="knob" cx="108" cy="155" r="3" fill="#222"/>
+<rect id="window_l" x="60" y="115" width="25" height="25" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="window_r" x="115" y="115" width="25" height="25" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="chimney" x="120" y="55" width="15" height="30" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="sun" cx="170" cy="50" r="15" fill="#FFF" stroke="#222" stroke-width="2"/>
+</svg>

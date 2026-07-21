@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="body" cx="100" cy="100" rx="6" ry="40" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="head" cx="100" cy="55" r="10" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="wing_tl" cx="65" cy="80" rx="30" ry="35" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="wing_tr" cx="135" cy="80" rx="30" ry="35" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="wing_bl" cx="70" cy="120" rx="22" ry="25" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="wing_br" cx="130" cy="120" rx="22" ry="25" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="spot1" cx="60" cy="75" r="8" fill="#FFF" stroke="#222" stroke-width="1"/>
+<circle id="spot2" cx="140" cy="75" r="8" fill="#FFF" stroke="#222" stroke-width="1"/>
+<path id="antenna_l" d="M95,48 Q85,30 80,25" fill="none" stroke="#222" stroke-width="1.5"/>
+<path id="antenna_r" d="M105,48 Q115,30 120,25" fill="none" stroke="#222" stroke-width="1.5"/>
+</svg>

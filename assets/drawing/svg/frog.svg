@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="body" cx="100" cy="120" rx="50" ry="35" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="head" cx="100" cy="75" r="30" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="eye_l" cx="82" cy="62" r="14" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="eye_r" cx="118" cy="62" r="14" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="pupil_l" cx="82" cy="62" r="5" fill="#222"/>
+<circle id="pupil_r" cx="118" cy="62" r="5" fill="#222"/>
+<path id="smile" d="M85,82 Q100,95 115,82" fill="none" stroke="#222" stroke-width="1.5"/>
+<ellipse id="leg_l" cx="65" cy="145" rx="18" ry="12" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="leg_r" cx="135" cy="145" rx="18" ry="12" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="spot1" cx="90" cy="115" rx="8" ry="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+<ellipse id="spot2" cx="115" cy="125" rx="8" ry="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

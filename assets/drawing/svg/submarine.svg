@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="body" cx="100" cy="110" rx="65" ry="30" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<rect id="tower" x="85" y="65" width="30" height="30" rx="5" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="window1" cx="60" cy="108" r="8" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="window2" cx="85" cy="108" r="8" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="window3" cx="110" cy="108" r="8" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="window4" cx="135" cy="108" r="8" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<path id="propeller" d="M165,110 L185,100 M165,110 L185,120" fill="none" stroke="#222" stroke-width="2"/>
+<path id="wave" d="M20,150 Q50,140 80,150 Q110,160 140,150 Q170,140 200,150" fill="none" stroke="#222" stroke-width="2"/>
+</svg>

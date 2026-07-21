@@ -1,0 +1,864 @@
+{
+  "levels": [
+    {
+      "id": "num_001",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 1!",
+      "items": [
+        {
+          "id": "num_0",
+          "emoji": "0️⃣",
+          "label": "0",
+          "isCorrect": false
+        },
+        {
+          "id": "num_1",
+          "emoji": "1️⃣",
+          "label": "1",
+          "isCorrect": true
+        },
+        {
+          "id": "num_2",
+          "emoji": "2️⃣",
+          "label": "2",
+          "isCorrect": false
+        },
+        {
+          "id": "num_3",
+          "emoji": "3️⃣",
+          "label": "3",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.1"
+      ]
+    },
+    {
+      "id": "num_002",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 2!",
+      "items": [
+        {
+          "id": "num_1",
+          "emoji": "1️⃣",
+          "label": "1",
+          "isCorrect": false
+        },
+        {
+          "id": "num_2",
+          "emoji": "2️⃣",
+          "label": "2",
+          "isCorrect": true
+        },
+        {
+          "id": "num_3",
+          "emoji": "3️⃣",
+          "label": "3",
+          "isCorrect": false
+        },
+        {
+          "id": "num_4",
+          "emoji": "4️⃣",
+          "label": "4",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.2"
+      ]
+    },
+    {
+      "id": "num_003",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 3!",
+      "items": [
+        {
+          "id": "num_2",
+          "emoji": "2️⃣",
+          "label": "2",
+          "isCorrect": false
+        },
+        {
+          "id": "num_3",
+          "emoji": "3️⃣",
+          "label": "3",
+          "isCorrect": true
+        },
+        {
+          "id": "num_4",
+          "emoji": "4️⃣",
+          "label": "4",
+          "isCorrect": false
+        },
+        {
+          "id": "num_5",
+          "emoji": "5️⃣",
+          "label": "5",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.3"
+      ]
+    },
+    {
+      "id": "num_004",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 4!",
+      "items": [
+        {
+          "id": "num_3",
+          "emoji": "3️⃣",
+          "label": "3",
+          "isCorrect": false
+        },
+        {
+          "id": "num_4",
+          "emoji": "4️⃣",
+          "label": "4",
+          "isCorrect": true
+        },
+        {
+          "id": "num_5",
+          "emoji": "5️⃣",
+          "label": "5",
+          "isCorrect": false
+        },
+        {
+          "id": "num_6",
+          "emoji": "6️⃣",
+          "label": "6",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.4"
+      ]
+    },
+    {
+      "id": "num_005",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 5!",
+      "items": [
+        {
+          "id": "num_4",
+          "emoji": "4️⃣",
+          "label": "4",
+          "isCorrect": false
+        },
+        {
+          "id": "num_5",
+          "emoji": "5️⃣",
+          "label": "5",
+          "isCorrect": true
+        },
+        {
+          "id": "num_6",
+          "emoji": "6️⃣",
+          "label": "6",
+          "isCorrect": false
+        },
+        {
+          "id": "num_7",
+          "emoji": "7️⃣",
+          "label": "7",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.5"
+      ]
+    },
+    {
+      "id": "num_006",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 6!",
+      "items": [
+        {
+          "id": "num_5",
+          "emoji": "5️⃣",
+          "label": "5",
+          "isCorrect": false
+        },
+        {
+          "id": "num_6",
+          "emoji": "6️⃣",
+          "label": "6",
+          "isCorrect": true
+        },
+        {
+          "id": "num_7",
+          "emoji": "7️⃣",
+          "label": "7",
+          "isCorrect": false
+        },
+        {
+          "id": "num_8",
+          "emoji": "8️⃣",
+          "label": "8",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.6"
+      ]
+    },
+    {
+      "id": "num_007",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 7!",
+      "items": [
+        {
+          "id": "num_6",
+          "emoji": "6️⃣",
+          "label": "6",
+          "isCorrect": false
+        },
+        {
+          "id": "num_7",
+          "emoji": "7️⃣",
+          "label": "7",
+          "isCorrect": true
+        },
+        {
+          "id": "num_8",
+          "emoji": "8️⃣",
+          "label": "8",
+          "isCorrect": false
+        },
+        {
+          "id": "num_9",
+          "emoji": "9️⃣",
+          "label": "9",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.7"
+      ]
+    },
+    {
+      "id": "num_008",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 8!",
+      "items": [
+        {
+          "id": "num_7",
+          "emoji": "7️⃣",
+          "label": "7",
+          "isCorrect": false
+        },
+        {
+          "id": "num_8",
+          "emoji": "8️⃣",
+          "label": "8",
+          "isCorrect": true
+        },
+        {
+          "id": "num_9",
+          "emoji": "9️⃣",
+          "label": "9",
+          "isCorrect": false
+        },
+        {
+          "id": "num_10",
+          "emoji": "10️⃣",
+          "label": "10",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.8"
+      ]
+    },
+    {
+      "id": "num_009",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 9!",
+      "items": [
+        {
+          "id": "num_8",
+          "emoji": "8️⃣",
+          "label": "8",
+          "isCorrect": false
+        },
+        {
+          "id": "num_9",
+          "emoji": "9️⃣",
+          "label": "9",
+          "isCorrect": true
+        },
+        {
+          "id": "num_10",
+          "emoji": "10️⃣",
+          "label": "10",
+          "isCorrect": false
+        },
+        {
+          "id": "num_11",
+          "emoji": "11️⃣",
+          "label": "11",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.9"
+      ]
+    },
+    {
+      "id": "num_010",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 10!",
+      "items": [
+        {
+          "id": "num_9",
+          "emoji": "9️⃣",
+          "label": "9",
+          "isCorrect": false
+        },
+        {
+          "id": "num_10",
+          "emoji": "10️⃣",
+          "label": "10",
+          "isCorrect": true
+        },
+        {
+          "id": "num_11",
+          "emoji": "11️⃣",
+          "label": "11",
+          "isCorrect": false
+        },
+        {
+          "id": "num_12",
+          "emoji": "12️⃣",
+          "label": "12",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.10"
+      ]
+    },
+    {
+      "id": "num_011",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 11!",
+      "items": [
+        {
+          "id": "num_10",
+          "emoji": "10️⃣",
+          "label": "10",
+          "isCorrect": false
+        },
+        {
+          "id": "num_11",
+          "emoji": "11️⃣",
+          "label": "11",
+          "isCorrect": true
+        },
+        {
+          "id": "num_12",
+          "emoji": "12️⃣",
+          "label": "12",
+          "isCorrect": false
+        },
+        {
+          "id": "num_13",
+          "emoji": "13️⃣",
+          "label": "13",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.11"
+      ]
+    },
+    {
+      "id": "num_012",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 12!",
+      "items": [
+        {
+          "id": "num_11",
+          "emoji": "11️⃣",
+          "label": "11",
+          "isCorrect": false
+        },
+        {
+          "id": "num_12",
+          "emoji": "12️⃣",
+          "label": "12",
+          "isCorrect": true
+        },
+        {
+          "id": "num_13",
+          "emoji": "13️⃣",
+          "label": "13",
+          "isCorrect": false
+        },
+        {
+          "id": "num_14",
+          "emoji": "14️⃣",
+          "label": "14",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.12"
+      ]
+    },
+    {
+      "id": "num_013",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 13!",
+      "items": [
+        {
+          "id": "num_12",
+          "emoji": "12️⃣",
+          "label": "12",
+          "isCorrect": false
+        },
+        {
+          "id": "num_13",
+          "emoji": "13️⃣",
+          "label": "13",
+          "isCorrect": true
+        },
+        {
+          "id": "num_14",
+          "emoji": "14️⃣",
+          "label": "14",
+          "isCorrect": false
+        },
+        {
+          "id": "num_15",
+          "emoji": "15️⃣",
+          "label": "15",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.13"
+      ]
+    },
+    {
+      "id": "num_014",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 14!",
+      "items": [
+        {
+          "id": "num_13",
+          "emoji": "13️⃣",
+          "label": "13",
+          "isCorrect": false
+        },
+        {
+          "id": "num_14",
+          "emoji": "14️⃣",
+          "label": "14",
+          "isCorrect": true
+        },
+        {
+          "id": "num_15",
+          "emoji": "15️⃣",
+          "label": "15",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "emoji": "16️⃣",
+          "label": "16",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.14"
+      ]
+    },
+    {
+      "id": "num_015",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 15!",
+      "items": [
+        {
+          "id": "num_14",
+          "emoji": "14️⃣",
+          "label": "14",
+          "isCorrect": false
+        },
+        {
+          "id": "num_15",
+          "emoji": "15️⃣",
+          "label": "15",
+          "isCorrect": true
+        },
+        {
+          "id": "num_16",
+          "emoji": "16️⃣",
+          "label": "16",
+          "isCorrect": false
+        },
+        {
+          "id": "num_17",
+          "emoji": "17️⃣",
+          "label": "17",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.15"
+      ]
+    },
+    {
+      "id": "num_016",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 16!",
+      "items": [
+        {
+          "id": "num_15",
+          "emoji": "15️⃣",
+          "label": "15",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "emoji": "16️⃣",
+          "label": "16",
+          "isCorrect": true
+        },
+        {
+          "id": "num_17",
+          "emoji": "17️⃣",
+          "label": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "num_18",
+          "emoji": "18️⃣",
+          "label": "18",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.16"
+      ]
+    },
+    {
+      "id": "num_017",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 17!",
+      "items": [
+        {
+          "id": "num_16",
+          "emoji": "16️⃣",
+          "label": "16",
+          "isCorrect": false
+        },
+        {
+          "id": "num_17",
+          "emoji": "17️⃣",
+          "label": "17",
+          "isCorrect": true
+        },
+        {
+          "id": "num_18",
+          "emoji": "18️⃣",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_19",
+          "emoji": "19️⃣",
+          "label": "19",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.17"
+      ]
+    },
+    {
+      "id": "num_018",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 18!",
+      "items": [
+        {
+          "id": "num_17",
+          "emoji": "17️⃣",
+          "label": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "num_18",
+          "emoji": "18️⃣",
+          "label": "18",
+          "isCorrect": true
+        },
+        {
+          "id": "num_19",
+          "emoji": "19️⃣",
+          "label": "19",
+          "isCorrect": false
+        },
+        {
+          "id": "num_20",
+          "emoji": "20️⃣",
+          "label": "20",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.18"
+      ]
+    },
+    {
+      "id": "num_019",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 19!",
+      "items": [
+        {
+          "id": "num_18",
+          "emoji": "18️⃣",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_19",
+          "emoji": "19️⃣",
+          "label": "19",
+          "isCorrect": true
+        },
+        {
+          "id": "num_20",
+          "emoji": "20️⃣",
+          "label": "20",
+          "isCorrect": false
+        },
+        {
+          "id": "num_21",
+          "emoji": "21️⃣",
+          "label": "21",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.19"
+      ]
+    },
+    {
+      "id": "num_020",
+      "gameType": "number_recognition",
+      "zoneId": "number_mountain",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "constructivism",
+        "differentiated"
+      ],
+      "lumiLineKey": "Find number 20!",
+      "items": [
+        {
+          "id": "num_19",
+          "emoji": "19️⃣",
+          "label": "19",
+          "isCorrect": false
+        },
+        {
+          "id": "num_20",
+          "emoji": "20️⃣",
+          "label": "20",
+          "isCorrect": true
+        },
+        {
+          "id": "num_21",
+          "emoji": "21️⃣",
+          "label": "21",
+          "isCorrect": false
+        },
+        {
+          "id": "num_22",
+          "emoji": "22️⃣",
+          "label": "22",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "math.number.20"
+      ]
+    }
+  ]
+}

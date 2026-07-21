@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="balloon" cx="100" cy="75" rx="45" ry="55" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="stripe1" d="M60,50 Q100,30 140,50" fill="none" stroke="#222" stroke-width="1.5"/>
+<path id="stripe2" d="M55,75 Q100,55 145,75" fill="none" stroke="#222" stroke-width="1.5"/>
+<path id="stripe3" d="M58,100 Q100,80 142,100" fill="none" stroke="#222" stroke-width="1.5"/>
+<rect id="basket" x="85" y="140" width="30" height="25" rx="3" fill="#FFF" stroke="#222" stroke-width="2"/>
+<path id="rope1" d="M70,125 L85,140" fill="none" stroke="#222" stroke-width="1.5"/>
+<path id="rope2" d="M130,125 L115,140" fill="none" stroke="#222" stroke-width="1.5"/>
+</svg>

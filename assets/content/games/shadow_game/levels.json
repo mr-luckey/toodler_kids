@@ -1,0 +1,3704 @@
+{
+  "levels": [
+    {
+      "id": "shadow_001",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 1,
+      "difficulty": 0,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_002",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_003",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_004",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_005",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_006",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_007",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_008",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_009",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_010",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_011",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_012",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_013",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_014",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_015",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_016",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_017",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_018",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_019",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_020",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_021",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 21,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_022",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 22,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_023",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 23,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_024",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 24,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_025",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 25,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_026",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 26,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_027",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 27,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_028",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 28,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_029",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 29,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_030",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 30,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_031",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 31,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_032",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 32,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_033",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 33,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_034",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 34,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_035",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 35,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_036",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 36,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_037",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 37,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_038",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 38,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_039",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 39,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_040",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 40,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_041",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 41,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_042",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 42,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_043",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 43,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_044",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 44,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_045",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 45,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_046",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 46,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_047",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 47,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_048",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 48,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_049",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 49,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_050",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 50,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_051",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 51,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_052",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 52,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_053",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 53,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_054",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 54,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_055",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 55,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_056",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 56,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_057",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 57,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_058",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 58,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_059",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 59,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_060",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 60,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_061",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 61,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_062",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 62,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_063",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 63,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_064",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 64,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_065",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 65,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_066",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 66,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_067",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 67,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_068",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 68,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_069",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 69,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_070",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 70,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_071",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 71,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_072",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 72,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_073",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 73,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_074",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 74,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_075",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 75,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_076",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 76,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_077",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 77,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_078",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 78,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_079",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 79,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_080",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 80,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_081",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 81,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_082",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 82,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_083",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 83,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_084",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 84,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_085",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 85,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_086",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 86,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_087",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 87,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_088",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 88,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_089",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 89,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_090",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 90,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_091",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 91,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_092",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 92,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    },
+    {
+      "id": "shadow_093",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 93,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/apple.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "apple"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.apple"
+      ]
+    },
+    {
+      "id": "shadow_094",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 94,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/cat.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "cat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.cat"
+      ]
+    },
+    {
+      "id": "shadow_095",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 95,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/dog.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "dog"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.dog"
+      ]
+    },
+    {
+      "id": "shadow_096",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 96,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/tree.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "tree"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.tree"
+      ]
+    },
+    {
+      "id": "shadow_097",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 97,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/elephant.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.elephant"
+      ]
+    },
+    {
+      "id": "shadow_098",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 98,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/giraffe.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "giraffe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.giraffe"
+      ]
+    },
+    {
+      "id": "shadow_099",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 99,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/car.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "car"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.car"
+      ]
+    },
+    {
+      "id": "shadow_100",
+      "gameType": "shadow_game",
+      "zoneId": "puzzle_palace",
+      "levelNumber": 100,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "montessori"
+      ],
+      "referenceImage": "assets/images/games/house.png",
+      "items": [
+        {
+          "id": "drag",
+          "emoji": "🖼️",
+          "label": "house"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "emoji": "⬛",
+          "label": "Shadow",
+          "acceptsId": "drag"
+        },
+        {
+          "id": "wrong1",
+          "emoji": "⬛",
+          "label": "Wrong",
+          "acceptsId": "wrong"
+        }
+      ],
+      "relatedConcepts": [
+        "visual.shadow.house"
+      ]
+    }
+  ]
+}

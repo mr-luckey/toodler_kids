@@ -1,0 +1,5504 @@
+{
+  "levels": [
+    {
+      "id": "tool_001",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 1,
+      "difficulty": 0,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_002",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_003",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_004",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_005",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_006",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_007",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_008",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_009",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_010",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_011",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_012",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_013",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_014",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_015",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_016",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_017",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_018",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_019",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_020",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_021",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 21,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_022",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 22,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_023",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 23,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_024",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 24,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_025",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 25,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_026",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 26,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_027",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 27,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_028",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 28,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_029",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 29,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_030",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 30,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_031",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 31,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_032",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 32,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_033",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 33,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_034",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 34,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_035",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 35,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_036",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 36,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_037",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 37,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_038",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 38,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_039",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 39,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_040",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 40,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_041",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 41,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_042",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 42,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_043",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 43,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_044",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 44,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_045",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 45,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_046",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 46,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_047",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 47,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_048",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 48,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_049",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 49,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_050",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 50,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_051",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 51,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_052",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 52,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_053",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 53,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_054",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 54,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_055",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 55,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_056",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 56,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_057",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 57,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_058",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 58,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_059",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 59,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_060",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 60,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_061",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 61,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_062",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 62,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_063",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 63,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_064",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 64,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_065",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 65,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_066",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 66,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_067",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 67,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_068",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 68,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_069",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 69,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_070",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 70,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_071",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 71,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_072",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 72,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_073",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 73,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_074",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 74,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_075",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 75,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_076",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 76,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_077",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 77,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_078",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 78,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_079",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 79,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_080",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 80,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_081",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 81,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_082",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 82,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_083",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 83,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_084",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 84,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_085",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 85,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_086",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 86,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_087",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 87,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_088",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 88,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_089",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 89,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_090",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 90,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_091",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 91,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_092",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 92,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_093",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 93,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_094",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 94,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_095",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 95,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    },
+    {
+      "id": "tool_096",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 96,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A loose screw needs tightening",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": false
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": true
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.screwdriver"
+      ]
+    },
+    {
+      "id": "tool_097",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 97,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A nail needs hitting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": true
+        },
+        {
+          "id": "screwdriver",
+          "emoji": "🪛",
+          "label": "screwdriver",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": false
+        },
+        {
+          "id": "ruler",
+          "emoji": "📏",
+          "label": "ruler",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.hammer"
+      ]
+    },
+    {
+      "id": "tool_098",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 98,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Paper needs cutting",
+      "options": [
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "scissors",
+          "emoji": "✂️",
+          "label": "scissors",
+          "isCorrect": true
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": false
+        },
+        {
+          "id": "brush",
+          "emoji": "🖌️",
+          "label": "brush",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.scissors"
+      ]
+    },
+    {
+      "id": "tool_099",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 99,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "A bolt needs turning",
+      "options": [
+        {
+          "id": "wrench",
+          "emoji": "🔧",
+          "label": "wrench",
+          "isCorrect": true
+        },
+        {
+          "id": "hammer",
+          "emoji": "🔨",
+          "label": "hammer",
+          "isCorrect": false
+        },
+        {
+          "id": "pen",
+          "emoji": "🖊️",
+          "label": "pen",
+          "isCorrect": false
+        },
+        {
+          "id": "cup",
+          "emoji": "☕",
+          "label": "cup",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.wrench"
+      ]
+    },
+    {
+      "id": "tool_100",
+      "gameType": "which_tool_works",
+      "zoneId": "tools_professions",
+      "levelNumber": 100,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "montessori"
+      ],
+      "lumiLineKey": "Food needs stirring",
+      "options": [
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "label": "spoon",
+          "isCorrect": true
+        },
+        {
+          "id": "saw",
+          "emoji": "🪚",
+          "label": "saw",
+          "isCorrect": false
+        },
+        {
+          "id": "drill",
+          "emoji": "🔩",
+          "label": "drill",
+          "isCorrect": false
+        },
+        {
+          "id": "hose",
+          "emoji": "🚿",
+          "label": "hose",
+          "isCorrect": false
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "animation": "slide_in",
+          "sound": "chime",
+          "lumiEmotion": "excited"
+        },
+        "wrong": {
+          "animation": "bounce_back",
+          "sound": "soft_boop",
+          "noVoiceWrong": true
+        }
+      },
+      "relatedConcepts": [
+        "tools.spoon"
+      ]
+    }
+  ]
+}

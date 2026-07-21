@@ -1,0 +1,78 @@
+[
+  {
+    "id": "animal_expert",
+    "nameKey": "badge.animal_expert",
+    "descriptionKey": "badge.animal_expert.desc",
+    "icon": "paw",
+    "unlockRule": {
+      "type": "levels",
+      "zone": "jungle_grove",
+      "count": 10
+    }
+  },
+  {
+    "id": "color_master",
+    "nameKey": "badge.color_master",
+    "descriptionKey": "badge.color_master.desc",
+    "icon": "palette",
+    "unlockRule": {
+      "type": "drawing",
+      "count": 5
+    }
+  },
+  {
+    "id": "number_wizard",
+    "nameKey": "badge.number_wizard",
+    "descriptionKey": "badge.number_wizard.desc",
+    "icon": "numbers",
+    "unlockRule": {
+      "type": "levels",
+      "zone": "number_mountain",
+      "count": 10
+    }
+  },
+  {
+    "id": "letter_hero",
+    "nameKey": "badge.letter_hero",
+    "descriptionKey": "badge.letter_hero.desc",
+    "icon": "abc",
+    "unlockRule": {
+      "type": "levels",
+      "zone": "letter_lane",
+      "count": 10
+    }
+  },
+  {
+    "id": "dino_explorer",
+    "nameKey": "badge.dino_explorer",
+    "descriptionKey": "badge.dino_explorer.desc",
+    "icon": "dino",
+    "unlockRule": {
+      "type": "levels",
+      "zone": "dinosaurs",
+      "count": 25
+    }
+  },
+  {
+    "id": "space_pilot",
+    "nameKey": "badge.space_pilot",
+    "descriptionKey": "badge.space_pilot.desc",
+    "icon": "rocket",
+    "unlockRule": {
+      "type": "levels",
+      "zone": "space_science",
+      "count": 25
+    }
+  },
+  {
+    "id": "puzzle_master",
+    "nameKey": "badge.puzzle_master",
+    "descriptionKey": "badge.puzzle_master.desc",
+    "icon": "puzzle",
+    "unlockRule": {
+      "type": "levels",
+      "gameType": "complete_picture",
+      "count": 50
+    }
+  }
+]

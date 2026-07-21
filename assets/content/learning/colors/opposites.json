@@ -1,0 +1,4504 @@
+{
+  "levels": [
+    {
+      "id": "opposites_001",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_002",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_003",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_004",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_005",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_006",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_007",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_008",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_009",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_010",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_011",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_012",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_013",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_014",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_015",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_016",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_017",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_018",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_019",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_020",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_021",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 21,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_022",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 22,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_023",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 23,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_024",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 24,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_025",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 25,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_026",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 26,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_027",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 27,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_028",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 28,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_029",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 29,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_030",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 30,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_031",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 31,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_032",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 32,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_033",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 33,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_034",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 34,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_035",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 35,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_036",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 36,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_037",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 37,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_038",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 38,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_039",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 39,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_040",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 40,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_041",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 41,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_042",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 42,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_043",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 43,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_044",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 44,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_045",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 45,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_046",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 46,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_047",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 47,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_048",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 48,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_049",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 49,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_050",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 50,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_051",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 51,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_052",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 52,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_053",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 53,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_054",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 54,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_055",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 55,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_056",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 56,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_057",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 57,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_058",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 58,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_059",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 59,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_060",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 60,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_061",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 61,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_062",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 62,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_063",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 63,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_064",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 64,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_065",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 65,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_066",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 66,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_067",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 67,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_068",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 68,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_069",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 69,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_070",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 70,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_071",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 71,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_072",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 72,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_073",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 73,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_074",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 74,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_075",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 75,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_076",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 76,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_077",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 77,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_078",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 78,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_079",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 79,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_080",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 80,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_081",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 81,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_082",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 82,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_083",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 83,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_084",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 84,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_085",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 85,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_086",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 86,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_087",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 87,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_088",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 88,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_089",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 89,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_090",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 90,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_091",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 91,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_092",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 92,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_093",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 93,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_094",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 94,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_095",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 95,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    },
+    {
+      "id": "opposites_096",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 96,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Big!",
+      "targetId": "big",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.big"
+      ]
+    },
+    {
+      "id": "opposites_097",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 97,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Hot!",
+      "targetId": "hot",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.hot"
+      ]
+    },
+    {
+      "id": "opposites_098",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 98,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Fast!",
+      "targetId": "fast",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "fast",
+          "emoji": "🐆",
+          "label": "Fast",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.fast"
+      ]
+    },
+    {
+      "id": "opposites_099",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 99,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Up!",
+      "targetId": "up",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": true
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.up"
+      ]
+    },
+    {
+      "id": "opposites_100",
+      "gameType": "opposites",
+      "zoneId": "opposites_ocean",
+      "levelNumber": 100,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "play_based",
+        "multisensory"
+      ],
+      "lumiLineKey": "Find the Day!",
+      "targetId": "day",
+      "mode": "tap_match",
+      "items": [
+        {
+          "id": "day",
+          "emoji": "☀️",
+          "label": "Day",
+          "isCorrect": true
+        },
+        {
+          "id": "up",
+          "emoji": "⬆️",
+          "label": "Up",
+          "isCorrect": false
+        },
+        {
+          "id": "hot",
+          "emoji": "🔥",
+          "label": "Hot",
+          "isCorrect": false
+        },
+        {
+          "id": "big",
+          "emoji": "🐘",
+          "label": "Big",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "opposites_ocean.day"
+      ]
+    }
+  ]
+}

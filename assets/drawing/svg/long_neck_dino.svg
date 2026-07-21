@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="body" cx="120" cy="155" rx="40" ry="25" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="neck" d="M100,145 Q60,120 55,70 Q50,50 60,40" fill="none" stroke="#222" stroke-width="10" stroke-linecap="round"/>
+<circle id="head" cx="62" cy="38" r="14" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="eye" cx="58" cy="36" r="3" fill="#222"/>
+<rect id="leg1" x="100" y="170" width="10" height="20" rx="2" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="leg2" x="130" y="170" width="10" height="20" rx="2" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="spot1" cx="115" cy="150" rx="8" ry="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+<ellipse id="spot2" cx="130" cy="158" rx="8" ry="5" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>

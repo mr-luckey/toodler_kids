@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect id="cargo" x="30" y="70" width="90" height="70" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="cab" d="M120,70 L120,140 L170,140 L170,90 L150,70 Z" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<rect id="window" x="130" y="80" width="30" height="25" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="wheel1" cx="55" cy="140" r="14" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="wheel2" cx="150" cy="140" r="14" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "animal_world",
+    "nameKey": "album.animal_world",
+    "icon": "paw",
+    "slots": 50,
+    "unlockRule": {
+      "type": "free"
+    }
+  },
+  {
+    "id": "dinosaur_world",
+    "nameKey": "album.dinosaur_world",
+    "icon": "dino",
+    "slots": 50,
+    "unlockRule": {
+      "type": "levels",
+      "zone": "dinosaurs",
+      "count": 25
+    }
+  },
+  {
+    "id": "space_explorers",
+    "nameKey": "album.space_explorers",
+    "icon": "rocket",
+    "slots": 50,
+    "unlockRule": {
+      "type": "levels",
+      "zone": "space_science",
+      "count": 25
+    }
+  },
+  {
+    "id": "number_wizards",
+    "nameKey": "album.number_wizards",
+    "icon": "numbers",
+    "slots": 50,
+    "unlockRule": {
+      "type": "levels",
+      "zone": "number_mountain",
+      "count": 20
+    }
+  },
+  {
+    "id": "letter_heroes",
+    "nameKey": "album.letter_heroes",
+    "icon": "abc",
+    "slots": 50,
+    "unlockRule": {
+      "type": "levels",
+      "zone": "letter_lane",
+      "count": 26
+    }
+  },
+  {
+    "id": "color_masters",
+    "nameKey": "album.color_masters",
+    "icon": "palette",
+    "slots": 50,
+    "unlockRule": {
+      "type": "levels",
+      "zone": "color_canyon",
+      "count": 20
+    }
+  },
+  {
+    "id": "world_travelers",
+    "nameKey": "album.world_travelers",
+    "icon": "globe",
+    "slots": 50,
+    "unlockRule": {
+      "type": "levels",
+      "zone": "world_village",
+      "count": 30
+    }
+  },
+  {
+    "id": "music_makers",
+    "nameKey": "album.music_makers",
+    "icon": "music",
+    "slots": 50,
+    "unlockRule": {
+      "type": "levels",
+      "zone": "music_meadow",
+      "count": 10
+    }
+  }
+]

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect id="blade" x="30" y="45" width="140" height="6" rx="3" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<ellipse id="body" cx="100" cy="100" rx="45" ry="25" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<path id="cockpit" d="M130,90 Q160,100 130,110" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="tail" x="145" y="95" width="40" height="8" fill="#FFF" stroke="#222" stroke-width="2"/>
+<rect id="tail_blade" x="180" y="85" width="6" height="25" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+<circle id="wheel_l" cx="75" cy="125" r="8" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="wheel_r" cx="125" cy="125" r="8" fill="#FFF" stroke="#222" stroke-width="2"/>
+</svg>

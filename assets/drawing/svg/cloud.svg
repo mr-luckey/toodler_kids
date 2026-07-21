@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="puff1" cx="70" cy="110" rx="35" ry="28" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="puff2" cx="110" cy="100" rx="40" ry="32" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="puff3" cx="140" cy="115" rx="30" ry="25" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<ellipse id="puff4" cx="90" cy="95" rx="28" ry="22" fill="#FFF" stroke="#222" stroke-width="2"/>
+</svg>

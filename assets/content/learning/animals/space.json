@@ -1,0 +1,984 @@
+{
+  "levels": [
+    {
+      "id": "space_001",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Sun!",
+      "items": [
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "space.sun"
+      ]
+    },
+    {
+      "id": "space_002",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Moon!",
+      "items": [
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": true
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.moon"
+      ]
+    },
+    {
+      "id": "space_003",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Earth!",
+      "items": [
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "space.earth"
+      ]
+    },
+    {
+      "id": "space_004",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Mars!",
+      "items": [
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": true
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.mars"
+      ]
+    },
+    {
+      "id": "space_005",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Rocket!",
+      "items": [
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": true
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.rocket"
+      ]
+    },
+    {
+      "id": "space_006",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Sun!",
+      "items": [
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": true
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.sun"
+      ]
+    },
+    {
+      "id": "space_007",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Moon!",
+      "items": [
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": true
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.moon"
+      ]
+    },
+    {
+      "id": "space_008",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Earth!",
+      "items": [
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": true
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.earth"
+      ]
+    },
+    {
+      "id": "space_009",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Mars!",
+      "items": [
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": true
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.mars"
+      ]
+    },
+    {
+      "id": "space_010",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Rocket!",
+      "items": [
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": true
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.rocket"
+      ]
+    },
+    {
+      "id": "space_011",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Sun!",
+      "items": [
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "space.sun"
+      ]
+    },
+    {
+      "id": "space_012",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Moon!",
+      "items": [
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": true
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.moon"
+      ]
+    },
+    {
+      "id": "space_013",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Earth!",
+      "items": [
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": true
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.earth"
+      ]
+    },
+    {
+      "id": "space_014",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Mars!",
+      "items": [
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": true
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.mars"
+      ]
+    },
+    {
+      "id": "space_015",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Rocket!",
+      "items": [
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": true
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.rocket"
+      ]
+    },
+    {
+      "id": "space_016",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Sun!",
+      "items": [
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": true
+        }
+      ],
+      "relatedConcepts": [
+        "space.sun"
+      ]
+    },
+    {
+      "id": "space_017",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Moon!",
+      "items": [
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": true
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.moon"
+      ]
+    },
+    {
+      "id": "space_018",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Earth!",
+      "items": [
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": true
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.earth"
+      ]
+    },
+    {
+      "id": "space_019",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Mars!",
+      "items": [
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": true
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.mars"
+      ]
+    },
+    {
+      "id": "space_020",
+      "gameType": "space_objects",
+      "zoneId": "space_science",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 2,
+      "learningMethod": [
+        "inquiry",
+        "play_based"
+      ],
+      "lumiLineKey": "Find the Rocket!",
+      "items": [
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": true
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
+          "isCorrect": false
+        }
+      ],
+      "relatedConcepts": [
+        "space.rocket"
+      ]
+    }
+  ]
+}

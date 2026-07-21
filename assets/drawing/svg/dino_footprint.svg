@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="foot" cx="100" cy="120" rx="45" ry="35" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="toe1" cx="65" cy="85" r="12" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="toe2" cx="90" cy="75" r="12" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="toe3" cx="115" cy="75" r="12" fill="#FFF" stroke="#222" stroke-width="2"/>
+<ellipse id="ground" cx="100" cy="175" rx="70" ry="12" fill="#FFF" stroke="#222" stroke-width="1.5"/>
+</svg>

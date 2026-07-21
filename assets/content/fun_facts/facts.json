@@ -1,0 +1,902 @@
+[
+  {
+    "id": "f1",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f2",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f3",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f4",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f5",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f6",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f7",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f8",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f9",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f10",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f11",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f12",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f13",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f14",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f15",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f16",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f17",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f18",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f19",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f20",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f21",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f22",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f23",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f24",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f25",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f26",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f27",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f28",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f29",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f30",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f31",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f32",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f33",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f34",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f35",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f36",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f37",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f38",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f39",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f40",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f41",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f42",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f43",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f44",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f45",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f46",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f47",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f48",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f49",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f50",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f51",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f52",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f53",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f54",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f55",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f56",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f57",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f58",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f59",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f60",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f61",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f62",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f63",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f64",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f65",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f66",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f67",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f68",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f69",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f70",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f71",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f72",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f73",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f74",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f75",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f76",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f77",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f78",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f79",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f80",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f81",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f82",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f83",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f84",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f85",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f86",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f87",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f88",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f89",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f90",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f91",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f92",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f93",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f94",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f95",
+    "factKey": "facts.bee.honey",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f96",
+    "factKey": "facts.ocean.deep",
+    "category": "nature",
+    "ageMin": 5,
+    "relatedConcepts": [
+      "fact.nature"
+    ]
+  },
+  {
+    "id": "f97",
+    "factKey": "facts.elephant.mirror",
+    "category": "animals",
+    "ageMin": 3,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  },
+  {
+    "id": "f98",
+    "factKey": "facts.dino.trex_arms",
+    "category": "dinosaurs",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.dinosaurs"
+    ]
+  },
+  {
+    "id": "f99",
+    "factKey": "facts.space.sun_star",
+    "category": "space",
+    "ageMin": 4,
+    "relatedConcepts": [
+      "fact.space"
+    ]
+  },
+  {
+    "id": "f100",
+    "factKey": "facts.cow.moo",
+    "category": "animals",
+    "ageMin": 2,
+    "relatedConcepts": [
+      "fact.animals"
+    ]
+  }
+]

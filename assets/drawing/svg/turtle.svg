@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse id="shell" cx="100" cy="105" rx="55" ry="45" fill="#FFF" stroke="#222" stroke-width="2.5"/>
+<circle id="head" cx="45" cy="100" r="18" fill="#FFF" stroke="#222" stroke-width="2"/>
+<circle id="eye" cx="40" cy="96" r="4" fill="#FFF" stroke="#222" stroke-width="1"/>
+<ellipse id="flipper_tl" cx="70" cy="70" rx="20" ry="10" fill="#FFF" stroke="#222" stroke-width="2" transform="rotate(-30 70 70)"/>
+<ellipse id="flipper_tr" cx="130" cy="70" rx="20" ry="10" fill="#FFF" stroke="#222" stroke-width="2" transform="rotate(30 130 70)"/>
+<ellipse id="flipper_bl" cx="70" cy="140" rx="20" ry="10" fill="#FFF" stroke="#222" stroke-width="2" transform="rotate(30 70 140)"/>
+<ellipse id="flipper_br" cx="130" cy="140" rx="20" ry="10" fill="#FFF" stroke="#222" stroke-width="2" transform="rotate(-30 130 140)"/>
+<polygon id="pattern1" points="100,80 115,95 100,110 85,95" fill="none" stroke="#222" stroke-width="1.5"/>
+<circle id="spot_c" cx="100" cy="105" r="10" fill="#FFF" stroke="#222" stroke-width="1"/>
+</svg>
