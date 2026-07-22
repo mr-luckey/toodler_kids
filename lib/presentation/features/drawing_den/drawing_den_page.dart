@@ -42,7 +42,13 @@ class _DrawingDenView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ZoneGameScaffold(
+    return PopScope(
+      onPopInvokedWithResult: (didPop, _) {
+        if (didPop) {
+          context.read<DrawingDenBloc>().add(const DrawingDenSave());
+        }
+      },
+      child: ZoneGameScaffold(
       zoneId: 'drawing_den',
       title: 'Drawing Den 🎨',
       onBack: () => context.pop(),
@@ -206,6 +212,7 @@ class _DrawingDenView extends StatelessWidget {
           );
         },
       ),
+    ),
     );
   }
 

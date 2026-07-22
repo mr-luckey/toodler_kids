@@ -3,14 +3,21 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:toodler_kids/core/audio/sound_manager.dart';
 import 'package:toodler_kids/domain/entities/entities.dart';
 import 'package:toodler_kids/domain/usecases/content_usecases.dart';
+import 'package:toodler_kids/core/progress/game_resume_helper.dart';
+import 'package:toodler_kids/domain/repositories/progress_repository.dart';
 import 'package:toodler_kids/domain/usecases/progress_usecases.dart';
 
 part 'complete_picture_event.dart';
 part 'complete_picture_state.dart';
 
 class CompletePictureBloc extends Bloc<CompletePictureEvent, CompletePictureState> {
-  CompletePictureBloc(this._getLevels, this._saveProgress, this._sounds)
-      : super(const CompletePictureInitial()) {
+  CompletePictureBloc(
+    this._getLevels,
+    this._saveProgress,
+    this._sounds,
+    ProgressRepository progressRepo,
+  )   : _resumeHelper = GameResumeHelper(progressRepo),
+        super(const CompletePictureInitial()) {
     on<CompletePictureLoadRequested>(_onLoad);
     on<CompletePicturePieceSelected>(_onPieceSelected);
     on<CompletePictureNextLevel>(_onNextLevel);
@@ -20,7 +27,9 @@ class CompletePictureBloc extends Bloc<CompletePictureEvent, CompletePictureStat
   final GetLevelsForGame _getLevels;
   final SaveLevelProgress _saveProgress;
   final SoundManager _sounds;
+  final GameResumeHelper _resumeHelper;
   List<GameLevelEntity> _levels = [];
+  static const _sessionKey = 'complete_picture';
 
   Future<void> _onLoad(
     CompletePictureLoadRequested event,
@@ -32,13 +41,18 @@ class CompletePictureBloc extends Bloc<CompletePictureEvent, CompletePictureStat
       emit(const CompletePictureError('No levels found'));
       return;
     }
+    final startIndex = await _resumeHelper.resolveStartIndex(
+      sessionKey: _sessionKey,
+      levels: _levels,
+    );
     emit(CompletePicturePlaying(
-      level: _levels.first,
-      levelIndex: 0,
+      level: _levels[startIndex],
+      levelIndex: startIndex,
       totalLevels: _levels.length,
       attempts: 0,
       hintsUsed: 0,
     ));
+    await _resumeHelper.rememberLevel(_sessionKey, startIndex);
   }
 
   Future<void> _onPieceSelected(
@@ -105,6 +119,7 @@ class CompletePictureBloc extends Bloc<CompletePictureEvent, CompletePictureStat
       attempts: 0,
       hintsUsed: 0,
     ));
+    _resumeHelper.rememberLevel(_sessionKey, nextIndex);
   }
 
   void _onDismiss(

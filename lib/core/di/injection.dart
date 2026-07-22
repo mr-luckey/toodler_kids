@@ -51,13 +51,13 @@ Future<void> configureDependencies() async {
     () => WonderIslandBloc(getIt(), getIt(), getIt()),
   );
   getIt.registerFactory(
-    () => CompletePictureBloc(getIt(), getIt(), getIt()),
+    () => CompletePictureBloc(getIt(), getIt(), getIt(), getIt()),
   );
   getIt.registerFactory(
-    () => GamePlayBloc(getIt(), getIt(), getIt(), getIt()),
+    () => GamePlayBloc(getIt(), getIt(), getIt(), getIt(), getIt()),
   );
   getIt.registerFactory(
-    () => TapMatchBloc(getIt(), getIt()),
+    () => TapMatchBloc(getIt(), getIt(), getIt()),
   );
   getIt.registerFactory(
     () => DrawingDenBloc(getIt(), getIt(), getIt()),

@@ -3,14 +3,20 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:toodler_kids/core/game_engine/level_choice_builder.dart';
 import 'package:toodler_kids/domain/entities/entities.dart';
 import 'package:toodler_kids/domain/usecases/content_usecases.dart';
+import 'package:toodler_kids/core/progress/game_resume_helper.dart';
+import 'package:toodler_kids/domain/repositories/progress_repository.dart';
 import 'package:toodler_kids/domain/usecases/progress_usecases.dart';
 
 part 'tap_match_event.dart';
 part 'tap_match_state.dart';
 
 class TapMatchBloc extends Bloc<TapMatchEvent, TapMatchState> {
-  TapMatchBloc(this._getLevels, this._saveProgress)
-      : super(const TapMatchInitial()) {
+  TapMatchBloc(
+    this._getLevels,
+    this._saveProgress,
+    ProgressRepository progressRepo,
+  )   : _resumeHelper = GameResumeHelper(progressRepo),
+        super(const TapMatchInitial()) {
     on<TapMatchLoadRequested>(_onLoad);
     on<TapMatchChoiceMade>(_onChoice);
     on<TapMatchNextLevel>(_onNext);
@@ -18,7 +24,9 @@ class TapMatchBloc extends Bloc<TapMatchEvent, TapMatchState> {
 
   final GetLevelsForGame _getLevels;
   final SaveLevelProgress _saveProgress;
+  final GameResumeHelper _resumeHelper;
   List<GameLevelEntity> _levels = [];
+  String? _sessionKey;
 
   Future<void> _onLoad(
     TapMatchLoadRequested event,
@@ -30,7 +38,16 @@ class TapMatchBloc extends Bloc<TapMatchEvent, TapMatchState> {
       emit(const TapMatchError('No levels found'));
       return;
     }
-    emit(_playingState(0));
+    _sessionKey = GameResumeHelper.sessionKey(
+      gameType: event.gameType,
+      zoneId: event.zoneId,
+    );
+    final startIndex = await _resumeHelper.resolveStartIndex(
+      sessionKey: _sessionKey!,
+      levels: _levels,
+    );
+    emit(_playingState(startIndex));
+    await _resumeHelper.rememberLevel(_sessionKey!, startIndex);
   }
 
   Future<void> _onChoice(
@@ -64,6 +81,9 @@ class TapMatchBloc extends Bloc<TapMatchEvent, TapMatchState> {
       return;
     }
     emit(_playingState(next));
+    if (_sessionKey != null) {
+      _resumeHelper.rememberLevel(_sessionKey!, next);
+    }
   }
 
   TapMatchPlaying _playingState(int index) {

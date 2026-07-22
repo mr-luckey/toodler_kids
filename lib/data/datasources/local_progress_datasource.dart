@@ -7,12 +7,14 @@ class LocalProgressDataSource {
   static const _drawingBox = 'drawing_saves';
   static const _badgesBox = 'badges';
   static const _adaptiveBox = 'adaptive';
+  static const _sessionBox = 'game_sessions';
 
   Box<dynamic>? _profile;
   Box<dynamic>? _progress;
   Box<dynamic>? _drawing;
   Box<dynamic>? _badges;
   Box<dynamic>? _adaptive;
+  Box<dynamic>? _sessions;
 
   Future<void> init() async {
     await Hive.initFlutter();
@@ -21,6 +23,7 @@ class LocalProgressDataSource {
     _drawing = await Hive.openBox(_drawingBox);
     _badges = await Hive.openBox(_badgesBox);
     _adaptive = await Hive.openBox(_adaptiveBox);
+    _sessions = await Hive.openBox(_sessionBox);
   }
 
   Future<ChildProfileEntity?> getProfile() async {
@@ -122,6 +125,23 @@ class LocalProgressDataSource {
 
   Future<void> saveDrawing(String templateId, Map<String, dynamic> data) async {
     await _drawing?.put(templateId, data);
+    await _drawing?.put('_last_template', templateId);
+  }
+
+  Future<String?> getLastDrawingTemplateId() async {
+    return _drawing?.get('_last_template') as String?;
+  }
+
+  Future<int?> getGameSessionLevelIndex(String sessionKey) async {
+    final data = _sessions?.get(sessionKey) as Map?;
+    return data?['levelIndex'] as int?;
+  }
+
+  Future<void> saveGameSessionLevelIndex(String sessionKey, int levelIndex) async {
+    await _sessions?.put(sessionKey, {
+      'levelIndex': levelIndex,
+      'updatedAt': DateTime.now().toIso8601String(),
+    });
   }
 
   Future<Map<String, dynamic>> getAdaptiveData() async {

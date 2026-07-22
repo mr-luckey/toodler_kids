@@ -4,8 +4,10 @@ import 'package:toodler_kids/core/audio/sound_manager.dart';
 import 'package:toodler_kids/core/game_engine/level_choice_builder.dart';
 import 'package:toodler_kids/domain/entities/entities.dart';
 import 'package:toodler_kids/domain/repositories/content_repository.dart';
+import 'package:toodler_kids/domain/repositories/progress_repository.dart';
 import 'package:toodler_kids/domain/usecases/content_usecases.dart';
 import 'package:toodler_kids/domain/usecases/progress_usecases.dart';
+import 'package:toodler_kids/core/progress/game_resume_helper.dart';
 
 part 'game_play_event.dart';
 part 'game_play_state.dart';
@@ -16,7 +18,9 @@ class GamePlayBloc extends Bloc<GamePlayEvent, GamePlayState> {
     this._saveProgress,
     this._contentRepo,
     this._sounds,
-  ) : super(const GamePlayInitial()) {
+    ProgressRepository progressRepo,
+  )   : _resumeHelper = GameResumeHelper(progressRepo),
+        super(const GamePlayInitial()) {
     on<GamePlayLoadRequested>(_onLoad);
     on<GamePlayAnswerSubmitted>(_onAnswer);
     on<GamePlayNextLevel>(_onNext);
@@ -28,9 +32,12 @@ class GamePlayBloc extends Bloc<GamePlayEvent, GamePlayState> {
   final SaveLevelProgress _saveProgress;
   final ContentRepository _contentRepo;
   final SoundManager _sounds;
+  final GameResumeHelper _resumeHelper;
 
   List<GameLevelEntity> _levels = [];
   String? _mechanic;
+  String? _gameType;
+  String? _zoneId;
 
   Future<void> _onLoad(
     GamePlayLoadRequested event,
@@ -43,12 +50,22 @@ class GamePlayBloc extends Bloc<GamePlayEvent, GamePlayState> {
               as String? ??
           _defaultMechanic(event.gameType);
 
+      _gameType = event.gameType;
+      _zoneId = event.zoneId;
       _levels = await _getLevels(event.gameType, zoneId: event.zoneId);
       if (_levels.isEmpty) {
         emit(GamePlayError('No levels found for ${event.gameType}'));
         return;
       }
-      emit(_playingState(0));
+      final startIndex = await _resumeHelper.resolveStartIndex(
+        sessionKey: GameResumeHelper.sessionKey(
+          gameType: event.gameType,
+          zoneId: event.zoneId,
+        ),
+        levels: _levels,
+      );
+      emit(_playingState(startIndex));
+      await _rememberSession(startIndex);
     } catch (e) {
       emit(GamePlayError(e.toString()));
     }
@@ -140,6 +157,16 @@ class GamePlayBloc extends Bloc<GamePlayEvent, GamePlayState> {
       return;
     }
     emit(_playingState(next));
+    _rememberSession(next);
+  }
+
+  Future<void> _rememberSession(int index) async {
+    final gameType = _gameType;
+    if (gameType == null) return;
+    await _resumeHelper.rememberLevel(
+      GameResumeHelper.sessionKey(gameType: gameType, zoneId: _zoneId),
+      index,
+    );
   }
 
   void _onDismiss(

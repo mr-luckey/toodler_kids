@@ -11,4 +11,7 @@ abstract class ProgressRepository {
   Future<void> unlockBadge(String badgeId);
   Future<Map<String, dynamic>> getDrawingSave(String templateId);
   Future<void> saveDrawing(String templateId, Map<String, dynamic> data);
+  Future<String?> getLastDrawingTemplateId();
+  Future<int?> getGameSessionLevelIndex(String sessionKey);
+  Future<void> saveGameSessionLevelIndex(String sessionKey, int levelIndex);
 }

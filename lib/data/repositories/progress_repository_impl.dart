@@ -42,4 +42,19 @@ class ProgressRepositoryImpl implements ProgressRepository {
   @override
   Future<void> saveDrawing(String templateId, Map<String, dynamic> data) =>
       _dataSource.saveDrawing(templateId, data);
+
+  @override
+  Future<String?> getLastDrawingTemplateId() =>
+      _dataSource.getLastDrawingTemplateId();
+
+  @override
+  Future<int?> getGameSessionLevelIndex(String sessionKey) =>
+      _dataSource.getGameSessionLevelIndex(sessionKey);
+
+  @override
+  Future<void> saveGameSessionLevelIndex(
+    String sessionKey,
+    int levelIndex,
+  ) =>
+      _dataSource.saveGameSessionLevelIndex(sessionKey, levelIndex);
 }
