@@ -9,40 +9,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 1!",
-      "targetId": "num_1",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_4",
+      "mode": "count_match",
+      "countVisual": 4,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
-          "isCorrect": false
-        },
-        {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": true
         },
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
+          "id": "num_20",
+          "label": "20",
           "isCorrect": false
         },
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_9",
+          "label": "9",
+          "isCorrect": false
+        },
+        {
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_1"
+        "number_mountain.num_4"
       ]
     },
     {
@@ -54,40 +52,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 2!",
-      "targetId": "num_2",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_5",
+      "mode": "count_match",
+      "countVisual": 5,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_15",
+          "label": "15",
+          "isCorrect": false
+        },
+        {
+          "id": "num_5",
+          "label": "5",
+          "isCorrect": true
+        },
+        {
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
           "id": "num_2",
-          "emoji": "2",
           "label": "2",
-          "isCorrect": true
-        },
-        {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
-          "isCorrect": false
-        },
-        {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_2"
+        "number_mountain.num_5"
       ]
     },
     {
@@ -99,40 +95,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 3!",
-      "targetId": "num_3",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_6",
+      "mode": "count_match",
+      "countVisual": 6,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
         },
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": true
         },
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_3"
+        "number_mountain.num_6"
       ]
     },
     {
@@ -144,40 +138,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 4!",
-      "targetId": "num_4",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_7",
+      "mode": "count_match",
+      "countVisual": 7,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_7",
+          "label": "7",
           "isCorrect": true
         },
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_14",
+          "label": "14",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_18",
+          "label": "18",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_4"
+        "number_mountain.num_7"
       ]
     },
     {
@@ -189,40 +181,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 5!",
-      "targetId": "num_5",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_8",
+      "mode": "count_match",
+      "countVisual": 8,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
-          "isCorrect": false
-        },
-        {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
-          "isCorrect": false
-        },
-        {
           "id": "num_13",
-          "emoji": "13",
           "label": "13",
           "isCorrect": false
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": true
+        },
+        {
+          "id": "num_5",
+          "label": "5",
+          "isCorrect": false
+        },
+        {
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_5"
+        "number_mountain.num_8"
       ]
     },
     {
@@ -234,40 +224,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 6!",
-      "targetId": "num_6",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_9",
+      "mode": "count_match",
+      "countVisual": 9,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_9",
+          "label": "9",
+          "isCorrect": true
+        },
+        {
+          "id": "num_12",
+          "label": "12",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         },
         {
           "id": "num_1",
-          "emoji": "1",
           "label": "1",
           "isCorrect": false
-        },
-        {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
-          "isCorrect": false
-        },
-        {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_6"
+        "number_mountain.num_9"
       ]
     },
     {
@@ -279,40 +267,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 7!",
-      "targetId": "num_7",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_10",
+      "mode": "count_match",
+      "countVisual": 10,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_20",
+          "label": "20",
+          "isCorrect": false
+        },
+        {
+          "id": "num_10",
+          "label": "10",
           "isCorrect": true
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
-          "isCorrect": false
-        },
-        {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_7"
+        "number_mountain.num_10"
       ]
     },
     {
@@ -324,40 +310,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 8!",
-      "targetId": "num_8",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_11",
+      "mode": "count_match",
+      "countVisual": 11,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         },
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_11",
+          "label": "11",
           "isCorrect": true
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         },
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_13",
+          "label": "13",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_8"
+        "number_mountain.num_11"
       ]
     },
     {
@@ -369,40 +353,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 9!",
-      "targetId": "num_9",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_12",
+      "mode": "count_match",
+      "countVisual": 12,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         },
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
+          "id": "num_13",
+          "label": "13",
           "isCorrect": false
         },
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_18",
+          "label": "18",
           "isCorrect": false
         },
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_9"
+        "number_mountain.num_12"
       ]
     },
     {
@@ -414,40 +396,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 10!",
-      "targetId": "num_10",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_13",
+      "mode": "count_match",
+      "countVisual": 13,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
+          "id": "num_19",
+          "label": "19",
           "isCorrect": false
         },
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         },
         {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_13",
+          "label": "13",
           "isCorrect": true
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_10"
+        "number_mountain.num_13"
       ]
     },
     {
@@ -459,40 +439,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 11!",
-      "targetId": "num_11",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_14",
+      "mode": "count_match",
+      "countVisual": 14,
+      "countEmoji": "⭐",
       "items": [
         {
           "id": "num_13",
-          "emoji": "13",
           "label": "13",
           "isCorrect": false
         },
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": false
         },
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
-          "isCorrect": true
+          "id": "num_5",
+          "label": "5",
+          "isCorrect": false
         },
         {
           "id": "num_14",
-          "emoji": "14",
           "label": "14",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_11"
+        "number_mountain.num_14"
       ]
     },
     {
@@ -504,40 +482,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 12!",
-      "targetId": "num_12",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_15",
+      "mode": "count_match",
+      "countVisual": 15,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_1",
+          "label": "1",
+          "isCorrect": false
+        },
+        {
+          "id": "num_17",
+          "label": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "num_15",
+          "label": "15",
           "isCorrect": true
         },
         {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
-          "isCorrect": false
-        },
-        {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
-          "isCorrect": false
-        },
-        {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_14",
+          "label": "14",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_12"
+        "number_mountain.num_15"
       ]
     },
     {
@@ -549,40 +525,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 13!",
-      "targetId": "num_13",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_16",
+      "mode": "count_match",
+      "countVisual": 16,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
-          "isCorrect": false
-        },
-        {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
-          "isCorrect": false
-        },
-        {
           "id": "num_13",
-          "emoji": "13",
           "label": "13",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
+        },
+        {
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "label": "16",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_13"
+        "number_mountain.num_16"
       ]
     },
     {
@@ -594,40 +568,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 14!",
-      "targetId": "num_14",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_17",
+      "mode": "count_match",
+      "countVisual": 17,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         },
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
+          "id": "num_10",
+          "label": "10",
           "isCorrect": false
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_18",
+          "label": "18",
           "isCorrect": false
         },
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_14"
+        "number_mountain.num_17"
       ]
     },
     {
@@ -639,40 +611,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 15!",
-      "targetId": "num_15",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_18",
+      "mode": "count_match",
+      "countVisual": 18,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
-          "isCorrect": false
-        },
-        {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
-          "isCorrect": false
-        },
-        {
           "id": "num_16",
-          "emoji": "16",
           "label": "16",
           "isCorrect": false
         },
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_6",
+          "label": "6",
+          "isCorrect": false
+        },
+        {
+          "id": "num_8",
+          "label": "8",
+          "isCorrect": false
+        },
+        {
+          "id": "num_18",
+          "label": "18",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_15"
+        "number_mountain.num_18"
       ]
     },
     {
@@ -684,40 +654,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 16!",
-      "targetId": "num_16",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_19",
+      "mode": "count_match",
+      "countVisual": 19,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         },
         {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_14",
+          "label": "14",
           "isCorrect": false
         },
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": false
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_19",
+          "label": "19",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_16"
+        "number_mountain.num_19"
       ]
     },
     {
@@ -729,40 +697,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 17!",
-      "targetId": "num_17",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_20",
+      "mode": "count_match",
+      "countVisual": 20,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         },
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_20",
+          "label": "20",
           "isCorrect": true
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_11",
+          "label": "11",
           "isCorrect": false
         },
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_17"
+        "number_mountain.num_20"
       ]
     },
     {
@@ -774,40 +740,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 18!",
-      "targetId": "num_18",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_1",
+      "mode": "count_match",
+      "countVisual": 1,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_11",
+          "label": "11",
           "isCorrect": false
         },
         {
+          "id": "num_1",
+          "label": "1",
+          "isCorrect": true
+        },
+        {
           "id": "num_4",
-          "emoji": "4",
           "label": "4",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
-          "isCorrect": true
-        },
-        {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_18"
+        "number_mountain.num_1"
       ]
     },
     {
@@ -819,40 +783,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 19!",
-      "targetId": "num_19",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_2",
+      "mode": "count_match",
+      "countVisual": 2,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         },
         {
           "id": "num_19",
-          "emoji": "19",
           "label": "19",
+          "isCorrect": false
+        },
+        {
+          "id": "num_2",
+          "label": "2",
           "isCorrect": true
         },
         {
           "id": "num_16",
-          "emoji": "16",
           "label": "16",
-          "isCorrect": false
-        },
-        {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_19"
+        "number_mountain.num_2"
       ]
     },
     {
@@ -864,40 +826,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 20!",
-      "targetId": "num_20",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_3",
+      "mode": "count_match",
+      "countVisual": 3,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_3",
+          "label": "3",
+          "isCorrect": true
+        },
+        {
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         },
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         },
         {
           "id": "num_20",
-          "emoji": "20",
           "label": "20",
-          "isCorrect": true
-        },
-        {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_20"
+        "number_mountain.num_3"
       ]
     },
     {
@@ -909,40 +869,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 1!",
-      "targetId": "num_1",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_4",
+      "mode": "count_match",
+      "countVisual": 4,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         },
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
-          "isCorrect": true
+          "id": "num_9",
+          "label": "9",
+          "isCorrect": false
         },
         {
           "id": "num_4",
-          "emoji": "4",
           "label": "4",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_1"
+        "number_mountain.num_4"
       ]
     },
     {
@@ -954,40 +912,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 2!",
-      "targetId": "num_2",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_5",
+      "mode": "count_match",
+      "countVisual": 5,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
-          "isCorrect": false
-        },
-        {
           "id": "num_7",
-          "emoji": "7",
           "label": "7",
           "isCorrect": false
         },
         {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
-          "isCorrect": true
+          "id": "num_13",
+          "label": "13",
+          "isCorrect": false
         },
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_3",
+          "label": "3",
           "isCorrect": false
+        },
+        {
+          "id": "num_5",
+          "label": "5",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_2"
+        "number_mountain.num_5"
       ]
     },
     {
@@ -999,40 +955,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 3!",
-      "targetId": "num_3",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_6",
+      "mode": "count_match",
+      "countVisual": 6,
+      "countEmoji": "⭐",
       "items": [
         {
+          "id": "num_17",
+          "label": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "num_6",
+          "label": "6",
+          "isCorrect": true
+        },
+        {
           "id": "num_18",
-          "emoji": "18",
           "label": "18",
           "isCorrect": false
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
-          "isCorrect": false
-        },
-        {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
-          "isCorrect": true
-        },
-        {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_3"
+        "number_mountain.num_6"
       ]
     },
     {
@@ -1044,40 +998,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 4!",
-      "targetId": "num_4",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_7",
+      "mode": "count_match",
+      "countVisual": 7,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_2",
+          "label": "2",
           "isCorrect": false
-        },
-        {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
-          "isCorrect": false
-        },
-        {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
-          "isCorrect": true
         },
         {
           "id": "num_18",
-          "emoji": "18",
           "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_7",
+          "label": "7",
+          "isCorrect": true
+        },
+        {
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_4"
+        "number_mountain.num_7"
       ]
     },
     {
@@ -1089,40 +1041,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 5!",
-      "targetId": "num_5",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_8",
+      "mode": "count_match",
+      "countVisual": 8,
+      "countEmoji": "⭐",
       "items": [
         {
           "id": "num_7",
-          "emoji": "7",
           "label": "7",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
-          "isCorrect": false
-        },
-        {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": true
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_2",
+          "label": "2",
+          "isCorrect": false
+        },
+        {
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_5"
+        "number_mountain.num_8"
       ]
     },
     {
@@ -1134,40 +1084,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 6!",
-      "targetId": "num_6",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_9",
+      "mode": "count_match",
+      "countVisual": 9,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_3",
+          "label": "3",
           "isCorrect": false
         },
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": true
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         },
         {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
+          "id": "num_10",
+          "label": "10",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_6"
+        "number_mountain.num_9"
       ]
     },
     {
@@ -1179,40 +1127,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 7!",
-      "targetId": "num_7",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_10",
+      "mode": "count_match",
+      "countVisual": 10,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_3",
+          "label": "3",
           "isCorrect": false
         },
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         },
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_10",
+          "label": "10",
           "isCorrect": true
         },
         {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_7"
+        "number_mountain.num_10"
       ]
     },
     {
@@ -1224,40 +1170,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 8!",
-      "targetId": "num_8",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_11",
+      "mode": "count_match",
+      "countVisual": 11,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_14",
+          "label": "14",
+          "isCorrect": false
+        },
+        {
+          "id": "num_6",
+          "label": "6",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         },
         {
           "id": "num_11",
-          "emoji": "11",
           "label": "11",
-          "isCorrect": false
-        },
-        {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
           "isCorrect": true
-        },
-        {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_8"
+        "number_mountain.num_11"
       ]
     },
     {
@@ -1269,40 +1213,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 9!",
-      "targetId": "num_9",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_12",
+      "mode": "count_match",
+      "countVisual": 12,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
+          "id": "num_13",
+          "label": "13",
+          "isCorrect": false
+        },
+        {
+          "id": "num_5",
+          "label": "5",
+          "isCorrect": false
+        },
+        {
+          "id": "num_3",
+          "label": "3",
+          "isCorrect": false
+        },
+        {
+          "id": "num_12",
+          "label": "12",
           "isCorrect": true
-        },
-        {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
-          "isCorrect": false
-        },
-        {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
-          "isCorrect": false
-        },
-        {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_9"
+        "number_mountain.num_12"
       ]
     },
     {
@@ -1314,40 +1256,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 10!",
-      "targetId": "num_10",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_13",
+      "mode": "count_match",
+      "countVisual": 13,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
-          "isCorrect": false
-        },
-        {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_13",
+          "label": "13",
           "isCorrect": true
         },
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_10",
+          "label": "10",
           "isCorrect": false
         },
         {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
+          "id": "num_9",
+          "label": "9",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_10"
+        "number_mountain.num_13"
       ]
     },
     {
@@ -1359,40 +1299,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 11!",
-      "targetId": "num_11",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_14",
+      "mode": "count_match",
+      "countVisual": 14,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
-          "isCorrect": false
-        },
-        {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
-          "isCorrect": false
-        },
-        {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_14",
+          "label": "14",
           "isCorrect": true
         },
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_13",
+          "label": "13",
+          "isCorrect": false
+        },
+        {
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_11"
+        "number_mountain.num_14"
       ]
     },
     {
@@ -1404,40 +1342,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 12!",
-      "targetId": "num_12",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_15",
+      "mode": "count_match",
+      "countVisual": 15,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": true
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         },
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_2",
+          "label": "2",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_12"
+        "number_mountain.num_15"
       ]
     },
     {
@@ -1449,40 +1385,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 13!",
-      "targetId": "num_13",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_16",
+      "mode": "count_match",
+      "countVisual": 16,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_13",
+          "label": "13",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_10",
+          "label": "10",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "label": "16",
           "isCorrect": true
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
-          "isCorrect": false
-        },
-        {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_13"
+        "number_mountain.num_16"
       ]
     },
     {
@@ -1494,40 +1428,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 14!",
-      "targetId": "num_14",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_17",
+      "mode": "count_match",
+      "countVisual": 17,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
-          "isCorrect": true
-        },
-        {
           "id": "num_11",
-          "emoji": "11",
           "label": "11",
           "isCorrect": false
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_19",
+          "label": "19",
           "isCorrect": false
         },
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_17",
+          "label": "17",
+          "isCorrect": true
+        },
+        {
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_14"
+        "number_mountain.num_17"
       ]
     },
     {
@@ -1539,40 +1471,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 15!",
-      "targetId": "num_15",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_18",
+      "mode": "count_match",
+      "countVisual": 18,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
-          "isCorrect": false
-        },
-        {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_18",
+          "label": "18",
           "isCorrect": true
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         },
         {
           "id": "num_9",
-          "emoji": "9",
           "label": "9",
+          "isCorrect": false
+        },
+        {
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_15"
+        "number_mountain.num_18"
       ]
     },
     {
@@ -1584,40 +1514,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 16!",
-      "targetId": "num_16",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_19",
+      "mode": "count_match",
+      "countVisual": 19,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
-          "isCorrect": false
-        },
-        {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
-          "isCorrect": true
-        },
-        {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
-          "isCorrect": false
-        },
-        {
           "id": "num_12",
-          "emoji": "12",
           "label": "12",
           "isCorrect": false
+        },
+        {
+          "id": "num_7",
+          "label": "7",
+          "isCorrect": false
+        },
+        {
+          "id": "num_10",
+          "label": "10",
+          "isCorrect": false
+        },
+        {
+          "id": "num_19",
+          "label": "19",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_16"
+        "number_mountain.num_19"
       ]
     },
     {
@@ -1629,40 +1557,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 17!",
-      "targetId": "num_17",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_20",
+      "mode": "count_match",
+      "countVisual": 20,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
-          "isCorrect": false
-        },
-        {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_3",
+          "label": "3",
           "isCorrect": false
         },
         {
           "id": "num_18",
-          "emoji": "18",
           "label": "18",
           "isCorrect": false
         },
         {
           "id": "num_17",
-          "emoji": "17",
           "label": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "num_20",
+          "label": "20",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_17"
+        "number_mountain.num_20"
       ]
     },
     {
@@ -1674,40 +1600,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 18!",
-      "targetId": "num_18",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_1",
+      "mode": "count_match",
+      "countVisual": 1,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
-          "isCorrect": false
-        },
-        {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
-          "isCorrect": false
-        },
-        {
           "id": "num_18",
-          "emoji": "18",
           "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_1",
+          "label": "1",
           "isCorrect": true
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_3",
+          "label": "3",
+          "isCorrect": false
+        },
+        {
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_18"
+        "number_mountain.num_1"
       ]
     },
     {
@@ -1719,40 +1643,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 19!",
-      "targetId": "num_19",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_2",
+      "mode": "count_match",
+      "countVisual": 2,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_8",
+          "label": "8",
+          "isCorrect": false
+        },
+        {
+          "id": "num_2",
+          "label": "2",
+          "isCorrect": true
+        },
+        {
+          "id": "num_11",
+          "label": "11",
           "isCorrect": false
         },
         {
           "id": "num_6",
-          "emoji": "6",
           "label": "6",
           "isCorrect": false
-        },
-        {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
-          "isCorrect": false
-        },
-        {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_19"
+        "number_mountain.num_2"
       ]
     },
     {
@@ -1764,40 +1686,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 20!",
-      "targetId": "num_20",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_3",
+      "mode": "count_match",
+      "countVisual": 3,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
-          "isCorrect": false
-        },
-        {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
-          "isCorrect": false
-        },
-        {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
+          "id": "num_3",
+          "label": "3",
           "isCorrect": true
         },
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_19",
+          "label": "19",
+          "isCorrect": false
+        },
+        {
+          "id": "num_5",
+          "label": "5",
+          "isCorrect": false
+        },
+        {
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_20"
+        "number_mountain.num_3"
       ]
     },
     {
@@ -1809,40 +1729,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 1!",
-      "targetId": "num_1",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_4",
+      "mode": "count_match",
+      "countVisual": 4,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
-          "isCorrect": false
-        },
-        {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
-          "isCorrect": false
-        },
-        {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
-          "isCorrect": false
-        },
-        {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": true
+        },
+        {
+          "id": "num_10",
+          "label": "10",
+          "isCorrect": false
+        },
+        {
+          "id": "num_9",
+          "label": "9",
+          "isCorrect": false
+        },
+        {
+          "id": "num_13",
+          "label": "13",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_1"
+        "number_mountain.num_4"
       ]
     },
     {
@@ -1854,40 +1772,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 2!",
-      "targetId": "num_2",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_5",
+      "mode": "count_match",
+      "countVisual": 5,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
-          "isCorrect": false
-        },
-        {
           "id": "num_11",
-          "emoji": "11",
           "label": "11",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
         },
         {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
+          "id": "num_20",
+          "label": "20",
+          "isCorrect": false
+        },
+        {
+          "id": "num_5",
+          "label": "5",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_2"
+        "number_mountain.num_5"
       ]
     },
     {
@@ -1899,40 +1815,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 3!",
-      "targetId": "num_3",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_6",
+      "mode": "count_match",
+      "countVisual": 6,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
-          "isCorrect": false
-        },
-        {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
-          "isCorrect": false
-        },
-        {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
-          "isCorrect": false
-        },
-        {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": true
+        },
+        {
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": false
+        },
+        {
+          "id": "num_11",
+          "label": "11",
+          "isCorrect": false
+        },
+        {
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_3"
+        "number_mountain.num_6"
       ]
     },
     {
@@ -1944,40 +1858,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 4!",
-      "targetId": "num_4",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_7",
+      "mode": "count_match",
+      "countVisual": 7,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         },
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_19",
+          "label": "19",
           "isCorrect": false
         },
         {
           "id": "num_7",
-          "emoji": "7",
           "label": "7",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
-          "isCorrect": true
+          "id": "num_14",
+          "label": "14",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_4"
+        "number_mountain.num_7"
       ]
     },
     {
@@ -1989,40 +1901,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 5!",
-      "targetId": "num_5",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_8",
+      "mode": "count_match",
+      "countVisual": 8,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_10",
+          "label": "10",
           "isCorrect": false
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_14",
+          "label": "14",
+          "isCorrect": false
+        },
+        {
+          "id": "num_8",
+          "label": "8",
           "isCorrect": true
         },
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
-          "isCorrect": false
-        },
-        {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_5"
+        "number_mountain.num_8"
       ]
     },
     {
@@ -2034,40 +1944,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 6!",
-      "targetId": "num_6",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_9",
+      "mode": "count_match",
+      "countVisual": 9,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
-          "isCorrect": false
-        },
-        {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": true
         },
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         },
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_17",
+          "label": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_6"
+        "number_mountain.num_9"
       ]
     },
     {
@@ -2079,40 +1987,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 7!",
-      "targetId": "num_7",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_10",
+      "mode": "count_match",
+      "countVisual": 10,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         },
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
-          "isCorrect": false
-        },
-        {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_10",
+          "label": "10",
           "isCorrect": true
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_7"
+        "number_mountain.num_10"
       ]
     },
     {
@@ -2124,40 +2030,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 8!",
-      "targetId": "num_8",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_11",
+      "mode": "count_match",
+      "countVisual": 11,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": false
+        },
+        {
+          "id": "num_7",
+          "label": "7",
+          "isCorrect": false
+        },
+        {
+          "id": "num_11",
+          "label": "11",
           "isCorrect": true
         },
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
-          "isCorrect": false
-        },
-        {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
-          "isCorrect": false
-        },
-        {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_8"
+        "number_mountain.num_11"
       ]
     },
     {
@@ -2169,40 +2073,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 9!",
-      "targetId": "num_9",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_12",
+      "mode": "count_match",
+      "countVisual": 12,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_2",
+          "label": "2",
           "isCorrect": false
         },
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
-          "isCorrect": false
-        },
-        {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": true
         },
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_7",
+          "label": "7",
+          "isCorrect": false
+        },
+        {
+          "id": "num_18",
+          "label": "18",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_9"
+        "number_mountain.num_12"
       ]
     },
     {
@@ -2214,40 +2116,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 10!",
-      "targetId": "num_10",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_13",
+      "mode": "count_match",
+      "countVisual": 13,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_7",
+          "label": "7",
           "isCorrect": false
         },
         {
           "id": "num_13",
-          "emoji": "13",
           "label": "13",
-          "isCorrect": false
-        },
-        {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
-          "isCorrect": false
-        },
-        {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
           "isCorrect": true
+        },
+        {
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_10"
+        "number_mountain.num_13"
       ]
     },
     {
@@ -2259,40 +2159,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 11!",
-      "targetId": "num_11",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_14",
+      "mode": "count_match",
+      "countVisual": 14,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
-          "isCorrect": false
-        },
-        {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_14",
+          "label": "14",
           "isCorrect": true
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_19",
+          "label": "19",
           "isCorrect": false
         },
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_8",
+          "label": "8",
+          "isCorrect": false
+        },
+        {
+          "id": "num_2",
+          "label": "2",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_11"
+        "number_mountain.num_14"
       ]
     },
     {
@@ -2304,40 +2202,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 12!",
-      "targetId": "num_12",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_15",
+      "mode": "count_match",
+      "countVisual": 15,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
-          "isCorrect": false
-        },
-        {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
-          "isCorrect": false
-        },
-        {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": true
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_17",
+          "label": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "num_13",
+          "label": "13",
+          "isCorrect": false
+        },
+        {
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_12"
+        "number_mountain.num_15"
       ]
     },
     {
@@ -2349,40 +2245,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 13!",
-      "targetId": "num_13",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_16",
+      "mode": "count_match",
+      "countVisual": 16,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "label": "16",
           "isCorrect": true
-        },
-        {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
-          "isCorrect": false
-        },
-        {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_13"
+        "number_mountain.num_16"
       ]
     },
     {
@@ -2394,40 +2288,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 14!",
-      "targetId": "num_14",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_17",
+      "mode": "count_match",
+      "countVisual": 17,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         },
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": true
         },
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         },
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
+          "id": "num_19",
+          "label": "19",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_14"
+        "number_mountain.num_17"
       ]
     },
     {
@@ -2439,40 +2331,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 15!",
-      "targetId": "num_15",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_18",
+      "mode": "count_match",
+      "countVisual": 18,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
-          "isCorrect": false
-        },
-        {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
-          "isCorrect": false
-        },
-        {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
-          "isCorrect": true
-        },
-        {
           "id": "num_1",
-          "emoji": "1",
           "label": "1",
           "isCorrect": false
+        },
+        {
+          "id": "num_12",
+          "label": "12",
+          "isCorrect": false
+        },
+        {
+          "id": "num_20",
+          "label": "20",
+          "isCorrect": false
+        },
+        {
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_15"
+        "number_mountain.num_18"
       ]
     },
     {
@@ -2484,40 +2374,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 16!",
-      "targetId": "num_16",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_19",
+      "mode": "count_match",
+      "countVisual": 19,
+      "countEmoji": "⭐",
       "items": [
         {
           "id": "num_13",
-          "emoji": "13",
           "label": "13",
           "isCorrect": false
         },
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
-          "isCorrect": false
-        },
-        {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
           "id": "num_16",
-          "emoji": "16",
           "label": "16",
+          "isCorrect": false
+        },
+        {
+          "id": "num_19",
+          "label": "19",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_16"
+        "number_mountain.num_19"
       ]
     },
     {
@@ -2529,40 +2417,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 17!",
-      "targetId": "num_17",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_20",
+      "mode": "count_match",
+      "countVisual": 20,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
-          "isCorrect": false
-        },
-        {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
-          "isCorrect": false
-        },
-        {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
-          "isCorrect": false
-        },
-        {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_20",
+          "label": "20",
           "isCorrect": true
+        },
+        {
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_11",
+          "label": "11",
+          "isCorrect": false
+        },
+        {
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_17"
+        "number_mountain.num_20"
       ]
     },
     {
@@ -2574,40 +2460,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 18!",
-      "targetId": "num_18",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_1",
+      "mode": "count_match",
+      "countVisual": 1,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_16",
+          "label": "16",
+          "isCorrect": false
+        },
+        {
+          "id": "num_1",
+          "label": "1",
           "isCorrect": true
         },
         {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         },
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
-          "isCorrect": false
-        },
-        {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_14",
+          "label": "14",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_18"
+        "number_mountain.num_1"
       ]
     },
     {
@@ -2619,40 +2503,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 19!",
-      "targetId": "num_19",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_2",
+      "mode": "count_match",
+      "countVisual": 2,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
-          "isCorrect": true
-        },
-        {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": false
         },
         {
           "id": "num_13",
-          "emoji": "13",
           "label": "13",
           "isCorrect": false
         },
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
+        },
+        {
+          "id": "num_2",
+          "label": "2",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_19"
+        "number_mountain.num_2"
       ]
     },
     {
@@ -2664,40 +2546,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 20!",
-      "targetId": "num_20",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_3",
+      "mode": "count_match",
+      "countVisual": 3,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
+          "id": "num_1",
+          "label": "1",
+          "isCorrect": false
+        },
+        {
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": false
+        },
+        {
+          "id": "num_3",
+          "label": "3",
           "isCorrect": true
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
-          "isCorrect": false
-        },
-        {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
-          "isCorrect": false
-        },
-        {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_20"
+        "number_mountain.num_3"
       ]
     },
     {
@@ -2709,40 +2589,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 1!",
-      "targetId": "num_1",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_4",
+      "mode": "count_match",
+      "countVisual": 4,
+      "countEmoji": "⭐",
       "items": [
         {
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": true
+        },
+        {
+          "id": "num_10",
+          "label": "10",
+          "isCorrect": false
+        },
+        {
           "id": "num_14",
-          "emoji": "14",
           "label": "14",
           "isCorrect": false
         },
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
-          "isCorrect": false
-        },
-        {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
-          "isCorrect": true
-        },
-        {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_1"
+        "number_mountain.num_4"
       ]
     },
     {
@@ -2754,40 +2632,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 2!",
-      "targetId": "num_2",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_5",
+      "mode": "count_match",
+      "countVisual": 5,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
-          "isCorrect": false
-        },
-        {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
+          "id": "num_3",
+          "label": "3",
           "isCorrect": false
         },
         {
           "id": "num_2",
-          "emoji": "2",
           "label": "2",
+          "isCorrect": false
+        },
+        {
+          "id": "num_5",
+          "label": "5",
           "isCorrect": true
         },
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_2"
+        "number_mountain.num_5"
       ]
     },
     {
@@ -2799,40 +2675,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 3!",
-      "targetId": "num_3",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_6",
+      "mode": "count_match",
+      "countVisual": 6,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
-          "isCorrect": true
-        },
-        {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
-          "isCorrect": false
-        },
-        {
           "id": "num_10",
-          "emoji": "10",
           "label": "10",
           "isCorrect": false
         },
         {
+          "id": "num_8",
+          "label": "8",
+          "isCorrect": false
+        },
+        {
           "id": "num_13",
-          "emoji": "13",
           "label": "13",
           "isCorrect": false
+        },
+        {
+          "id": "num_6",
+          "label": "6",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_3"
+        "number_mountain.num_6"
       ]
     },
     {
@@ -2844,40 +2718,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 4!",
-      "targetId": "num_4",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_7",
+      "mode": "count_match",
+      "countVisual": 7,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
-          "isCorrect": false
-        },
-        {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
-          "isCorrect": false
-        },
-        {
           "id": "num_11",
-          "emoji": "11",
           "label": "11",
           "isCorrect": false
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_7",
+          "label": "7",
           "isCorrect": true
+        },
+        {
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_17",
+          "label": "17",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_4"
+        "number_mountain.num_7"
       ]
     },
     {
@@ -2889,40 +2761,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 5!",
-      "targetId": "num_5",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_8",
+      "mode": "count_match",
+      "countVisual": 8,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_10",
+          "label": "10",
           "isCorrect": false
         },
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
-          "isCorrect": false
+          "id": "num_8",
+          "label": "8",
+          "isCorrect": true
         },
         {
           "id": "num_5",
-          "emoji": "5",
           "label": "5",
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_5"
+        "number_mountain.num_8"
       ]
     },
     {
@@ -2934,40 +2804,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 6!",
-      "targetId": "num_6",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_9",
+      "mode": "count_match",
+      "countVisual": 9,
+      "countEmoji": "⭐",
       "items": [
         {
+          "id": "num_12",
+          "label": "12",
+          "isCorrect": false
+        },
+        {
+          "id": "num_9",
+          "label": "9",
+          "isCorrect": true
+        },
+        {
           "id": "num_18",
-          "emoji": "18",
           "label": "18",
           "isCorrect": false
         },
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
-          "isCorrect": true
-        },
-        {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
-          "isCorrect": false
-        },
-        {
           "id": "num_4",
-          "emoji": "4",
           "label": "4",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_6"
+        "number_mountain.num_9"
       ]
     },
     {
@@ -2979,40 +2847,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 7!",
-      "targetId": "num_7",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_10",
+      "mode": "count_match",
+      "countVisual": 10,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         },
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_10",
+          "label": "10",
           "isCorrect": true
         },
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_7"
+        "number_mountain.num_10"
       ]
     },
     {
@@ -3024,40 +2890,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 8!",
-      "targetId": "num_8",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_11",
+      "mode": "count_match",
+      "countVisual": 11,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_13",
+          "label": "13",
+          "isCorrect": false
+        },
+        {
+          "id": "num_1",
+          "label": "1",
+          "isCorrect": false
+        },
+        {
+          "id": "num_9",
+          "label": "9",
+          "isCorrect": false
+        },
+        {
+          "id": "num_11",
+          "label": "11",
           "isCorrect": true
-        },
-        {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
-          "isCorrect": false
-        },
-        {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
-          "isCorrect": false
-        },
-        {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_8"
+        "number_mountain.num_11"
       ]
     },
     {
@@ -3069,40 +2933,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 9!",
-      "targetId": "num_9",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_12",
+      "mode": "count_match",
+      "countVisual": 12,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
-          "isCorrect": true
-        },
-        {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         },
         {
+          "id": "num_12",
+          "label": "12",
+          "isCorrect": true
+        },
+        {
           "id": "num_8",
-          "emoji": "8",
           "label": "8",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_20",
+          "label": "20",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_9"
+        "number_mountain.num_12"
       ]
     },
     {
@@ -3114,40 +2976,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 10!",
-      "targetId": "num_10",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_13",
+      "mode": "count_match",
+      "countVisual": 13,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_19",
+          "label": "19",
           "isCorrect": false
         },
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         },
         {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_13",
+          "label": "13",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_10"
+        "number_mountain.num_13"
       ]
     },
     {
@@ -3159,40 +3019,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 11!",
-      "targetId": "num_11",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_14",
+      "mode": "count_match",
+      "countVisual": 14,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_14",
+          "label": "14",
           "isCorrect": true
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         },
         {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
-          "isCorrect": false
-        },
-        {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_11"
+        "number_mountain.num_14"
       ]
     },
     {
@@ -3204,40 +3062,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 12!",
-      "targetId": "num_12",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_15",
+      "mode": "count_match",
+      "countVisual": 15,
+      "countEmoji": "⭐",
       "items": [
         {
+          "id": "num_11",
+          "label": "11",
+          "isCorrect": false
+        },
+        {
           "id": "num_1",
-          "emoji": "1",
           "label": "1",
           "isCorrect": false
         },
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
-          "isCorrect": false
-        },
-        {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": true
         },
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_12"
+        "number_mountain.num_15"
       ]
     },
     {
@@ -3249,40 +3105,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 13!",
-      "targetId": "num_13",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_16",
+      "mode": "count_match",
+      "countVisual": 16,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         },
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_16",
+          "label": "16",
           "isCorrect": true
         },
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_7",
+          "label": "7",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_13"
+        "number_mountain.num_16"
       ]
     },
     {
@@ -3294,40 +3148,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 14!",
-      "targetId": "num_14",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_17",
+      "mode": "count_match",
+      "countVisual": 17,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
-          "isCorrect": true
-        },
-        {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_11",
+          "label": "11",
           "isCorrect": false
         },
         {
           "id": "num_17",
-          "emoji": "17",
           "label": "17",
+          "isCorrect": true
+        },
+        {
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
         },
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_2",
+          "label": "2",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_14"
+        "number_mountain.num_17"
       ]
     },
     {
@@ -3339,40 +3191,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 15!",
-      "targetId": "num_15",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_18",
+      "mode": "count_match",
+      "countVisual": 18,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
         },
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
-          "isCorrect": true
+          "id": "num_11",
+          "label": "11",
+          "isCorrect": false
+        },
+        {
+          "id": "num_19",
+          "label": "19",
+          "isCorrect": false
         },
         {
           "id": "num_18",
-          "emoji": "18",
           "label": "18",
-          "isCorrect": false
-        },
-        {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_15"
+        "number_mountain.num_18"
       ]
     },
     {
@@ -3384,40 +3234,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 16!",
-      "targetId": "num_16",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_19",
+      "mode": "count_match",
+      "countVisual": 19,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_19",
+          "label": "19",
+          "isCorrect": true
+        },
+        {
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
         },
         {
           "id": "num_7",
-          "emoji": "7",
           "label": "7",
           "isCorrect": false
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
-          "isCorrect": true
-        },
-        {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_2",
+          "label": "2",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_16"
+        "number_mountain.num_19"
       ]
     },
     {
@@ -3429,40 +3277,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 17!",
-      "targetId": "num_17",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_20",
+      "mode": "count_match",
+      "countVisual": 20,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": false
         },
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_20",
+          "label": "20",
           "isCorrect": true
         },
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_17"
+        "number_mountain.num_20"
       ]
     },
     {
@@ -3474,40 +3320,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 18!",
-      "targetId": "num_18",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_1",
+      "mode": "count_match",
+      "countVisual": 1,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": false
+        },
+        {
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
         },
         {
           "id": "num_7",
-          "emoji": "7",
           "label": "7",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": true
-        },
-        {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_18"
+        "number_mountain.num_1"
       ]
     },
     {
@@ -3519,40 +3363,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 19!",
-      "targetId": "num_19",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_2",
+      "mode": "count_match",
+      "countVisual": 2,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
-          "isCorrect": true
-        },
-        {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
           "id": "num_8",
-          "emoji": "8",
           "label": "8",
           "isCorrect": false
         },
         {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
+          "id": "num_20",
+          "label": "20",
           "isCorrect": false
+        },
+        {
+          "id": "num_2",
+          "label": "2",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_19"
+        "number_mountain.num_2"
       ]
     },
     {
@@ -3564,40 +3406,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 20!",
-      "targetId": "num_20",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_3",
+      "mode": "count_match",
+      "countVisual": 3,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
+          "id": "num_3",
+          "label": "3",
           "isCorrect": true
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_20"
+        "number_mountain.num_3"
       ]
     },
     {
@@ -3609,40 +3449,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 1!",
-      "targetId": "num_1",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_4",
+      "mode": "count_match",
+      "countVisual": 4,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_11",
+          "label": "11",
           "isCorrect": false
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
         },
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_4",
+          "label": "4",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_1"
+        "number_mountain.num_4"
       ]
     },
     {
@@ -3654,40 +3492,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 2!",
-      "targetId": "num_2",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_5",
+      "mode": "count_match",
+      "countVisual": 5,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_5",
+          "label": "5",
+          "isCorrect": true
+        },
+        {
+          "id": "num_13",
+          "label": "13",
           "isCorrect": false
         },
         {
           "id": "num_2",
-          "emoji": "2",
           "label": "2",
-          "isCorrect": true
-        },
-        {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
           "isCorrect": false
         },
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
+          "id": "num_18",
+          "label": "18",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_2"
+        "number_mountain.num_5"
       ]
     },
     {
@@ -3699,40 +3535,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 3!",
-      "targetId": "num_3",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_6",
+      "mode": "count_match",
+      "countVisual": 6,
+      "countEmoji": "⭐",
       "items": [
         {
+          "id": "num_6",
+          "label": "6",
+          "isCorrect": true
+        },
+        {
+          "id": "num_8",
+          "label": "8",
+          "isCorrect": false
+        },
+        {
           "id": "num_1",
-          "emoji": "1",
           "label": "1",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
-          "isCorrect": false
-        },
-        {
           "id": "num_20",
-          "emoji": "20",
           "label": "20",
           "isCorrect": false
-        },
-        {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_3"
+        "number_mountain.num_6"
       ]
     },
     {
@@ -3744,40 +3578,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 4!",
-      "targetId": "num_4",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_7",
+      "mode": "count_match",
+      "countVisual": 7,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
-          "isCorrect": false
+          "id": "num_7",
+          "label": "7",
+          "isCorrect": true
         },
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_10",
+          "label": "10",
           "isCorrect": false
         },
         {
           "id": "num_4",
-          "emoji": "4",
           "label": "4",
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_4"
+        "number_mountain.num_7"
       ]
     },
     {
@@ -3789,40 +3621,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 5!",
-      "targetId": "num_5",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_8",
+      "mode": "count_match",
+      "countVisual": 8,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
-          "isCorrect": true
+          "id": "num_17",
+          "label": "17",
+          "isCorrect": false
         },
         {
           "id": "num_19",
-          "emoji": "19",
           "label": "19",
           "isCorrect": false
         },
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
-          "isCorrect": false
+          "id": "num_8",
+          "label": "8",
+          "isCorrect": true
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_5"
+        "number_mountain.num_8"
       ]
     },
     {
@@ -3834,40 +3664,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 6!",
-      "targetId": "num_6",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_9",
+      "mode": "count_match",
+      "countVisual": 9,
+      "countEmoji": "⭐",
       "items": [
         {
           "id": "num_16",
-          "emoji": "16",
           "label": "16",
           "isCorrect": false
         },
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_9",
+          "label": "9",
           "isCorrect": true
         },
         {
           "id": "num_12",
-          "emoji": "12",
           "label": "12",
-          "isCorrect": false
-        },
-        {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_6"
+        "number_mountain.num_9"
       ]
     },
     {
@@ -3879,40 +3707,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 7!",
-      "targetId": "num_7",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_10",
+      "mode": "count_match",
+      "countVisual": 10,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_10",
+          "label": "10",
+          "isCorrect": true
+        },
+        {
+          "id": "num_20",
+          "label": "20",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         },
         {
           "id": "num_9",
-          "emoji": "9",
           "label": "9",
           "isCorrect": false
-        },
-        {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_7"
+        "number_mountain.num_10"
       ]
     },
     {
@@ -3924,40 +3750,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 8!",
-      "targetId": "num_8",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_11",
+      "mode": "count_match",
+      "countVisual": 11,
+      "countEmoji": "⭐",
       "items": [
         {
+          "id": "num_17",
+          "label": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "num_11",
+          "label": "11",
+          "isCorrect": true
+        },
+        {
           "id": "num_1",
-          "emoji": "1",
           "label": "1",
           "isCorrect": false
         },
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
-          "isCorrect": false
-        },
-        {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
-          "isCorrect": true
-        },
-        {
           "id": "num_12",
-          "emoji": "12",
           "label": "12",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_8"
+        "number_mountain.num_11"
       ]
     },
     {
@@ -3969,40 +3793,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 9!",
-      "targetId": "num_9",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_12",
+      "mode": "count_match",
+      "countVisual": 12,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_17",
+          "label": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "label": "16",
+          "isCorrect": false
+        },
+        {
+          "id": "num_12",
+          "label": "12",
           "isCorrect": true
-        },
-        {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
-          "isCorrect": false
-        },
-        {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
-          "isCorrect": false
-        },
-        {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_9"
+        "number_mountain.num_12"
       ]
     },
     {
@@ -4014,40 +3836,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 10!",
-      "targetId": "num_10",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_13",
+      "mode": "count_match",
+      "countVisual": 13,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_3",
-          "emoji": "3",
-          "label": "3",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         },
         {
-          "id": "num_2",
-          "emoji": "2",
-          "label": "2",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_13",
+          "label": "13",
           "isCorrect": true
         },
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_10"
+        "number_mountain.num_13"
       ]
     },
     {
@@ -4059,40 +3879,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 11!",
-      "targetId": "num_11",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_14",
+      "mode": "count_match",
+      "countVisual": 14,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
         },
         {
-          "id": "num_7",
-          "emoji": "7",
-          "label": "7",
+          "id": "num_18",
+          "label": "18",
           "isCorrect": false
         },
         {
-          "id": "num_13",
-          "emoji": "13",
-          "label": "13",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_14",
+          "label": "14",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_11"
+        "number_mountain.num_14"
       ]
     },
     {
@@ -4104,40 +3922,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 12!",
-      "targetId": "num_12",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_15",
+      "mode": "count_match",
+      "countVisual": 15,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_10",
-          "emoji": "10",
-          "label": "10",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
-          "isCorrect": true
-        },
-        {
           "id": "num_18",
-          "emoji": "18",
           "label": "18",
           "isCorrect": false
         },
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_8",
+          "label": "8",
           "isCorrect": false
+        },
+        {
+          "id": "num_15",
+          "label": "15",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_12"
+        "number_mountain.num_15"
       ]
     },
     {
@@ -4149,40 +3965,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 13!",
-      "targetId": "num_13",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_16",
+      "mode": "count_match",
+      "countVisual": 16,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
-          "isCorrect": false
-        },
-        {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
-          "isCorrect": false
-        },
-        {
           "id": "num_13",
-          "emoji": "13",
           "label": "13",
+          "isCorrect": false
+        },
+        {
+          "id": "num_6",
+          "label": "6",
+          "isCorrect": false
+        },
+        {
+          "id": "num_16",
+          "label": "16",
           "isCorrect": true
         },
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_18",
+          "label": "18",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_13"
+        "number_mountain.num_16"
       ]
     },
     {
@@ -4194,40 +4008,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 14!",
-      "targetId": "num_14",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_17",
+      "mode": "count_match",
+      "countVisual": 17,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": false
         },
         {
-          "id": "num_14",
-          "emoji": "14",
-          "label": "14",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": true
         },
         {
           "id": "num_18",
-          "emoji": "18",
           "label": "18",
           "isCorrect": false
         },
         {
-          "id": "num_4",
-          "emoji": "4",
-          "label": "4",
+          "id": "num_15",
+          "label": "15",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_14"
+        "number_mountain.num_17"
       ]
     },
     {
@@ -4239,40 +4051,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 15!",
-      "targetId": "num_15",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_18",
+      "mode": "count_match",
+      "countVisual": 18,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_14",
+          "label": "14",
           "isCorrect": false
         },
         {
-          "id": "num_15",
-          "emoji": "15",
-          "label": "15",
+          "id": "num_7",
+          "label": "7",
+          "isCorrect": false
+        },
+        {
+          "id": "num_18",
+          "label": "18",
           "isCorrect": true
         },
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
-          "isCorrect": false
-        },
-        {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
+          "id": "num_9",
+          "label": "9",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_15"
+        "number_mountain.num_18"
       ]
     },
     {
@@ -4284,40 +4094,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 16!",
-      "targetId": "num_16",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_19",
+      "mode": "count_match",
+      "countVisual": 19,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         },
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
-          "isCorrect": false
-        },
-        {
-          "id": "num_9",
-          "emoji": "9",
-          "label": "9",
-          "isCorrect": false
-        },
-        {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_19",
+          "label": "19",
           "isCorrect": true
+        },
+        {
+          "id": "num_18",
+          "label": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_16"
+        "number_mountain.num_19"
       ]
     },
     {
@@ -4329,40 +4137,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 17!",
-      "targetId": "num_17",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_20",
+      "mode": "count_match",
+      "countVisual": 20,
+      "countEmoji": "⭐",
       "items": [
         {
           "id": "num_4",
-          "emoji": "4",
           "label": "4",
           "isCorrect": false
         },
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_20",
+          "label": "20",
           "isCorrect": true
         },
         {
-          "id": "num_8",
-          "emoji": "8",
-          "label": "8",
+          "id": "num_3",
+          "label": "3",
           "isCorrect": false
         },
         {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
+          "id": "num_12",
+          "label": "12",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_17"
+        "number_mountain.num_20"
       ]
     },
     {
@@ -4374,40 +4180,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 18!",
-      "targetId": "num_18",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_1",
+      "mode": "count_match",
+      "countVisual": 1,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
+          "id": "num_17",
+          "label": "17",
           "isCorrect": false
         },
         {
-          "id": "num_12",
-          "emoji": "12",
-          "label": "12",
+          "id": "num_11",
+          "label": "11",
           "isCorrect": false
         },
         {
-          "id": "num_16",
-          "emoji": "16",
-          "label": "16",
+          "id": "num_2",
+          "label": "2",
           "isCorrect": false
         },
         {
-          "id": "num_18",
-          "emoji": "18",
-          "label": "18",
+          "id": "num_1",
+          "label": "1",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_18"
+        "number_mountain.num_1"
       ]
     },
     {
@@ -4419,40 +4223,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 19!",
-      "targetId": "num_19",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_2",
+      "mode": "count_match",
+      "countVisual": 2,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_17",
-          "emoji": "17",
-          "label": "17",
+          "id": "num_6",
+          "label": "6",
           "isCorrect": false
         },
         {
-          "id": "num_19",
-          "emoji": "19",
-          "label": "19",
+          "id": "num_3",
+          "label": "3",
+          "isCorrect": false
+        },
+        {
+          "id": "num_2",
+          "label": "2",
           "isCorrect": true
         },
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
-          "isCorrect": false
-        },
-        {
-          "id": "num_5",
-          "emoji": "5",
-          "label": "5",
+          "id": "num_16",
+          "label": "16",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_19"
+        "number_mountain.num_2"
       ]
     },
     {
@@ -4464,40 +4266,38 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "math",
         "multisensory"
       ],
-      "lumiLineKey": "Find the 20!",
-      "targetId": "num_20",
-      "mode": "tap_match",
+      "lumiLineKey": "How many do you see?",
+      "targetId": "num_3",
+      "mode": "count_match",
+      "countVisual": 3,
+      "countEmoji": "⭐",
       "items": [
         {
-          "id": "num_11",
-          "emoji": "11",
-          "label": "11",
+          "id": "num_5",
+          "label": "5",
           "isCorrect": false
         },
         {
-          "id": "num_1",
-          "emoji": "1",
-          "label": "1",
-          "isCorrect": false
-        },
-        {
-          "id": "num_20",
-          "emoji": "20",
-          "label": "20",
+          "id": "num_3",
+          "label": "3",
           "isCorrect": true
         },
         {
-          "id": "num_6",
-          "emoji": "6",
-          "label": "6",
+          "id": "num_4",
+          "label": "4",
+          "isCorrect": false
+        },
+        {
+          "id": "num_13",
+          "label": "13",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "number_mountain.num_20"
+        "number_mountain.num_3"
       ]
     }
   ]

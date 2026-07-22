@@ -45,6 +45,7 @@ flutter:
     - assets/content/games/build_scene/
     - assets/content/games/what_am_i/
     - assets/content/games/tools/
+    - assets/content/games/simon_says/
     - assets/content/learning/
     - assets/content/learning/alphabet/
     - assets/content/learning/math/

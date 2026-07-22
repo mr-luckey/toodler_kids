@@ -101,7 +101,7 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "The Sun is a star.",
+      "statementKey": "Earth goes around the Sun.",
       "isTrue": true,
       "explanationKey": "Correct!",
       "relatedConcepts": [
@@ -119,9 +119,9 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
+      "statementKey": "Stars are huge balls of hot gas.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
       "relatedConcepts": [
         "facts.true_false_space"
       ]
@@ -137,7 +137,7 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "Saturn has rings.",
+      "statementKey": "Astronauts wear space suits.",
       "isTrue": true,
       "explanationKey": "Correct!",
       "relatedConcepts": [
@@ -155,7 +155,7 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "Mars is called the Red Planet.",
+      "statementKey": "Comets are made of ice and rock.",
       "isTrue": true,
       "explanationKey": "Correct!",
       "relatedConcepts": [
@@ -173,7 +173,7 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "The Moon makes its own light.",
+      "statementKey": "Jupiter is the smallest planet.",
       "isTrue": false,
       "explanationKey": "Not quite — try again next time!",
       "relatedConcepts": [
@@ -191,9 +191,9 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
+      "statementKey": "There is no gravity in space.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
       "relatedConcepts": [
         "facts.true_false_space"
       ]
@@ -209,9 +209,9 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
+      "statementKey": "Rockets help us travel to space.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
       "relatedConcepts": [
         "facts.true_false_space"
       ]
@@ -227,7 +227,7 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "Saturn has rings.",
+      "statementKey": "The Milky Way is our galaxy.",
       "isTrue": true,
       "explanationKey": "Correct!",
       "relatedConcepts": [
@@ -245,7 +245,7 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "Mars is called the Red Planet.",
+      "statementKey": "Venus is hotter than Mercury.",
       "isTrue": true,
       "explanationKey": "Correct!",
       "relatedConcepts": [
@@ -263,9 +263,9 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
+      "statementKey": "Neptune is a blue planet.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
       "relatedConcepts": [
         "facts.true_false_space"
       ]
@@ -281,9 +281,9 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
+      "statementKey": "UFOs are proven alien spaceships.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
       "relatedConcepts": [
         "facts.true_false_space"
       ]
@@ -299,9 +299,9 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
+      "statementKey": "Shooting stars are meteors.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
       "relatedConcepts": [
         "facts.true_false_space"
       ]
@@ -317,7 +317,7 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "Saturn has rings.",
+      "statementKey": "The Sun rises in the east.",
       "isTrue": true,
       "explanationKey": "Correct!",
       "relatedConcepts": [
@@ -335,9 +335,9 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
+      "statementKey": "You can hear sound in space.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
       "relatedConcepts": [
         "facts.true_false_space"
       ]
@@ -353,1089 +353,9 @@
       "learningMethod": [
         "inquiry"
       ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_021",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 21,
-      "difficulty": 1,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
+      "statementKey": "Earth is mostly covered by water.",
       "isTrue": true,
       "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_022",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 22,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_023",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 23,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_024",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 24,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_025",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 25,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_026",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 26,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_027",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 27,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_028",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 28,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_029",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 29,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_030",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 30,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_031",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 31,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_032",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 32,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_033",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 33,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_034",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 34,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_035",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 35,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_036",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 36,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_037",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 37,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_038",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 38,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_039",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 39,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_040",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 40,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_041",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 41,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_042",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 42,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_043",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 43,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_044",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 44,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_045",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 45,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_046",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 46,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_047",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 47,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_048",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 48,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_049",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 49,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_050",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 50,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_051",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 51,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_052",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 52,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_053",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 53,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_054",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 54,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_055",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 55,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_056",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 56,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_057",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 57,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_058",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 58,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_059",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 59,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_060",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 60,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_061",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 61,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_062",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 62,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_063",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 63,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_064",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 64,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_065",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 65,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_066",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 66,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_067",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 67,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_068",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 68,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_069",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 69,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_070",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 70,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_071",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 71,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_072",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 72,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_073",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 73,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_074",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 74,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_075",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 75,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_076",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 76,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Sun is a star.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_077",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 77,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "You can breathe on the Moon.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_078",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 78,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Saturn has rings.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_079",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 79,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "Mars is called the Red Planet.",
-      "isTrue": true,
-      "explanationKey": "Correct!",
-      "relatedConcepts": [
-        "facts.true_false_space"
-      ]
-    },
-    {
-      "id": "true_false_space_080",
-      "gameType": "true_false_space",
-      "zoneId": "space_science",
-      "levelNumber": 80,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry"
-      ],
-      "statementKey": "The Moon makes its own light.",
-      "isTrue": false,
-      "explanationKey": "Not quite — try again next time!",
       "relatedConcepts": [
         "facts.true_false_space"
       ]

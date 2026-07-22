@@ -82,6 +82,43 @@ class LevelChoiceBuilder {
     'down': '⬇️',
     'day': '☀️',
     'night': '🌙',
+    'happy': '😊',
+    'sad': '😢',
+    'loud': '🔊',
+    'quiet': '🤫',
+    'open': '🚪',
+    'closed': '🔒',
+    'full': '🪣',
+    'empty': '📭',
+    'wet': '💧',
+    'dry': '🏜️',
+    'clean': '✨',
+    'dirty': '🟤',
+    'young': '👶',
+    'old': '👴',
+    'light': '💡',
+    'dark': '🌑',
+    'tall': '🦒',
+    'short': '🐕',
+    'hard': '🪨',
+    'soft': '🛏️',
+    'near': '👋',
+    'far': '🔭',
+    'inside': '🏠',
+    'outside': '🌳',
+    'give': '🎁',
+    'take': '🤲',
+    'push': '👐',
+    'pull': '🧲',
+    'awake': '😃',
+    'asleep': '😴',
+    'astronaut': '👨‍🚀',
+    'ufo': '🛸',
+    'jupiter': '🟤',
+    'venus': '🟡',
+    'neptune': '🔵',
+    'galaxy': '🌌',
+    'asteroid': '☄️',
     'banana': '🍌',
     'tomato': '🍅',
     'apple': '🍎',
@@ -91,6 +128,30 @@ class LevelChoiceBuilder {
     'hammer': '🔨',
     'wrench': '🔧',
     'screwdriver': '🪛',
+    'scissors': '✂️',
+    'saw': '🪚',
+    'drill': '🔩',
+    'pliers': '🛠️',
+    'paintbrush': '🖌️',
+    'glue': '🧴',
+    'ruler': '📏',
+    'pencil': '✏️',
+    'tape': '📼',
+    'nail': '📌',
+    'screw': '🔩',
+    'knife': '🔪',
+    'key': '🔑',
+    'flashlight': '🔦',
+    'broom': '🧹',
+    'bucket': '🪣',
+    'shovel': '⛏️',
+    'axe': '🪓',
+    'car': '🚗',
+    'bus': '🚌',
+    'bike': '🚲',
+    'house': '🏠',
+    'tree': '🌳',
+    'dino': '🦕',
   };
 
   /// Target id from JSON, related concepts, or prompt text.
@@ -132,6 +193,17 @@ class LevelChoiceBuilder {
     }
 
     return null;
+  }
+
+  /// Hero card for opposite-match — shows the source word (e.g. Hot 🔥).
+  static Map<String, dynamic>? sourceDisplay(GameLevelEntity level) {
+    final raw = level.extra['sourceDisplay'];
+    if (raw is! Map) return null;
+    final map = Map<String, dynamic>.from(raw);
+    final id = map['id']?.toString() ?? '';
+    map['emoji'] ??= emojiForId(id);
+    map['label'] ??= labelForId(id, level.lumiLineKey);
+    return GameImageResolver.enrichChoice(map);
   }
 
   /// Hero card data for "find this" tap-match levels.
@@ -181,8 +253,29 @@ class LevelChoiceBuilder {
       return GameImageResolver.enrichChoices(choices);
     }
 
-    final targetId = extractTargetId(level);
+    final mode = level.extra['mode']?.toString();
     var raw = level.items.map((i) => Map<String, dynamic>.from(i)).toList();
+
+    if (mode == 'opposite_match' && level.answerId != null) {
+      final answerId = level.answerId!;
+      for (final choice in raw) {
+        choice['isCorrect'] = _idMatches(choice['id'], answerId);
+      }
+      if (!raw.any((c) => _idMatches(c['id'], answerId))) {
+        raw.add(_syntheticChoice(answerId, level.lumiLineKey));
+      }
+      final correct = raw.firstWhere((c) => _idMatches(c['id'], answerId));
+      final wrongs = raw.where((c) => !_idMatches(c['id'], answerId)).toList()
+        ..shuffle(_rng);
+      raw = [correct, ...wrongs.take(3)]..shuffle(_rng);
+      for (final choice in raw) {
+        choice['label'] ??=
+            labelForId(choice['id']?.toString() ?? '', level.lumiLineKey);
+      }
+      return GameImageResolver.enrichChoices(raw);
+    }
+
+    final targetId = extractTargetId(level);
 
     if (targetId != null) {
       for (final choice in raw) {
@@ -256,10 +349,24 @@ class LevelChoiceBuilder {
 
   static String? _labelFromLumiKey(String? lumiLineKey) {
     if (lumiLineKey == null) return null;
+    final opposite = RegExp(
+      r'OPPOSITE of (.+?)\??',
+      caseSensitive: false,
+    ).firstMatch(lumiLineKey);
+    if (opposite != null) return opposite.group(1)?.trim();
     final match = RegExp(
       r'Find the (.+?)!?',
       caseSensitive: false,
     ).firstMatch(lumiLineKey);
     return match?.group(1)?.trim();
   }
+
+  static int? countVisual(GameLevelEntity level) {
+    final raw = level.extra['countVisual'];
+    if (raw is int) return raw;
+    return int.tryParse(raw?.toString() ?? '');
+  }
+
+  static String countEmoji(GameLevelEntity level) =>
+      level.extra['countEmoji']?.toString() ?? '⭐';
 }

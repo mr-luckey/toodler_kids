@@ -95,6 +95,41 @@ void main() {
       expect(target?['emoji'], '🦁');
       expect(target?['label'], 'Lion');
     });
+
+    test('builds opposite match choices from answerId', () {
+      const level = GameLevelEntity(
+        id: 'opposites_001',
+        gameType: 'opposites',
+        zoneId: 'opposites_ocean',
+        levelNumber: 1,
+        difficulty: 1,
+        starsAvailable: 3,
+        scaffoldHints: 2,
+        learningMethods: const ['inquiry'],
+        lumiLineKey: 'What is the OPPOSITE of Big?',
+        answerId: 'small',
+        extra: const {
+          'mode': 'opposite_match',
+          'targetId': 'big',
+          'sourceDisplay': {'id': 'big', 'emoji': '🐘', 'label': 'Big'},
+        },
+        items: const [
+          {'id': 'small', 'label': 'Small', 'isCorrect': true},
+          {'id': 'hot', 'label': 'Hot', 'isCorrect': false},
+          {'id': 'fast', 'label': 'Fast', 'isCorrect': false},
+          {'id': 'up', 'label': 'Up', 'isCorrect': false},
+        ],
+      );
+
+      final choices = LevelChoiceBuilder.buildChoices(level);
+      final correct = choices.where((c) => c['isCorrect'] == true).toList();
+      expect(correct.length, 1);
+      expect(correct.first['id'], 'small');
+
+      final source = LevelChoiceBuilder.sourceDisplay(level);
+      expect(source?['id'], 'big');
+      expect(source?['emoji'], '🐘');
+    });
   });
 
   group('AdaptiveEngine', () {    test('records attempts and schedules review', () async {

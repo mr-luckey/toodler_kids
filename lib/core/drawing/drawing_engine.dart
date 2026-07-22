@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toodler_kids/core/drawing/region_hit_tester.dart';
 class DrawPoint {
   DrawPoint(this.offset, [this.pressure = 1.0]);
   final Offset offset;
@@ -72,6 +73,7 @@ class FreeDrawCanvas extends StatefulWidget {
     required this.strokes,
     required this.onStrokeComplete,
     this.enabled = true,
+    this.allowSinglePointStrokes = false,
   });
 
   final Color color;
@@ -79,6 +81,7 @@ class FreeDrawCanvas extends StatefulWidget {
   final List<SmoothStroke> strokes;
   final ValueChanged<SmoothStroke> onStrokeComplete;
   final bool enabled;
+  final bool allowSinglePointStrokes;
 
   @override
   State<FreeDrawCanvas> createState() => _FreeDrawCanvasState();
@@ -100,7 +103,11 @@ class _FreeDrawCanvasState extends State<FreeDrawCanvas> {
   }
 
   void _onPanEnd(DragEndDetails details) {
-    if (_currentPoints == null || _currentPoints!.length < 2) {
+    if (_currentPoints == null || _currentPoints!.isEmpty) {
+      _currentPoints = null;
+      return;
+    }
+    if (_currentPoints!.length < 2 && !widget.allowSinglePointStrokes) {
       _currentPoints = null;
       return;
     }
@@ -117,7 +124,7 @@ class _FreeDrawCanvasState extends State<FreeDrawCanvas> {
   Widget build(BuildContext context) {
     final allStrokes = [
       ...widget.strokes,
-      if (_currentPoints != null && _currentPoints!.length > 1)
+      if (_currentPoints != null && _currentPoints!.isNotEmpty)
         SmoothStroke(
           points: _currentPoints!,
           color: widget.color,
@@ -151,7 +158,21 @@ class ColorFillRegion {
   final Color defaultColor;
 
   Path parsePath(Size size) {
-    // Simple rect/circle path parsing for SVG regions
+    // Legacy paint path — hit testing uses RegionHitTester on normalized coords.
+    if (pathData.startsWith('ellipse:')) {
+      final parts = pathData.substring(8).split(',');
+      if (parts.length >= 4) {
+        final cx = double.parse(parts[0]) * size.width;
+        final cy = double.parse(parts[1]) * size.height;
+        final rx = double.parse(parts[2]) * size.width;
+        final ry = double.parse(parts[3]) * size.height;
+        return Path()..addOval(Rect.fromCenter(
+              center: Offset(cx, cy),
+              width: rx * 2,
+              height: ry * 2,
+            ));
+      }
+    }
     if (pathData.startsWith('rect:')) {
       final parts = pathData.substring(5).split(',');
       final rect = Rect.fromLTWH(
@@ -173,6 +194,8 @@ class ColorFillRegion {
     }
     return Path();
   }
+
+  bool containsNormalized(Offset point) => RegionHitTester.contains(pathData, point);
 }
 
 class ColorFillCanvas extends StatefulWidget {

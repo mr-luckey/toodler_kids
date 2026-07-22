@@ -41,6 +41,7 @@ class DrawingDenBloc extends Bloc<DrawingDenEvent, DrawingDenState> {
       mode: DrawingMode.colorFill,
       regionColors: {},
       strokes: [],
+      colorStrokes: [],
       undoStack: [],
     ));
   }
@@ -62,6 +63,7 @@ class DrawingDenBloc extends Bloc<DrawingDenEvent, DrawingDenState> {
       selectedTemplate: event.template,
       regionColors: regionColors,
       strokes: [],
+      colorStrokes: [],
     ));
   }
 
@@ -76,30 +78,81 @@ class DrawingDenBloc extends Bloc<DrawingDenEvent, DrawingDenState> {
     final current = state;
     if (current is! DrawingDenLoaded) return;
     final colors = Map<String, Color>.from(current.regionColors);
+    final previous = colors[event.regionId];
+    if (previous == event.color) return;
     colors[event.regionId] = event.color;
     _sounds.playSfx('color_fill');
-    emit(current.copyWith(regionColors: colors));
+    emit(current.copyWith(
+      regionColors: colors,
+      undoStack: [
+        ...current.undoStack,
+        DrawingUndoEntry.fill(
+          regionId: event.regionId,
+          previousColor: previous,
+        ),
+      ],
+    ));
   }
 
   void _onStroke(DrawingDenStrokeAdded event, Emitter<DrawingDenState> emit) {
     final current = state;
     if (current is! DrawingDenLoaded) return;
+    if (current.mode == DrawingMode.colorFill) {
+      final colorStrokes = [...current.colorStrokes, event.stroke];
+      _sounds.playSfx('color_fill');
+      emit(current.copyWith(
+        colorStrokes: colorStrokes,
+        undoStack: [...current.undoStack, const DrawingUndoEntry.colorStroke()],
+      ));
+      return;
+    }
     final strokes = [...current.strokes, event.stroke];
-    final undo = [...current.undoStack, DrawingUndoAction.stroke];
-    emit(current.copyWith(strokes: strokes, undoStack: undo));
+    emit(current.copyWith(
+      strokes: strokes,
+      undoStack: [...current.undoStack, const DrawingUndoEntry.stroke()],
+    ));
   }
 
   void _onUndo(DrawingDenUndo event, Emitter<DrawingDenState> emit) {
     final current = state;
-    if (current is! DrawingDenLoaded || current.strokes.isEmpty) return;
-    final strokes = [...current.strokes]..removeLast();
-    emit(current.copyWith(strokes: strokes));
+    if (current is! DrawingDenLoaded || current.undoStack.isEmpty) return;
+    final undo = [...current.undoStack]..removeLast();
+    final last = current.undoStack.last;
+
+    if (last.type == DrawingUndoAction.stroke) {
+      if (current.strokes.isEmpty) return;
+      final strokes = [...current.strokes]..removeLast();
+      emit(current.copyWith(strokes: strokes, undoStack: undo));
+      return;
+    }
+
+    if (last.type == DrawingUndoAction.colorStroke) {
+      if (current.colorStrokes.isEmpty) return;
+      final colorStrokes = [...current.colorStrokes]..removeLast();
+      emit(current.copyWith(colorStrokes: colorStrokes, undoStack: undo));
+      return;
+    }
+
+    if (last.type == DrawingUndoAction.fill && last.regionId != null) {
+      final colors = Map<String, Color>.from(current.regionColors);
+      if (last.previousColor == null) {
+        colors.remove(last.regionId);
+      } else {
+        colors[last.regionId!] = last.previousColor!;
+      }
+      emit(current.copyWith(regionColors: colors, undoStack: undo));
+    }
   }
 
   void _onClear(DrawingDenClear event, Emitter<DrawingDenState> emit) {
     final current = state;
     if (current is DrawingDenLoaded) {
-      emit(current.copyWith(strokes: [], regionColors: {}));
+      emit(current.copyWith(
+        strokes: [],
+        colorStrokes: [],
+        regionColors: {},
+        undoStack: [],
+      ));
     }
   }
 
@@ -112,6 +165,7 @@ class DrawingDenBloc extends Bloc<DrawingDenEvent, DrawingDenState> {
     await _progressRepo.saveDrawing(current.selectedTemplate!.id, {
       'regionColors': colorMap,
       'strokeCount': current.strokes.length,
+      'colorStrokeCount': current.colorStrokes.length,
     });
   }
 
@@ -125,4 +179,21 @@ class DrawingDenBloc extends Bloc<DrawingDenEvent, DrawingDenState> {
 
 enum DrawingMode { colorFill, freeDraw }
 
-enum DrawingUndoAction { stroke, fill }
+enum DrawingUndoAction { stroke, colorStroke, fill }
+
+class DrawingUndoEntry {
+  const DrawingUndoEntry.stroke()
+      : type = DrawingUndoAction.stroke,
+        regionId = null,
+        previousColor = null;
+  const DrawingUndoEntry.colorStroke()
+      : type = DrawingUndoAction.colorStroke,
+        regionId = null,
+        previousColor = null;
+  const DrawingUndoEntry.fill({required this.regionId, this.previousColor})
+      : type = DrawingUndoAction.fill;
+
+  final DrawingUndoAction type;
+  final String? regionId;
+  final Color? previousColor;
+}

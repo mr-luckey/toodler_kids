@@ -30,14 +30,14 @@
           "label": "lemon"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "apple",
+          "emoji": "🍎",
+          "label": "apple"
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
+          "id": "mango",
+          "emoji": "🥭",
+          "label": "mango"
         }
       ],
       "relatedConcepts": [
@@ -79,9 +79,9 @@
           "label": "bear"
         },
         {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
+          "id": "tiger",
+          "emoji": "🐯",
+          "label": "tiger"
         }
       ],
       "relatedConcepts": [
@@ -123,9 +123,9 @@
           "label": "horse"
         },
         {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
+          "id": "rhino",
+          "emoji": "🦏",
+          "label": "rhino"
         }
       ],
       "relatedConcepts": [
@@ -191,7 +191,7 @@
       "clues": [
         "I am red.",
         "You eat me on pizza.",
-        "I am a vegetable fruit."
+        "I am a fruit."
       ],
       "answerId": "tomato",
       "items": [
@@ -206,14 +206,14 @@
           "label": "apple"
         },
         {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
+          "id": "carrot",
+          "emoji": "🥕",
+          "label": "carrot"
         },
         {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
+          "id": "pepper",
+          "emoji": "🫑",
+          "label": "pepper"
         }
       ],
       "relatedConcepts": [
@@ -233,35 +233,35 @@
         "narrative"
       ],
       "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
+        "I am tall and metal.",
+        "I am in Paris, France.",
+        "I look like a tower."
       ],
-      "answerId": "banana",
+      "answerId": "eiffel",
       "items": [
         {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
+          "id": "eiffel",
+          "emoji": "🗼",
+          "label": "eiffel"
         },
         {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
+          "id": "pyramid",
+          "emoji": "🔺",
+          "label": "pyramid"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "castle",
+          "emoji": "🏰",
+          "label": "castle"
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
+          "id": "bridge",
+          "emoji": "🌉",
+          "label": "bridge"
         }
       ],
       "relatedConcepts": [
-        "riddle.banana"
+        "riddle.eiffel"
       ]
     },
     {
@@ -277,35 +277,35 @@
         "narrative"
       ],
       "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
+        "I am a country in Asia.",
+        "People eat sushi here.",
+        "Tokyo is my capital."
       ],
-      "answerId": "lion",
+      "answerId": "japan",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
+          "id": "japan",
+          "emoji": "🇯🇵",
+          "label": "japan"
         },
         {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
+          "id": "mexico",
+          "emoji": "🇲🇽",
+          "label": "mexico"
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
+          "id": "france",
+          "emoji": "🇫🇷",
+          "label": "france"
         },
         {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
+          "id": "brazil",
+          "emoji": "🇧🇷",
+          "label": "brazil"
         }
       ],
       "relatedConcepts": [
-        "riddle.lion"
+        "riddle.japan"
       ]
     },
     {
@@ -321,35 +321,35 @@
         "narrative"
       ],
       "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
+        "I am hot and sandy.",
+        "Camels walk on me.",
+        "The Sahara is one of me."
       ],
-      "answerId": "elephant",
+      "answerId": "desert",
       "items": [
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
+          "id": "desert",
+          "emoji": "🏜️",
+          "label": "desert"
         },
         {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
+          "id": "ocean",
+          "emoji": "🌊",
+          "label": "ocean"
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
+          "id": "forest",
+          "emoji": "🌲",
+          "label": "forest"
         },
         {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
+          "id": "snow",
+          "emoji": "❄️",
+          "label": "snow"
         }
       ],
       "relatedConcepts": [
-        "riddle.elephant"
+        "riddle.desert"
       ]
     },
     {
@@ -365,35 +365,35 @@
         "narrative"
       ],
       "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
+        "I am a long river.",
+        "I flow through Egypt.",
+        "Pyramids are near me."
       ],
-      "answerId": "moon",
+      "answerId": "nile",
       "items": [
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
+          "id": "nile",
+          "emoji": "🏞️",
+          "label": "nile"
         },
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
+          "id": "amazon",
+          "emoji": "🌿",
+          "label": "amazon"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "mississippi",
+          "emoji": "🛶",
+          "label": "mississippi"
         },
         {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
+          "id": "thames",
+          "emoji": "🌉",
+          "label": "thames"
         }
       ],
       "relatedConcepts": [
-        "riddle.moon"
+        "riddle.nile"
       ]
     },
     {
@@ -409,35 +409,35 @@
         "narrative"
       ],
       "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
+        "I am round and flat.",
+        "Italians love me.",
+        "I have cheese and tomato."
       ],
-      "answerId": "tomato",
+      "answerId": "pizza",
       "items": [
         {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
+          "id": "pizza",
+          "emoji": "🍕",
+          "label": "pizza"
         },
         {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
+          "id": "taco",
+          "emoji": "🌮",
+          "label": "taco"
         },
         {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
+          "id": "sushi",
+          "emoji": "🍣",
+          "label": "sushi"
         },
         {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
+          "id": "burger",
+          "emoji": "🍔",
+          "label": "burger"
         }
       ],
       "relatedConcepts": [
-        "riddle.tomato"
+        "riddle.pizza"
       ]
     },
     {
@@ -453,35 +453,35 @@
         "narrative"
       ],
       "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
+        "I hop and have a pouch.",
+        "I live in Australia.",
+        "I am a kangaroo!"
       ],
-      "answerId": "banana",
+      "answerId": "kangaroo",
       "items": [
         {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
+          "id": "kangaroo",
+          "emoji": "🦘",
+          "label": "kangaroo"
         },
         {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "penguin"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "panda",
+          "emoji": "🐼",
+          "label": "panda"
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
+          "id": "zebra",
+          "emoji": "🦓",
+          "label": "zebra"
         }
       ],
       "relatedConcepts": [
-        "riddle.banana"
+        "riddle.kangaroo"
       ]
     },
     {
@@ -497,35 +497,35 @@
         "narrative"
       ],
       "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
+        "I am black and white.",
+        "I eat bamboo.",
+        "I live in China."
       ],
-      "answerId": "lion",
+      "answerId": "panda",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
+          "id": "panda",
+          "emoji": "🐼",
+          "label": "panda"
         },
         {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
+          "id": "zebra",
+          "emoji": "🦓",
+          "label": "zebra"
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "penguin"
         },
         {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
+          "id": "koala",
+          "emoji": "❓",
+          "label": "koala"
         }
       ],
       "relatedConcepts": [
-        "riddle.lion"
+        "riddle.panda"
       ]
     },
     {
@@ -541,35 +541,35 @@
         "narrative"
       ],
       "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
+        "I have stripes.",
+        "I look like a horse.",
+        "I live in Africa."
       ],
-      "answerId": "elephant",
+      "answerId": "zebra",
       "items": [
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
+          "id": "zebra",
+          "emoji": "🦓",
+          "label": "zebra"
         },
         {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
+          "id": "tiger",
+          "emoji": "🐯",
+          "label": "tiger"
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
+          "id": "cow",
+          "emoji": "❓",
+          "label": "cow"
         },
         {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
+          "id": "deer",
+          "emoji": "❓",
+          "label": "deer"
         }
       ],
       "relatedConcepts": [
-        "riddle.elephant"
+        "riddle.zebra"
       ]
     },
     {
@@ -585,35 +585,35 @@
         "narrative"
       ],
       "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
+        "I am cold and white.",
+        "I fall from clouds.",
+        "You can build me."
       ],
-      "answerId": "moon",
+      "answerId": "snow",
       "items": [
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
+          "id": "snow",
+          "emoji": "❄️",
+          "label": "snow"
         },
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
+          "id": "rain",
+          "emoji": "❓",
+          "label": "rain"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "sand",
+          "emoji": "❓",
+          "label": "sand"
         },
         {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
+          "id": "leaf",
+          "emoji": "❓",
+          "label": "leaf"
         }
       ],
       "relatedConcepts": [
-        "riddle.moon"
+        "riddle.snow"
       ]
     },
     {
@@ -629,35 +629,35 @@
         "narrative"
       ],
       "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
+        "I am a famous wall.",
+        "I am very long.",
+        "I am in China."
       ],
-      "answerId": "tomato",
+      "answerId": "greatwall",
       "items": [
         {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
+          "id": "greatwall",
+          "emoji": "🧱",
+          "label": "greatwall"
         },
         {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
+          "id": "bridge",
+          "emoji": "🌉",
+          "label": "bridge"
         },
         {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
+          "id": "tower",
+          "emoji": "🗼",
+          "label": "tower"
         },
         {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
+          "id": "castle",
+          "emoji": "🏰",
+          "label": "castle"
         }
       ],
       "relatedConcepts": [
-        "riddle.tomato"
+        "riddle.greatwall"
       ]
     },
     {
@@ -673,35 +673,35 @@
         "narrative"
       ],
       "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
+        "I am spicy food.",
+        "I come from India.",
+        "People eat me with rice."
       ],
-      "answerId": "banana",
+      "answerId": "curry",
       "items": [
         {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
+          "id": "curry",
+          "emoji": "🍛",
+          "label": "curry"
         },
         {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
+          "id": "pizza",
+          "emoji": "🍕",
+          "label": "pizza"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "taco",
+          "emoji": "🌮",
+          "label": "taco"
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
+          "id": "pasta",
+          "emoji": "🍝",
+          "label": "pasta"
         }
       ],
       "relatedConcepts": [
-        "riddle.banana"
+        "riddle.curry"
       ]
     },
     {
@@ -717,35 +717,35 @@
         "narrative"
       ],
       "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
+        "I am a white monument.",
+        "I am in India.",
+        "It is a symbol of love."
       ],
-      "answerId": "lion",
+      "answerId": "tajmahal",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
+          "id": "tajmahal",
+          "emoji": "🕌",
+          "label": "tajmahal"
         },
         {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
+          "id": "pyramid",
+          "emoji": "🔺",
+          "label": "pyramid"
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
+          "id": "castle",
+          "emoji": "🏰",
+          "label": "castle"
         },
         {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
+          "id": "statue",
+          "emoji": "❓",
+          "label": "statue"
         }
       ],
       "relatedConcepts": [
-        "riddle.lion"
+        "riddle.tajmahal"
       ]
     },
     {
@@ -761,35 +761,35 @@
         "narrative"
       ],
       "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
+        "I am a green fruit.",
+        "I am used in guacamole.",
+        "I grow on trees."
       ],
-      "answerId": "elephant",
+      "answerId": "avocado",
       "items": [
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
+          "id": "avocado",
+          "emoji": "🥑",
+          "label": "avocado"
         },
         {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
+          "id": "grape",
+          "emoji": "🍇",
+          "label": "grape"
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
+          "id": "peach",
+          "emoji": "🍑",
+          "label": "peach"
         },
         {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
+          "id": "melon",
+          "emoji": "🍈",
+          "label": "melon"
         }
       ],
       "relatedConcepts": [
-        "riddle.elephant"
+        "riddle.avocado"
       ]
     },
     {
@@ -805,35 +805,35 @@
         "narrative"
       ],
       "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
+        "I am a triangle snack.",
+        "I come from Mexico.",
+        "I have a crunchy shell."
       ],
-      "answerId": "moon",
+      "answerId": "taco",
       "items": [
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
+          "id": "taco",
+          "emoji": "🌮",
+          "label": "taco"
         },
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
+          "id": "pizza",
+          "emoji": "🍕",
+          "label": "pizza"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "donut",
+          "emoji": "🍩",
+          "label": "donut"
         },
         {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
+          "id": "bread",
+          "emoji": "🍞",
+          "label": "bread"
         }
       ],
       "relatedConcepts": [
-        "riddle.moon"
+        "riddle.taco"
       ]
     },
     {
@@ -849,35 +849,35 @@
         "narrative"
       ],
       "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
+        "I am the biggest ocean.",
+        "Whales swim in me.",
+        "I am very salty."
       ],
-      "answerId": "tomato",
+      "answerId": "pacific",
       "items": [
         {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
+          "id": "pacific",
+          "emoji": "🌊",
+          "label": "pacific"
         },
         {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
+          "id": "desert",
+          "emoji": "🏜️",
+          "label": "desert"
         },
         {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
+          "id": "lake",
+          "emoji": "❓",
+          "label": "lake"
         },
         {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
+          "id": "river",
+          "emoji": "❓",
+          "label": "river"
         }
       ],
       "relatedConcepts": [
-        "riddle.tomato"
+        "riddle.pacific"
       ]
     },
     {
@@ -893,35 +893,35 @@
         "narrative"
       ],
       "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
+        "I am a famous tower.",
+        "I lean to one side.",
+        "I am in Italy."
       ],
-      "answerId": "banana",
+      "answerId": "leaningtower",
       "items": [
         {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
+          "id": "leaningtower",
+          "emoji": "🏛️",
+          "label": "leaningtower"
         },
         {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
+          "id": "eiffel",
+          "emoji": "🗼",
+          "label": "eiffel"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "bridge",
+          "emoji": "🌉",
+          "label": "bridge"
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
+          "id": "pyramid",
+          "emoji": "🔺",
+          "label": "pyramid"
         }
       ],
       "relatedConcepts": [
-        "riddle.banana"
+        "riddle.leaningtower"
       ]
     },
     {
@@ -937,12 +937,17 @@
         "narrative"
       ],
       "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
+        "I am a striped cat.",
+        "I live in the jungle.",
+        "I am orange and black."
       ],
-      "answerId": "lion",
+      "answerId": "tiger",
       "items": [
+        {
+          "id": "tiger",
+          "emoji": "🐯",
+          "label": "tiger"
+        },
         {
           "id": "lion",
           "emoji": "🦁",
@@ -954,18 +959,13 @@
           "label": "cat"
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
+          "id": "cheetah",
+          "emoji": "❓",
+          "label": "cheetah"
         }
       ],
       "relatedConcepts": [
-        "riddle.lion"
+        "riddle.tiger"
       ]
     },
     {
@@ -981,35 +981,35 @@
         "narrative"
       ],
       "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
+        "I am a green animal.",
+        "I say ribbit.",
+        "I live near ponds."
       ],
-      "answerId": "elephant",
+      "answerId": "frog",
       "items": [
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "frog"
         },
         {
           "id": "fish",
           "emoji": "🐟",
           "label": "fish"
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "duck"
+        },
+        {
+          "id": "turtle",
+          "emoji": "🐢",
+          "label": "turtle"
         }
       ],
       "relatedConcepts": [
-        "riddle.elephant"
+        "riddle.frog"
       ]
     },
     {
@@ -1025,35 +1025,35 @@
         "narrative"
       ],
       "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
+        "I am a yellow transport.",
+        "Kids ride me to school.",
+        "I am big and long."
       ],
-      "answerId": "moon",
+      "answerId": "bus",
       "items": [
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
+          "id": "bus",
+          "emoji": "🚌",
+          "label": "bus"
         },
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
+          "id": "car",
+          "emoji": "🚗",
+          "label": "car"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "boat",
+          "emoji": "⛵",
+          "label": "boat"
         },
         {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
+          "id": "plane",
+          "emoji": "✈️",
+          "label": "plane"
         }
       ],
       "relatedConcepts": [
-        "riddle.moon"
+        "riddle.bus"
       ]
     },
     {
@@ -1069,21 +1069,16 @@
         "narrative"
       ],
       "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
+        "I fly in the sky.",
+        "I have wings.",
+        "Pilots fly me."
       ],
-      "answerId": "tomato",
+      "answerId": "airplane",
       "items": [
         {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
+          "id": "airplane",
+          "emoji": "✈️",
+          "label": "airplane"
         },
         {
           "id": "car",
@@ -1091,13 +1086,18 @@
           "label": "car"
         },
         {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
+          "id": "train",
+          "emoji": "🚂",
+          "label": "train"
+        },
+        {
+          "id": "boat",
+          "emoji": "⛵",
+          "label": "boat"
         }
       ],
       "relatedConcepts": [
-        "riddle.tomato"
+        "riddle.airplane"
       ]
     },
     {
@@ -1113,35 +1113,35 @@
         "narrative"
       ],
       "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
+        "I am a cold place.",
+        "Polar bears live here.",
+        "It is at the top of Earth."
       ],
-      "answerId": "banana",
+      "answerId": "arctic",
       "items": [
         {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
+          "id": "arctic",
+          "emoji": "🧊",
+          "label": "arctic"
         },
         {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
+          "id": "desert",
+          "emoji": "🏜️",
+          "label": "desert"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "jungle",
+          "emoji": "❓",
+          "label": "jungle"
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
+          "id": "beach",
+          "emoji": "❓",
+          "label": "beach"
         }
       ],
       "relatedConcepts": [
-        "riddle.banana"
+        "riddle.arctic"
       ]
     },
     {
@@ -1157,35 +1157,35 @@
         "narrative"
       ],
       "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
+        "I am a South American country.",
+        "I am famous for football.",
+        "Carnival is celebrated here."
       ],
-      "answerId": "lion",
+      "answerId": "brazil",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
+          "id": "brazil",
+          "emoji": "🇧🇷",
+          "label": "brazil"
         },
         {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
+          "id": "japan",
+          "emoji": "🇯🇵",
+          "label": "japan"
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
+          "id": "egypt",
+          "emoji": "🇪🇬",
+          "label": "egypt"
         },
         {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
+          "id": "canada",
+          "emoji": "🇨🇦",
+          "label": "canada"
         }
       ],
       "relatedConcepts": [
-        "riddle.lion"
+        "riddle.brazil"
       ]
     },
     {
@@ -1201,35 +1201,35 @@
         "narrative"
       ],
       "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
+        "I am a breakfast food.",
+        "Chickens lay me.",
+        "You can fry or boil me."
       ],
-      "answerId": "elephant",
+      "answerId": "egg",
       "items": [
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
+          "id": "egg",
+          "emoji": "🥚",
+          "label": "egg"
         },
         {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
+          "id": "bread",
+          "emoji": "🍞",
+          "label": "bread"
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
+          "id": "rice",
+          "emoji": "🍚",
+          "label": "rice"
         },
         {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
+          "id": "cheese",
+          "emoji": "🧀",
+          "label": "cheese"
         }
       ],
       "relatedConcepts": [
-        "riddle.elephant"
+        "riddle.egg"
       ]
     },
     {
@@ -1245,35 +1245,35 @@
         "narrative"
       ],
       "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
+        "I am a tall plant.",
+        "I give shade.",
+        "Squirrels climb me."
       ],
-      "answerId": "moon",
+      "answerId": "tree",
       "items": [
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
+          "id": "tree",
+          "emoji": "🌳",
+          "label": "tree"
         },
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
+          "id": "flower",
+          "emoji": "🌸",
+          "label": "flower"
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
+          "id": "grass",
+          "emoji": "🌿",
+          "label": "grass"
         },
         {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
+          "id": "bush",
+          "emoji": "🌿",
+          "label": "bush"
         }
       ],
       "relatedConcepts": [
-        "riddle.moon"
+        "riddle.tree"
       ]
     },
     {
@@ -1289,2235 +1289,35 @@
         "narrative"
       ],
       "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
+        "I am worn on feet.",
+        "You tie my laces.",
+        "I help you run."
       ],
-      "answerId": "tomato",
+      "answerId": "shoe",
       "items": [
         {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
+          "id": "shoe",
+          "emoji": "👟",
+          "label": "shoe"
         },
         {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
+          "id": "hat",
+          "emoji": "🎩",
+          "label": "hat"
         },
         {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
+          "id": "glove",
+          "emoji": "🧤",
+          "label": "glove"
         },
         {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
+          "id": "sock",
+          "emoji": "🧦",
+          "label": "sock"
         }
       ],
       "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_031",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 31,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_032",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 32,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_033",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 33,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_034",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 34,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_035",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 35,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_036",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 36,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_037",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 37,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_038",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 38,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_039",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 39,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_040",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 40,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_041",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 41,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_042",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 42,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_043",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 43,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_044",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 44,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_045",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 45,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_046",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 46,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_047",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 47,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_048",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 48,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_049",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 49,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_050",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 50,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_051",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 51,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_052",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 52,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_053",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 53,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_054",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 54,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_055",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 55,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_056",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 56,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_057",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 57,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_058",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 58,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_059",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 59,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_060",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 60,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_061",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 61,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_062",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 62,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_063",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 63,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_064",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 64,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_065",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 65,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_066",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 66,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_067",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 67,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_068",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 68,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_069",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 69,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_070",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 70,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_071",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 71,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_072",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 72,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_073",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 73,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_074",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 74,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_075",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 75,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
-      ]
-    },
-    {
-      "id": "wai_076",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 76,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am yellow.",
-        "I grow on a tree.",
-        "Monkeys love me."
-      ],
-      "answerId": "banana",
-      "items": [
-        {
-          "id": "banana",
-          "emoji": "🍌",
-          "label": "banana"
-        },
-        {
-          "id": "lemon",
-          "emoji": "🍋",
-          "label": "lemon"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "duck"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.banana"
-      ]
-    },
-    {
-      "id": "wai_077",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 77,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am king of the jungle.",
-        "I have a mane.",
-        "I roar loudly."
-      ],
-      "answerId": "lion",
-      "items": [
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "lion"
-        },
-        {
-          "id": "cat",
-          "emoji": "🐱",
-          "label": "cat"
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "bear"
-        },
-        {
-          "id": "wolf",
-          "emoji": "🐺",
-          "label": "wolf"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.lion"
-      ]
-    },
-    {
-      "id": "wai_078",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 78,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am big and grey.",
-        "I have a trunk.",
-        "I never forget."
-      ],
-      "answerId": "elephant",
-      "items": [
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "elephant"
-        },
-        {
-          "id": "mouse",
-          "emoji": "🐭",
-          "label": "mouse"
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "horse"
-        },
-        {
-          "id": "fish",
-          "emoji": "🐟",
-          "label": "fish"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.elephant"
-      ]
-    },
-    {
-      "id": "wai_079",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 79,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I shine at night.",
-        "I am round.",
-        "Astronauts visited me."
-      ],
-      "answerId": "moon",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "moon"
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "sun"
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "star"
-        },
-        {
-          "id": "cloud",
-          "emoji": "☁️",
-          "label": "cloud"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.moon"
-      ]
-    },
-    {
-      "id": "wai_080",
-      "gameType": "what_am_i",
-      "zoneId": "world_village",
-      "levelNumber": 80,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 1,
-      "learningMethod": [
-        "inquiry",
-        "narrative"
-      ],
-      "clues": [
-        "I am red.",
-        "You eat me on pizza.",
-        "I am a vegetable fruit."
-      ],
-      "answerId": "tomato",
-      "items": [
-        {
-          "id": "tomato",
-          "emoji": "🍅",
-          "label": "tomato"
-        },
-        {
-          "id": "apple",
-          "emoji": "🍎",
-          "label": "apple"
-        },
-        {
-          "id": "car",
-          "emoji": "🚗",
-          "label": "car"
-        },
-        {
-          "id": "book",
-          "emoji": "📚",
-          "label": "book"
-        }
-      ],
-      "relatedConcepts": [
-        "riddle.tomato"
+        "riddle.shoe"
       ]
     }
   ]

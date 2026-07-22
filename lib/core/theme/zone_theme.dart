@@ -2,6 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:toodler_kids/core/theme/app_theme.dart';
+import 'package:toodler_kids/core/theme/zone_scene_painter.dart';
 
 /// Rich per-zone visual identity (colors, gradients, decorations).
 class ZoneVisualTheme {
@@ -52,7 +53,7 @@ class ZoneVisualTheme {
           background: Color(0xFFE8F5E9),
           hubGradient: [Color(0xFF66BB6A), Color(0xFF2E7D32)],
           screenGradient: [Color(0xFFC8E6C9), Color(0xFFE8F5E9), Color(0xFFFFF8E1)],
-          decorations: [ZoneDecoration.leaves],
+          decorations: [ZoneDecoration.hills, ZoneDecoration.leaves],
           cardBorderColor: Color(0xFF2E7D32),
         );
       case 'number_mountain':
@@ -63,7 +64,7 @@ class ZoneVisualTheme {
           background: Color(0xFFE8EAF6),
           hubGradient: [Color(0xFF7986CB), Color(0xFF3949AB)],
           screenGradient: [Color(0xFFC5CAE9), Color(0xFFE8EAF6), Color(0xFFFFF3E0)],
-          decorations: [ZoneDecoration.clouds],
+          decorations: [ZoneDecoration.mountains, ZoneDecoration.clouds],
           cardBorderColor: Color(0xFF3949AB),
         );
       case 'letter_lane':
@@ -74,7 +75,7 @@ class ZoneVisualTheme {
           background: Color(0xFFF3E5F5),
           hubGradient: [Color(0xFFCE93D8), Color(0xFF8E24AA)],
           screenGradient: [Color(0xFFE1BEE7), Color(0xFFF3E5F5), Color(0xFFE0F7FA)],
-          decorations: [ZoneDecoration.sparkles],
+          decorations: [ZoneDecoration.sparkles, ZoneDecoration.hills],
           cardBorderColor: Color(0xFF8E24AA),
         );
       case 'color_canyon':
@@ -85,7 +86,7 @@ class ZoneVisualTheme {
           background: Color(0xFFFCE4EC),
           hubGradient: [Color(0xFFF06292), Color(0xFFE91E63)],
           screenGradient: [Color(0xFFF8BBD9), Color(0xFFFFF9C4), Color(0xFFFCE4EC)],
-          decorations: [ZoneDecoration.rainbow],
+          decorations: [ZoneDecoration.rainbow, ZoneDecoration.sparkles],
           cardBorderColor: Color(0xFFE91E63),
         );
       case 'dinosaurs':
@@ -96,7 +97,7 @@ class ZoneVisualTheme {
           background: Color(0xFFEFEBE9),
           hubGradient: [Color(0xFF8D6E63), Color(0xFF4E342E)],
           screenGradient: [Color(0xFFD7CCC8), Color(0xFFEFEBE9), Color(0xFFFFE0B2)],
-          decorations: [ZoneDecoration.volcano],
+          decorations: [ZoneDecoration.volcano, ZoneDecoration.hills],
           cardBorderColor: Color(0xFF4E342E),
         );
       case 'space_science':
@@ -130,7 +131,7 @@ class ZoneVisualTheme {
           background: Color(0xFFE3F2FD),
           hubGradient: [Color(0xFF64B5F6), Color(0xFF1565C0)],
           screenGradient: [Color(0xFFBBDEFB), Color(0xFFE3F2FD), Color(0xFFFFF3E0)],
-          decorations: [ZoneDecoration.paint],
+          decorations: [ZoneDecoration.bubbles, ZoneDecoration.paint],
           cardBorderColor: Color(0xFF1565C0),
         );
       case 'puzzle_palace':
@@ -141,7 +142,7 @@ class ZoneVisualTheme {
           background: Color(0xFFEDE7F6),
           hubGradient: [Color(0xFF9575CD), Color(0xFF512DA8)],
           screenGradient: [Color(0xFFD1C4E9), Color(0xFFEDE7F6), Color(0xFFFFF8E1)],
-          decorations: [ZoneDecoration.sparkles],
+          decorations: [ZoneDecoration.sparkles, ZoneDecoration.rainbow],
           cardBorderColor: Color(0xFF512DA8),
         );
       case 'world_village':
@@ -152,7 +153,7 @@ class ZoneVisualTheme {
           background: Color(0xFFE0F2F1),
           hubGradient: [Color(0xFF26A69A), Color(0xFF00695C)],
           screenGradient: [Color(0xFFB2DFDB), Color(0xFFE0F2F1), Color(0xFFFFF9C4)],
-          decorations: [ZoneDecoration.clouds],
+          decorations: [ZoneDecoration.hills, ZoneDecoration.clouds],
           cardBorderColor: Color(0xFF00695C),
         );
       case 'household_daily':
@@ -163,7 +164,7 @@ class ZoneVisualTheme {
           background: Color(0xFFEFEBE9),
           hubGradient: [Color(0xFFA1887F), Color(0xFF5D4037)],
           screenGradient: [Color(0xFFD7CCC8), Color(0xFFEFEBE9), Color(0xFFE8F5E9)],
-          decorations: [ZoneDecoration.clouds],
+          decorations: [ZoneDecoration.clouds, ZoneDecoration.hills],
           cardBorderColor: Color(0xFF5D4037),
         );
       case 'seasons_holidays':
@@ -174,7 +175,7 @@ class ZoneVisualTheme {
           background: Color(0xFFE1F5FE),
           hubGradient: [Color(0xFF29B6F6), Color(0xFF0277BD)],
           screenGradient: [Color(0xFFB3E5FC), Color(0xFFFFE0B2), Color(0xFFE1F5FE)],
-          decorations: [ZoneDecoration.rainbow],
+          decorations: [ZoneDecoration.rainbow, ZoneDecoration.snowflakes],
           cardBorderColor: Color(0xFF0277BD),
         );
       case 'tools_professions':
@@ -185,7 +186,7 @@ class ZoneVisualTheme {
           background: Color(0xFFECEFF1),
           hubGradient: [Color(0xFF78909C), Color(0xFF37474F)],
           screenGradient: [Color(0xFFCFD8DC), Color(0xFFECEFF1), Color(0xFFFFF8E1)],
-          decorations: [ZoneDecoration.balls],
+          decorations: [ZoneDecoration.clouds, ZoneDecoration.balls],
           cardBorderColor: Color(0xFF37474F),
         );
       case 'opposites_ocean':
@@ -196,7 +197,7 @@ class ZoneVisualTheme {
           background: Color(0xFFE1F5FE),
           hubGradient: [Color(0xFF039BE5), Color(0xFF01579B)],
           screenGradient: [Color(0xFF81D4FA), Color(0xFFE1F5FE), Color(0xFFFCE4EC)],
-          decorations: [ZoneDecoration.clouds],
+          decorations: [ZoneDecoration.ocean, ZoneDecoration.bubbles],
           cardBorderColor: Color(0xFF01579B),
         );
       case 'music_meadow':
@@ -207,7 +208,7 @@ class ZoneVisualTheme {
           background: Color(0xFFF3E5F5),
           hubGradient: [Color(0xFFAB47BC), Color(0xFF6A1B9A)],
           screenGradient: [Color(0xFFE1BEE7), Color(0xFFF3E5F5), Color(0xFFE0F7FA)],
-          decorations: [ZoneDecoration.sparkles],
+          decorations: [ZoneDecoration.musicNotes, ZoneDecoration.sparkles],
           cardBorderColor: Color(0xFF6A1B9A),
         );
       default:
@@ -241,7 +242,22 @@ class ZoneVisualTheme {
   }
 }
 
-enum ZoneDecoration { leaves, clouds, sparkles, rainbow, volcano, stars, balls, paint }
+enum ZoneDecoration {
+  leaves,
+  clouds,
+  sparkles,
+  rainbow,
+  volcano,
+  stars,
+  balls,
+  paint,
+  hills,
+  mountains,
+  ocean,
+  musicNotes,
+  bubbles,
+  snowflakes,
+}
 
 /// Themed background layer for game/zone screens.
 class ZoneThemedBackground extends StatelessWidget {
@@ -262,6 +278,7 @@ class ZoneThemedBackground extends StatelessWidget {
         DecoratedBox(
           decoration: BoxDecoration(gradient: theme.screen),
         ),
+        ZoneSceneBackground(zoneId: theme.id),
         ...theme.decorations.map((d) => _DecorationLayer(type: d, isDark: theme.isDark)),
         child,
       ],
@@ -286,6 +303,12 @@ class _DecorationLayer extends StatelessWidget {
       ZoneDecoration.volcano => _FloatingEmojis(emojis: ['🌋', '🦕', '🦴'], count: 6),
       ZoneDecoration.balls => _FloatingEmojis(emojis: ['⚽', '🏀', '🎾'], count: 6),
       ZoneDecoration.paint => _FloatingEmojis(emojis: ['🎨', '🖌️', '✏️'], count: 6),
+      ZoneDecoration.hills => const _CartoonHills(),
+      ZoneDecoration.mountains => const _CartoonMountains(),
+      ZoneDecoration.ocean => const _OceanWaves(),
+      ZoneDecoration.musicNotes => _FloatingEmojis(emojis: ['🎵', '🎶', '🎼'], count: 8),
+      ZoneDecoration.bubbles => const _FloatingBubbles(),
+      ZoneDecoration.snowflakes => _FloatingEmojis(emojis: ['❄️', '☃️', '🎄'], count: 7),
     };
   }
 }
@@ -349,12 +372,209 @@ class _FloatingEmojis extends StatelessWidget {
             left: (rng.nextDouble() * 0.85 + 0.05) * MediaQuery.sizeOf(context).width,
             top: (rng.nextDouble() * 0.7 + 0.05) * MediaQuery.sizeOf(context).height,
             child: Opacity(
-              opacity: 0.12 + rng.nextDouble() * 0.15,
-              child: Text(emoji, style: TextStyle(fontSize: 20 + rng.nextDouble() * 24)),
+              opacity: 0.06 + rng.nextDouble() * 0.08,
+              child: Text(emoji, style: TextStyle(fontSize: 16 + rng.nextDouble() * 14)),
             ),
           );
         }),
       ),
     );
   }
+}
+
+class _CartoonHills extends StatelessWidget {
+  const _CartoonHills();
+
+  @override
+  Widget build(BuildContext context) {
+    return IgnorePointer(
+      child: CustomPaint(
+        painter: _HillsPainter(
+          color: const Color(0xFF66BB6A).withValues(alpha: 0.35),
+        ),
+      ),
+    );
+  }
+}
+
+class _HillsPainter extends CustomPainter {
+  _HillsPainter({required this.color});
+  final Color color;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()..color = color;
+    final path = Path()
+      ..moveTo(0, size.height * 0.82)
+      ..quadraticBezierTo(size.width * 0.2, size.height * 0.68, size.width * 0.4, size.height * 0.82)
+      ..quadraticBezierTo(size.width * 0.55, size.height * 0.92, size.width * 0.72, size.height * 0.78)
+      ..quadraticBezierTo(size.width * 0.88, size.height * 0.65, size.width, size.height * 0.8)
+      ..lineTo(size.width, size.height)
+      ..lineTo(0, size.height)
+      ..close();
+    canvas.drawPath(path, paint);
+  }
+
+  @override
+  bool shouldRepaint(_) => false;
+}
+
+class _CartoonMountains extends StatelessWidget {
+  const _CartoonMountains();
+
+  @override
+  Widget build(BuildContext context) {
+    return IgnorePointer(
+      child: CustomPaint(
+        painter: _MountainsPainter(
+          far: const Color(0xFF9FA8DA).withValues(alpha: 0.45),
+          near: const Color(0xFF7986CB).withValues(alpha: 0.55),
+        ),
+      ),
+    );
+  }
+}
+
+class _MountainsPainter extends CustomPainter {
+  _MountainsPainter({required this.far, required this.near});
+  final Color far;
+  final Color near;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    void drawPeak(Color color, double baseY, List<Offset> peaks) {
+      final path = Path()..moveTo(0, baseY);
+      for (final p in peaks) {
+        path.lineTo(p.dx * size.width, p.dy * size.height);
+      }
+      path
+        ..lineTo(size.width, baseY)
+        ..lineTo(size.width, size.height)
+        ..lineTo(0, size.height)
+        ..close();
+      canvas.drawPath(path, Paint()..color = color);
+    }
+
+    drawPeak(far, size.height * 0.72, [
+      const Offset(0, 0.72),
+      const Offset(0.18, 0.52),
+      const Offset(0.35, 0.7),
+      const Offset(0.55, 0.48),
+      const Offset(0.75, 0.68),
+      const Offset(1, 0.58),
+      const Offset(1, 0.72),
+    ]);
+    drawPeak(near, size.height * 0.82, [
+      const Offset(0, 0.82),
+      const Offset(0.25, 0.62),
+      const Offset(0.48, 0.8),
+      const Offset(0.7, 0.58),
+      const Offset(1, 0.75),
+      const Offset(1, 0.82),
+    ]);
+  }
+
+  @override
+  bool shouldRepaint(_) => false;
+}
+
+class _OceanWaves extends StatelessWidget {
+  const _OceanWaves();
+
+  @override
+  Widget build(BuildContext context) {
+    return IgnorePointer(
+      child: CustomPaint(
+        painter: _OceanPainter(
+          wave: const Color(0xFF29B6F6).withValues(alpha: 0.35),
+          deep: const Color(0xFF0288D1).withValues(alpha: 0.25),
+        ),
+      ),
+    );
+  }
+}
+
+class _OceanPainter extends CustomPainter {
+  _OceanPainter({required this.wave, required this.deep});
+  final Color wave;
+  final Color deep;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    canvas.drawRect(
+      Rect.fromLTWH(0, size.height * 0.72, size.width, size.height * 0.28),
+      Paint()..color = deep,
+    );
+    for (var i = 0; i < 3; i++) {
+      final y = size.height * (0.74 + i * 0.06);
+      final path = Path()..moveTo(0, y);
+      for (var x = 0.0; x <= size.width; x += size.width / 6) {
+        path.quadraticBezierTo(
+          x + size.width / 12,
+          y + (i.isEven ? -10 : 10),
+          x + size.width / 6,
+          y,
+        );
+      }
+      canvas.drawPath(
+        path,
+        Paint()
+          ..color = wave.withValues(alpha: 0.5 - i * 0.1)
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = 4,
+      );
+    }
+  }
+
+  @override
+  bool shouldRepaint(_) => false;
+}
+
+class _FloatingBubbles extends StatelessWidget {
+  const _FloatingBubbles();
+
+  @override
+  Widget build(BuildContext context) {
+    final rng = math.Random(42);
+    return IgnorePointer(
+      child: CustomPaint(
+        painter: _BubblePainter(
+          bubbles: List.generate(12, (_) => _Bubble(
+                x: rng.nextDouble(),
+                y: rng.nextDouble(),
+                radius: rng.nextDouble() * 14 + 6,
+                opacity: rng.nextDouble() * 0.15 + 0.08,
+              )),
+        ),
+      ),
+    );
+  }
+}
+
+class _Bubble {
+  _Bubble({required this.x, required this.y, required this.radius, required this.opacity});
+  final double x, y, radius, opacity;
+}
+
+class _BubblePainter extends CustomPainter {
+  _BubblePainter({required this.bubbles});
+  final List<_Bubble> bubbles;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    for (final b in bubbles) {
+      final paint = Paint()
+        ..color = Colors.white.withValues(alpha: b.opacity)
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 2;
+      canvas.drawCircle(
+        Offset(b.x * size.width, b.y * size.height),
+        b.radius,
+        paint,
+      );
+    }
+  }
+
+  @override
+  bool shouldRepaint(_) => false;
 }

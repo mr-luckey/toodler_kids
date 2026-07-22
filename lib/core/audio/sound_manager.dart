@@ -11,6 +11,25 @@ class SoundManager {
 
   Future<void> playSfx(String soundKey) => _playAsset(_sfxPlayer, 'sfx', soundKey);
 
+  /// Kid-friendly level-complete sound (bright "wow!" arpeggio).
+  Future<void> playCelebration() async {
+    if (!_enabled) return;
+    await playSfx('wow');
+  }
+
+  /// Short happy ding for correct tap (not full celebration).
+  Future<void> playCorrectChime() async {
+    if (!_enabled) return;
+    await playSfx('chime');
+  }
+
+  /// Simon Says / music pad tone (0–3).
+  Future<void> playSimonPad(int index) async {
+    if (!_enabled) return;
+    final key = 'pad_${index.clamp(0, 3)}';
+    await playSfx(key);
+  }
+
   Future<void> playVoice(String voiceKey) =>
       _playAsset(_voicePlayer, 'voice', voiceKey);
 

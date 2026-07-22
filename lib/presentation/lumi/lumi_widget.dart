@@ -124,7 +124,7 @@ class _LumiAvatar extends StatelessWidget {
           'assets/lottie/lumi_happy.json',
           fit: BoxFit.contain,
           repeat: true,
-          errorBuilder: (_, __, ___) => _emojiAvatar(),
+          errorBuilder: (context, error, stackTrace) => _emojiAvatar(),
         ),
       );
     }

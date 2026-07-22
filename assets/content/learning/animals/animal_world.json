@@ -17,9 +17,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
           "isCorrect": false
         },
         {
@@ -29,15 +29,15 @@
           "isCorrect": true
         },
         {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
           "isCorrect": false
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         }
       ],
@@ -62,10 +62,10 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
-          "isCorrect": true
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
         },
         {
           "id": "lion",
@@ -80,10 +80,10 @@
           "isCorrect": false
         },
         {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
-          "isCorrect": false
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -113,15 +113,9 @@
           "isCorrect": false
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
-          "isCorrect": false
-        },
-        {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
         },
         {
@@ -129,6 +123,12 @@
           "emoji": "🦒",
           "label": "Giraffe",
           "isCorrect": true
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -152,9 +152,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
           "isCorrect": false
         },
         {
@@ -164,15 +164,15 @@
           "isCorrect": true
         },
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
           "isCorrect": false
         },
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
           "isCorrect": false
         }
       ],
@@ -197,10 +197,16 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
           "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": true
         },
         {
           "id": "butterfly",
@@ -209,16 +215,10 @@
           "isCorrect": false
         },
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
           "isCorrect": false
-        },
-        {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -242,15 +242,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
           "isCorrect": false
         },
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
           "isCorrect": false
         },
         {
@@ -258,12 +264,6 @@
           "emoji": "🐑",
           "label": "Sheep",
           "isCorrect": true
-        },
-        {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -287,9 +287,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         },
         {
@@ -299,15 +305,9 @@
           "isCorrect": true
         },
         {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
-          "isCorrect": false
-        },
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
           "isCorrect": false
         }
       ],
@@ -344,15 +344,15 @@
           "isCorrect": false
         },
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
           "isCorrect": false
         },
         {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
           "isCorrect": false
         }
       ],
@@ -377,15 +377,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
-          "isCorrect": false
-        },
-        {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
         },
         {
@@ -395,9 +389,15 @@
           "isCorrect": true
         },
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
           "isCorrect": false
         }
       ],
@@ -422,28 +422,28 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
-          "isCorrect": false
-        },
-        {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
-          "isCorrect": false
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
-        },
-        {
           "id": "duck",
           "emoji": "🦆",
           "label": "Duck",
           "isCorrect": true
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -467,21 +467,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
-          "isCorrect": false
-        },
-        {
           "id": "duck",
           "emoji": "🦆",
           "label": "Duck",
-          "isCorrect": false
-        },
-        {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
           "isCorrect": false
         },
         {
@@ -489,6 +477,18 @@
           "emoji": "🐸",
           "label": "Frog",
           "isCorrect": true
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -512,15 +512,15 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": true
+        },
+        {
           "id": "duck",
           "emoji": "🦆",
           "label": "Duck",
-          "isCorrect": false
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
           "isCorrect": false
         },
         {
@@ -530,10 +530,10 @@
           "isCorrect": false
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
-          "isCorrect": true
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -557,15 +557,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
-          "isCorrect": false
-        },
-        {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         },
         {
@@ -575,9 +569,15 @@
           "isCorrect": true
         },
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
           "isCorrect": false
         }
       ],
@@ -602,27 +602,27 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
-          "isCorrect": false
-        },
-        {
           "id": "shark",
           "emoji": "🦈",
           "label": "Shark",
           "isCorrect": true
         },
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
-          "isCorrect": false
-        },
-        {
           "id": "elephant",
           "emoji": "🐘",
           "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
           "isCorrect": false
         }
       ],
@@ -647,15 +647,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": false
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
         },
         {
@@ -665,9 +659,15 @@
           "isCorrect": true
         },
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
           "isCorrect": false
         }
       ],
@@ -692,15 +692,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         },
         {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
           "isCorrect": false
         },
         {
@@ -708,12 +714,6 @@
           "emoji": "🦁",
           "label": "Lion",
           "isCorrect": true
-        },
-        {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -737,21 +737,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         },
         {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
           "isCorrect": false
         },
         {
-          "id": "monkey",
-          "emoji": "🐵",
-          "label": "Monkey",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         },
         {
@@ -782,27 +782,27 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
-          "isCorrect": false
-        },
-        {
           "id": "giraffe",
           "emoji": "🦒",
           "label": "Giraffe",
           "isCorrect": true
         },
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
           "isCorrect": false
         },
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         }
       ],
@@ -827,27 +827,27 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
           "id": "monkey",
           "emoji": "🐵",
           "label": "Monkey",
           "isCorrect": true
         },
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
-          "isCorrect": false
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
-        },
-        {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
         }
       ],
@@ -872,28 +872,28 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": true
-        },
-        {
           "id": "penguin",
           "emoji": "🐧",
           "label": "Penguin",
           "isCorrect": false
         },
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
           "isCorrect": false
         },
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -917,9 +917,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
         },
         {
@@ -929,15 +935,9 @@
           "isCorrect": true
         },
         {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
-        },
-        {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
         }
       ],
@@ -962,21 +962,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
-          "isCorrect": false
-        },
-        {
           "id": "penguin",
           "emoji": "🐧",
           "label": "Penguin",
           "isCorrect": false
         },
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         },
         {
@@ -1007,27 +1007,27 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
           "id": "chicken",
           "emoji": "🐓",
           "label": "Chicken",
           "isCorrect": true
         },
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
           "isCorrect": false
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
-          "isCorrect": false
-        },
-        {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         }
       ],
@@ -1052,9 +1052,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
           "isCorrect": false
         },
         {
@@ -1062,18 +1074,6 @@
           "emoji": "🐴",
           "label": "Horse",
           "isCorrect": true
-        },
-        {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
-          "isCorrect": false
-        },
-        {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -1097,21 +1097,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
           "isCorrect": false
         },
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
-          "isCorrect": false
-        },
-        {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         },
         {
@@ -1119,6 +1113,12 @@
           "emoji": "🦆",
           "label": "Duck",
           "isCorrect": true
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -1142,15 +1142,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
-          "isCorrect": false
-        },
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
           "isCorrect": false
         },
         {
@@ -1164,6 +1158,12 @@
           "emoji": "🐸",
           "label": "Frog",
           "isCorrect": true
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -1187,9 +1187,21 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
           "id": "cow",
           "emoji": "🐄",
           "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
         },
         {
@@ -1197,18 +1209,6 @@
           "emoji": "🐻",
           "label": "Bear",
           "isCorrect": true
-        },
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
-          "isCorrect": false
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -1232,21 +1232,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
-          "isCorrect": false
-        },
-        {
           "id": "penguin",
           "emoji": "🐧",
           "label": "Penguin",
           "isCorrect": true
         },
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
           "isCorrect": false
         },
         {
@@ -1277,9 +1277,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": true
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         },
         {
@@ -1289,16 +1295,10 @@
           "isCorrect": false
         },
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
           "isCorrect": false
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -1322,27 +1322,27 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
           "id": "butterfly",
           "emoji": "🦋",
           "label": "Butterfly",
           "isCorrect": true
         },
         {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
-          "isCorrect": false
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
-        },
-        {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         }
       ],
@@ -1367,28 +1367,28 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
           "id": "lion",
           "emoji": "🦁",
           "label": "Lion",
           "isCorrect": true
-        },
-        {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
-          "isCorrect": false
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
-          "isCorrect": false
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -1412,28 +1412,28 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
-          "isCorrect": false
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
-        },
-        {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
-          "isCorrect": false
-        },
-        {
           "id": "elephant",
           "emoji": "🐘",
           "label": "Elephant",
           "isCorrect": true
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -1457,21 +1457,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         },
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
-          "isCorrect": true
-        },
-        {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
           "isCorrect": false
         },
         {
@@ -1479,6 +1473,12 @@
           "emoji": "🐖",
           "label": "Pig",
           "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -1502,27 +1502,27 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
-          "isCorrect": false
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
-        },
-        {
           "id": "monkey",
           "emoji": "🐵",
           "label": "Monkey",
           "isCorrect": true
         },
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
           "isCorrect": false
         }
       ],
@@ -1553,9 +1553,9 @@
           "isCorrect": true
         },
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         },
         {
@@ -1565,9 +1565,9 @@
           "isCorrect": false
         },
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
         }
       ],
@@ -1598,21 +1598,21 @@
           "isCorrect": false
         },
         {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
-          "isCorrect": false
-        },
-        {
           "id": "sheep",
           "emoji": "🐑",
           "label": "Sheep",
           "isCorrect": true
         },
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
           "isCorrect": false
         }
       ],
@@ -1643,15 +1643,15 @@
           "isCorrect": true
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
         },
         {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
           "isCorrect": false
         },
         {
@@ -1682,21 +1682,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
-        },
-        {
           "id": "cow",
           "emoji": "🐄",
           "label": "Cow",
-          "isCorrect": false
-        },
-        {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
           "isCorrect": false
         },
         {
@@ -1704,6 +1692,18 @@
           "emoji": "🐓",
           "label": "Chicken",
           "isCorrect": true
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -1727,16 +1727,16 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "monkey",
-          "emoji": "🐵",
-          "label": "Monkey",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
           "isCorrect": false
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
-          "isCorrect": true
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
         },
         {
           "id": "penguin",
@@ -1745,10 +1745,10 @@
           "isCorrect": false
         },
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
-          "isCorrect": false
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -1772,15 +1772,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
           "isCorrect": false
         },
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
           "isCorrect": false
         },
         {
@@ -1790,9 +1790,9 @@
           "isCorrect": true
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
           "isCorrect": false
         }
       ],
@@ -1823,21 +1823,21 @@
           "isCorrect": true
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
-          "isCorrect": false
-        },
-        {
           "id": "shark",
           "emoji": "🦈",
           "label": "Shark",
           "isCorrect": false
         },
         {
-          "id": "monkey",
-          "emoji": "🐵",
-          "label": "Monkey",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
           "isCorrect": false
         }
       ],
@@ -1868,15 +1868,15 @@
           "isCorrect": true
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
           "isCorrect": false
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
         },
         {
@@ -1907,15 +1907,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
           "isCorrect": false
         },
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         },
         {
@@ -1923,12 +1929,6 @@
           "emoji": "🐧",
           "label": "Penguin",
           "isCorrect": true
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -1952,28 +1952,28 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": true
-        },
-        {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": false
-        },
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
-          "isCorrect": false
-        },
-        {
           "id": "pig",
           "emoji": "🐖",
           "label": "Pig",
           "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -1997,21 +1997,21 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
           "id": "chicken",
           "emoji": "🐓",
           "label": "Chicken",
-          "isCorrect": false
-        },
-        {
-          "id": "monkey",
-          "emoji": "🐵",
-          "label": "Monkey",
-          "isCorrect": false
-        },
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
           "isCorrect": false
         },
         {
@@ -2048,21 +2048,21 @@
           "isCorrect": false
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
-          "isCorrect": false
-        },
-        {
           "id": "lion",
           "emoji": "🦁",
           "label": "Lion",
           "isCorrect": true
         },
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
           "isCorrect": false
         }
       ],
@@ -2087,21 +2087,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
           "isCorrect": false
         },
         {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
         },
         {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         },
         {
@@ -2132,15 +2132,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
-          "isCorrect": false
-        },
-        {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         },
         {
@@ -2148,6 +2142,12 @@
           "emoji": "🦒",
           "label": "Giraffe",
           "isCorrect": true
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
         },
         {
           "id": "monkey",
@@ -2177,21 +2177,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
           "isCorrect": false
         },
         {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
         },
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
           "isCorrect": false
         },
         {
@@ -2222,16 +2222,10 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
           "isCorrect": false
-        },
-        {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": true
         },
         {
           "id": "pig",
@@ -2240,10 +2234,16 @@
           "isCorrect": false
         },
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
           "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -2267,28 +2267,28 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
           "id": "sheep",
           "emoji": "🐑",
           "label": "Sheep",
           "isCorrect": true
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
-        },
-        {
-          "id": "monkey",
-          "emoji": "🐵",
-          "label": "Monkey",
-          "isCorrect": false
-        },
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -2312,9 +2312,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "monkey",
-          "emoji": "🐵",
-          "label": "Monkey",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
         },
         {
@@ -2324,15 +2330,9 @@
           "isCorrect": true
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
-          "isCorrect": false
-        },
-        {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
           "isCorrect": false
         }
       ],
@@ -2357,21 +2357,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "monkey",
-          "emoji": "🐵",
-          "label": "Monkey",
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
         },
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
-          "isCorrect": false
-        },
-        {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
           "isCorrect": false
         },
         {
@@ -2379,6 +2373,12 @@
           "emoji": "🐓",
           "label": "Chicken",
           "isCorrect": true
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -2402,9 +2402,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": true
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
           "isCorrect": false
         },
         {
@@ -2414,16 +2420,10 @@
           "isCorrect": false
         },
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -2447,9 +2447,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": true
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
           "isCorrect": false
         },
         {
@@ -2459,16 +2465,10 @@
           "isCorrect": false
         },
         {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -2492,21 +2492,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
           "isCorrect": false
         },
         {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
-          "isCorrect": false
-        },
-        {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
           "isCorrect": false
         },
         {
@@ -2514,6 +2508,12 @@
           "emoji": "🐸",
           "label": "Frog",
           "isCorrect": true
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -2537,9 +2537,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
           "isCorrect": false
         },
         {
@@ -2547,18 +2559,6 @@
           "emoji": "🐻",
           "label": "Bear",
           "isCorrect": true
-        },
-        {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
-          "isCorrect": false
-        },
-        {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -2582,21 +2582,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
-          "isCorrect": false
-        },
-        {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
-          "isCorrect": false
-        },
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
           "isCorrect": false
         },
         {
@@ -2604,6 +2592,18 @@
           "emoji": "🐧",
           "label": "Penguin",
           "isCorrect": true
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -2627,9 +2627,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": true
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
         },
         {
@@ -2637,18 +2649,6 @@
           "emoji": "🐓",
           "label": "Chicken",
           "isCorrect": false
-        },
-        {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": false
-        },
-        {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -2672,10 +2672,10 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
-          "isCorrect": true
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
         },
         {
           "id": "monkey",
@@ -2684,16 +2684,16 @@
           "isCorrect": false
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
           "isCorrect": false
         },
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
-          "isCorrect": false
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -2717,21 +2717,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
           "isCorrect": false
         },
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
-          "isCorrect": false
-        },
-        {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         },
         {
@@ -2739,6 +2733,12 @@
           "emoji": "🦁",
           "label": "Lion",
           "isCorrect": true
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -2762,12 +2762,6 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
-          "isCorrect": false
-        },
-        {
           "id": "penguin",
           "emoji": "🐧",
           "label": "Penguin",
@@ -2780,9 +2774,15 @@
           "isCorrect": true
         },
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
           "isCorrect": false
         }
       ],
@@ -2807,21 +2807,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": false
-        },
-        {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
-          "isCorrect": false
-        },
-        {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         },
         {
@@ -2829,6 +2817,18 @@
           "emoji": "🦒",
           "label": "Giraffe",
           "isCorrect": true
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -2852,9 +2852,15 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "elephant",
-          "emoji": "🐘",
-          "label": "Elephant",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
           "isCorrect": false
         },
         {
@@ -2864,15 +2870,9 @@
           "isCorrect": true
         },
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
-          "isCorrect": false
-        },
-        {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
           "isCorrect": false
         }
       ],
@@ -2897,21 +2897,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
           "isCorrect": false
         },
         {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
           "isCorrect": false
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
           "isCorrect": false
         },
         {
@@ -2942,6 +2942,18 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
           "id": "giraffe",
           "emoji": "🦒",
           "label": "Giraffe",
@@ -2952,18 +2964,6 @@
           "emoji": "🐑",
           "label": "Sheep",
           "isCorrect": true
-        },
-        {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
-          "isCorrect": false
-        },
-        {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -2987,10 +2987,10 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
-          "isCorrect": false
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
+          "isCorrect": true
         },
         {
           "id": "horse",
@@ -2999,15 +2999,15 @@
           "isCorrect": false
         },
         {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
-          "isCorrect": true
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
           "isCorrect": false
         }
       ],
@@ -3038,9 +3038,9 @@
           "isCorrect": true
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
           "isCorrect": false
         },
         {
@@ -3050,9 +3050,9 @@
           "isCorrect": false
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
           "isCorrect": false
         }
       ],
@@ -3077,15 +3077,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "chicken",
-          "emoji": "🐓",
-          "label": "Chicken",
-          "isCorrect": false
-        },
-        {
-          "id": "penguin",
-          "emoji": "🐧",
-          "label": "Penguin",
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
           "isCorrect": false
         },
         {
@@ -3093,6 +3087,12 @@
           "emoji": "🐴",
           "label": "Horse",
           "isCorrect": true
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
         },
         {
           "id": "giraffe",
@@ -3122,9 +3122,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
           "isCorrect": false
         },
         {
@@ -3134,16 +3134,16 @@
           "isCorrect": false
         },
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
-          "isCorrect": false
-        },
-        {
           "id": "duck",
           "emoji": "🦆",
           "label": "Duck",
           "isCorrect": true
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -3167,15 +3167,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
-          "isCorrect": false
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
           "isCorrect": false
         },
         {
@@ -3185,9 +3179,15 @@
           "isCorrect": true
         },
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
         }
       ],
@@ -3212,21 +3212,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
-          "isCorrect": false
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
-          "isCorrect": false
-        },
-        {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
           "isCorrect": false
         },
         {
@@ -3234,6 +3222,18 @@
           "emoji": "🐻",
           "label": "Bear",
           "isCorrect": true
+        },
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "chicken",
+          "emoji": "🐓",
+          "label": "Chicken",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -3257,27 +3257,27 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "sheep",
-          "emoji": "🐑",
-          "label": "Sheep",
-          "isCorrect": false
-        },
-        {
           "id": "penguin",
           "emoji": "🐧",
           "label": "Penguin",
           "isCorrect": true
         },
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
           "isCorrect": false
         },
         {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
+          "id": "monkey",
+          "emoji": "🐵",
+          "label": "Monkey",
+          "isCorrect": false
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
           "isCorrect": false
         }
       ],
@@ -3308,15 +3308,15 @@
           "isCorrect": false
         },
         {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
           "isCorrect": false
         },
         {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
+          "id": "sheep",
+          "emoji": "🐑",
+          "label": "Sheep",
           "isCorrect": false
         },
         {
@@ -3347,15 +3347,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "shark",
-          "emoji": "🦈",
-          "label": "Shark",
-          "isCorrect": false
-        },
-        {
           "id": "sheep",
           "emoji": "🐑",
           "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
           "isCorrect": false
         },
         {
@@ -3363,12 +3369,6 @@
           "emoji": "🦋",
           "label": "Butterfly",
           "isCorrect": true
-        },
-        {
-          "id": "horse",
-          "emoji": "🐴",
-          "label": "Horse",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -3392,9 +3392,21 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "frog",
+          "emoji": "🐸",
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
+          "isCorrect": false
+        },
+        {
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
           "isCorrect": false
         },
         {
@@ -3402,18 +3414,6 @@
           "emoji": "🦁",
           "label": "Lion",
           "isCorrect": true
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
-          "isCorrect": false
-        },
-        {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -3437,27 +3437,27 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": false
-        },
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
-          "isCorrect": false
-        },
-        {
           "id": "elephant",
           "emoji": "🐘",
           "label": "Elephant",
           "isCorrect": true
         },
         {
-          "id": "bear",
-          "emoji": "🐻",
-          "label": "Bear",
+          "id": "giraffe",
+          "emoji": "🦒",
+          "label": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "label": "Cow",
           "isCorrect": false
         }
       ],
@@ -3482,27 +3482,27 @@
       "mode": "quick_tap",
       "items": [
         {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "label": "Butterfly",
+          "isCorrect": false
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
           "id": "giraffe",
           "emoji": "🦒",
           "label": "Giraffe",
           "isCorrect": true
         },
         {
-          "id": "cow",
-          "emoji": "🐄",
-          "label": "Cow",
-          "isCorrect": false
-        },
-        {
-          "id": "lion",
-          "emoji": "🦁",
-          "label": "Lion",
-          "isCorrect": false
-        },
-        {
-          "id": "frog",
-          "emoji": "🐸",
-          "label": "Frog",
+          "id": "horse",
+          "emoji": "🐴",
+          "label": "Horse",
           "isCorrect": false
         }
       ],
@@ -3527,9 +3527,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
+          "id": "pig",
+          "emoji": "🐖",
+          "label": "Pig",
           "isCorrect": false
         },
         {
@@ -3539,15 +3539,15 @@
           "isCorrect": true
         },
         {
-          "id": "butterfly",
-          "emoji": "🦋",
-          "label": "Butterfly",
+          "id": "lion",
+          "emoji": "🦁",
+          "label": "Lion",
           "isCorrect": false
         },
         {
-          "id": "pig",
-          "emoji": "🐖",
-          "label": "Pig",
+          "id": "bear",
+          "emoji": "🐻",
+          "label": "Bear",
           "isCorrect": false
         }
       ],
@@ -3572,21 +3572,9 @@
       "mode": "quick_tap",
       "items": [
         {
-          "id": "giraffe",
-          "emoji": "🦒",
-          "label": "Giraffe",
-          "isCorrect": false
-        },
-        {
           "id": "bear",
           "emoji": "🐻",
           "label": "Bear",
-          "isCorrect": false
-        },
-        {
-          "id": "duck",
-          "emoji": "🦆",
-          "label": "Duck",
           "isCorrect": false
         },
         {
@@ -3594,6 +3582,18 @@
           "emoji": "🐄",
           "label": "Cow",
           "isCorrect": true
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "label": "Elephant",
+          "isCorrect": false
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "label": "Penguin",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [

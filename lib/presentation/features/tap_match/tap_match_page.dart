@@ -61,7 +61,7 @@ class _TapMatchView extends StatelessWidget {
           }
           if (state is TapMatchPlaying) {
             return Padding(
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.fromLTRB(12, 4, 12, 8),
               child: TapMatchEngine(
                 prompt: state.prompt,
                 choices: state.choices,

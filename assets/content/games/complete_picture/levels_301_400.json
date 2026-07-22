@@ -18,9 +18,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/num_15.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -34,22 +34,22 @@
       "options": [
         {
           "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/letter_I.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/num_15.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_B.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_P.png",
           "isCorrect": false
         }
       ],
@@ -67,8 +67,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.num_15"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_302",
@@ -88,9 +91,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/penguin.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -103,23 +106,23 @@
       },
       "options": [
         {
+          "id": "wrong_2",
+          "image": "assets/images/game/mars.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/tennis.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/penguin.png",
           "isCorrect": true
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/veloci.png",
           "isCorrect": false
         }
       ],
@@ -137,8 +140,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.pig"
-      ]
+        "visual.complete.penguin"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_303",
@@ -158,9 +164,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/letter_L.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -173,23 +179,23 @@
       },
       "options": [
         {
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_S.png",
+          "isCorrect": false
+        },
+        {
           "id": "correct",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/letter_L.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/pig.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_Z.png",
           "isCorrect": false
         }
       ],
@@ -205,10 +211,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.lion.default",
+      "funFactKey": "facts.letter_L.default",
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.letter_L"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_304",
@@ -228,9 +237,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/ptero.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -243,23 +252,23 @@
       },
       "options": [
         {
+          "id": "wrong_2",
+          "image": "assets/images/game/swimming.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/saw.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/rocket.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/ptero.png",
           "isCorrect": true
         }
       ],
@@ -277,8 +286,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.elephant"
-      ]
+        "visual.complete.ptero"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_305",
@@ -298,9 +310,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/orange.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -314,22 +326,22 @@
       "options": [
         {
           "id": "correct",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/orange.png",
           "isCorrect": true
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/num_10.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/num_3.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/num_17.png",
           "isCorrect": false
         }
       ],
@@ -347,8 +359,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.orange"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_306",
@@ -368,9 +383,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/letter_A.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -383,24 +398,24 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/letter_O.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/letter_A.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_V.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_H.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -415,10 +430,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.monkey.default",
+      "funFactKey": "facts.letter_A.default",
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.letter_A"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_307",
@@ -438,9 +456,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/letter_M.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -453,23 +471,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_T.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/lion.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/chicken.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/letter_M.png",
           "isCorrect": true
         }
       ],
@@ -487,8 +505,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.letter_M"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_308",
@@ -508,9 +529,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/num_2.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -523,23 +544,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/num_2.png",
           "isCorrect": true
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/num_9.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/letter_C.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/num_16.png",
           "isCorrect": false
         }
       ],
@@ -557,8 +578,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.num_2"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_309",
@@ -578,9 +602,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/letter_Z.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -593,23 +617,23 @@
       },
       "options": [
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/ptero.png",
+          "isCorrect": false
+        },
+        {
           "id": "correct",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/letter_Z.png",
           "isCorrect": true
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/shark.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/pig.png",
           "isCorrect": false
         }
       ],
@@ -625,10 +649,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.tree.default",
+      "funFactKey": "facts.letter_Z.default",
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.letter_Z"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_310",
@@ -648,9 +675,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/trex.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -663,23 +690,23 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": true
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/spino.png",
           "isCorrect": false
         },
         {
+          "id": "correct",
+          "image": "assets/images/game/trex.png",
+          "isCorrect": true
+        },
+        {
           "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/golf.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/star.png",
           "isCorrect": false
         }
       ],
@@ -697,8 +724,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.trex"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_311",
@@ -718,9 +748,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/red.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -733,23 +763,23 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/red.png",
           "isCorrect": true
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/num_13.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/num_6.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/black.png",
           "isCorrect": false
         }
       ],
@@ -767,8 +797,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.red"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_312",
@@ -788,9 +821,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/stego.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -803,23 +836,23 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": true
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/hammer.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/football.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/stego.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/moon.png",
           "isCorrect": false
         }
       ],
@@ -835,10 +868,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.pig.default",
+      "funFactKey": "facts.stego.default",
       "relatedConcepts": [
-        "visual.complete.pig"
-      ]
+        "visual.complete.stego"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_313",
@@ -858,9 +894,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/num_11.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -874,23 +910,23 @@
       "options": [
         {
           "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/letter_E.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/num_18.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/num_11.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_L.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -907,8 +943,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.num_11"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_314",
@@ -928,9 +967,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/num_6.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -943,23 +982,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/num_6.png",
           "isCorrect": true
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/num_13.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/num_20.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/letter_G.png",
           "isCorrect": false
         }
       ],
@@ -977,8 +1016,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.elephant"
-      ]
+        "visual.complete.num_6"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_315",
@@ -998,9 +1040,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/spino.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1014,22 +1056,22 @@
       "options": [
         {
           "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/star.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/golf.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/spino.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/pliers.png",
           "isCorrect": false
         }
       ],
@@ -1045,10 +1087,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.giraffe.default",
+      "funFactKey": "facts.spino.default",
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.spino"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_316",
@@ -1068,9 +1113,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/ankylo.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1083,23 +1128,23 @@
       },
       "options": [
         {
+          "id": "wrong_1",
+          "image": "assets/images/game/saturn.png",
+          "isCorrect": false
+        },
+        {
           "id": "correct",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/ankylo.png",
           "isCorrect": true
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/cricket.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/drill.png",
           "isCorrect": false
         }
       ],
@@ -1117,8 +1162,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.ankylo"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_317",
@@ -1138,9 +1186,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/letter_X.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1153,23 +1201,23 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/letter_X.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/brachio.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/cow.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/bear.png",
           "isCorrect": false
         }
       ],
@@ -1187,8 +1235,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.letter_X"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_318",
@@ -1208,9 +1259,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/shark.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1223,23 +1274,23 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/shark.png",
           "isCorrect": true
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/rocket.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/ptero.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/swimming.png",
           "isCorrect": false
         }
       ],
@@ -1255,10 +1306,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.dino.default",
+      "funFactKey": "facts.shark.default",
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.shark"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_319",
@@ -1278,9 +1332,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/letter_Q.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1293,23 +1347,23 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/letter_Q.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_X.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/bear.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/cow.png",
           "isCorrect": false
         }
       ],
@@ -1327,8 +1381,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.letter_Q"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_320",
@@ -1348,9 +1405,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/letter_C.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1363,24 +1420,24 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_Q.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_X.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_J.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/letter_C.png",
           "isCorrect": true
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
-          "isCorrect": false
         }
       ],
       "feedback": {
@@ -1397,8 +1454,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.letter_C"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_321",
@@ -1418,9 +1478,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/letter_W.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1433,23 +1493,23 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/stego.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/letter_W.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/frog.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/monkey.png",
           "isCorrect": false
         }
       ],
@@ -1465,10 +1525,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.sheep.default",
+      "funFactKey": "facts.letter_W.default",
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.letter_W"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_322",
@@ -1488,9 +1551,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/giraffe.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1504,23 +1567,23 @@
       "options": [
         {
           "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/triceratops.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/giraffe.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/sun.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/duck.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -1537,8 +1600,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.pig"
-      ]
+        "visual.complete.giraffe"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_323",
@@ -1558,9 +1624,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/sun.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1573,23 +1639,23 @@
       },
       "options": [
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/red.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/comet.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/skiing.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/sun.png",
           "isCorrect": true
         }
       ],
@@ -1607,8 +1673,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.sun"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_324",
@@ -1628,9 +1697,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/hammer.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1643,23 +1712,23 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/white.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/hammer.png",
           "isCorrect": true
         },
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/num_7.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/blue.png",
           "isCorrect": false
         }
       ],
@@ -1675,10 +1744,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.elephant.default",
+      "funFactKey": "facts.hammer.default",
       "relatedConcepts": [
-        "visual.complete.elephant"
-      ]
+        "visual.complete.hammer"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_325",
@@ -1698,9 +1770,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/letter_H.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1713,23 +1785,23 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": true
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/giraffe.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/letter_V.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/letter_H.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_O.png",
           "isCorrect": false
         }
       ],
@@ -1747,8 +1819,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.letter_H"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_326",
@@ -1768,9 +1843,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/cow.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1783,24 +1858,24 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/brachio.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/earth.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/bear.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/cow.png",
           "isCorrect": true
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": false
         }
       ],
       "feedback": {
@@ -1817,8 +1892,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.cow"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_327",
@@ -1838,9 +1916,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/letter_N.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1853,23 +1931,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/letter_N.png",
           "isCorrect": true
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/letter_U.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/elephant.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/horse.png",
           "isCorrect": false
         }
       ],
@@ -1885,10 +1963,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.rocket.default",
+      "funFactKey": "facts.letter_N.default",
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.letter_N"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_328",
@@ -1908,9 +1989,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/letter_B.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1924,22 +2005,22 @@
       "options": [
         {
           "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/letter_I.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/letter_B.png",
           "isCorrect": true
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/letter_W.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_P.png",
           "isCorrect": false
         }
       ],
@@ -1957,8 +2038,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.letter_B"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_329",
@@ -1978,9 +2062,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/lion.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -1993,23 +2077,23 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/ankylo.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/chicken.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/butterfly.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/lion.png",
           "isCorrect": true
         }
       ],
@@ -2027,8 +2111,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.lion"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_330",
@@ -2048,9 +2135,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/letter_U.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2063,23 +2150,23 @@
       },
       "options": [
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/trex.png",
+          "isCorrect": false
+        },
+        {
           "id": "correct",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/letter_U.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/elephant.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/horse.png",
           "isCorrect": false
         }
       ],
@@ -2095,10 +2182,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.cow.default",
+      "funFactKey": "facts.letter_U.default",
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.letter_U"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_331",
@@ -2118,9 +2208,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/num_4.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2133,24 +2223,24 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/num_18.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/num_4.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_E.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/num_11.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -2167,8 +2257,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.num_4"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_332",
@@ -2188,9 +2281,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/mars.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2203,23 +2296,23 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": true
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/tennis.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/yellow.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/mars.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/screwdriver.png",
           "isCorrect": false
         }
       ],
@@ -2237,8 +2330,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.pig"
-      ]
+        "visual.complete.mars"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_333",
@@ -2258,9 +2354,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/num_16.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2273,24 +2369,24 @@
       },
       "options": [
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_Q.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/letter_C.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/letter_J.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/num_16.png",
           "isCorrect": true
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
         }
       ],
       "feedback": {
@@ -2305,10 +2401,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.lion.default",
+      "funFactKey": "facts.num_16.default",
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.num_16"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_334",
@@ -2328,9 +2427,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/num_14.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2343,23 +2442,23 @@
       },
       "options": [
         {
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_H.png",
+          "isCorrect": false
+        },
+        {
           "id": "correct",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/num_14.png",
           "isCorrect": true
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/letter_A.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/letter_O.png",
           "isCorrect": false
         }
       ],
@@ -2377,8 +2476,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.elephant"
-      ]
+        "visual.complete.num_14"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_335",
@@ -2398,9 +2500,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/comet.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2413,23 +2515,23 @@
       },
       "options": [
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/black.png",
+          "isCorrect": false
+        },
+        {
           "id": "correct",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/comet.png",
           "isCorrect": true
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/red.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/skiing.png",
           "isCorrect": false
         }
       ],
@@ -2447,8 +2549,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.comet"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_336",
@@ -2468,9 +2573,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/purple.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2483,23 +2588,23 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": true
+          "id": "wrong_1",
+          "image": "assets/images/game/num_4.png",
+          "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/num_11.png",
           "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/purple.png",
+          "isCorrect": true
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/num_18.png",
           "isCorrect": false
         }
       ],
@@ -2515,10 +2620,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.monkey.default",
+      "funFactKey": "facts.purple.default",
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.purple"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_337",
@@ -2538,9 +2646,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/num_8.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2553,23 +2661,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/num_15.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/num_8.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_B.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_I.png",
           "isCorrect": false
         }
       ],
@@ -2587,8 +2695,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.num_8"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_338",
@@ -2608,9 +2719,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/letter_Y.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2624,22 +2735,22 @@
       "options": [
         {
           "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/sheep.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/veloci.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/letter_Y.png",
           "isCorrect": true
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/penguin.png",
           "isCorrect": false
         }
       ],
@@ -2657,8 +2768,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.letter_Y"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_339",
@@ -2678,9 +2792,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/black.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2693,23 +2807,23 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/num_6.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/num_13.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/num_20.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/black.png",
           "isCorrect": true
         }
       ],
@@ -2725,10 +2839,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.tree.default",
+      "funFactKey": "facts.black.default",
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.black"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_340",
@@ -2748,9 +2865,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/saturn.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2763,23 +2880,23 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/drill.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/cricket.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/saturn.png",
           "isCorrect": true
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/purple.png",
           "isCorrect": false
         }
       ],
@@ -2797,8 +2914,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.saturn"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_341",
@@ -2818,9 +2938,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/star.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2834,22 +2954,22 @@
       "options": [
         {
           "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/golf.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/pink.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/star.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/pliers.png",
           "isCorrect": false
         }
       ],
@@ -2867,8 +2987,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.star"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_342",
@@ -2888,9 +3011,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/letter_K.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2903,23 +3026,23 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/letter_R.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/letter_Y.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/sheep.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/letter_K.png",
           "isCorrect": true
         }
       ],
@@ -2935,10 +3058,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.pig.default",
+      "funFactKey": "facts.letter_K.default",
       "relatedConcepts": [
-        "visual.complete.pig"
-      ]
+        "visual.complete.letter_K"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_343",
@@ -2958,9 +3084,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/green.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -2974,22 +3100,22 @@
       "options": [
         {
           "id": "correct",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/green.png",
           "isCorrect": true
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/num_15.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/num_1.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/num_8.png",
           "isCorrect": false
         }
       ],
@@ -3007,8 +3133,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.green"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_344",
@@ -3028,9 +3157,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/moon.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3043,24 +3172,24 @@
       },
       "options": [
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/blue.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/hammer.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/football.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/moon.png",
           "isCorrect": true
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
-          "isCorrect": false
         }
       ],
       "feedback": {
@@ -3077,8 +3206,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.elephant"
-      ]
+        "visual.complete.moon"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_345",
@@ -3098,9 +3230,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/duck.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3113,24 +3245,24 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": true
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/comet.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/triceratops.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/sun.png",
           "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/duck.png",
+          "isCorrect": true
         }
       ],
       "feedback": {
@@ -3145,10 +3277,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.giraffe.default",
+      "funFactKey": "facts.duck.default",
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.duck"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_346",
@@ -3168,9 +3303,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/chicken.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3184,22 +3319,22 @@
       "options": [
         {
           "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/saturn.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/ankylo.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/chicken.png",
           "isCorrect": true
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/butterfly.png",
           "isCorrect": false
         }
       ],
@@ -3217,8 +3352,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.chicken"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_347",
@@ -3238,9 +3376,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/tennis.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3254,23 +3392,23 @@
       "options": [
         {
           "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/num_2.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/screwdriver.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/yellow.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/tennis.png",
           "isCorrect": true
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
-          "isCorrect": false
         }
       ],
       "feedback": {
@@ -3287,8 +3425,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.tennis"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_348",
@@ -3308,9 +3449,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/triceratops.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3324,22 +3465,22 @@
       "options": [
         {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/triceratops.png",
           "isCorrect": true
         },
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/skiing.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/comet.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/sun.png",
           "isCorrect": false
         }
       ],
@@ -3355,10 +3496,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.dino.default",
+      "funFactKey": "facts.triceratops.default",
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.triceratops"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_349",
@@ -3378,9 +3522,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/screwdriver.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3393,23 +3537,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/num_9.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/screwdriver.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/yellow.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/num_2.png",
           "isCorrect": false
         }
       ],
@@ -3427,8 +3571,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.screwdriver"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_350",
@@ -3448,9 +3595,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/brachio.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3463,23 +3610,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/brachio.png",
           "isCorrect": true
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/wrench.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/basketball.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/earth.png",
           "isCorrect": false
         }
       ],
@@ -3497,8 +3644,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.brachio"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_351",
@@ -3518,9 +3668,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/white.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3533,24 +3683,24 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/num_14.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/num_7.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/white.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_A.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -3565,10 +3715,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.sheep.default",
+      "funFactKey": "facts.white.default",
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.white"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_352",
@@ -3588,9 +3741,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/num_13.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3603,24 +3756,24 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/letter_N.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_G.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/num_13.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/num_20.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -3637,8 +3790,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.pig"
-      ]
+        "visual.complete.num_13"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_353",
@@ -3658,9 +3814,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/num_7.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3674,22 +3830,22 @@
       "options": [
         {
           "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/letter_H.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/num_14.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/letter_A.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/num_7.png",
           "isCorrect": true
         }
       ],
@@ -3707,8 +3863,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.num_7"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_354",
@@ -3728,9 +3887,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/basketball.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3743,23 +3902,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
-        },
-        {
-          "id": "correct",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": true
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/wrench.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/num_1.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/basketball.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/green.png",
           "isCorrect": false
         }
       ],
@@ -3775,10 +3934,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.elephant.default",
+      "funFactKey": "facts.basketball.default",
       "relatedConcepts": [
-        "visual.complete.elephant"
-      ]
+        "visual.complete.basketball"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_355",
@@ -3798,9 +3960,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/pliers.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3813,23 +3975,23 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
-        },
-        {
-          "id": "correct",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": true
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/num_12.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/num_5.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/pliers.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/pink.png",
           "isCorrect": false
         }
       ],
@@ -3847,8 +4009,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.pliers"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_356",
@@ -3868,9 +4033,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/sheep.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3884,22 +4049,22 @@
       "options": [
         {
           "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/penguin.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/mars.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/veloci.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/sheep.png",
           "isCorrect": true
         }
       ],
@@ -3917,8 +4082,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.sheep"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_357",
@@ -3938,9 +4106,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/num_19.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -3953,23 +4121,23 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/num_19.png",
           "isCorrect": true
         },
         {
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_M.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/letter_F.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_T.png",
           "isCorrect": false
         }
       ],
@@ -3985,10 +4153,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.rocket.default",
+      "funFactKey": "facts.num_19.default",
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.num_19"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_358",
@@ -4008,9 +4179,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/veloci.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4023,23 +4194,23 @@
       },
       "options": [
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/screwdriver.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/mars.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/veloci.png",
           "isCorrect": true
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/tennis.png",
           "isCorrect": false
         }
       ],
@@ -4057,8 +4228,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.veloci"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_359",
@@ -4078,9 +4252,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/letter_F.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4094,22 +4268,22 @@
       "options": [
         {
           "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/lion.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/letter_T.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/letter_M.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/letter_F.png",
           "isCorrect": true
         }
       ],
@@ -4127,8 +4301,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.letter_F"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_360",
@@ -4148,9 +4325,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/num_10.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4163,23 +4340,23 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_D.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/num_10.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_K.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/num_17.png",
           "isCorrect": false
         }
       ],
@@ -4195,10 +4372,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.cow.default",
+      "funFactKey": "facts.num_10.default",
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.num_10"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_361",
@@ -4218,9 +4398,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/skiing.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4233,24 +4413,24 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/sheep.png",
-          "isCorrect": true
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/red.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/black.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/num_6.png",
           "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/skiing.png",
+          "isCorrect": true
         }
       ],
       "feedback": {
@@ -4267,8 +4447,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.skiing"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_362",
@@ -4288,9 +4471,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/pink.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4304,22 +4487,22 @@
       "options": [
         {
           "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/num_19.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/pink.png",
           "isCorrect": true
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/num_5.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/num_12.png",
           "isCorrect": false
         }
       ],
@@ -4337,8 +4520,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.pig"
-      ]
+        "visual.complete.pink"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_363",
@@ -4358,9 +4544,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/letter_I.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4373,24 +4559,24 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
+          "id": "correct",
+          "image": "assets/images/game/letter_I.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_P.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/letter_W.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/monkey.png",
           "isCorrect": false
-        },
-        {
-          "id": "correct",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": true
         }
       ],
       "feedback": {
@@ -4405,10 +4591,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.lion.default",
+      "funFactKey": "facts.letter_I.default",
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.letter_I"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_364",
@@ -4428,9 +4617,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/earth.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4444,22 +4633,22 @@
       "options": [
         {
           "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/wrench.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/green.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/basketball.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/earth.png",
           "isCorrect": true
         }
       ],
@@ -4477,8 +4666,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.elephant"
-      ]
+        "visual.complete.earth"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_365",
@@ -4498,9 +4690,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/letter_G.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4513,23 +4705,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/letter_G.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/elephant.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_U.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_N.png",
           "isCorrect": false
         }
       ],
@@ -4547,8 +4739,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.letter_G"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_366",
@@ -4568,9 +4763,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/num_20.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4583,23 +4778,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/num_20.png",
           "isCorrect": true
         },
         {
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_G.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_N.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/letter_U.png",
           "isCorrect": false
         }
       ],
@@ -4615,10 +4810,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.monkey.default",
+      "funFactKey": "facts.num_20.default",
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.num_20"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_367",
@@ -4638,9 +4836,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/num_1.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4654,22 +4852,22 @@
       "options": [
         {
           "id": "correct",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/num_1.png",
           "isCorrect": true
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/letter_B.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/num_15.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/num_8.png",
           "isCorrect": false
         }
       ],
@@ -4687,8 +4885,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.num_1"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_368",
@@ -4708,9 +4909,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/blue.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4723,24 +4924,24 @@
       },
       "options": [
         {
+          "id": "wrong_2",
+          "image": "assets/images/game/num_7.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/white.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/num_14.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/blue.png",
           "isCorrect": true
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": false
         }
       ],
       "feedback": {
@@ -4757,8 +4958,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.blue"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_369",
@@ -4778,9 +4982,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/monkey.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4793,24 +4997,24 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": true
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/frog.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/moon.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/stego.png",
           "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/monkey.png",
+          "isCorrect": true
         }
       ],
       "feedback": {
@@ -4825,10 +5029,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.tree.default",
+      "funFactKey": "facts.monkey.default",
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.monkey"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_370",
@@ -4848,9 +5055,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/golf.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4864,22 +5071,22 @@
       "options": [
         {
           "id": "correct",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/golf.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/pink.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/num_5.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/pliers.png",
           "isCorrect": false
         }
       ],
@@ -4897,8 +5104,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.golf"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_371",
@@ -4918,9 +5128,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/football.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -4933,23 +5143,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/football.png",
           "isCorrect": true
         },
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/white.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/hammer.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/blue.png",
           "isCorrect": false
         }
       ],
@@ -4967,8 +5177,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.football"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_372",
@@ -4988,9 +5201,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/horse.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5003,24 +5216,24 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/star.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/horse.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/spino.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/trex.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -5035,10 +5248,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.pig.default",
+      "funFactKey": "facts.horse.default",
       "relatedConcepts": [
-        "visual.complete.pig"
-      ]
+        "visual.complete.horse"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_373",
@@ -5058,9 +5274,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/butterfly.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5073,23 +5289,23 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
-        },
-        {
-          "id": "correct",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": true
-        },
-        {
           "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/saturn.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/ankylo.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/butterfly.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/cricket.png",
           "isCorrect": false
         }
       ],
@@ -5107,8 +5323,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.butterfly"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_374",
@@ -5128,9 +5347,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/letter_E.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5143,23 +5362,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_L.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/letter_E.png",
           "isCorrect": true
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/letter_Z.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_S.png",
           "isCorrect": false
         }
       ],
@@ -5177,8 +5396,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.elephant"
-      ]
+        "visual.complete.letter_E"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_375",
@@ -5198,9 +5420,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/num_5.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5213,24 +5435,24 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/letter_F.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/num_5.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/num_19.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/num_12.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -5245,10 +5467,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.giraffe.default",
+      "funFactKey": "facts.num_5.default",
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.num_5"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_376",
@@ -5268,9 +5493,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/wrench.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5284,22 +5509,22 @@
       "options": [
         {
           "id": "correct",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/wrench.png",
           "isCorrect": true
         },
         {
+          "id": "wrong_2",
+          "image": "assets/images/game/num_1.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/green.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/num_8.png",
           "isCorrect": false
         }
       ],
@@ -5317,8 +5542,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.wrench"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_377",
@@ -5338,9 +5566,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/letter_J.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5353,23 +5581,23 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": false
-        },
-        {
-          "id": "correct",
-          "image": "assets/images/games/rocket.png",
-          "isCorrect": true
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/letter_Q.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/letter_X.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/letter_J.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/cow.png",
           "isCorrect": false
         }
       ],
@@ -5387,8 +5615,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.letter_J"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_378",
@@ -5408,9 +5639,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/num_3.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5424,22 +5655,22 @@
       "options": [
         {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/num_3.png",
           "isCorrect": true
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/letter_D.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/num_17.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/num_10.png",
           "isCorrect": false
         }
       ],
@@ -5455,10 +5686,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.dino.default",
+      "funFactKey": "facts.num_3.default",
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.num_3"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_379",
@@ -5478,9 +5712,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/letter_R.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5494,22 +5728,22 @@
       "options": [
         {
           "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/letter_Y.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/sheep.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/penguin.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/letter_R.png",
           "isCorrect": true
         }
       ],
@@ -5527,8 +5761,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.letter_R"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_380",
@@ -5548,9 +5785,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/num_12.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5563,23 +5800,23 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": false
-        },
-        {
           "id": "correct",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/num_12.png",
           "isCorrect": true
         },
         {
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_M.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/num_19.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/letter_F.png",
           "isCorrect": false
         }
       ],
@@ -5597,8 +5834,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.num_12"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_381",
@@ -5618,9 +5858,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/letter_S.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5633,24 +5873,24 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
+          "id": "correct",
+          "image": "assets/images/game/letter_S.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/shark.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/pig.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_Z.png",
           "isCorrect": false
-        },
-        {
-          "id": "correct",
-          "image": "assets/images/games/sheep.png",
-          "isCorrect": true
         }
       ],
       "feedback": {
@@ -5665,10 +5905,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.sheep.default",
+      "funFactKey": "facts.letter_S.default",
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.letter_S"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_382",
@@ -5688,9 +5931,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/pig.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5703,24 +5946,24 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/ptero.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/rocket.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/shark.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/pig.png",
           "isCorrect": true
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
         }
       ],
       "feedback": {
@@ -5738,7 +5981,10 @@
       "funFactKey": null,
       "relatedConcepts": [
         "visual.complete.pig"
-      ]
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_383",
@@ -5758,9 +6004,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/letter_T.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5774,23 +6020,23 @@
       "options": [
         {
           "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/chicken.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/butterfly.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/lion.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/letter_T.png",
           "isCorrect": true
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
         }
       ],
       "feedback": {
@@ -5807,8 +6053,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.letter_T"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_384",
@@ -5828,9 +6077,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/bear.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5843,23 +6092,23 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": true
-        },
-        {
           "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/earth.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/basketball.png",
           "isCorrect": false
         },
         {
+          "id": "correct",
+          "image": "assets/images/game/bear.png",
+          "isCorrect": true
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/brachio.png",
           "isCorrect": false
         }
       ],
@@ -5875,10 +6124,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.elephant.default",
+      "funFactKey": "facts.bear.default",
       "relatedConcepts": [
-        "visual.complete.elephant"
-      ]
+        "visual.complete.bear"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_385",
@@ -5898,9 +6150,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/num_18.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5913,24 +6165,24 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": true
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/letter_S.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/letter_L.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/letter_E.png",
           "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/num_18.png",
+          "isCorrect": true
         }
       ],
       "feedback": {
@@ -5947,8 +6199,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.num_18"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_386",
@@ -5968,9 +6223,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/cricket.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -5983,24 +6238,24 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/num_4.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/cricket.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/drill.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/purple.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -6017,8 +6272,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.cricket"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_387",
@@ -6038,9 +6296,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/letter_D.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6053,23 +6311,23 @@
       },
       "options": [
         {
+          "id": "correct",
+          "image": "assets/images/game/letter_D.png",
+          "isCorrect": true
+        },
+        {
           "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/letter_R.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_Y.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
-          "isCorrect": false
-        },
-        {
-          "id": "correct",
-          "image": "assets/images/games/rocket.png",
-          "isCorrect": true
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/letter_K.png",
           "isCorrect": false
         }
       ],
@@ -6085,10 +6343,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.rocket.default",
+      "funFactKey": "facts.letter_D.default",
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.letter_D"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_388",
@@ -6108,9 +6369,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/yellow.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6124,22 +6385,22 @@
       "options": [
         {
           "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/num_16.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/yellow.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/num_2.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/num_9.png",
           "isCorrect": false
         }
       ],
@@ -6157,8 +6418,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.yellow"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_389",
@@ -6178,9 +6442,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/rocket.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6193,24 +6457,24 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/swimming.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/saw.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/rocket.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/orange.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -6227,8 +6491,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.rocket"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_390",
@@ -6248,9 +6515,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/saw.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6263,23 +6530,23 @@
       },
       "options": [
         {
+          "id": "correct",
+          "image": "assets/images/game/saw.png",
+          "isCorrect": true
+        },
+        {
           "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/num_3.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/orange.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
-          "isCorrect": false
-        },
-        {
-          "id": "correct",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": true
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/num_10.png",
           "isCorrect": false
         }
       ],
@@ -6295,10 +6562,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.cow.default",
+      "funFactKey": "facts.saw.default",
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.saw"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_391",
@@ -6318,9 +6588,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/sheep_full.png",
+      "referenceImage": "assets/images/game/letter_O.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6334,22 +6604,22 @@
       "options": [
         {
           "id": "wrong_3",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/duck.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/pig.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/giraffe.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/letter_O.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/lion.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_V.png",
           "isCorrect": false
         }
       ],
@@ -6367,8 +6637,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.sheep"
-      ]
+        "visual.complete.letter_O"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_392",
@@ -6388,9 +6661,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/pig_full.png",
+      "referenceImage": "assets/images/game/num_9.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6403,23 +6676,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/elephant.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/num_16.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/letter_J.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_C.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/num_9.png",
           "isCorrect": true
         }
       ],
@@ -6437,8 +6710,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.pig"
-      ]
+        "visual.complete.num_9"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_393",
@@ -6458,9 +6734,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/lion_full.png",
+      "referenceImage": "assets/images/game/letter_P.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6473,23 +6749,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/frog.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/lion.png",
+          "image": "assets/images/game/letter_P.png",
           "isCorrect": true
         },
         {
+          "id": "wrong_2",
+          "image": "assets/images/game/monkey.png",
+          "isCorrect": false
+        },
+        {
           "id": "wrong_1",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/letter_W.png",
           "isCorrect": false
         }
       ],
@@ -6505,10 +6781,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.lion.default",
+      "funFactKey": "facts.letter_P.default",
       "relatedConcepts": [
-        "visual.complete.lion"
-      ]
+        "visual.complete.letter_P"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_394",
@@ -6528,9 +6807,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/elephant_full.png",
+      "referenceImage": "assets/images/game/elephant.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6543,23 +6822,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/monkey.png",
-          "isCorrect": false
-        },
-        {
           "id": "wrong_3",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/spino.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/elephant.png",
+          "image": "assets/images/game/elephant.png",
           "isCorrect": true
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/giraffe.png",
+          "image": "assets/images/game/horse.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_2",
+          "image": "assets/images/game/trex.png",
           "isCorrect": false
         }
       ],
@@ -6578,7 +6857,10 @@
       "funFactKey": null,
       "relatedConcepts": [
         "visual.complete.elephant"
-      ]
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_395",
@@ -6598,9 +6880,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/giraffe_full.png",
+      "referenceImage": "assets/images/game/num_17.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6613,23 +6895,23 @@
       },
       "options": [
         {
-          "id": "correct",
-          "image": "assets/images/games/giraffe.png",
-          "isCorrect": true
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/monkey.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/letter_K.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/letter_R.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/rocket.png",
+          "id": "correct",
+          "image": "assets/images/game/num_17.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/letter_D.png",
           "isCorrect": false
         }
       ],
@@ -6647,8 +6929,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.giraffe"
-      ]
+        "visual.complete.num_17"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_396",
@@ -6668,9 +6953,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/monkey_full.png",
+      "referenceImage": "assets/images/game/letter_V.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6683,23 +6968,23 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/dino.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/giraffe.png",
           "isCorrect": false
         },
         {
           "id": "wrong_3",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/triceratops.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/monkey.png",
+          "image": "assets/images/game/letter_V.png",
           "isCorrect": true
         },
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/rocket.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/duck.png",
           "isCorrect": false
         }
       ],
@@ -6715,10 +7000,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.monkey.default",
+      "funFactKey": "facts.letter_V.default",
       "relatedConcepts": [
-        "visual.complete.monkey"
-      ]
+        "visual.complete.letter_V"
+      ],
+      "extra": {
+        "colorVariant": 3
+      }
     },
     {
       "id": "cp_397",
@@ -6738,9 +7026,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/rocket_full.png",
+      "referenceImage": "assets/images/game/white.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6753,24 +7041,24 @@
       },
       "options": [
         {
-          "id": "wrong_2",
-          "image": "assets/images/games/tree.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_A.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/cow.png",
+          "id": "wrong_2",
+          "image": "assets/images/game/num_14.png",
+          "isCorrect": false
+        },
+        {
+          "id": "wrong_1",
+          "image": "assets/images/game/num_7.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/rocket.png",
+          "image": "assets/images/game/white.png",
           "isCorrect": true
-        },
-        {
-          "id": "wrong_1",
-          "image": "assets/images/games/dino.png",
-          "isCorrect": false
         }
       ],
       "feedback": {
@@ -6787,8 +7075,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.rocket"
-      ]
+        "visual.complete.white"
+      ],
+      "extra": {
+        "colorVariant": 4
+      }
     },
     {
       "id": "cp_398",
@@ -6808,9 +7099,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/dino_full.png",
+      "referenceImage": "assets/images/game/blue.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6824,23 +7115,23 @@
       "options": [
         {
           "id": "wrong_2",
-          "image": "assets/images/games/cow.png",
-          "isCorrect": false
-        },
-        {
-          "id": "wrong_3",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/num_7.png",
           "isCorrect": false
         },
         {
           "id": "wrong_1",
-          "image": "assets/images/games/tree.png",
+          "image": "assets/images/game/white.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/dino.png",
+          "image": "assets/images/game/blue.png",
           "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/num_14.png",
+          "isCorrect": false
         }
       ],
       "feedback": {
@@ -6857,8 +7148,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.dino"
-      ]
+        "visual.complete.blue"
+      ],
+      "extra": {
+        "colorVariant": 4
+      }
     },
     {
       "id": "cp_399",
@@ -6878,9 +7172,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/tree_full.png",
+      "referenceImage": "assets/images/game/num_2.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6893,23 +7187,23 @@
       },
       "options": [
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/pig.png",
-          "isCorrect": false
-        },
-        {
-          "id": "correct",
-          "image": "assets/images/games/tree.png",
-          "isCorrect": true
-        },
-        {
           "id": "wrong_1",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/num_9.png",
           "isCorrect": false
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/sheep.png",
+          "image": "assets/images/game/num_16.png",
+          "isCorrect": false
+        },
+        {
+          "id": "correct",
+          "image": "assets/images/game/num_2.png",
+          "isCorrect": true
+        },
+        {
+          "id": "wrong_3",
+          "image": "assets/images/game/letter_C.png",
           "isCorrect": false
         }
       ],
@@ -6925,10 +7219,13 @@
           "noVoiceWrong": true
         }
       },
-      "funFactKey": "facts.tree.default",
+      "funFactKey": "facts.num_2.default",
       "relatedConcepts": [
-        "visual.complete.tree"
-      ]
+        "visual.complete.num_2"
+      ],
+      "extra": {
+        "colorVariant": 4
+      }
     },
     {
       "id": "cp_400",
@@ -6948,9 +7245,9 @@
       "scaffoldHints": 3,
       "prompt": {
         "type": "none",
-        "lumiLineKey": "lumi.complete_picture.hint"
+        "lumiLineKey": "Find the missing piece! 🧩"
       },
-      "referenceImage": "assets/images/games/cow_full.png",
+      "referenceImage": "assets/images/game/cricket.png",
       "board": {
         "gridRows": 3,
         "gridCols": 3,
@@ -6963,23 +7260,23 @@
       },
       "options": [
         {
-          "id": "wrong_1",
-          "image": "assets/images/games/sheep.png",
+          "id": "wrong_3",
+          "image": "assets/images/game/num_4.png",
           "isCorrect": false
         },
         {
           "id": "correct",
-          "image": "assets/images/games/cow.png",
+          "image": "assets/images/game/cricket.png",
           "isCorrect": true
         },
         {
           "id": "wrong_2",
-          "image": "assets/images/games/pig.png",
+          "image": "assets/images/game/purple.png",
           "isCorrect": false
         },
         {
-          "id": "wrong_3",
-          "image": "assets/images/games/lion.png",
+          "id": "wrong_1",
+          "image": "assets/images/game/drill.png",
           "isCorrect": false
         }
       ],
@@ -6997,8 +7294,11 @@
       },
       "funFactKey": null,
       "relatedConcepts": [
-        "visual.complete.cow"
-      ]
+        "visual.complete.cricket"
+      ],
+      "extra": {
+        "colorVariant": 4
+      }
     }
   ]
 }

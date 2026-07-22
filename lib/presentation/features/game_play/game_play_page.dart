@@ -1,14 +1,20 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:toodler_kids/core/animation/game_animations.dart';
 import 'package:toodler_kids/core/constants/app_constants.dart';
 import 'package:toodler_kids/core/di/injection.dart';
+import 'package:toodler_kids/core/audio/sound_manager.dart';
 import 'package:toodler_kids/core/game_engine/game_engines.dart';
 import 'package:toodler_kids/core/theme/app_theme.dart';
 import 'package:toodler_kids/core/theme/responsive.dart';
+import 'package:toodler_kids/core/assets/game_image_resolver.dart';
+import 'package:toodler_kids/core/game_engine/piece_puzzle_engine.dart';
 import 'package:toodler_kids/core/game_engine/level_choice_builder.dart';
 import 'package:toodler_kids/core/theme/zone_theme.dart';
+import 'package:toodler_kids/domain/entities/entities.dart';
 import 'package:toodler_kids/presentation/features/game_play/bloc/game_play_bloc.dart';
 import 'package:toodler_kids/presentation/lumi/lumi_widget.dart';
 import 'package:toodler_kids/presentation/widgets/cartoon_game_widgets.dart';
@@ -48,6 +54,7 @@ class GamePlayPage extends StatelessWidget {
       'shadow_game': 'Shadow Game',
       'what_am_i': 'What Am I?',
       'true_false_animals': 'True or False',
+      'true_false_world': 'World Facts',
       'dino_names': 'Dinosaur Names',
       'space_objects': 'Space Objects',
       'sports_names': 'Sports',
@@ -57,6 +64,7 @@ class GamePlayPage extends StatelessWidget {
       'complete_picture': 'Complete Picture',
       'opposites': 'Opposites',
       'fun_colors': 'Fun Colors',
+      'simon_says': 'Simon Says',
     };
     return titles[type] ?? type.replaceAll('_', ' ');
   }
@@ -141,13 +149,20 @@ class _GamePlayView extends StatelessWidget {
               );
             }
             if (state is GamePlayPlaying) {
+              final zoneTheme = ZoneVisualTheme.forZone(_zoneForTheme);
               return Column(
                 children: [
                   _ProgressBar(
                     current: state.levelIndex + 1,
                     total: state.totalLevels,
+                    lightText: zoneTheme.isDark,
                   ),
-                  Expanded(child: _GameBody(state: state, zoneId: zoneId)),
+                  Expanded(
+                    child: Responsive.centeredContent(
+                      context,
+                      _GameBody(state: state, zoneId: zoneId),
+                    ),
+                  ),
                 ],
               );
             }
@@ -159,9 +174,14 @@ class _GamePlayView extends StatelessWidget {
 }
 
 class _ProgressBar extends StatelessWidget {
-  const _ProgressBar({required this.current, required this.total});
+  const _ProgressBar({
+    required this.current,
+    required this.total,
+    this.lightText = false,
+  });
   final int current;
   final int total;
+  final bool lightText;
 
   @override
   Widget build(BuildContext context) {
@@ -176,15 +196,18 @@ class _ProgressBar extends StatelessWidget {
         children: [
           Text(
             'Level $current / $total',
-            style: Theme.of(context).textTheme.titleMedium,
+            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  color: lightText ? Colors.white : null,
+                  fontWeight: FontWeight.w700,
+                ),
           ),
           const SizedBox(height: 6),
           ClipRRect(
             borderRadius: BorderRadius.circular(8),
             child: LinearProgressIndicator(
               value: current / total,
-              backgroundColor: Colors.grey.shade200,
-              color: AppTheme.primary,
+              backgroundColor: lightText ? Colors.white24 : Colors.grey.shade200,
+              color: lightText ? Colors.amber : AppTheme.primary,
               minHeight: 10,
             ),
           ),
@@ -202,12 +225,23 @@ class _GameBody extends StatelessWidget {
   bool get _needsExpanded =>
       state.mechanic == 'select_piece' ||
       state.mechanic == 'sandbox' ||
-      state.mechanic == 'sequence';
+      state.mechanic == 'sequence' ||
+      state.mechanic == 'tap_match' ||
+      state.mechanic == 'name_match' ||
+      state.mechanic == 'count_match' ||
+      state.mechanic == 'phonics_match' ||
+      state.mechanic == 'opposite_match' ||
+      state.mechanic == 'simon';
 
   @override
   Widget build(BuildContext context) {
     final engine = _buildEngine(context);
-    if (_needsExpanded) return engine;
+    if (_needsExpanded) {
+      return Padding(
+        padding: EdgeInsets.symmetric(horizontal: Responsive.pad(context)),
+        child: engine,
+      );
+    }
     return KidGameShell(child: engine);
   }
 
@@ -217,11 +251,93 @@ class _GameBody extends StatelessWidget {
 
     switch (state.mechanic) {
       case 'select_piece':
-        return SelectPieceEngine(
-          level: state.level,
-          hintOptionId: state.showHint ? state.hintOptionId : null,
+        if (state.level.gameType == 'complete_picture') {
+          return PiecePuzzleEngine(
+            level: state.level,
+            prompt: state.prompt,
+            accentColor: ZoneVisualTheme.forZone(zone).primary,
+            onComplete: () {
+              bloc.add(const GamePlayAnswerSubmitted(isCorrect: true));
+            },
+          );
+        }
+        // Tools / other select_piece → tap-style choices (no puzzle board).
+        return TapMatchEngine(
+          prompt: state.prompt,
+          choices: state.choices.isNotEmpty
+              ? state.choices
+              : state.level.options
+                  .map(
+                    (o) => {
+                      'id': o.id,
+                      'label': o.labelKey ?? o.id,
+                      'emoji': LevelChoiceBuilder.emojiForId(o.id),
+                      'imagePath': GameImageResolver.assetForId(o.id) ??
+                          GameImageResolver.assetFromImagePath(o.image),
+                      'isCorrect': o.isCorrect,
+                    },
+                  )
+                  .toList(),
+          showHint: state.showHint,
+          hintOptionId: state.hintOptionId,
           accentColor: ZoneVisualTheme.forZone(zone).primary,
-          onPieceSelected: (_, isCorrect) {
+          onChoice: (_, isCorrect) {
+            bloc.add(GamePlayAnswerSubmitted(isCorrect: isCorrect));
+          },
+        );
+      case 'drag_drop':
+        final label = state.level.items.isNotEmpty
+            ? (state.level.items.first['label']?.toString() ?? 'animal')
+            : 'animal';
+        final subjectPath = GameImageResolver.themeFromLevel(
+              referenceImage: state.level.referenceImage,
+              relatedConcepts: state.level.relatedConcepts,
+            ) ??
+            GameImageResolver.assetForId(label);
+        final subjectEmoji = LevelChoiceBuilder.emojiForId(label);
+        const decoyPool = [
+          'lion', 'elephant', 'giraffe', 'monkey', 'cow', 'sheep', 'pig', 'bear',
+          'duck', 'frog', 'penguin', 'shark', 'butterfly', 'trex', 'rocket', 'moon',
+          'sun', 'football', 'hammer', 'red', 'blue', 'green',
+        ];
+        final levelNo = state.level.levelNumber;
+        final item = {
+          'id': 'drag',
+          'emoji': subjectEmoji,
+          'label': label,
+          'imagePath': subjectPath,
+        };
+        final rawBins = state.level.bins.isNotEmpty
+            ? state.level.bins
+            : [
+                {'id': 'correct', 'acceptsId': 'drag', 'label': 'Shadow'},
+                {'id': 'wrong1', 'acceptsId': 'wrong', 'label': 'Wrong'},
+              ];
+        final targets = rawBins.map((t) {
+          final accepts = t['acceptsId']?.toString();
+          final isCorrect = accepts == 'drag' || accepts == item['id'];
+          final candidates =
+              decoyPool.where((id) => id != label.toLowerCase()).toList();
+          final decoyId = (t['decoyId'] as String?) ??
+              candidates[(levelNo * 7) % candidates.length];
+          return {
+            ...t,
+            if (!isCorrect) 'decoyId': decoyId,
+            'emoji': isCorrect
+                ? subjectEmoji
+                : LevelChoiceBuilder.emojiForId(decoyId),
+          };
+        }).toList()
+          ..shuffle(math.Random(levelNo * 17 + label.hashCode));
+        return DragDropEngine(
+          draggableItem: item,
+          targets: targets,
+          subjectImagePath: subjectPath,
+          prompt: state.prompt.isNotEmpty && !state.prompt.startsWith('lumi.')
+              ? state.prompt
+              : 'Match the shadow!',
+          accentColor: ZoneVisualTheme.forZone(zone).primary,
+          onDropped: (_, isCorrect) {
             bloc.add(GamePlayAnswerSubmitted(isCorrect: isCorrect));
           },
         );
@@ -245,19 +361,6 @@ class _GameBody extends StatelessWidget {
             ));
           },
         );
-      case 'drag_drop':
-        final item = state.level.items.isNotEmpty
-            ? state.level.items.first
-            : {'id': 'drag', 'emoji': '🖼️', 'label': 'Item'};
-        final targets =
-            state.level.bins.isNotEmpty ? state.level.bins : state.choices;
-        return DragDropEngine(
-          draggableItem: item,
-          targets: targets,
-          onDropped: (_, isCorrect) {
-            bloc.add(GamePlayAnswerSubmitted(isCorrect: isCorrect));
-          },
-        );
       case 'sandbox':
         return SandboxEngine(
           backgroundEmoji: state.level.backgroundImage ?? '🌾',
@@ -279,11 +382,80 @@ class _GameBody extends StatelessWidget {
           },
         );
       case 'simon':
+        final sequence = (state.level.extra['simonSequence'] as List<dynamic>?)
+                ?.map((e) => e as int)
+                .toList() ??
+            const [0, 1, 0];
+        final pads = state.level.sequenceItems.isNotEmpty
+            ? state.level.sequenceItems
+            : const [
+                {'id': '0', 'emoji': '🥁', 'label': 'Drum', 'color': '#E53935'},
+                {'id': '1', 'emoji': '🎹', 'label': 'Piano', 'color': '#1E88E5'},
+                {'id': '2', 'emoji': '🎸', 'label': 'Guitar', 'color': '#43A047'},
+                {'id': '3', 'emoji': '🎺', 'label': 'Trumpet', 'color': '#FFB300'},
+              ];
         return SimonEngine(
-          sequence: const [0, 1, 0],
-          colors: const [Colors.red, Colors.blue, Colors.green, Colors.yellow],
+          prompt: state.prompt,
+          sequence: sequence,
+          pads: pads,
+          onPadSound: (index) => getIt<SoundManager>().playSimonPad(index),
           onComplete: (success) {
             bloc.add(GamePlayAnswerSubmitted(isCorrect: success));
+          },
+        );
+      case 'count_match':
+        final zoneTheme = ZoneVisualTheme.forZone(zone);
+        final count = LevelChoiceBuilder.countVisual(state.level) ?? 1;
+        return CountMatchEngine(
+          prompt: state.prompt,
+          count: count,
+          countEmoji: LevelChoiceBuilder.countEmoji(state.level),
+          choices: state.choices,
+          showHint: state.showHint,
+          hintOptionId: state.hintOptionId,
+          accentColor: zoneTheme.primary,
+          onChoice: (_, isCorrect) {
+            bloc.add(GamePlayAnswerSubmitted(isCorrect: isCorrect));
+          },
+        );
+      case 'phonics_match':
+        final zoneTheme = ZoneVisualTheme.forZone(zone);
+        return _PhonicsMatchHost(
+          level: state.level,
+          prompt: state.prompt,
+          choices: state.choices,
+          showHint: state.showHint,
+          hintOptionId: state.hintOptionId,
+          accentColor: zoneTheme.primary,
+          onChoice: (_, isCorrect) {
+            bloc.add(GamePlayAnswerSubmitted(isCorrect: isCorrect));
+          },
+        );
+      case 'opposite_match':
+        final zoneTheme = ZoneVisualTheme.forZone(zone);
+        final source = LevelChoiceBuilder.sourceDisplay(state.level);
+        if (source != null) {
+          return NameMatchEngine(
+            prompt: state.prompt,
+            target: source,
+            choices: state.choices,
+            showHint: state.showHint,
+            hintOptionId: state.hintOptionId,
+            accentColor: zoneTheme.primary,
+            heroHeader: 'Opposite of this!',
+            onChoice: (_, isCorrect) {
+              bloc.add(GamePlayAnswerSubmitted(isCorrect: isCorrect));
+            },
+          );
+        }
+        return TapMatchEngine(
+          prompt: state.prompt,
+          choices: state.choices,
+          showHint: state.showHint,
+          hintOptionId: state.hintOptionId,
+          accentColor: zoneTheme.primary,
+          onChoice: (_, isCorrect) {
+            bloc.add(GamePlayAnswerSubmitted(isCorrect: isCorrect));
           },
         );
       case 'name_match':
@@ -314,7 +486,8 @@ class _GameBody extends StatelessWidget {
         );
       default:
         final zoneTheme = ZoneVisualTheme.forZone(zone);
-        final showHero = state.level.extra['mode'] != 'quick_tap';
+        final isToolQuiz = state.level.gameType == 'which_tool_works';
+        final showHero = !isToolQuiz && state.level.extra['mode'] != 'quick_tap';
         return TapMatchEngine(
           prompt: state.prompt,
           choices: state.choices,
@@ -327,5 +500,65 @@ class _GameBody extends StatelessWidget {
           },
         );
     }
+  }
+}
+
+class _PhonicsMatchHost extends StatefulWidget {
+  const _PhonicsMatchHost({
+    required this.level,
+    required this.prompt,
+    required this.choices,
+    required this.onChoice,
+    this.showHint = false,
+    this.hintOptionId,
+    this.accentColor,
+  });
+
+  final GameLevelEntity level;
+  final String prompt;
+  final List<Map<String, dynamic>> choices;
+  final void Function(String choiceId, bool isCorrect) onChoice;
+  final bool showHint;
+  final String? hintOptionId;
+  final Color? accentColor;
+
+  @override
+  State<_PhonicsMatchHost> createState() => _PhonicsMatchHostState();
+}
+
+class _PhonicsMatchHostState extends State<_PhonicsMatchHost> {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _playSound());
+  }
+
+  @override
+  void didUpdateWidget(covariant _PhonicsMatchHost oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.level.id != widget.level.id) {
+      _playSound();
+    }
+  }
+
+  void _playSound() {
+    final targetId = LevelChoiceBuilder.extractTargetId(widget.level);
+    if (targetId != null && targetId.startsWith('letter_')) {
+      final letter = targetId.replaceAll('letter_', '');
+      getIt<SoundManager>().playPhonics(letter);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return NameMatchEngine(
+      prompt: widget.prompt,
+      target: const {'emoji': '🔊', 'label': 'Listen!'},
+      choices: widget.choices,
+      showHint: widget.showHint,
+      hintOptionId: widget.hintOptionId,
+      accentColor: widget.accentColor,
+      onChoice: widget.onChoice,
+    );
   }
 }

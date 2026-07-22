@@ -17,16 +17,16 @@
       "mode": "tap_match",
       "items": [
         {
+          "id": "astronaut",
+          "emoji": "👨‍🚀",
+          "label": "Astronaut",
+          "isCorrect": false
+        },
+        {
           "id": "sun",
           "emoji": "☀️",
           "label": "Sun",
           "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
         },
         {
           "id": "rocket",
@@ -35,9 +35,9 @@
           "isCorrect": false
         },
         {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
+          "id": "galaxy",
+          "emoji": "🌌",
+          "label": "Galaxy",
           "isCorrect": false
         }
       ],
@@ -62,9 +62,9 @@
       "mode": "tap_match",
       "items": [
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
+          "id": "neptune",
+          "emoji": "🔵",
+          "label": "Neptune",
           "isCorrect": false
         },
         {
@@ -74,15 +74,15 @@
           "isCorrect": true
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
           "isCorrect": false
         },
         {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
+          "id": "galaxy",
+          "emoji": "🌌",
+          "label": "Galaxy",
           "isCorrect": false
         }
       ],
@@ -113,15 +113,15 @@
           "isCorrect": true
         },
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
+          "id": "asteroid",
+          "emoji": "☄️",
+          "label": "Asteroid",
           "isCorrect": false
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
+          "id": "jupiter",
+          "emoji": "🟤",
+          "label": "Jupiter",
           "isCorrect": false
         },
         {
@@ -152,27 +152,27 @@
       "mode": "tap_match",
       "items": [
         {
+          "id": "jupiter",
+          "emoji": "🟤",
+          "label": "Jupiter",
+          "isCorrect": false
+        },
+        {
           "id": "mars",
           "emoji": "🔴",
           "label": "Mars",
           "isCorrect": true
         },
         {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
+          "id": "ufo",
+          "emoji": "🛸",
+          "label": "UFO",
           "isCorrect": false
         },
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
+          "id": "asteroid",
           "emoji": "☄️",
-          "label": "Comet",
+          "label": "Asteroid",
           "isCorrect": false
         }
       ],
@@ -197,16 +197,10 @@
       "mode": "tap_match",
       "items": [
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
+          "id": "saturn",
+          "emoji": "🪐",
+          "label": "Saturn",
           "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
         },
         {
           "id": "mars",
@@ -215,10 +209,16 @@
           "isCorrect": false
         },
         {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
+          "id": "star",
+          "emoji": "⭐",
+          "label": "Star",
           "isCorrect": false
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "label": "Rocket",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
@@ -242,12 +242,6 @@
       "mode": "tap_match",
       "items": [
         {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
           "id": "saturn",
           "emoji": "🪐",
           "label": "Saturn",
@@ -260,9 +254,15 @@
           "isCorrect": false
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
+          "id": "comet",
+          "emoji": "☄️",
+          "label": "Comet",
+          "isCorrect": false
+        },
+        {
+          "id": "venus",
+          "emoji": "🟡",
+          "label": "Venus",
           "isCorrect": false
         }
       ],
@@ -287,21 +287,21 @@
       "mode": "tap_match",
       "items": [
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
           "id": "saturn",
           "emoji": "🪐",
           "label": "Saturn",
           "isCorrect": false
         },
         {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
+          "id": "sun",
+          "emoji": "☀️",
+          "label": "Sun",
+          "isCorrect": false
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "label": "Moon",
           "isCorrect": false
         },
         {
@@ -332,15 +332,21 @@
       "mode": "tap_match",
       "items": [
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
+          "id": "neptune",
+          "emoji": "🔵",
+          "label": "Neptune",
           "isCorrect": false
         },
         {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "star",
+          "emoji": "⭐",
+          "label": "Star",
           "isCorrect": false
         },
         {
@@ -348,12 +354,6 @@
           "emoji": "☄️",
           "label": "Comet",
           "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
@@ -372,37 +372,37 @@
         "play_based",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
+      "lumiLineKey": "Find the Astronaut!",
+      "targetId": "astronaut",
       "mode": "tap_match",
       "items": [
         {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
+          "id": "galaxy",
+          "emoji": "🌌",
+          "label": "Galaxy",
           "isCorrect": false
         },
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
+          "id": "mars",
+          "emoji": "🔴",
+          "label": "Mars",
+          "isCorrect": false
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "label": "Earth",
+          "isCorrect": false
+        },
+        {
+          "id": "astronaut",
+          "emoji": "👨‍🚀",
+          "label": "Astronaut",
           "isCorrect": true
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "space_science.sun"
+        "space_science.astronaut"
       ]
     },
     {
@@ -417,16 +417,10 @@
         "play_based",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
+      "lumiLineKey": "Find the UFO!",
+      "targetId": "ufo",
       "mode": "tap_match",
       "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
         {
           "id": "earth",
           "emoji": "🌍",
@@ -434,20 +428,26 @@
           "isCorrect": false
         },
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
+          "id": "comet",
+          "emoji": "☄️",
+          "label": "Comet",
+          "isCorrect": false
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
+          "id": "asteroid",
+          "emoji": "☄️",
+          "label": "Asteroid",
           "isCorrect": false
+        },
+        {
+          "id": "ufo",
+          "emoji": "🛸",
+          "label": "UFO",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "space_science.moon"
+        "space_science.ufo"
       ]
     },
     {
@@ -462,16 +462,10 @@
         "play_based",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
+      "lumiLineKey": "Find the Jupiter!",
+      "targetId": "jupiter",
       "mode": "tap_match",
       "items": [
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
         {
           "id": "moon",
           "emoji": "🌙",
@@ -479,20 +473,26 @@
           "isCorrect": false
         },
         {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
+          "id": "star",
+          "emoji": "⭐",
+          "label": "Star",
+          "isCorrect": false
         },
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
+          "id": "saturn",
+          "emoji": "🪐",
+          "label": "Saturn",
           "isCorrect": false
+        },
+        {
+          "id": "jupiter",
+          "emoji": "🟤",
+          "label": "Jupiter",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "space_science.earth"
+        "space_science.jupiter"
       ]
     },
     {
@@ -507,20 +507,20 @@
         "play_based",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
+      "lumiLineKey": "Find the Venus!",
+      "targetId": "venus",
       "mode": "tap_match",
       "items": [
+        {
+          "id": "venus",
+          "emoji": "🟡",
+          "label": "Venus",
+          "isCorrect": true
+        },
         {
           "id": "sun",
           "emoji": "☀️",
           "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
           "isCorrect": false
         },
         {
@@ -530,14 +530,14 @@
           "isCorrect": false
         },
         {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
+          "id": "asteroid",
+          "emoji": "☄️",
+          "label": "Asteroid",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "space_science.mars"
+        "space_science.venus"
       ]
     },
     {
@@ -552,10 +552,22 @@
         "play_based",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
+      "lumiLineKey": "Find the Neptune!",
+      "targetId": "neptune",
       "mode": "tap_match",
       "items": [
+        {
+          "id": "galaxy",
+          "emoji": "🌌",
+          "label": "Galaxy",
+          "isCorrect": false
+        },
+        {
+          "id": "asteroid",
+          "emoji": "☄️",
+          "label": "Asteroid",
+          "isCorrect": false
+        },
         {
           "id": "saturn",
           "emoji": "🪐",
@@ -563,26 +575,14 @@
           "isCorrect": false
         },
         {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
+          "id": "neptune",
+          "emoji": "🔵",
+          "label": "Neptune",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "space_science.rocket"
+        "space_science.neptune"
       ]
     },
     {
@@ -597,37 +597,37 @@
         "play_based",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
+      "lumiLineKey": "Find the Galaxy!",
+      "targetId": "galaxy",
       "mode": "tap_match",
       "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
         {
           "id": "saturn",
           "emoji": "🪐",
           "label": "Saturn",
-          "isCorrect": true
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
           "isCorrect": false
         },
         {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
+          "id": "ufo",
+          "emoji": "🛸",
+          "label": "UFO",
+          "isCorrect": false
+        },
+        {
+          "id": "galaxy",
+          "emoji": "🌌",
+          "label": "Galaxy",
+          "isCorrect": true
+        },
+        {
+          "id": "venus",
+          "emoji": "🟡",
+          "label": "Venus",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "space_science.saturn"
+        "space_science.galaxy"
       ]
     },
     {
@@ -642,2123 +642,8 @@
         "play_based",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_016",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 16,
-      "difficulty": 1,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_017",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 17,
-      "difficulty": 1,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_018",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 18,
-      "difficulty": 1,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_019",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 19,
-      "difficulty": 1,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_020",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 20,
-      "difficulty": 1,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_021",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 21,
-      "difficulty": 1,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_022",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 22,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_023",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 23,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_024",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 24,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_025",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 25,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_026",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 26,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_027",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 27,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_028",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 28,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_029",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 29,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_030",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 30,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": true
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_031",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 31,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_032",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 32,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_033",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 33,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_034",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 34,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_035",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 35,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_036",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 36,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_037",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 37,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_038",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 38,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_039",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 39,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_040",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 40,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_041",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 41,
-      "difficulty": 2,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_042",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 42,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_043",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 43,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_044",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 44,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_045",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 45,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_046",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 46,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_047",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 47,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_048",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 48,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_049",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 49,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_050",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 50,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_051",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 51,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_052",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 52,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_053",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 53,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_054",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 54,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": true
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_055",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 55,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_056",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 56,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_057",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 57,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_058",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 58,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_059",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 59,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_060",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 60,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_061",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 61,
-      "difficulty": 3,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_062",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 62,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
+      "lumiLineKey": "Find the Asteroid!",
+      "targetId": "asteroid",
       "mode": "tap_match",
       "items": [
         {
@@ -2774,1730 +659,20 @@
           "isCorrect": false
         },
         {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_063",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 63,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_064",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 64,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_065",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 65,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_066",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 66,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_067",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 67,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_068",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 68,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_069",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 69,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
           "id": "star",
           "emoji": "⭐",
           "label": "Star",
           "isCorrect": false
         },
         {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_070",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 70,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
+          "id": "asteroid",
           "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
+          "label": "Asteroid",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_071",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 71,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_072",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 72,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_073",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 73,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_074",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 74,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_075",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 75,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_076",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 76,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_077",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 77,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_078",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 78,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": true
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_079",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 79,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_080",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 80,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_081",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 81,
-      "difficulty": 4,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_082",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 82,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_083",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 83,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_084",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 84,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_085",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 85,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_086",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 86,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_087",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 87,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_088",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 88,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_089",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 89,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_090",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 90,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_091",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 91,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_092",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 92,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
-      ]
-    },
-    {
-      "id": "space_objects_093",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 93,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Rocket!",
-      "targetId": "rocket",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": true
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.rocket"
-      ]
-    },
-    {
-      "id": "space_objects_094",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 94,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Saturn!",
-      "targetId": "saturn",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": true
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.saturn"
-      ]
-    },
-    {
-      "id": "space_objects_095",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 95,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Star!",
-      "targetId": "star",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": true
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.star"
-      ]
-    },
-    {
-      "id": "space_objects_096",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 96,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Comet!",
-      "targetId": "comet",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": true
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "saturn",
-          "emoji": "🪐",
-          "label": "Saturn",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.comet"
-      ]
-    },
-    {
-      "id": "space_objects_097",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 97,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Sun!",
-      "targetId": "sun",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": true
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.sun"
-      ]
-    },
-    {
-      "id": "space_objects_098",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 98,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Moon!",
-      "targetId": "moon",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": true
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": false
-        },
-        {
-          "id": "star",
-          "emoji": "⭐",
-          "label": "Star",
-          "isCorrect": false
-        },
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.moon"
-      ]
-    },
-    {
-      "id": "space_objects_099",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 99,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Earth!",
-      "targetId": "earth",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "sun",
-          "emoji": "☀️",
-          "label": "Sun",
-          "isCorrect": false
-        },
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "earth",
-          "emoji": "🌍",
-          "label": "Earth",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.earth"
-      ]
-    },
-    {
-      "id": "space_objects_100",
-      "gameType": "space_objects",
-      "zoneId": "space_science",
-      "levelNumber": 100,
-      "difficulty": 5,
-      "starsAvailable": 3,
-      "scaffoldHints": 2,
-      "learningMethod": [
-        "play_based",
-        "multisensory"
-      ],
-      "lumiLineKey": "Find the Mars!",
-      "targetId": "mars",
-      "mode": "tap_match",
-      "items": [
-        {
-          "id": "comet",
-          "emoji": "☄️",
-          "label": "Comet",
-          "isCorrect": false
-        },
-        {
-          "id": "rocket",
-          "emoji": "🚀",
-          "label": "Rocket",
-          "isCorrect": false
-        },
-        {
-          "id": "moon",
-          "emoji": "🌙",
-          "label": "Moon",
-          "isCorrect": false
-        },
-        {
-          "id": "mars",
-          "emoji": "🔴",
-          "label": "Mars",
-          "isCorrect": true
-        }
-      ],
-      "relatedConcepts": [
-        "space_science.mars"
+        "space_science.asteroid"
       ]
     }
   ]

@@ -1,5 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:toodler_kids/core/audio/sound_manager.dart';
 import 'package:toodler_kids/domain/entities/entities.dart';
 import 'package:toodler_kids/domain/usecases/content_usecases.dart';
 import 'package:toodler_kids/domain/usecases/progress_usecases.dart';
@@ -8,7 +9,7 @@ part 'complete_picture_event.dart';
 part 'complete_picture_state.dart';
 
 class CompletePictureBloc extends Bloc<CompletePictureEvent, CompletePictureState> {
-  CompletePictureBloc(this._getLevels, this._saveProgress)
+  CompletePictureBloc(this._getLevels, this._saveProgress, this._sounds)
       : super(const CompletePictureInitial()) {
     on<CompletePictureLoadRequested>(_onLoad);
     on<CompletePicturePieceSelected>(_onPieceSelected);
@@ -18,6 +19,7 @@ class CompletePictureBloc extends Bloc<CompletePictureEvent, CompletePictureStat
 
   final GetLevelsForGame _getLevels;
   final SaveLevelProgress _saveProgress;
+  final SoundManager _sounds;
   List<GameLevelEntity> _levels = [];
 
   Future<void> _onLoad(
@@ -54,6 +56,7 @@ class CompletePictureBloc extends Bloc<CompletePictureEvent, CompletePictureStat
         relatedConcepts: current.level.relatedConcepts,
         attempts: current.attempts + 1,
       );
+      await _sounds.playCelebration();
       emit(CompletePictureCompleted(
         level: current.level,
         levelIndex: current.levelIndex,
@@ -63,6 +66,7 @@ class CompletePictureBloc extends Bloc<CompletePictureEvent, CompletePictureStat
         funFactKey: current.level.funFactKey,
       ));
     } else {
+      await _sounds.playSfx('soft_boop');
       final hintsAvailable = current.level.scaffoldHints - current.hintsUsed;
       emit(current.copyWith(
         attempts: current.attempts + 1,

@@ -78,86 +78,124 @@ class CelebrationOverlay extends StatelessWidget {
   final int stars;
   final VoidCallback onDismiss;
 
+  String get _message => switch (stars) {
+        3 => 'Superstar! 🌟',
+        2 => 'Great job!',
+        _ => 'Nice try! Keep going!',
+      };
+
+  String get _lottieAsset => switch (stars) {
+        3 => 'assets/lottie/lumi_happy.json',
+        2 => 'assets/lottie/celebration.json',
+        _ => 'assets/lottie/star_burst.json',
+      };
+
   @override
   Widget build(BuildContext context) {
     return Material(
       color: Colors.black54,
-      child: Stack(
-        fit: StackFit.expand,
-        children: [
-          IgnorePointer(
-            child: Lottie.asset(
-              'assets/lottie/confetti.json',
-              fit: BoxFit.cover,
-              repeat: true,
-              errorBuilder: (_, __, ___) => const SizedBox.shrink(),
-            ),
-          ),
-          Center(
-            child: Container(
-              padding: const EdgeInsets.all(28),
-              margin: const EdgeInsets.all(24),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(32),
-                border: Border.all(color: AppTheme.primary, width: 4),
-                boxShadow: [
-                  BoxShadow(
-                    color: AppTheme.primary.withValues(alpha: 0.3),
-                    offset: const Offset(0, 8),
-                    blurRadius: 0,
-                  ),
-                ],
+      child: Center(
+        child: Container(
+          padding: const EdgeInsets.all(28),
+          margin: const EdgeInsets.all(24),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(32),
+            border: Border.all(color: AppTheme.primary, width: 4),
+            boxShadow: [
+              BoxShadow(
+                color: AppTheme.primary.withValues(alpha: 0.3),
+                offset: const Offset(0, 8),
+                blurRadius: 0,
               ),
-              child: Column(
+            ],
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              SizedBox(
+                height: 140,
+                width: 140,
+                child: Lottie.asset(
+                  _lottieAsset,
+                  repeat: false,
+                  errorBuilder: (context, error, stackTrace) =>
+                      Text('🎉', style: TextStyle(fontSize: stars >= 3 ? 72 : 64)),
+                ),
+              ),
+              Text(
+                _message,
+                style: GoogleFonts.fredoka(
+                  fontSize: 32,
+                  fontWeight: FontWeight.w700,
+                  color: AppTheme.primary,
+                ),
+              ),
+              const SizedBox(height: 12),
+              Row(
                 mainAxisSize: MainAxisSize.min,
-                children: [
-                  SizedBox(
-                    height: 120,
-                    width: 120,
-                    child: Lottie.asset(
-                      'assets/lottie/celebration.json',
-                      repeat: true,
-                      errorBuilder: (_, __, ___) =>
-                          const Text('🎉', style: TextStyle(fontSize: 64)),
+                children: List.generate(
+                  3,
+                  (i) => Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 4),
+                    child: Icon(
+                      i < stars ? Icons.star_rounded : Icons.star_outline_rounded,
+                      color: AppTheme.secondary,
+                      size: 44,
                     ),
                   ),
-                  Text(
-                    'Great job!',
-                    style: GoogleFonts.fredoka(
-                      fontSize: 32,
-                      fontWeight: FontWeight.w700,
-                      color: AppTheme.primary,
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-                  Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: List.generate(
-                      3,
-                      (i) => Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 4),
-                        child: Icon(
-                          i < stars ? Icons.star_rounded : Icons.star_outline_rounded,
-                          color: AppTheme.secondary,
-                          size: 44,
-                        ),
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 20),
-                  ElevatedButton(
-                    onPressed: onDismiss,
-                    child: Text(
-                      'Continue!',
-                      style: GoogleFonts.baloo2(fontWeight: FontWeight.w800),
-                    ),
-                  ),
-                ],
+                ),
               ),
-            ),
+              const SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: onDismiss,
+                child: Text(
+                  'Continue!',
+                  style: GoogleFonts.baloo2(fontWeight: FontWeight.w800),
+                ),
+              ),
+            ],
           ),
-        ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Brief inline pop when a child picks the correct answer (no full Lottie).
+class CorrectAnswerBurst extends StatelessWidget {
+  const CorrectAnswerBurst({super.key, required this.visible});
+
+  final bool visible;
+
+  @override
+  Widget build(BuildContext context) {
+    if (!visible) return const SizedBox.shrink();
+    return IgnorePointer(
+      child: Center(
+        child: TweenAnimationBuilder<double>(
+          tween: Tween(begin: 0.4, end: 1.0),
+          duration: const Duration(milliseconds: 350),
+          curve: Curves.elasticOut,
+          builder: (context, scale, child) {
+            return Transform.scale(scale: scale, child: child);
+          },
+          child: Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: AppTheme.secondary.withValues(alpha: 0.92),
+              shape: BoxShape.circle,
+              boxShadow: [
+                BoxShadow(
+                  color: AppTheme.secondary.withValues(alpha: 0.5),
+                  blurRadius: 16,
+                  spreadRadius: 2,
+                ),
+              ],
+            ),
+            child: const Text('⭐', style: TextStyle(fontSize: 48)),
+          ),
+        ),
       ),
     );
   }

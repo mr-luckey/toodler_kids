@@ -13,6 +13,7 @@ class GameImageResolver {
 
   static const _spaceIds = {
     'sun', 'moon', 'earth', 'mars', 'rocket', 'saturn', 'star', 'comet',
+    'astronaut', 'ufo', 'jupiter', 'venus', 'neptune', 'galaxy', 'asteroid',
   };
 
   static const _sportIds = {

@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:toodler_kids/core/animation/game_animations.dart';
 import 'package:toodler_kids/core/di/injection.dart';
-import 'package:toodler_kids/core/game_engine/game_engines.dart';
+import 'package:toodler_kids/core/game_engine/piece_puzzle_engine.dart';
 import 'package:toodler_kids/core/theme/zone_theme.dart';
 import 'package:toodler_kids/presentation/features/complete_picture/bloc/complete_picture_bloc.dart';
 import 'package:toodler_kids/presentation/lumi/lumi_widget.dart';
@@ -119,14 +119,13 @@ class _CompletePictureView extends StatelessWidget {
                   accent: _theme.primary,
                 ),
                 Expanded(
-                  child: SelectPieceEngine(
+                  child: PiecePuzzleEngine(
                     level: state.level,
-                    hintOptionId: state.showHint ? state.hintOptionId : null,
                     accentColor: _theme.primary,
-                    prompt: 'Find the missing piece! 🧩',
-                    onPieceSelected: (_, isCorrect) {
+                    prompt: 'Put the pieces together! 🧩',
+                    onComplete: () {
                       context.read<CompletePictureBloc>().add(
-                            CompletePicturePieceSelected(isCorrect: isCorrect),
+                            const CompletePicturePieceSelected(isCorrect: true),
                           );
                     },
                   ),

@@ -51,7 +51,7 @@ Future<void> configureDependencies() async {
     () => WonderIslandBloc(getIt(), getIt(), getIt()),
   );
   getIt.registerFactory(
-    () => CompletePictureBloc(getIt(), getIt()),
+    () => CompletePictureBloc(getIt(), getIt(), getIt()),
   );
   getIt.registerFactory(
     () => GamePlayBloc(getIt(), getIt(), getIt(), getIt()),

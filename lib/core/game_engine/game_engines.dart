@@ -1,5 +1,10 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:toodler_kids/core/animation/game_animations.dart';
+import 'package:toodler_kids/core/audio/sound_manager.dart';
+import 'package:toodler_kids/core/di/injection.dart';
 import 'package:toodler_kids/core/theme/app_theme.dart';
 import 'package:toodler_kids/core/assets/game_image_resolver.dart';
 import 'package:toodler_kids/core/theme/responsive.dart';
@@ -67,6 +72,7 @@ class _TapMatchEngineState extends State<TapMatchEngine> {
   String? _selectedId;
   int _bounceTrigger = 0;
   bool _locked = false;
+  bool _showBurst = false;
 
   @override
   void didUpdateWidget(covariant TapMatchEngine oldWidget) {
@@ -76,74 +82,120 @@ class _TapMatchEngineState extends State<TapMatchEngine> {
       _selectedId = null;
       _bounceTrigger = 0;
       _locked = false;
+      _showBurst = false;
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    final touch = Responsive.touchTarget(context);
     final accent = widget.accentColor ?? const Color(0xFF5C6BC0);
+    final subtitleColor = _readableAccent(context, accent);
 
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        CartoonPromptBubble(text: widget.prompt, accent: accent),
-        if (widget.target != null) ...[
-          const SizedBox(height: 12),
-          CartoonTargetHero(
-            label: widget.target!['label'] as String? ?? '',
-            emoji: widget.target!['emoji'] as String?,
-            imagePath: widget.target!['imagePath'] as String?,
-            accent: accent,
-          ),
-          const SizedBox(height: 8),
-          Text(
-            'Tap the matching one below!',
-            style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                  color: accent,
-                  fontWeight: FontWeight.w700,
-                ),
-          ),
-        ] else ...[
-          const SizedBox(height: 4),
-          Text(
-            'Listen & tap the right animal!',
-            style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                  color: accent,
-                  fontWeight: FontWeight.w700,
-                ),
-          ),
-        ],
-        const SizedBox(height: 16),
-        Wrap(
-          spacing: 12,
-          runSpacing: 16,
-          alignment: WrapAlignment.center,
-          children: widget.choices.map((c) {
-            final id = c['id'] as String;
-            final isCorrect = c['isCorrect'] as bool? ?? id == widget.correctId;
-            final showGlow = widget.showHint &&
-                (widget.hintOptionId == id || (isCorrect && widget.hintOptionId == null));
-            return BounceBackAnimation(
-              trigger: _selectedId == id && !isCorrect ? _bounceTrigger : 0,
-              child: ScaffoldHintGlow(
-                showGlow: showGlow,
-                child: CartoonChoiceCard(
-                  emoji: c['emoji'] as String? ?? '❓',
-                  imagePath: c['imagePath'] as String?,
-                  label: c['label'] as String? ?? '',
-                  minSize: touch,
-                  borderColor: accent,
-                  selected: _selectedId == id && isCorrect,
-                  onTap: _locked
-                      ? null
-                      : () => _onTap(id, isCorrect),
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final h = constraints.maxHeight.isFinite
+            ? constraints.maxHeight
+            : MediaQuery.sizeOf(context).height * 0.7;
+        final compact = h < 580;
+        final veryCompact = h < 500;
+        final choiceMin = veryCompact
+            ? 52.0
+            : compact
+                ? 58.0
+                : Responsive.touchTarget(context);
+        final gap = veryCompact ? 6.0 : (compact ? 8.0 : 12.0);
+        final heroCircle = veryCompact ? 64.0 : (compact ? 80.0 : 110.0);
+
+        return Stack(
+          alignment: Alignment.center,
+          children: [
+            SingleChildScrollView(
+              physics: const BouncingScrollPhysics(),
+              padding: const EdgeInsets.fromLTRB(8, 4, 8, 12),
+              child: ConstrainedBox(
+                constraints: BoxConstraints(minHeight: h - 8),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CartoonPromptBubble(
+                      text: widget.prompt,
+                      accent: accent,
+                      compact: compact,
+                    ),
+                    if (widget.target != null) ...[
+                      SizedBox(height: gap),
+                      CartoonTargetHero(
+                        label: widget.target!['label'] as String? ?? '',
+                        emoji: widget.target!['emoji'] as String?,
+                        imagePath: widget.target!['imagePath'] as String?,
+                        accent: accent,
+                        compact: compact,
+                        circleSize: heroCircle,
+                      ),
+                      if (!veryCompact) ...[
+                        SizedBox(height: gap * 0.6),
+                        Text(
+                          'Tap the matching one below!',
+                          style:
+                              Theme.of(context).textTheme.labelLarge?.copyWith(
+                                    color: subtitleColor,
+                                    fontWeight: FontWeight.w700,
+                                    fontSize: compact ? 13 : null,
+                                  ),
+                        ),
+                      ],
+                    ] else ...[
+                      SizedBox(height: gap * 0.5),
+                      Text(
+                        'Tap the matching one below!',
+                        style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                              color: subtitleColor,
+                              fontWeight: FontWeight.w700,
+                            ),
+                      ),
+                    ],
+                    SizedBox(height: gap),
+                    Wrap(
+                      spacing: compact ? 8 : 12,
+                      runSpacing: compact ? 10 : 14,
+                      alignment: WrapAlignment.center,
+                      children: widget.choices.map((c) {
+                        final id = c['id'] as String;
+                        final isCorrect =
+                            c['isCorrect'] as bool? ?? id == widget.correctId;
+                        final showGlow = widget.showHint &&
+                            (widget.hintOptionId == id ||
+                                (isCorrect && widget.hintOptionId == null));
+                        return BounceBackAnimation(
+                          trigger: _selectedId == id && !isCorrect
+                              ? _bounceTrigger
+                              : 0,
+                          child: ScaffoldHintGlow(
+                            showGlow: showGlow,
+                            child: CartoonChoiceCard(
+                              emoji: c['emoji'] as String? ?? '❓',
+                              imagePath: c['imagePath'] as String?,
+                              label: c['label'] as String? ?? '',
+                              minSize: choiceMin,
+                              compact: compact,
+                              borderColor: accent,
+                              selected: _selectedId == id && isCorrect,
+                              onTap: _locked
+                                  ? null
+                                  : () => _onTap(id, isCorrect),
+                            ),
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                  ],
                 ),
               ),
-            );
-          }).toList(),
-        ),
-      ],
+            ),
+            CorrectAnswerBurst(visible: _showBurst),
+          ],
+        );
+      },
     );
   }
 
@@ -154,8 +206,14 @@ class _TapMatchEngineState extends State<TapMatchEngine> {
       widget.onChoice(id, false);
       return;
     }
-    setState(() => _locked = true);
-    widget.onChoice(id, true);
+    setState(() {
+      _locked = true;
+      _showBurst = true;
+    });
+    getIt<SoundManager>().playCorrectChime();
+    Future.delayed(const Duration(milliseconds: 700), () {
+      if (mounted) widget.onChoice(id, true);
+    });
   }
 }
 
@@ -170,6 +228,7 @@ class NameMatchEngine extends StatefulWidget {
     this.showHint = false,
     this.hintOptionId,
     this.accentColor,
+    this.heroHeader,
   });
 
   final String prompt;
@@ -179,6 +238,7 @@ class NameMatchEngine extends StatefulWidget {
   final bool showHint;
   final String? hintOptionId;
   final Color? accentColor;
+  final String? heroHeader;
 
   @override
   State<NameMatchEngine> createState() => _NameMatchEngineState();
@@ -188,6 +248,7 @@ class _NameMatchEngineState extends State<NameMatchEngine> {
   String? _selectedId;
   int _bounceTrigger = 0;
   bool _locked = false;
+  bool _showBurst = false;
 
   @override
   void didUpdateWidget(covariant NameMatchEngine oldWidget) {
@@ -197,60 +258,108 @@ class _NameMatchEngineState extends State<NameMatchEngine> {
       _selectedId = null;
       _bounceTrigger = 0;
       _locked = false;
+      _showBurst = false;
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    final touch = Responsive.touchTarget(context);
     final accent = widget.accentColor ?? const Color(0xFF4CAF50);
+    final subtitleColor = _readableAccent(context, accent);
 
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        CartoonPromptBubble(text: widget.prompt, accent: accent),
-        const SizedBox(height: 12),
-        CartoonTargetHero(
-          label: '',
-          emoji: widget.target['emoji'] as String?,
-          imagePath: widget.target['imagePath'] as String?,
-          accent: accent,
-          hideLabel: true,
-        ),
-        const SizedBox(height: 8),
-        Text(
-          'Pick the right name!',
-          style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                color: accent,
-                fontWeight: FontWeight.w700,
-              ),
-        ),
-        const SizedBox(height: 16),
-        Wrap(
-          spacing: 12,
-          runSpacing: 16,
-          alignment: WrapAlignment.center,
-          children: widget.choices.map((c) {
-            final id = c['id'] as String;
-            final isCorrect = c['isCorrect'] as bool? ?? false;
-            final showGlow = widget.showHint && widget.hintOptionId == id;
-            return BounceBackAnimation(
-              trigger: _selectedId == id && !isCorrect ? _bounceTrigger : 0,
-              child: ScaffoldHintGlow(
-                showGlow: showGlow,
-                child: CartoonChoiceCard(
-                  label: c['label'] as String? ?? id,
-                  minSize: touch,
-                  borderColor: accent,
-                  textOnly: true,
-                  selected: _selectedId == id && isCorrect,
-                  onTap: _locked ? null : () => _onTap(id, isCorrect),
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final h = constraints.maxHeight.isFinite
+            ? constraints.maxHeight
+            : MediaQuery.sizeOf(context).height * 0.7;
+        final compact = h < 580;
+        final veryCompact = h < 500;
+        final choiceMin = veryCompact
+            ? 52.0
+            : compact
+                ? 58.0
+                : Responsive.touchTarget(context);
+        final gap = veryCompact ? 6.0 : (compact ? 8.0 : 12.0);
+        final heroCircle = veryCompact ? 64.0 : (compact ? 80.0 : 110.0);
+
+        return Stack(
+          alignment: Alignment.center,
+          children: [
+            SingleChildScrollView(
+              physics: const BouncingScrollPhysics(),
+              padding: const EdgeInsets.fromLTRB(8, 4, 8, 12),
+              child: ConstrainedBox(
+                constraints: BoxConstraints(minHeight: h - 8),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CartoonPromptBubble(
+                      text: widget.prompt,
+                      accent: accent,
+                      compact: compact,
+                    ),
+                    SizedBox(height: gap),
+                    CartoonTargetHero(
+                      label: '',
+                      emoji: widget.target['emoji'] as String?,
+                      imagePath: widget.target['imagePath'] as String?,
+                      accent: accent,
+                      hideLabel: true,
+                      header: widget.heroHeader,
+                      displayLabel: widget.target['label'] as String?,
+                      compact: compact,
+                      circleSize: heroCircle,
+                    ),
+                    if (!veryCompact) ...[
+                      SizedBox(height: gap * 0.6),
+                      Text(
+                        'Pick the right name!',
+                        style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                              color: subtitleColor,
+                              fontWeight: FontWeight.w700,
+                              fontSize: compact ? 13 : null,
+                            ),
+                      ),
+                    ],
+                    SizedBox(height: gap),
+                    Wrap(
+                      spacing: compact ? 8 : 12,
+                      runSpacing: compact ? 10 : 14,
+                      alignment: WrapAlignment.center,
+                      children: widget.choices.map((c) {
+                        final id = c['id'] as String;
+                        final isCorrect = c['isCorrect'] as bool? ?? false;
+                        final showGlow =
+                            widget.showHint && widget.hintOptionId == id;
+                        return BounceBackAnimation(
+                          trigger: _selectedId == id && !isCorrect
+                              ? _bounceTrigger
+                              : 0,
+                          child: ScaffoldHintGlow(
+                            showGlow: showGlow,
+                            child: CartoonChoiceCard(
+                              label: c['label'] as String? ?? id,
+                              minSize: choiceMin,
+                              compact: compact,
+                              borderColor: accent,
+                              textOnly: true,
+                              selected: _selectedId == id && isCorrect,
+                              onTap: _locked
+                                  ? null
+                                  : () => _onTap(id, isCorrect),
+                            ),
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                  ],
                 ),
               ),
-            );
-          }).toList(),
-        ),
-      ],
+            ),
+            CorrectAnswerBurst(visible: _showBurst),
+          ],
+        );
+      },
     );
   }
 
@@ -261,104 +370,385 @@ class _NameMatchEngineState extends State<NameMatchEngine> {
       widget.onChoice(id, false);
       return;
     }
-    setState(() => _locked = true);
-    widget.onChoice(id, true);
+    setState(() {
+      _locked = true;
+      _showBurst = true;
+    });
+    getIt<SoundManager>().playCorrectChime();
+    Future.delayed(const Duration(milliseconds: 700), () {
+      if (mounted) widget.onChoice(id, true);
+    });
   }
 }
 
-/// Engine 3: Drag & Drop
+/// Engine 2c: Count Match — count objects, pick the number.
+class CountMatchEngine extends StatefulWidget {
+  const CountMatchEngine({
+    super.key,
+    required this.prompt,
+    required this.count,
+    required this.countEmoji,
+    required this.choices,
+    required this.onChoice,
+    this.showHint = false,
+    this.hintOptionId,
+    this.accentColor,
+  });
+
+  final String prompt;
+  final int count;
+  final String countEmoji;
+  final List<Map<String, dynamic>> choices;
+  final void Function(String choiceId, bool isCorrect) onChoice;
+  final bool showHint;
+  final String? hintOptionId;
+  final Color? accentColor;
+
+  @override
+  State<CountMatchEngine> createState() => _CountMatchEngineState();
+}
+
+class _CountMatchEngineState extends State<CountMatchEngine> {
+  String? _selectedId;
+  int _bounceTrigger = 0;
+  bool _locked = false;
+  bool _showBurst = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final accent = widget.accentColor ?? const Color(0xFF5C6BC0);
+    final subtitleColor = _readableAccent(context, accent);
+
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final h = constraints.maxHeight.isFinite
+            ? constraints.maxHeight
+            : MediaQuery.sizeOf(context).height * 0.7;
+        final compact = h < 580;
+        final veryCompact = h < 500;
+        final choiceMin = veryCompact
+            ? 52.0
+            : compact
+                ? 58.0
+                : Responsive.touchTarget(context);
+        final gap = veryCompact ? 6.0 : (compact ? 8.0 : 12.0);
+
+        return Stack(
+          alignment: Alignment.center,
+          children: [
+            SingleChildScrollView(
+              physics: const BouncingScrollPhysics(),
+              padding: const EdgeInsets.fromLTRB(8, 4, 8, 12),
+              child: ConstrainedBox(
+                constraints: BoxConstraints(minHeight: h - 8),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CartoonPromptBubble(
+                      text: widget.prompt,
+                      accent: accent,
+                      compact: compact,
+                    ),
+                    SizedBox(height: gap),
+                    CartoonCountHero(
+                      count: widget.count,
+                      emoji: widget.countEmoji,
+                      accent: accent,
+                    ),
+                    if (!veryCompact) ...[
+                      SizedBox(height: gap * 0.6),
+                      Text(
+                        'Pick the right number!',
+                        style:
+                            Theme.of(context).textTheme.labelLarge?.copyWith(
+                                  color: subtitleColor,
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: compact ? 13 : null,
+                                ),
+                      ),
+                    ],
+                    SizedBox(height: gap),
+                    Wrap(
+                      spacing: compact ? 8 : 12,
+                      runSpacing: compact ? 10 : 14,
+                      alignment: WrapAlignment.center,
+                      children: widget.choices.map((c) {
+                        final id = c['id'] as String;
+                        final isCorrect = c['isCorrect'] as bool? ?? false;
+                        final showGlow =
+                            widget.showHint && widget.hintOptionId == id;
+                        return BounceBackAnimation(
+                          trigger: _selectedId == id && !isCorrect
+                              ? _bounceTrigger
+                              : 0,
+                          child: ScaffoldHintGlow(
+                            showGlow: showGlow,
+                            child: CartoonChoiceCard(
+                              label: c['label'] as String? ?? id,
+                              minSize: choiceMin,
+                              compact: compact,
+                              borderColor: accent,
+                              textOnly: true,
+                              selected: _selectedId == id && isCorrect,
+                              onTap: _locked
+                                  ? null
+                                  : () => _onTap(id, isCorrect),
+                            ),
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            CorrectAnswerBurst(visible: _showBurst),
+          ],
+        );
+      },
+    );
+  }
+
+  void _onTap(String id, bool isCorrect) {
+    setState(() => _selectedId = id);
+    if (!isCorrect) {
+      setState(() => _bounceTrigger++);
+      widget.onChoice(id, false);
+      return;
+    }
+    setState(() {
+      _locked = true;
+      _showBurst = true;
+    });
+    getIt<SoundManager>().playCorrectChime();
+    Future.delayed(const Duration(milliseconds: 700), () {
+      if (mounted) widget.onChoice(id, true);
+    });
+  }
+}
+
+/// Engine 3: Drag & Drop (Shadow Game uses silhouette targets)
 class DragDropEngine extends StatelessWidget {
   const DragDropEngine({
     super.key,
     required this.draggableItem,
     required this.targets,
     required this.onDropped,
+    this.subjectImagePath,
+    this.prompt = 'Match the shadow!',
+    this.accentColor,
   });
 
   final Map<String, dynamic> draggableItem;
   final List<Map<String, dynamic>> targets;
   final void Function(String targetId, bool isCorrect) onDropped;
+  final String? subjectImagePath;
+  final String prompt;
+  final Color? accentColor;
 
   @override
   Widget build(BuildContext context) {
-    final targetSize = Responsive.scale(context, 100.0, 120.0);
+    final accent = accentColor ?? const Color(0xFF7E57C2);
+    final emoji = draggableItem['emoji'] as String? ?? '📦';
+    final label = draggableItem['label'] as String? ?? '';
+    final imagePath = subjectImagePath ??
+        draggableItem['imagePath'] as String? ??
+        GameImageResolver.assetForId(label.toLowerCase());
+
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final compact = constraints.maxHeight < 520;
+        final card = (math.min(constraints.maxWidth * 0.28, 110.0))
+            .clamp(72.0, 110.0)
+            .toDouble();
+
+        return SingleChildScrollView(
+          physics: const BouncingScrollPhysics(),
+          padding: const EdgeInsets.fromLTRB(8, 4, 8, 12),
+          child: Column(
+            children: [
+              CartoonPromptBubble(
+                text: prompt,
+                accent: accent,
+                compact: compact,
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'Drag me onto my shadow!',
+                style: GoogleFonts.fredoka(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w700,
+                  color: accent,
+                ),
+              ),
+              const SizedBox(height: 10),
+              Draggable<String>(
+                data: draggableItem['id'] as String,
+                feedback: Material(
+                  color: Colors.transparent,
+                  child: _ShadowSubjectCard(
+                    size: card,
+                    emoji: emoji,
+                    label: label,
+                    imagePath: imagePath,
+                    accent: accent,
+                    silhouette: false,
+                  ),
+                ),
+                childWhenDragging: Opacity(
+                  opacity: 0.25,
+                  child: _ShadowSubjectCard(
+                    size: card,
+                    emoji: emoji,
+                    label: label,
+                    imagePath: imagePath,
+                    accent: accent,
+                    silhouette: false,
+                  ),
+                ),
+                child: _ShadowSubjectCard(
+                  size: card,
+                  emoji: emoji,
+                  label: label,
+                  imagePath: imagePath,
+                  accent: accent,
+                  silhouette: false,
+                ),
+              ),
+              const SizedBox(height: 20),
+              Wrap(
+                spacing: 12,
+                runSpacing: 12,
+                alignment: WrapAlignment.center,
+                children: targets.map((t) {
+                  final isCorrectBin = t['acceptsId'] == draggableItem['id'];
+                  final decoyId = t['decoyId'] as String?;
+                  final binImage = isCorrectBin
+                      ? imagePath
+                      : (GameImageResolver.assetForId(decoyId ?? '') ??
+                          imagePath);
+                  final binEmoji = isCorrectBin
+                      ? emoji
+                      : (t['emoji'] as String? ?? '⬛');
+                  return DragTarget<String>(
+                    onAcceptWithDetails: (details) {
+                      onDropped(
+                        t['id'] as String,
+                        details.data == t['acceptsId'],
+                      );
+                    },
+                    builder: (context, candidate, rejected) {
+                      return _ShadowSubjectCard(
+                        size: card,
+                        emoji: binEmoji,
+                        label: '',
+                        imagePath: binImage,
+                        accent: candidate.isNotEmpty
+                            ? AppTheme.success
+                            : accent,
+                        silhouette: true,
+                        highlighted: candidate.isNotEmpty,
+                      );
+                    },
+                  );
+                }).toList(),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+}
+
+class _ShadowSubjectCard extends StatelessWidget {
+  const _ShadowSubjectCard({
+    required this.size,
+    required this.emoji,
+    required this.label,
+    required this.accent,
+    required this.silhouette,
+    this.imagePath,
+    this.highlighted = false,
+  });
+
+  final double size;
+  final String emoji;
+  final String label;
+  final Color accent;
+  final bool silhouette;
+  final String? imagePath;
+  final bool highlighted;
+
+  @override
+  Widget build(BuildContext context) {
+    Widget art;
+    if (imagePath != null) {
+      final image = Image.asset(
+        imagePath!,
+        fit: BoxFit.contain,
+        width: size * 0.62,
+        height: size * 0.62,
+        errorBuilder: (context, error, stackTrace) => Text(
+          emoji,
+          style: TextStyle(fontSize: size * 0.4),
+        ),
+      );
+      art = silhouette
+          ? ColorFiltered(
+              colorFilter: const ColorFilter.mode(
+                Colors.black87,
+                BlendMode.srcIn,
+              ),
+              child: image,
+            )
+          : image;
+    } else {
+      art = Text(emoji, style: TextStyle(fontSize: size * 0.4));
+    }
+
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Draggable<String>(
-          data: draggableItem['id'] as String,
-          feedback: Material(
-            color: Colors.transparent,
-            child: _ItemCard(
-              emoji: draggableItem['emoji'] as String? ?? '📦',
-              label: draggableItem['label'] as String? ?? '',
+        Container(
+          width: size,
+          height: size,
+          decoration: BoxDecoration(
+            color: highlighted
+                ? AppTheme.success.withValues(alpha: 0.15)
+                : Colors.white,
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(
+              color: highlighted ? AppTheme.success : accent,
+              width: highlighted ? 4 : 3,
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: accent.withValues(alpha: 0.28),
+                offset: const Offset(0, 5),
+                blurRadius: 0,
+              ),
+            ],
+          ),
+          child: Center(child: art),
+        ),
+        if (label.isNotEmpty) ...[
+          const SizedBox(height: 4),
+          SizedBox(
+            width: size + 8,
+            child: Text(
+              label,
+              textAlign: TextAlign.center,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: GoogleFonts.fredoka(
+                fontSize: 13,
+                fontWeight: FontWeight.w700,
+                color: const Color(0xFF2D3142),
+              ),
             ),
           ),
-          childWhenDragging: Opacity(
-            opacity: 0.3,
-            child: _ItemCard(
-              emoji: draggableItem['emoji'] as String? ?? '📦',
-              label: draggableItem['label'] as String? ?? '',
-            ),
-          ),
-          child: _ItemCard(
-            emoji: draggableItem['emoji'] as String? ?? '📦',
-            label: draggableItem['label'] as String? ?? '',
-          ),
-        ),
-        const SizedBox(height: 24),
-        Wrap(
-          spacing: 12,
-          runSpacing: 12,
-          alignment: WrapAlignment.center,
-          children: targets.map((t) {
-            return DragTarget<String>(
-              onAcceptWithDetails: (details) {
-                onDropped(
-                  t['id'] as String,
-                  details.data == t['acceptsId'],
-                );
-              },
-              builder: (context, candidate, rejected) {
-                return Container(
-                  width: targetSize,
-                  height: targetSize,
-                  decoration: BoxDecoration(
-                    color: candidate.isNotEmpty
-                        ? AppTheme.success.withValues(alpha: 0.2)
-                        : Colors.grey.shade100,
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(
-                      color: candidate.isNotEmpty
-                          ? AppTheme.success
-                          : Colors.grey.shade300,
-                      width: 2,
-                    ),
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        t['emoji'] as String? ?? '📥',
-                        style: TextStyle(fontSize: targetSize * 0.28),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 4),
-                        child: Text(
-                          t['label'] as String? ?? '',
-                          textAlign: TextAlign.center,
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(fontSize: 12),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
-            );
-          }).toList(),
-        ),
+        ],
       ],
     );
   }
@@ -382,28 +772,32 @@ class TrueFalseEngine extends StatelessWidget {
       children: [
         CartoonPromptBubble(text: statement),
         const SizedBox(height: 20),
-        LayoutBuilder(
-          builder: (context, constraints) {
-            final wide = constraints.maxWidth > 400;
-            final children = [
-              Expanded(
-                child: _AnswerButton(
-                  label: '✅ True',
-                  color: AppTheme.success,
-                  onTap: () => onAnswer(true),
-                ),
-              ),
-              SizedBox(width: wide ? 16 : 12),
-              Expanded(
-                child: _AnswerButton(
-                  label: '❌ False',
-                  color: AppTheme.error,
-                  onTap: () => onAnswer(false),
-                ),
-              ),
-            ];
-            return Row(children: children);
-          },
+        SizedBox(
+          width: double.infinity,
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              final wide = constraints.maxWidth > 400;
+              return Row(
+                children: [
+                  Expanded(
+                    child: _AnswerButton(
+                      label: '✅ True',
+                      color: AppTheme.success,
+                      onTap: () => onAnswer(true),
+                    ),
+                  ),
+                  SizedBox(width: wide ? 16 : 12),
+                  Expanded(
+                    child: _AnswerButton(
+                      label: '❌ False',
+                      color: AppTheme.error,
+                      onTap: () => onAnswer(false),
+                    ),
+                  ),
+                ],
+              );
+            },
+          ),
         ),
       ],
     );
@@ -533,7 +927,7 @@ class SandboxEngine extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             padding: const EdgeInsets.symmetric(horizontal: 8),
             itemCount: itemTray.length,
-            separatorBuilder: (_, _i) => const SizedBox(width: 4),
+            separatorBuilder: (_, index) => const SizedBox(width: 4),
             itemBuilder: (context, index) {
               final item = itemTray[index];
               return GestureDetector(
@@ -563,18 +957,22 @@ class SandboxEngine extends StatelessWidget {
   }
 }
 
-/// Engine 9: Simon Says / Memory Sequence
+/// Engine 9: Simon Says — watch pattern, then repeat on music pads.
 class SimonEngine extends StatefulWidget {
   const SimonEngine({
     super.key,
     required this.sequence,
-    required this.colors,
+    required this.pads,
     required this.onComplete,
+    this.prompt = 'Watch the pattern!',
+    this.onPadSound,
   });
 
   final List<int> sequence;
-  final List<Color> colors;
+  final List<Map<String, dynamic>> pads;
   final void Function(bool success) onComplete;
+  final String prompt;
+  final void Function(int padIndex)? onPadSound;
 
   @override
   State<SimonEngine> createState() => _SimonEngineState();
@@ -583,54 +981,164 @@ class SimonEngine extends StatefulWidget {
 class _SimonEngineState extends State<SimonEngine> {
   int _playerIndex = 0;
   int? _highlighted;
+  bool _watchPhase = true;
+  bool _inputEnabled = false;
+  bool _showBurst = false;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _playSequence());
+  }
+
+  @override
+  void didUpdateWidget(covariant SimonEngine oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.sequence != widget.sequence) {
+      _playerIndex = 0;
+      _watchPhase = true;
+      _inputEnabled = false;
+      _showBurst = false;
+      _playSequence();
+    }
+  }
+
+  Future<void> _playSequence() async {
+    if (!mounted) return;
+    setState(() {
+      _watchPhase = true;
+      _inputEnabled = false;
+    });
+    await Future<void>.delayed(const Duration(milliseconds: 600));
+    for (var i = 0; i < widget.sequence.length; i++) {
+      if (!mounted) return;
+      setState(() => _highlighted = widget.sequence[i]);
+      widget.onPadSound?.call(widget.sequence[i]);
+      await Future<void>.delayed(const Duration(milliseconds: 550));
+      if (!mounted) return;
+      setState(() => _highlighted = null);
+      await Future<void>.delayed(const Duration(milliseconds: 200));
+    }
+    if (!mounted) return;
+    setState(() {
+      _watchPhase = false;
+      _inputEnabled = true;
+    });
+  }
+
+  Color _padColor(int index) {
+    final hex = widget.pads[index]['color'] as String? ?? '#6C63FF';
+    return Color(int.parse(hex.replaceFirst('#', '0xFF')));
+  }
 
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        final size = constraints.maxWidth.clamp(200.0, 400.0);
-        return Center(
-          child: SizedBox(
-            width: size,
-            height: size,
-            child: GridView.count(
-              crossAxisCount: 2,
-              physics: const NeverScrollableScrollPhysics(),
-              children: List.generate(widget.colors.length, (i) {
-                return GestureDetector(
-                  onTap: () => _onPadTap(i),
-                  child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 200),
-                    margin: const EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                      color: _highlighted == i
-                          ? widget.colors[i]
-                          : widget.colors[i].withValues(alpha: 0.55),
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                  ),
-                );
-              }),
-            ),
-          ),
-        );
-      },
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        CartoonPromptBubble(
+          text: _watchPhase ? widget.prompt : 'Your turn — copy it! 🎵',
+        ),
+        const SizedBox(height: 12),
+        LayoutBuilder(
+          builder: (context, constraints) {
+            final size = constraints.maxWidth.clamp(220.0, 420.0);
+            return Center(
+              child: SizedBox(
+                width: size,
+                height: size,
+                child: GridView.count(
+                  crossAxisCount: 2,
+                  physics: const NeverScrollableScrollPhysics(),
+                  children: List.generate(widget.pads.length, (i) {
+                    final pad = widget.pads[i];
+                    final active = _highlighted == i;
+                    final base = _padColor(i);
+                    return GestureDetector(
+                      onTap: _inputEnabled ? () => _onPadTap(i) : null,
+                      child: AnimatedContainer(
+                        duration: const Duration(milliseconds: 180),
+                        margin: const EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: active ? base : base.withValues(alpha: 0.45),
+                          borderRadius: BorderRadius.circular(24),
+                          border: Border.all(
+                            color: active ? Colors.white : base.withValues(alpha: 0.8),
+                            width: active ? 4 : 3,
+                          ),
+                          boxShadow: active
+                              ? [
+                                  BoxShadow(
+                                    color: base.withValues(alpha: 0.6),
+                                    blurRadius: 16,
+                                    spreadRadius: 2,
+                                  ),
+                                ]
+                              : [
+                                  BoxShadow(
+                                    color: base.withValues(alpha: 0.35),
+                                    offset: const Offset(0, 5),
+                                    blurRadius: 0,
+                                  ),
+                                ],
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              pad['emoji'] as String? ?? '🎵',
+                              style: TextStyle(fontSize: size * 0.14),
+                            ),
+                            Text(
+                              pad['label'] as String? ?? '',
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.w800,
+                                fontSize: 14,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    );
+                  }),
+                ),
+              ),
+            );
+          },
+        ),
+      ],
+    ),
+        CorrectAnswerBurst(visible: _showBurst),
+      ],
     );
   }
 
   void _onPadTap(int index) {
+    if (!_inputEnabled) return;
+    widget.onPadSound?.call(index);
     if (widget.sequence[_playerIndex] == index) {
       setState(() {
         _playerIndex++;
         _highlighted = index;
       });
-      Future.delayed(const Duration(milliseconds: 300), () {
+      Future.delayed(const Duration(milliseconds: 280), () {
         if (mounted) setState(() => _highlighted = null);
       });
       if (_playerIndex >= widget.sequence.length) {
-        widget.onComplete(true);
+        setState(() {
+          _inputEnabled = false;
+          _showBurst = true;
+        });
+        Future.delayed(const Duration(milliseconds: 800), () {
+          if (mounted) widget.onComplete(true);
+        });
       }
     } else {
+      setState(() => _inputEnabled = false);
       widget.onComplete(false);
     }
   }
@@ -672,11 +1180,15 @@ class _SelectPieceEngineState extends State<SelectPieceEngine> {
 
     return LayoutBuilder(
       builder: (context, constraints) {
-        final boardSize = (constraints.maxWidth * 0.62).clamp(160.0, 260.0);
+        final boardSize = (constraints.maxHeight * 0.48)
+            .clamp(150.0, 240.0)
+            .toDouble();
+        final maxBoardW = (constraints.maxWidth - 32).clamp(150.0, 280.0);
+        final size = boardSize < maxBoardW ? boardSize : maxBoardW;
         return Column(
           children: [
             Padding(
-              padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
+              padding: const EdgeInsets.fromLTRB(16, 4, 16, 4),
               child: CartoonPromptBubble(
                 text: widget.prompt,
                 accent: accent,
@@ -685,46 +1197,54 @@ class _SelectPieceEngineState extends State<SelectPieceEngine> {
             Expanded(
               child: Center(
                 child: CartoonPuzzleBoard(
-                  rows: widget.level.boardRows,
-                  cols: widget.level.boardCols,
+                  rows: widget.level.boardRows.clamp(1, 6),
+                  cols: widget.level.boardCols.clamp(1, 6),
                   missingSlots: widget.level.missingSlots,
                   themeImagePath: themeImage,
                   themeEmoji: themeEmoji,
                   accent: accent,
-                  size: boardSize,
+                  size: size,
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(12, 8, 12, 16),
-              child: Wrap(
-                spacing: 12,
-                runSpacing: 12,
-                alignment: WrapAlignment.center,
-                children: widget.level.options.map((option) {
-                  final showHint = widget.hintOptionId == option.id;
-                  final imagePath = GameImageResolver.assetFromImagePath(
-                        option.image,
-                      ) ??
-                      GameImageResolver.assetForId(option.id);
-                  return BounceBackAnimation(
-                    trigger: _selectedId == option.id && !option.isCorrect
-                        ? _bounceTrigger
-                        : 0,
-                    child: ScaffoldHintGlow(
-                      showGlow: showHint,
-                      child: CartoonChoiceCard(
-                        emoji: _emojiForOption(option),
-                        imagePath: imagePath,
-                        label: _labelForOption(option),
-                        minSize: Responsive.touchTarget(context),
-                        borderColor: accent,
-                        selected: _selectedId == option.id && option.isCorrect,
-                        onTap: () => _onSelect(option),
-                      ),
-                    ),
-                  );
-                }).toList(),
+            SafeArea(
+              top: false,
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(12, 4, 12, 12),
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: widget.level.options.map((option) {
+                      final showHint = widget.hintOptionId == option.id;
+                      final imagePath = GameImageResolver.assetFromImagePath(
+                            option.image,
+                          ) ??
+                          GameImageResolver.assetForId(option.id);
+                      return Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 6),
+                        child: BounceBackAnimation(
+                          trigger: _selectedId == option.id && !option.isCorrect
+                              ? _bounceTrigger
+                              : 0,
+                          child: ScaffoldHintGlow(
+                            showGlow: showHint,
+                            child: CartoonChoiceCard(
+                              emoji: _emojiForOption(option),
+                              imagePath: imagePath,
+                              label: _labelForOption(option),
+                              minSize: Responsive.touchTarget(context),
+                              borderColor: accent,
+                              selected:
+                                  _selectedId == option.id && option.isCorrect,
+                              onTap: () => _onSelect(option),
+                            ),
+                          ),
+                        ),
+                      );
+                    }).toList(),
+                  ),
+                ),
               ),
             ),
           ],
@@ -737,48 +1257,70 @@ class _SelectPieceEngineState extends State<SelectPieceEngine> {
     setState(() => _selectedId = option.id);
     if (!option.isCorrect) {
       setState(() => _bounceTrigger++);
+    } else {
+      getIt<SoundManager>().playCorrectChime();
     }
     widget.onPieceSelected(option, option.isCorrect);
   }
 
   String _emojiForLevel(GameLevelEntity level) {
-    const emojis = {
-      'cow': '🐄', 'sheep': '🐑', 'pig': '🐖', 'lion': '🦁',
-      'elephant': '🐘', 'giraffe': '🦒', 'monkey': '🐵', 'rocket': '🚀',
-      'dino': '🦕', 'tree': '🌳',
-    };
-    for (final key in emojis.keys) {
-      if (level.referenceImage?.contains(key) == true ||
-          level.relatedConcepts.any((c) => c.contains(key))) {
-        return emojis[key]!;
+    for (final entry in _themeEmojis.entries) {
+      if (level.referenceImage?.contains(entry.key) == true ||
+          level.relatedConcepts.any((c) => c.contains(entry.key))) {
+        return entry.value;
       }
     }
-    return emojis.values.elementAt(level.levelNumber % emojis.length);
+    final values = _themeEmojis.values.toList();
+    return values[level.levelNumber % values.length];
   }
 
+  static const _themeEmojis = {
+    'cow': '🐄',
+    'sheep': '🐑',
+    'pig': '🐖',
+    'lion': '🦁',
+    'elephant': '🐘',
+    'giraffe': '🦒',
+    'monkey': '🐵',
+    'rocket': '🚀',
+    'dino': '🦕',
+    'tree': '🌳',
+    'tail': '🦴',
+    'head': '🙂',
+    'ear': '👂',
+    'hoof': '🦶',
+  };
+
   String _emojiForOption(LevelOption option) {
-    final fromImage = GameImageResolver.assetFromImagePath(option.image);
-    if (fromImage != null) {
-      final id = option.image.split('/').last.replaceAll('.png', '');
-      const map = {
-        'cow': '🐄', 'sheep': '🐑', 'pig': '🐖', 'lion': '🦁',
-        'elephant': '🐘', 'giraffe': '🦒', 'monkey': '🐵', 'rocket': '🚀',
-        'dino': '🦕', 'tree': '🌳',
-      };
-      return map[id] ?? '🔲';
+    // Prefer theme from image filename — never show ✅ as a choice face.
+    if (option.image.isNotEmpty) {
+      final id = option.image
+          .split('/')
+          .last
+          .replaceAll('.png', '')
+          .replaceAll('_full', '');
+      final fromTheme = _themeEmojis[id];
+      if (fromTheme != null) return fromTheme;
     }
-    const map = {
-      'correct': '✅', 'wrong_1': '🔲', 'wrong_2': '🔲',
-      'tail': '🦴', 'head': '🙂', 'ear': '👂', 'hoof': '🦶',
-    };
-    return map[option.id] ?? '🔲';
+    final fromId = _themeEmojis[option.id];
+    if (fromId != null) return fromId;
+    return '🧩';
   }
 
   String _labelForOption(LevelOption option) {
     if (option.image.isNotEmpty) {
-      return option.image.split('/').last.replaceAll('.png', '');
+      final name = option.image
+          .split('/')
+          .last
+          .replaceAll('.png', '')
+          .replaceAll('_full', '');
+      if (name.isNotEmpty && name != 'correct' && !name.startsWith('wrong')) {
+        return name;
+      }
     }
-    return option.labelKey ?? option.id;
+    final key = option.labelKey ?? option.id;
+    if (key == 'correct' || key.startsWith('wrong')) return 'piece';
+    return key;
   }
 }
 
@@ -857,18 +1399,17 @@ class _ItemCard extends StatelessWidget {
   const _ItemCard({
     required this.emoji,
     required this.label,
-    this.minSize = 72,
   });
 
   final String emoji;
   final String label;
-  final double minSize;
+  static const _minSize = 72.0;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: minSize + 20,
-      height: minSize + 20,
+      width: _minSize + 20,
+      height: _minSize + 20,
       padding: const EdgeInsets.all(6),
       decoration: BoxDecoration(
         color: Colors.white,
@@ -884,7 +1425,7 @@ class _ItemCard extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(emoji, style: TextStyle(fontSize: minSize * 0.45)),
+          Text(emoji, style: TextStyle(fontSize: _minSize * 0.45)),
           if (label.isNotEmpty)
             Padding(
               padding: const EdgeInsets.only(top: 2),
@@ -929,4 +1470,12 @@ class _AnswerButton extends StatelessWidget {
       ),
     );
   }
+}
+
+Color _readableAccent(BuildContext context, Color accent) {
+  final onSurface = Theme.of(context).textTheme.bodyLarge?.color;
+  if (onSurface != null && onSurface.computeLuminance() > 0.6) {
+    return onSurface;
+  }
+  return accent;
 }

@@ -21,9 +21,11 @@ class DrawingDenLoaded extends DrawingDenState {
     required this.mode,
     required this.regionColors,
     required this.strokes,
+    required this.colorStrokes,
     required this.undoStack,
     this.selectedTemplate,
     this.strokeWidth = 8.0,
+    this.colorStrokeWidth = 18.0,
   });
 
   final List<DrawingTemplateEntity> templates;
@@ -32,8 +34,10 @@ class DrawingDenLoaded extends DrawingDenState {
   final DrawingMode mode;
   final Map<String, Color> regionColors;
   final List<SmoothStroke> strokes;
-  final List<DrawingUndoAction> undoStack;
+  final List<SmoothStroke> colorStrokes;
+  final List<DrawingUndoEntry> undoStack;
   final double strokeWidth;
+  final double colorStrokeWidth;
 
   DrawingDenLoaded copyWith({
     List<DrawingTemplateEntity>? templates,
@@ -42,8 +46,10 @@ class DrawingDenLoaded extends DrawingDenState {
     DrawingMode? mode,
     Map<String, Color>? regionColors,
     List<SmoothStroke>? strokes,
-    List<DrawingUndoAction>? undoStack,
+    List<SmoothStroke>? colorStrokes,
+    List<DrawingUndoEntry>? undoStack,
     double? strokeWidth,
+    double? colorStrokeWidth,
   }) {
     return DrawingDenLoaded(
       templates: templates ?? this.templates,
@@ -52,8 +58,10 @@ class DrawingDenLoaded extends DrawingDenState {
       mode: mode ?? this.mode,
       regionColors: regionColors ?? this.regionColors,
       strokes: strokes ?? this.strokes,
+      colorStrokes: colorStrokes ?? this.colorStrokes,
       undoStack: undoStack ?? this.undoStack,
       strokeWidth: strokeWidth ?? this.strokeWidth,
+      colorStrokeWidth: colorStrokeWidth ?? this.colorStrokeWidth,
     );
   }
 
@@ -69,5 +77,6 @@ class DrawingDenLoaded extends DrawingDenState {
   }
 
   @override
-  List<Object?> get props => [selectedTemplate, selectedColor, mode, regionColors, strokes];
+  List<Object?> get props =>
+      [selectedTemplate, selectedColor, mode, regionColors, strokes, colorStrokes];
 }

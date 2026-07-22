@@ -9,40 +9,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "green",
+          "label": "Green",
           "isCorrect": true
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -54,40 +50,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": true
-        },
-        {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -99,40 +91,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": true
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         },
         {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -144,40 +132,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": true
         },
         {
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -189,40 +173,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": true
         },
         {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -234,40 +214,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
           "isCorrect": true
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "red",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -279,40 +255,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
-        },
-        {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
-          "isCorrect": true
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -324,40 +296,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": true
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
-        },
-        {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
-        },
-        {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -369,40 +337,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": true
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
           "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -414,40 +378,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": true
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -459,40 +419,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
           "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": true
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -504,40 +460,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": false
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
-        },
-        {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         },
         {
+          "id": "red",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -549,40 +501,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": true
-        },
-        {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -594,40 +542,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         },
         {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": false
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": true
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": true
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -639,40 +583,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "red",
+          "label": "Red",
           "isCorrect": true
         },
         {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -684,40 +624,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         },
         {
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": true
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -729,40 +665,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
           "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -774,40 +706,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": true
-        },
-        {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -819,40 +747,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": true
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -864,40 +788,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
-        },
-        {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": true
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "label": "Purple",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -909,40 +829,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": false
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -954,40 +870,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": true
+          "id": "red",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -999,40 +911,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "red",
+          "label": "Red",
           "isCorrect": true
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -1044,40 +952,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": true
         },
         {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -1089,40 +993,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": true
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -1134,40 +1034,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
-        },
-        {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         },
         {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
-          "isCorrect": true
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -1179,40 +1075,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
-        },
-        {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": true
         },
         {
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -1224,40 +1116,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": true
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -1269,40 +1157,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": true
         },
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -1314,40 +1198,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": true
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": true
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -1359,40 +1239,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "red",
+          "label": "Red",
           "isCorrect": true
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -1404,40 +1280,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
           "isCorrect": false
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": true
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
         },
         {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -1449,40 +1321,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         },
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
+          "id": "green",
+          "label": "Green",
+          "isCorrect": true
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": true
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -1494,40 +1362,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": true
-        },
-        {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": false
-        },
-        {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -1539,40 +1403,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": true
-        },
-        {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -1584,40 +1444,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
-        },
-        {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -1629,40 +1485,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
+          "id": "purple",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": true
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -1674,40 +1526,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         },
         {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
-          "isCorrect": false
-        },
-        {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": true
-        },
-        {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -1719,40 +1567,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
+          "id": "red",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": true
-        },
-        {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -1764,40 +1608,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": true
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
-        },
-        {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
           "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -1809,40 +1649,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": false
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": true
-        },
-        {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         },
         {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
           "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -1854,40 +1690,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": true
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
-        },
-        {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -1899,40 +1731,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": true
-        },
-        {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -1944,40 +1772,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
-        },
-        {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": true
         },
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -1989,40 +1813,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": false
-        },
-        {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -2034,40 +1854,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
         },
         {
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": true
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -2079,40 +1895,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         },
         {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
-          "isCorrect": true
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
           "isCorrect": false
         },
         {
+          "id": "red",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -2124,40 +1936,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": true
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -2169,40 +1977,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": false
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "green",
+          "label": "Green",
           "isCorrect": true
         },
         {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -2214,40 +2018,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": true
         },
         {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": true
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -2259,40 +2059,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": true
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -2304,40 +2100,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": true
         },
         {
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -2349,40 +2141,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -2394,40 +2182,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": true
         },
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -2439,40 +2223,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": true
-        },
-        {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
+        },
+        {
+          "id": "red",
+          "label": "Red",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -2484,40 +2264,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
           "isCorrect": false
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": true
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -2529,40 +2305,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": true
-        },
-        {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
           "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -2574,40 +2346,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
-        },
-        {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -2619,40 +2387,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": true
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -2664,40 +2428,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
+          "id": "purple",
+          "label": "Purple",
+          "isCorrect": true
         },
         {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
           "isCorrect": false
         },
         {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -2709,40 +2469,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
         },
         {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -2754,40 +2510,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         },
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": true
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
-          "isCorrect": false
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -2799,40 +2551,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": true
-        },
-        {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
           "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "red",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -2844,40 +2592,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "purple",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
-          "isCorrect": true
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -2889,40 +2633,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "green",
+          "label": "Green",
           "isCorrect": true
         },
         {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -2934,40 +2674,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
           "isCorrect": true
         },
         {
+          "id": "purple",
+          "label": "Purple",
+          "isCorrect": false
+        },
+        {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -2979,40 +2715,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": true
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -3024,40 +2756,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         },
         {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
+          "id": "purple",
+          "label": "Purple",
+          "isCorrect": true
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": true
+          "id": "red",
+          "label": "Red",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -3069,40 +2797,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": false
+        },
+        {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": true
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -3114,40 +2838,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
-        },
-        {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": true
         },
         {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -3159,40 +2879,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
-          "isCorrect": true
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
           "isCorrect": false
         },
         {
+          "id": "red",
+          "label": "Red",
+          "isCorrect": true
+        },
+        {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -3204,40 +2920,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": true
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
           "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -3249,40 +2961,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": true
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": false
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -3294,40 +3002,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": true
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -3339,40 +3043,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
-          "isCorrect": false
-        },
-        {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
           "isCorrect": true
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "red",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -3384,40 +3084,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": true
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
         },
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
+          "isCorrect": true
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -3429,40 +3125,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
+          "id": "red",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
           "isCorrect": false
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": true
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -3474,40 +3166,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
-        },
-        {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": false
-        },
-        {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
-        },
-        {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": true
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -3519,40 +3207,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
+        },
+        {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
           "isCorrect": false
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": true
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": false
         },
         {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -3564,40 +3248,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": false
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": true
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": true
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -3609,40 +3289,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": true
-        },
-        {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
-        },
-        {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "green",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -3654,40 +3330,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
-        },
-        {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": true
-        },
-        {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         },
         {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
+          "isCorrect": true
+        },
+        {
+          "id": "red",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -3699,40 +3371,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         },
         {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -3744,40 +3412,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": true
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -3789,40 +3453,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": true
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": false
         },
         {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
-          "isCorrect": false
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": true
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -3834,40 +3494,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": true
-        },
-        {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": true
+        },
+        {
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -3879,40 +3535,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "red",
+          "label": "Red",
           "isCorrect": true
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "green",
+          "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -3924,40 +3576,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
-          "isCorrect": false
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
-          "isCorrect": true
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -3969,40 +3617,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "green",
+          "label": "Green",
+          "isCorrect": true
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
-        },
-        {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -4014,40 +3658,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": true
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": false
-        },
-        {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -4059,40 +3699,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": true
-        },
-        {
           "id": "red",
-          "emoji": "🔴",
           "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": true
+        },
+        {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -4104,40 +3740,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
+          "id": "red",
+          "label": "Red",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": true
         },
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     },
     {
@@ -4149,40 +3781,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Orange!",
-      "targetId": "orange",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "pink",
+      "mode": "color_name",
       "items": [
         {
+          "id": "orange",
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": false
-        },
-        {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": true
         },
         {
           "id": "pink",
-          "emoji": "🩷",
           "label": "Pink",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.orange"
+        "color_canyon.pink"
       ]
     },
     {
@@ -4194,40 +3822,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Purple!",
-      "targetId": "purple",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "brown",
+      "mode": "color_name",
       "items": [
         {
-          "id": "blue",
-          "emoji": "🔵",
-          "label": "Blue",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "purple",
-          "emoji": "🟣",
           "label": "Purple",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
-          "isCorrect": false
+          "id": "brown",
+          "label": "Brown",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.purple"
+        "color_canyon.brown"
       ]
     },
     {
@@ -4239,40 +3863,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Pink!",
-      "targetId": "pink",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "red",
+      "mode": "color_name",
       "items": [
         {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": true
-        },
-        {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
           "isCorrect": false
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "orange",
+          "label": "Orange",
           "isCorrect": false
+        },
+        {
+          "id": "red",
+          "label": "Red",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.pink"
+        "color_canyon.red"
       ]
     },
     {
@@ -4284,40 +3904,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Brown!",
-      "targetId": "brown",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "blue",
+      "mode": "color_name",
       "items": [
         {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": true
-        },
-        {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
-          "isCorrect": false
-        },
-        {
           "id": "yellow",
-          "emoji": "🟡",
           "label": "Yellow",
           "isCorrect": false
         },
         {
+          "id": "blue",
+          "label": "Blue",
+          "isCorrect": true
+        },
+        {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.brown"
+        "color_canyon.blue"
       ]
     },
     {
@@ -4329,40 +3945,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Red!",
-      "targetId": "red",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "green",
+      "mode": "color_name",
       "items": [
         {
+          "id": "pink",
+          "label": "Pink",
+          "isCorrect": false
+        },
+        {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "red",
-          "emoji": "🔴",
-          "label": "Red",
+          "id": "green",
+          "label": "Green",
           "isCorrect": true
         },
         {
           "id": "brown",
-          "emoji": "🟤",
           "label": "Brown",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.red"
+        "color_canyon.green"
       ]
     },
     {
@@ -4374,40 +3986,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Blue!",
-      "targetId": "blue",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "yellow",
+      "mode": "color_name",
       "items": [
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "pink",
+          "label": "Pink",
           "isCorrect": false
         },
         {
-          "id": "orange",
-          "emoji": "🟠",
-          "label": "Orange",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
-          "isCorrect": false
+          "id": "yellow",
+          "label": "Yellow",
+          "isCorrect": true
         },
         {
           "id": "blue",
-          "emoji": "🔵",
           "label": "Blue",
-          "isCorrect": true
+          "isCorrect": false
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.blue"
+        "color_canyon.yellow"
       ]
     },
     {
@@ -4419,40 +4027,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Green!",
-      "targetId": "green",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "orange",
+      "mode": "color_name",
       "items": [
         {
-          "id": "purple",
-          "emoji": "🟣",
-          "label": "Purple",
+          "id": "red",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
           "isCorrect": false
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
-          "isCorrect": false
-        },
-        {
-          "id": "pink",
-          "emoji": "🩷",
-          "label": "Pink",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "green",
-          "emoji": "🟢",
           "label": "Green",
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "color_canyon.green"
+        "color_canyon.orange"
       ]
     },
     {
@@ -4464,40 +4068,36 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "literacy",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Yellow!",
-      "targetId": "yellow",
-      "mode": "tap_match",
+      "lumiLineKey": "What color is this?",
+      "targetId": "purple",
+      "mode": "color_name",
       "items": [
         {
-          "id": "green",
-          "emoji": "🟢",
-          "label": "Green",
-          "isCorrect": false
-        },
-        {
-          "id": "brown",
-          "emoji": "🟤",
-          "label": "Brown",
+          "id": "yellow",
+          "label": "Yellow",
           "isCorrect": false
         },
         {
           "id": "orange",
-          "emoji": "🟠",
           "label": "Orange",
           "isCorrect": false
         },
         {
-          "id": "yellow",
-          "emoji": "🟡",
-          "label": "Yellow",
+          "id": "red",
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "id": "purple",
+          "label": "Purple",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "color_canyon.yellow"
+        "color_canyon.purple"
       ]
     }
   ]

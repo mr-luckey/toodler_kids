@@ -1,29 +1,74 @@
 import 'package:flutter/material.dart';
 
-/// Responsive layout helpers for phones & tablets.
+/// Responsive layout helpers for phones, tablets & large screens.
 class Responsive {
   Responsive._();
 
   static bool isTablet(BuildContext context) =>
       MediaQuery.sizeOf(context).shortestSide >= 600;
 
-  static double pad(BuildContext context) => isTablet(context) ? 24 : 16;
+  static bool isLargeScreen(BuildContext context) =>
+      MediaQuery.sizeOf(context).shortestSide >= 900;
 
-  static int gridColumns(BuildContext context) =>
-      isTablet(context) ? 3 : 2;
+  static bool isLandscape(BuildContext context) =>
+      MediaQuery.orientationOf(context) == Orientation.landscape;
 
-  static double touchTarget(BuildContext context) =>
-      isTablet(context) ? 88 : 72;
+  static double pad(BuildContext context) {
+    if (isLargeScreen(context)) return 32;
+    if (isTablet(context)) return 24;
+    return 16;
+  }
 
-  static double emojiSize(BuildContext context) =>
-      isTablet(context) ? 48 : 40;
+  static int gridColumns(BuildContext context) {
+    if (isLargeScreen(context)) return isLandscape(context) ? 5 : 4;
+    if (isTablet(context)) return isLandscape(context) ? 4 : 3;
+    return 2;
+  }
 
-  static double cardRadius(BuildContext context) =>
-      isTablet(context) ? 28 : 22;
+  static double touchTarget(BuildContext context) {
+    if (isLargeScreen(context)) return 96;
+    if (isTablet(context)) return 88;
+    return 72;
+  }
 
-  /// Scale a value between phone (360w) and tablet (768w).
+  static double emojiSize(BuildContext context) {
+    if (isLargeScreen(context)) return 56;
+    if (isTablet(context)) return 48;
+    return 40;
+  }
+
+  static double cardRadius(BuildContext context) {
+    if (isLargeScreen(context)) return 32;
+    if (isTablet(context)) return 28;
+    return 22;
+  }
+
+  /// Max width for centered game content on wide screens.
+  static double maxContentWidth(BuildContext context) {
+    final w = MediaQuery.sizeOf(context).width;
+    if (w >= 1200) return 960;
+    if (w >= 900) return 780;
+    if (isTablet(context)) return 680;
+    return w;
+  }
+
+  /// Scale a value between phone and tablet/large.
   static double scale(BuildContext context, double phone, [double? tablet]) {
-    return isTablet(context) ? (tablet ?? phone * 1.25) : phone;
+    if (isLargeScreen(context)) return tablet ?? phone * 1.4;
+    if (isTablet(context)) return tablet ?? phone * 1.25;
+    return phone;
+  }
+
+  /// Wraps child with max-width centering on tablets/desktops.
+  static Widget centeredContent(BuildContext context, Widget child) {
+    final maxW = maxContentWidth(context);
+    return Align(
+      alignment: Alignment.topCenter,
+      child: ConstrainedBox(
+        constraints: BoxConstraints(maxWidth: maxW),
+        child: child,
+      ),
+    );
   }
 }
 

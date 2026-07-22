@@ -85,7 +85,7 @@ class LevelModel {
         id: m['id'] as String,
         image: m['image'] as String? ?? '',
         isCorrect: m['isCorrect'] as bool? ?? false,
-        labelKey: m['labelKey'] as String?,
+        labelKey: m['labelKey'] as String? ?? m['label'] as String?,
       );
     }).toList();
 
@@ -178,6 +178,16 @@ class LevelModel {
         ...Map<String, dynamic>.from(raw['extra'] as Map? ?? {}),
         if (raw['targetId'] != null) 'targetId': raw['targetId'],
         if (raw['mode'] != null) 'mode': raw['mode'],
+        if (raw['countVisual'] != null) 'countVisual': raw['countVisual'],
+        if (raw['countEmoji'] != null) 'countEmoji': raw['countEmoji'],
+        if (raw['sequence'] != null)
+          'simonSequence': (raw['sequence'] as List<dynamic>)
+              .map((e) => e as int)
+              .toList(),
+        if (raw['sourceDisplay'] != null)
+          'sourceDisplay': Map<String, dynamic>.from(
+            raw['sourceDisplay'] as Map,
+          ),
       },
     );
   }

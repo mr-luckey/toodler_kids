@@ -69,7 +69,7 @@ class GamePlayBloc extends Bloc<GamePlayEvent, GamePlayState> {
         relatedConcepts: current.level.relatedConcepts,
         attempts: current.attempts + 1,
       );
-      _sounds.playSfx('celebration');
+      _sounds.playCelebration();
       if (current.level.gameType.contains('phonics') ||
           current.level.gameType.contains('letter')) {
         final letter = _extractLetter(current.level);
@@ -90,8 +90,11 @@ class GamePlayBloc extends Bloc<GamePlayEvent, GamePlayState> {
       if (hintsLeft > 0 &&
           (current.mechanic == 'select_piece' ||
               current.mechanic == 'tap_match' ||
-              current.mechanic == 'name_match')) {
-        final targetId = LevelChoiceBuilder.extractTargetId(current.level);
+              current.mechanic == 'name_match' ||
+              current.mechanic == 'opposite_match')) {
+        final targetId = current.mechanic == 'opposite_match'
+            ? current.level.answerId
+            : LevelChoiceBuilder.extractTargetId(current.level);
         if (targetId != null) {
           hintId = targetId;
         } else {
@@ -154,7 +157,7 @@ class GamePlayBloc extends Bloc<GamePlayEvent, GamePlayState> {
       levelIndex: index,
       totalLevels: _levels.length,
       mechanic: mechanic,
-      prompt: level.lumiLineKey ?? _defaultPrompt(level, mechanic),
+      prompt: _resolvePrompt(level.lumiLineKey, level, mechanic),
       choices: LevelChoiceBuilder.buildChoices(level),
       attempts: 0,
       hintsUsed: 0,
@@ -178,26 +181,54 @@ class GamePlayBloc extends Bloc<GamePlayEvent, GamePlayState> {
       'true_false_math': 'true_false',
       'true_false_dino': 'true_false',
       'true_false_space': 'true_false',
+      'true_false_world': 'true_false',
       'build_scene': 'sandbox',
       'story_order': 'sequence',
       'simon_says': 'simon',
-      'which_tool_works': 'select_piece',
-      'opposites': 'tap_match',
-      'color_recognition': 'tap_match',
+      'which_tool_works': 'tap_match',
+      'opposites': 'opposite_match',
       'fun_colors': 'tap_match',
       'animal_names': 'name_match',
+      'counting': 'count_match',
+      'letter_phonics': 'phonics_match',
+      'color_recognition': 'name_match',
     };
     return map[gameType] ?? 'tap_match';
   }
 
+  String _resolvePrompt(
+    String? raw,
+    GameLevelEntity level,
+    String mechanic,
+  ) {
+    final fallback = _defaultPrompt(level, mechanic);
+    if (raw == null || raw.isEmpty) return fallback;
+    // Content sometimes stores localization keys instead of kid-facing text.
+    const known = {
+      'lumi.complete_picture.hint': 'Put the pieces together! 🧩',
+      'lumi.which_tool.hint': 'Which tool works?',
+      'lumi.shadow.hint': 'Match the shadow!',
+      'lumi.tap_match.hint': 'Tap the correct one!',
+    };
+    if (known.containsKey(raw)) return known[raw]!;
+    if (raw.startsWith('lumi.')) return fallback;
+    return raw;
+  }
+
   String _defaultPrompt(GameLevelEntity level, String mechanic) {
     if (mechanic == 'true_false') {
-      return level.statementKey ?? 'Is this true?';
+      final statement = level.statementKey;
+      if (statement != null &&
+          statement.isNotEmpty &&
+          !statement.startsWith('lumi.')) {
+        return statement;
+      }
+      return 'Is this true?';
     }
     if (mechanic == 'riddle' && level.clues.isNotEmpty) {
       return level.clues.first;
     }
-    if (mechanic == 'select_piece') return 'Find the missing piece!';
+    if (mechanic == 'select_piece') return 'Put the pieces together! 🧩';
     return 'Tap the correct one!';
   }
 

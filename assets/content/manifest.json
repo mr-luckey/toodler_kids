@@ -17,6 +17,7 @@
       },
       "unlockStars": 0,
       "isFree": true,
+      "isSecret": false,
       "positionX": 0.2,
       "positionY": 0.7
     },
@@ -34,6 +35,7 @@
       },
       "unlockStars": 0,
       "isFree": true,
+      "isSecret": false,
       "positionX": 0.5,
       "positionY": 0.15
     },
@@ -51,6 +53,7 @@
       },
       "unlockStars": 0,
       "isFree": true,
+      "isSecret": false,
       "positionX": 0.8,
       "positionY": 0.15
     },
@@ -66,8 +69,9 @@
         "primary": "#EC407A",
         "accent": "#FFCA28"
       },
-      "unlockStars": 50,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.5,
       "positionY": 0.55
     },
@@ -83,33 +87,35 @@
         "primary": "#7E57C2",
         "accent": "#26A69A"
       },
-      "unlockStars": 75,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.85,
       "positionY": 0.55
     },
     {
       "id": "world_village",
       "nameKey": "zone.world_village",
-      "levelCount": 600,
+      "levelCount": 73,
       "gameTypes": [
         "what_am_i",
         "build_scene",
-        "true_false_animals"
+        "true_false_world"
       ],
       "palette": {
         "primary": "#00897B",
         "accent": "#FFB300"
       },
-      "unlockStars": 100,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.75,
       "positionY": 0.75
     },
     {
       "id": "music_meadow",
       "nameKey": "zone.music_meadow",
-      "levelCount": 150,
+      "levelCount": 50,
       "gameTypes": [
         "simon_says"
       ],
@@ -117,15 +123,16 @@
         "primary": "#D81B60",
         "accent": "#8E24AA"
       },
-      "unlockStars": 60,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.15,
       "positionY": 0.15
     },
     {
       "id": "opposites_ocean",
       "nameKey": "zone.opposites_ocean",
-      "levelCount": 530,
+      "levelCount": 40,
       "gameTypes": [
         "opposites"
       ],
@@ -133,15 +140,16 @@
         "primary": "#039BE5",
         "accent": "#00ACC1"
       },
-      "unlockStars": 80,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.65,
       "positionY": 0.4
     },
     {
       "id": "dinosaurs",
       "nameKey": "zone.dinosaurs",
-      "levelCount": 520,
+      "levelCount": 13,
       "gameTypes": [
         "dino_names",
         "true_false_dino"
@@ -150,15 +158,16 @@
         "primary": "#795548",
         "accent": "#FF8F00"
       },
-      "unlockStars": 25,
+      "unlockStars": 0,
       "isFree": true,
+      "isSecret": false,
       "positionX": 0.85,
       "positionY": 0.25
     },
     {
       "id": "space_science",
       "nameKey": "zone.space_science",
-      "levelCount": 520,
+      "levelCount": 35,
       "gameTypes": [
         "space_objects",
         "true_false_space"
@@ -167,15 +176,16 @@
         "primary": "#283593",
         "accent": "#7E57C2"
       },
-      "unlockStars": 50,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.95,
       "positionY": 0.1
     },
     {
       "id": "tools_professions",
       "nameKey": "zone.tools_professions",
-      "levelCount": 520,
+      "levelCount": 25,
       "gameTypes": [
         "which_tool_works"
       ],
@@ -183,16 +193,16 @@
         "primary": "#546E7A",
         "accent": "#FF7043"
       },
-      "unlockStars": 40,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.35,
-      "positionY": 0.85,
-      "isSecret": true
+      "positionY": 0.85
     },
     {
       "id": "sports_body",
       "nameKey": "zone.sports_body",
-      "levelCount": 520,
+      "levelCount": 8,
       "gameTypes": [
         "sports_names"
       ],
@@ -200,15 +210,16 @@
         "primary": "#E53935",
         "accent": "#1E88E5"
       },
-      "unlockStars": 90,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.9,
       "positionY": 0.85
     },
     {
       "id": "seasons_holidays",
       "nameKey": "zone.seasons_holidays",
-      "levelCount": 520,
+      "levelCount": 8,
       "gameTypes": [
         "four_seasons"
       ],
@@ -216,15 +227,16 @@
         "primary": "#43A047",
         "accent": "#FB8C00"
       },
-      "unlockStars": 70,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.55,
       "positionY": 0.85
     },
     {
       "id": "household_daily",
       "nameKey": "zone.household_daily",
-      "levelCount": 520,
+      "levelCount": 8,
       "gameTypes": [
         "household_items"
       ],
@@ -232,8 +244,9 @@
         "primary": "#6D4C41",
         "accent": "#FFA726"
       },
-      "unlockStars": 65,
-      "isFree": false,
+      "unlockStars": 0,
+      "isFree": true,
+      "isSecret": false,
       "positionX": 0.7,
       "positionY": 0.65
     },
@@ -249,11 +262,11 @@
         "primary": "#42A5F5",
         "accent": "#FF7043"
       },
-      "unlockStars": 10,
+      "unlockStars": 0,
       "isFree": true,
+      "isSecret": false,
       "positionX": 0.1,
-      "positionY": 0.5,
-      "isSecret": true
+      "positionY": 0.5
     }
   ],
   "gameTypeRegistry": {
@@ -290,7 +303,7 @@
       ]
     },
     "counting": {
-      "mechanic": "tap_match",
+      "mechanic": "count_match",
       "minLevels": 100,
       "contentPaths": [
         "assets/content/learning/math/counting.json"
@@ -304,7 +317,7 @@
       ]
     },
     "letter_phonics": {
-      "mechanic": "tap_match",
+      "mechanic": "phonics_match",
       "minLevels": 100,
       "contentPaths": [
         "assets/content/learning/alphabet/letter_phonics.json"
@@ -312,35 +325,35 @@
     },
     "dino_names": {
       "mechanic": "tap_match",
-      "minLevels": 100,
+      "minLevels": 8,
       "contentPaths": [
         "assets/content/learning/animals/dino_names.json"
       ]
     },
     "space_objects": {
       "mechanic": "tap_match",
-      "minLevels": 100,
+      "minLevels": 15,
       "contentPaths": [
         "assets/content/learning/animals/space_objects.json"
       ]
     },
     "sports_names": {
       "mechanic": "tap_match",
-      "minLevels": 100,
+      "minLevels": 8,
       "contentPaths": [
         "assets/content/learning/animals/sports_names.json"
       ]
     },
     "four_seasons": {
       "mechanic": "tap_match",
-      "minLevels": 80,
+      "minLevels": 8,
       "contentPaths": [
         "assets/content/learning/animals/four_seasons.json"
       ]
     },
     "household_items": {
       "mechanic": "tap_match",
-      "minLevels": 100,
+      "minLevels": 8,
       "contentPaths": [
         "assets/content/learning/animals/household_items.json"
       ]
@@ -353,15 +366,15 @@
       ]
     },
     "color_recognition": {
-      "mechanic": "tap_match",
+      "mechanic": "name_match",
       "minLevels": 100,
       "contentPaths": [
         "assets/content/learning/colors/color_recognition.json"
       ]
     },
     "opposites": {
-      "mechanic": "tap_match",
-      "minLevels": 100,
+      "mechanic": "opposite_match",
+      "minLevels": 40,
       "contentPaths": [
         "assets/content/learning/colors/opposites.json"
       ]
@@ -375,7 +388,7 @@
     },
     "what_am_i": {
       "mechanic": "riddle",
-      "minLevels": 80,
+      "minLevels": 30,
       "contentPaths": [
         "assets/content/games/what_am_i/riddles.json"
       ]
@@ -389,30 +402,44 @@
     },
     "which_tool_works": {
       "mechanic": "select_piece",
-      "minLevels": 100,
+      "minLevels": 25,
       "contentPaths": [
         "assets/content/games/tools/which_tool_works.json"
       ]
     },
     "true_false_animals": {
       "mechanic": "true_false",
-      "minLevels": 100,
+      "minLevels": 8,
       "contentPaths": [
         "assets/content/learning/true_false/true_false_animals.json"
       ]
     },
     "true_false_dino": {
       "mechanic": "true_false",
-      "minLevels": 80,
+      "minLevels": 5,
       "contentPaths": [
         "assets/content/learning/true_false/true_false_dino.json"
       ]
     },
     "true_false_space": {
       "mechanic": "true_false",
-      "minLevels": 80,
+      "minLevels": 20,
       "contentPaths": [
         "assets/content/learning/true_false/true_false_space.json"
+      ]
+    },
+    "true_false_world": {
+      "mechanic": "true_false",
+      "minLevels": 25,
+      "contentPaths": [
+        "assets/content/learning/true_false/true_false_world.json"
+      ]
+    },
+    "simon_says": {
+      "mechanic": "simon",
+      "minLevels": 50,
+      "contentPaths": [
+        "assets/content/games/simon_says/levels.json"
       ]
     }
   }

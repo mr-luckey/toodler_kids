@@ -9,40 +9,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the A!",
-      "targetId": "letter_A",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /h/?",
+      "targetId": "letter_H",
+      "mode": "phonics_match",
+      "phonicsSound": "/h/",
       "items": [
         {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
+          "id": "letter_H",
+          "label": "H",
           "isCorrect": true
         },
         {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
-          "isCorrect": false
-        },
-        {
           "id": "letter_C",
-          "emoji": "C",
           "label": "C",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_U",
+          "label": "U",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_G",
+          "label": "G",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_A"
+        "letter_lane.letter_H"
       ]
     },
     {
@@ -54,40 +51,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the B!",
-      "targetId": "letter_B",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /i/?",
+      "targetId": "letter_I",
+      "mode": "phonics_match",
+      "phonicsSound": "/i/",
       "items": [
         {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_I",
+          "label": "I",
           "isCorrect": true
+        },
+        {
+          "id": "letter_H",
+          "label": "H",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_C",
+          "label": "C",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_M",
+          "label": "M",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_B"
+        "letter_lane.letter_I"
       ]
     },
     {
@@ -99,40 +93,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the C!",
-      "targetId": "letter_C",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /j/?",
+      "targetId": "letter_J",
+      "mode": "phonics_match",
+      "phonicsSound": "/j/",
       "items": [
         {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
-          "isCorrect": true
-        },
-        {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_Z",
+          "label": "Z",
           "isCorrect": false
         },
         {
           "id": "letter_J",
-          "emoji": "J",
           "label": "J",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_S",
+          "label": "S",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_G",
+          "label": "G",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_C"
+        "letter_lane.letter_J"
       ]
     },
     {
@@ -144,40 +135,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the D!",
-      "targetId": "letter_D",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /k/?",
+      "targetId": "letter_K",
+      "mode": "phonics_match",
+      "phonicsSound": "/k/",
       "items": [
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": false
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_C",
+          "label": "C",
           "isCorrect": false
         },
         {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": true
+        },
+        {
+          "id": "letter_U",
+          "label": "U",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_D"
+        "letter_lane.letter_K"
       ]
     },
     {
@@ -189,40 +177,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the E!",
-      "targetId": "letter_E",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /l/?",
+      "targetId": "letter_L",
+      "mode": "phonics_match",
+      "phonicsSound": "/l/",
       "items": [
         {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_S",
+          "label": "S",
           "isCorrect": false
         },
         {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": false
         },
         {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
+          "id": "letter_F",
+          "label": "F",
           "isCorrect": false
         },
         {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
+          "id": "letter_L",
+          "label": "L",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_E"
+        "letter_lane.letter_L"
       ]
     },
     {
@@ -234,40 +219,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the F!",
-      "targetId": "letter_F",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /m/?",
+      "targetId": "letter_M",
+      "mode": "phonics_match",
+      "phonicsSound": "/m/",
       "items": [
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
+          "id": "letter_C",
+          "label": "C",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_U",
+          "label": "U",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_M",
+          "label": "M",
           "isCorrect": true
         },
         {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
-          "isCorrect": false
-        },
-        {
           "id": "letter_K",
-          "emoji": "K",
           "label": "K",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_F"
+        "letter_lane.letter_M"
       ]
     },
     {
@@ -279,40 +261,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the G!",
-      "targetId": "letter_G",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /n/?",
+      "targetId": "letter_N",
+      "mode": "phonics_match",
+      "phonicsSound": "/n/",
       "items": [
         {
           "id": "letter_J",
-          "emoji": "J",
           "label": "J",
           "isCorrect": false
         },
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": false
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_D",
+          "label": "D",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": true
-        },
-        {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_G"
+        "letter_lane.letter_N"
       ]
     },
     {
@@ -324,40 +303,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the H!",
-      "targetId": "letter_H",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /o/?",
+      "targetId": "letter_O",
+      "mode": "phonics_match",
+      "phonicsSound": "/o/",
       "items": [
         {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": false
         },
         {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
-          "isCorrect": false
+          "id": "letter_O",
+          "label": "O",
+          "isCorrect": true
         },
         {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
+          "id": "letter_J",
+          "label": "J",
           "isCorrect": false
         },
         {
           "id": "letter_H",
-          "emoji": "H",
           "label": "H",
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_H"
+        "letter_lane.letter_O"
       ]
     },
     {
@@ -369,40 +345,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the I!",
-      "targetId": "letter_I",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /p/?",
+      "targetId": "letter_P",
+      "mode": "phonics_match",
+      "phonicsSound": "/p/",
       "items": [
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
+          "id": "letter_P",
+          "label": "P",
           "isCorrect": true
         },
         {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
+          "id": "letter_Z",
+          "label": "Z",
           "isCorrect": false
         },
         {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
+          "id": "letter_U",
+          "label": "U",
           "isCorrect": false
         },
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_L",
+          "label": "L",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_I"
+        "letter_lane.letter_P"
       ]
     },
     {
@@ -414,40 +387,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the J!",
-      "targetId": "letter_J",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /q/?",
+      "targetId": "letter_Q",
+      "mode": "phonics_match",
+      "phonicsSound": "/q/",
       "items": [
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_G",
+          "label": "G",
           "isCorrect": false
         },
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
+          "id": "letter_T",
+          "label": "T",
           "isCorrect": false
         },
         {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_J",
-          "emoji": "J",
-          "label": "J",
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": true
+        },
+        {
+          "id": "letter_W",
+          "label": "W",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_J"
+        "letter_lane.letter_Q"
       ]
     },
     {
@@ -459,40 +429,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the K!",
-      "targetId": "letter_K",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /r/?",
+      "targetId": "letter_R",
+      "mode": "phonics_match",
+      "phonicsSound": "/r/",
       "items": [
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": false
         },
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
+          "id": "letter_R",
+          "label": "R",
           "isCorrect": true
         },
         {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
+          "id": "letter_C",
+          "label": "C",
           "isCorrect": false
         },
         {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_K"
+        "letter_lane.letter_R"
       ]
     },
     {
@@ -504,40 +471,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the L!",
-      "targetId": "letter_L",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /s/?",
+      "targetId": "letter_S",
+      "mode": "phonics_match",
+      "phonicsSound": "/s/",
       "items": [
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_M",
+          "label": "M",
           "isCorrect": false
-        },
-        {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_L",
-          "emoji": "L",
-          "label": "L",
-          "isCorrect": true
         },
         {
           "id": "letter_S",
-          "emoji": "S",
           "label": "S",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_T",
+          "label": "T",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_L"
+        "letter_lane.letter_S"
       ]
     },
     {
@@ -549,40 +513,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the M!",
-      "targetId": "letter_M",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /t/?",
+      "targetId": "letter_T",
+      "mode": "phonics_match",
+      "phonicsSound": "/t/",
       "items": [
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
-          "isCorrect": false
-        },
-        {
           "id": "letter_M",
-          "emoji": "M",
           "label": "M",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": false
+        },
+        {
+          "id": "letter_U",
+          "label": "U",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_T",
+          "label": "T",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_M"
+        "letter_lane.letter_T"
       ]
     },
     {
@@ -594,40 +555,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the N!",
-      "targetId": "letter_N",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /u/?",
+      "targetId": "letter_U",
+      "mode": "phonics_match",
+      "phonicsSound": "/u/",
       "items": [
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
+          "id": "letter_U",
+          "label": "U",
           "isCorrect": true
         },
         {
           "id": "letter_V",
-          "emoji": "V",
           "label": "V",
           "isCorrect": false
         },
         {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
+          "id": "letter_O",
+          "label": "O",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_N"
+        "letter_lane.letter_U"
       ]
     },
     {
@@ -639,40 +597,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the O!",
-      "targetId": "letter_O",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /v/?",
+      "targetId": "letter_V",
+      "mode": "phonics_match",
+      "phonicsSound": "/v/",
       "items": [
         {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
+          "id": "letter_E",
+          "label": "E",
           "isCorrect": false
         },
         {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": true
+        },
+        {
+          "id": "letter_F",
+          "label": "F",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_C",
+          "label": "C",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_O"
+        "letter_lane.letter_V"
       ]
     },
     {
@@ -684,40 +639,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the P!",
-      "targetId": "letter_P",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /w/?",
+      "targetId": "letter_W",
+      "mode": "phonics_match",
+      "phonicsSound": "/w/",
       "items": [
         {
           "id": "letter_Y",
-          "emoji": "Y",
           "label": "Y",
           "isCorrect": false
         },
         {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
+          "id": "letter_K",
+          "label": "K",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_W",
+          "label": "W",
           "isCorrect": true
-        },
-        {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_P"
+        "letter_lane.letter_W"
       ]
     },
     {
@@ -729,40 +681,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Q!",
-      "targetId": "letter_Q",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /x/?",
+      "targetId": "letter_X",
+      "mode": "phonics_match",
+      "phonicsSound": "/x/",
       "items": [
         {
-          "id": "letter_J",
-          "emoji": "J",
-          "label": "J",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         },
         {
-          "id": "letter_Y",
-          "emoji": "Y",
-          "label": "Y",
+          "id": "letter_P",
+          "label": "P",
           "isCorrect": false
         },
         {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_X",
+          "label": "X",
           "isCorrect": true
+        },
+        {
+          "id": "letter_V",
+          "label": "V",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Q"
+        "letter_lane.letter_X"
       ]
     },
     {
@@ -774,40 +723,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the R!",
-      "targetId": "letter_R",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /y/?",
+      "targetId": "letter_Y",
+      "mode": "phonics_match",
+      "phonicsSound": "/y/",
       "items": [
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": false
         },
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_A",
+          "label": "A",
           "isCorrect": false
         },
         {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": true
         },
         {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_L",
+          "label": "L",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_R"
+        "letter_lane.letter_Y"
       ]
     },
     {
@@ -819,40 +765,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the S!",
-      "targetId": "letter_S",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /z/?",
+      "targetId": "letter_Z",
+      "mode": "phonics_match",
+      "phonicsSound": "/z/",
       "items": [
         {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
-          "isCorrect": true
-        },
-        {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
-          "isCorrect": false
-        },
-        {
           "id": "letter_H",
-          "emoji": "H",
           "label": "H",
           "isCorrect": false
         },
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_E",
+          "label": "E",
           "isCorrect": false
+        },
+        {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Z",
+          "label": "Z",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_S"
+        "letter_lane.letter_Z"
       ]
     },
     {
@@ -864,40 +807,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the T!",
-      "targetId": "letter_T",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /a/?",
+      "targetId": "letter_A",
+      "mode": "phonics_match",
+      "phonicsSound": "/a/",
       "items": [
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
+          "id": "letter_A",
+          "label": "A",
           "isCorrect": true
+        },
+        {
+          "id": "letter_L",
+          "label": "L",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_B",
+          "label": "B",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_M",
+          "label": "M",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_T"
+        "letter_lane.letter_A"
       ]
     },
     {
@@ -909,40 +849,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the U!",
-      "targetId": "letter_U",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /b/?",
+      "targetId": "letter_B",
+      "mode": "phonics_match",
+      "phonicsSound": "/b/",
       "items": [
         {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
+          "id": "letter_C",
+          "label": "C",
           "isCorrect": false
         },
         {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": true
         },
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_K",
+          "label": "K",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_A",
+          "label": "A",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_U"
+        "letter_lane.letter_B"
       ]
     },
     {
@@ -954,40 +891,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the V!",
-      "targetId": "letter_V",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /c/?",
+      "targetId": "letter_C",
+      "mode": "phonics_match",
+      "phonicsSound": "/c/",
       "items": [
         {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": false
         },
         {
           "id": "letter_X",
-          "emoji": "X",
           "label": "X",
           "isCorrect": false
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
-          "isCorrect": false
+          "id": "letter_C",
+          "label": "C",
+          "isCorrect": true
         },
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
-          "isCorrect": true
+          "id": "letter_O",
+          "label": "O",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_V"
+        "letter_lane.letter_C"
       ]
     },
     {
@@ -999,40 +933,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the W!",
-      "targetId": "letter_W",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /d/?",
+      "targetId": "letter_D",
+      "mode": "phonics_match",
+      "phonicsSound": "/d/",
       "items": [
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
+          "id": "letter_R",
+          "label": "R",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_C",
+          "label": "C",
           "isCorrect": false
         },
         {
           "id": "letter_D",
-          "emoji": "D",
           "label": "D",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
           "isCorrect": true
         },
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
+          "id": "letter_W",
+          "label": "W",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_W"
+        "letter_lane.letter_D"
       ]
     },
     {
@@ -1044,40 +975,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the X!",
-      "targetId": "letter_X",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /e/?",
+      "targetId": "letter_E",
+      "mode": "phonics_match",
+      "phonicsSound": "/e/",
       "items": [
         {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
-          "isCorrect": false
-        },
-        {
           "id": "letter_W",
-          "emoji": "W",
           "label": "W",
           "isCorrect": false
         },
         {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
+          "id": "letter_B",
+          "label": "B",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_E",
+          "label": "E",
           "isCorrect": true
+        },
+        {
+          "id": "letter_Z",
+          "label": "Z",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_X"
+        "letter_lane.letter_E"
       ]
     },
     {
@@ -1089,40 +1017,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Y!",
-      "targetId": "letter_Y",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /f/?",
+      "targetId": "letter_F",
+      "mode": "phonics_match",
+      "phonicsSound": "/f/",
       "items": [
         {
-          "id": "letter_Y",
-          "emoji": "Y",
-          "label": "Y",
-          "isCorrect": true
-        },
-        {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
+          "id": "letter_W",
+          "label": "W",
           "isCorrect": false
         },
         {
           "id": "letter_I",
-          "emoji": "I",
           "label": "I",
           "isCorrect": false
         },
         {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_F",
+          "label": "F",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_M",
+          "label": "M",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Y"
+        "letter_lane.letter_F"
       ]
     },
     {
@@ -1134,40 +1059,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Z!",
-      "targetId": "letter_Z",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /g/?",
+      "targetId": "letter_G",
+      "mode": "phonics_match",
+      "phonicsSound": "/g/",
       "items": [
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
-          "isCorrect": true
-        },
-        {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         },
         {
+          "id": "letter_G",
+          "label": "G",
+          "isCorrect": true
+        },
+        {
           "id": "letter_V",
-          "emoji": "V",
           "label": "V",
           "isCorrect": false
         },
         {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
+          "id": "letter_T",
+          "label": "T",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Z"
+        "letter_lane.letter_G"
       ]
     },
     {
@@ -1179,40 +1101,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the A!",
-      "targetId": "letter_A",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /h/?",
+      "targetId": "letter_H",
+      "mode": "phonics_match",
+      "phonicsSound": "/h/",
       "items": [
         {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
+          "id": "letter_H",
+          "label": "H",
           "isCorrect": true
         },
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
+          "id": "letter_A",
+          "label": "A",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_E",
+          "label": "E",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_A"
+        "letter_lane.letter_H"
       ]
     },
     {
@@ -1224,40 +1143,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the B!",
-      "targetId": "letter_B",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /i/?",
+      "targetId": "letter_I",
+      "mode": "phonics_match",
+      "phonicsSound": "/i/",
       "items": [
         {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": false
         },
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_I",
+          "label": "I",
           "isCorrect": true
+        },
+        {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_N",
+          "label": "N",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_B"
+        "letter_lane.letter_I"
       ]
     },
     {
@@ -1269,40 +1185,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the C!",
-      "targetId": "letter_C",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /j/?",
+      "targetId": "letter_J",
+      "mode": "phonics_match",
+      "phonicsSound": "/j/",
       "items": [
         {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
+          "id": "letter_J",
+          "label": "J",
           "isCorrect": true
         },
         {
-          "id": "letter_J",
-          "emoji": "J",
-          "label": "J",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_A",
+          "label": "A",
           "isCorrect": false
         },
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_W",
+          "label": "W",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_C"
+        "letter_lane.letter_J"
       ]
     },
     {
@@ -1314,40 +1227,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the D!",
-      "targetId": "letter_D",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /k/?",
+      "targetId": "letter_K",
+      "mode": "phonics_match",
+      "phonicsSound": "/k/",
       "items": [
         {
+          "id": "letter_K",
+          "label": "K",
+          "isCorrect": true
+        },
+        {
           "id": "letter_I",
-          "emoji": "I",
           "label": "I",
           "isCorrect": false
         },
         {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_L",
-          "emoji": "L",
-          "label": "L",
+          "id": "letter_P",
+          "label": "P",
           "isCorrect": false
         },
         {
           "id": "letter_D",
-          "emoji": "D",
           "label": "D",
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_D"
+        "letter_lane.letter_K"
       ]
     },
     {
@@ -1359,40 +1269,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the E!",
-      "targetId": "letter_E",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /l/?",
+      "targetId": "letter_L",
+      "mode": "phonics_match",
+      "phonicsSound": "/l/",
       "items": [
         {
-          "id": "letter_Y",
-          "emoji": "Y",
-          "label": "Y",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
-          "isCorrect": true
-        },
-        {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
-          "isCorrect": false
-        },
-        {
           "id": "letter_U",
-          "emoji": "U",
           "label": "U",
           "isCorrect": false
+        },
+        {
+          "id": "letter_C",
+          "label": "C",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_W",
+          "label": "W",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_L",
+          "label": "L",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_E"
+        "letter_lane.letter_L"
       ]
     },
     {
@@ -1404,40 +1311,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the F!",
-      "targetId": "letter_F",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /m/?",
+      "targetId": "letter_M",
+      "mode": "phonics_match",
+      "phonicsSound": "/m/",
       "items": [
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": false
         },
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
+          "id": "letter_M",
+          "label": "M",
           "isCorrect": true
         },
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
+          "id": "letter_J",
+          "label": "J",
           "isCorrect": false
         },
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
+          "id": "letter_S",
+          "label": "S",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_F"
+        "letter_lane.letter_M"
       ]
     },
     {
@@ -1449,40 +1353,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the G!",
-      "targetId": "letter_G",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /n/?",
+      "targetId": "letter_N",
+      "mode": "phonics_match",
+      "phonicsSound": "/n/",
       "items": [
         {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": false
         },
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": false
         },
         {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_G"
+        "letter_lane.letter_N"
       ]
     },
     {
@@ -1494,40 +1395,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the H!",
-      "targetId": "letter_H",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /o/?",
+      "targetId": "letter_O",
+      "mode": "phonics_match",
+      "phonicsSound": "/o/",
       "items": [
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_F",
+          "label": "F",
           "isCorrect": false
         },
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": false
         },
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": true
+        },
+        {
+          "id": "letter_P",
+          "label": "P",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_H"
+        "letter_lane.letter_O"
       ]
     },
     {
@@ -1539,40 +1437,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the I!",
-      "targetId": "letter_I",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /p/?",
+      "targetId": "letter_P",
+      "mode": "phonics_match",
+      "phonicsSound": "/p/",
       "items": [
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
-          "isCorrect": false
+          "id": "letter_P",
+          "label": "P",
+          "isCorrect": true
         },
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": false
         },
         {
           "id": "letter_W",
-          "emoji": "W",
           "label": "W",
           "isCorrect": false
         },
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
-          "isCorrect": true
+          "id": "letter_A",
+          "label": "A",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_I"
+        "letter_lane.letter_P"
       ]
     },
     {
@@ -1584,40 +1479,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the J!",
-      "targetId": "letter_J",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /q/?",
+      "targetId": "letter_Q",
+      "mode": "phonics_match",
+      "phonicsSound": "/q/",
       "items": [
         {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_J",
-          "emoji": "J",
-          "label": "J",
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": true
         },
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": false
         },
         {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
+          "id": "letter_O",
+          "label": "O",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_J"
+        "letter_lane.letter_Q"
       ]
     },
     {
@@ -1629,40 +1521,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the K!",
-      "targetId": "letter_K",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /r/?",
+      "targetId": "letter_R",
+      "mode": "phonics_match",
+      "phonicsSound": "/r/",
       "items": [
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
+          "id": "letter_R",
+          "label": "R",
           "isCorrect": true
+        },
+        {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_D",
+          "label": "D",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_A",
+          "label": "A",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_K"
+        "letter_lane.letter_R"
       ]
     },
     {
@@ -1674,40 +1563,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the L!",
-      "targetId": "letter_L",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /s/?",
+      "targetId": "letter_S",
+      "mode": "phonics_match",
+      "phonicsSound": "/s/",
       "items": [
         {
-          "id": "letter_L",
-          "emoji": "L",
-          "label": "L",
+          "id": "letter_S",
+          "label": "S",
           "isCorrect": true
         },
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": false
         },
         {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_D",
+          "label": "D",
           "isCorrect": false
         },
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_L"
+        "letter_lane.letter_S"
       ]
     },
     {
@@ -1719,40 +1605,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the M!",
-      "targetId": "letter_M",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /t/?",
+      "targetId": "letter_T",
+      "mode": "phonics_match",
+      "phonicsSound": "/t/",
       "items": [
         {
+          "id": "letter_Y",
+          "label": "Y",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_T",
+          "label": "T",
+          "isCorrect": true
+        },
+        {
           "id": "letter_O",
-          "emoji": "O",
           "label": "O",
           "isCorrect": false
-        },
-        {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_M"
+        "letter_lane.letter_T"
       ]
     },
     {
@@ -1764,40 +1647,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the N!",
-      "targetId": "letter_N",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /u/?",
+      "targetId": "letter_U",
+      "mode": "phonics_match",
+      "phonicsSound": "/u/",
       "items": [
         {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_R",
+          "label": "R",
           "isCorrect": false
         },
         {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
+          "id": "letter_U",
+          "label": "U",
           "isCorrect": true
         },
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_A",
+          "label": "A",
           "isCorrect": false
         },
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_N"
+        "letter_lane.letter_U"
       ]
     },
     {
@@ -1809,40 +1689,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the O!",
-      "targetId": "letter_O",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /v/?",
+      "targetId": "letter_V",
+      "mode": "phonics_match",
+      "phonicsSound": "/v/",
       "items": [
         {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
+          "id": "letter_E",
+          "label": "E",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_R",
+          "label": "R",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": true
         },
         {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_O"
+        "letter_lane.letter_V"
       ]
     },
     {
@@ -1854,40 +1731,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the P!",
-      "targetId": "letter_P",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /w/?",
+      "targetId": "letter_W",
+      "mode": "phonics_match",
+      "phonicsSound": "/w/",
       "items": [
         {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
+          "id": "letter_O",
+          "label": "O",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_X",
+          "label": "X",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_W",
+          "label": "W",
           "isCorrect": true
         },
         {
           "id": "letter_Q",
-          "emoji": "Q",
           "label": "Q",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_P"
+        "letter_lane.letter_W"
       ]
     },
     {
@@ -1899,40 +1773,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Q!",
-      "targetId": "letter_Q",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /x/?",
+      "targetId": "letter_X",
+      "mode": "phonics_match",
+      "phonicsSound": "/x/",
       "items": [
         {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
           "id": "letter_Q",
-          "emoji": "Q",
           "label": "Q",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "letter_X",
-          "emoji": "X",
           "label": "X",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Q"
+        "letter_lane.letter_X"
       ]
     },
     {
@@ -1944,40 +1815,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the R!",
-      "targetId": "letter_R",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /y/?",
+      "targetId": "letter_Y",
+      "mode": "phonics_match",
+      "phonicsSound": "/y/",
       "items": [
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_L",
+          "label": "L",
           "isCorrect": false
         },
         {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
+          "id": "letter_W",
+          "label": "W",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_E",
+          "label": "E",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": true
-        },
-        {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_R"
+        "letter_lane.letter_Y"
       ]
     },
     {
@@ -1989,40 +1857,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the S!",
-      "targetId": "letter_S",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /z/?",
+      "targetId": "letter_Z",
+      "mode": "phonics_match",
+      "phonicsSound": "/z/",
       "items": [
         {
+          "id": "letter_R",
+          "label": "R",
+          "isCorrect": false
+        },
+        {
           "id": "letter_S",
-          "emoji": "S",
           "label": "S",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_E",
+          "label": "E",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Z",
+          "label": "Z",
           "isCorrect": true
-        },
-        {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_S"
+        "letter_lane.letter_Z"
       ]
     },
     {
@@ -2034,40 +1899,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the T!",
-      "targetId": "letter_T",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /a/?",
+      "targetId": "letter_A",
+      "mode": "phonics_match",
+      "phonicsSound": "/a/",
       "items": [
         {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_L",
+          "label": "L",
           "isCorrect": false
         },
         {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
+          "id": "letter_F",
+          "label": "F",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_G",
+          "label": "G",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_A",
+          "label": "A",
           "isCorrect": true
-        },
-        {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_T"
+        "letter_lane.letter_A"
       ]
     },
     {
@@ -2079,40 +1941,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the U!",
-      "targetId": "letter_U",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /b/?",
+      "targetId": "letter_B",
+      "mode": "phonics_match",
+      "phonicsSound": "/b/",
       "items": [
         {
+          "id": "letter_Z",
+          "label": "Z",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_V",
+          "label": "V",
+          "isCorrect": false
+        },
+        {
           "id": "letter_B",
-          "emoji": "B",
           "label": "B",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
           "isCorrect": true
         },
         {
           "id": "letter_R",
-          "emoji": "R",
           "label": "R",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_U"
+        "letter_lane.letter_B"
       ]
     },
     {
@@ -2124,40 +1983,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the V!",
-      "targetId": "letter_V",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /c/?",
+      "targetId": "letter_C",
+      "mode": "phonics_match",
+      "phonicsSound": "/c/",
       "items": [
         {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": false
         },
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
-          "isCorrect": true
-        },
-        {
           "id": "letter_L",
-          "emoji": "L",
           "label": "L",
           "isCorrect": false
         },
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": false
+        },
+        {
+          "id": "letter_C",
+          "label": "C",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_V"
+        "letter_lane.letter_C"
       ]
     },
     {
@@ -2169,40 +2025,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the W!",
-      "targetId": "letter_W",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /d/?",
+      "targetId": "letter_D",
+      "mode": "phonics_match",
+      "phonicsSound": "/d/",
       "items": [
         {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
+          "id": "letter_P",
+          "label": "P",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_D",
+          "label": "D",
           "isCorrect": true
         },
         {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": false
         },
         {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
+          "id": "letter_J",
+          "label": "J",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_W"
+        "letter_lane.letter_D"
       ]
     },
     {
@@ -2214,40 +2067,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the X!",
-      "targetId": "letter_X",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /e/?",
+      "targetId": "letter_E",
+      "mode": "phonics_match",
+      "phonicsSound": "/e/",
       "items": [
         {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
+          "id": "letter_E",
+          "label": "E",
           "isCorrect": true
         },
         {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
+          "id": "letter_M",
+          "label": "M",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_T",
+          "label": "T",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_L",
+          "label": "L",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_X"
+        "letter_lane.letter_E"
       ]
     },
     {
@@ -2259,40 +2109,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Y!",
-      "targetId": "letter_Y",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /f/?",
+      "targetId": "letter_F",
+      "mode": "phonics_match",
+      "phonicsSound": "/f/",
       "items": [
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
-        },
-        {
           "id": "letter_D",
-          "emoji": "D",
           "label": "D",
           "isCorrect": false
         },
         {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_Z",
+          "label": "Z",
           "isCorrect": false
         },
         {
-          "id": "letter_Y",
-          "emoji": "Y",
-          "label": "Y",
+          "id": "letter_F",
+          "label": "F",
           "isCorrect": true
+        },
+        {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Y"
+        "letter_lane.letter_F"
       ]
     },
     {
@@ -2304,40 +2151,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Z!",
-      "targetId": "letter_Z",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /g/?",
+      "targetId": "letter_G",
+      "mode": "phonics_match",
+      "phonicsSound": "/g/",
       "items": [
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_G",
+          "label": "G",
           "isCorrect": true
         },
         {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_I",
+          "label": "I",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_A",
+          "label": "A",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_L",
+          "label": "L",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Z"
+        "letter_lane.letter_G"
       ]
     },
     {
@@ -2349,40 +2193,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the A!",
-      "targetId": "letter_A",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /h/?",
+      "targetId": "letter_H",
+      "mode": "phonics_match",
+      "phonicsSound": "/h/",
       "items": [
         {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": false
         },
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_F",
+          "label": "F",
           "isCorrect": false
         },
         {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
+          "id": "letter_H",
+          "label": "H",
           "isCorrect": true
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_L",
+          "label": "L",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_A"
+        "letter_lane.letter_H"
       ]
     },
     {
@@ -2394,40 +2235,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the B!",
-      "targetId": "letter_B",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /i/?",
+      "targetId": "letter_I",
+      "mode": "phonics_match",
+      "phonicsSound": "/i/",
       "items": [
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_I",
+          "label": "I",
           "isCorrect": true
         },
         {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
+          "id": "letter_D",
+          "label": "D",
           "isCorrect": false
         },
         {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
+          "id": "letter_C",
+          "label": "C",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_B"
+        "letter_lane.letter_I"
       ]
     },
     {
@@ -2439,40 +2277,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the C!",
-      "targetId": "letter_C",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /j/?",
+      "targetId": "letter_J",
+      "mode": "phonics_match",
+      "phonicsSound": "/j/",
       "items": [
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
-          "isCorrect": false
-        },
-        {
           "id": "letter_J",
-          "emoji": "J",
           "label": "J",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
           "isCorrect": true
         },
         {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_P",
+          "label": "P",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_U",
+          "label": "U",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_C"
+        "letter_lane.letter_J"
       ]
     },
     {
@@ -2484,40 +2319,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the D!",
-      "targetId": "letter_D",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /k/?",
+      "targetId": "letter_K",
+      "mode": "phonics_match",
+      "phonicsSound": "/k/",
       "items": [
         {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_L",
-          "emoji": "L",
-          "label": "L",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": true
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_Z",
+          "label": "Z",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_R",
+          "label": "R",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_E",
+          "label": "E",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_D"
+        "letter_lane.letter_K"
       ]
     },
     {
@@ -2529,40 +2361,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the E!",
-      "targetId": "letter_E",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /l/?",
+      "targetId": "letter_L",
+      "mode": "phonics_match",
+      "phonicsSound": "/l/",
       "items": [
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
-        },
-        {
           "id": "letter_L",
-          "emoji": "L",
           "label": "L",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
           "isCorrect": true
+        },
+        {
+          "id": "letter_V",
+          "label": "V",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_H",
+          "label": "H",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Q",
+          "label": "Q",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_E"
+        "letter_lane.letter_L"
       ]
     },
     {
@@ -2574,40 +2403,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the F!",
-      "targetId": "letter_F",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /m/?",
+      "targetId": "letter_M",
+      "mode": "phonics_match",
+      "phonicsSound": "/m/",
       "items": [
         {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
+          "id": "letter_M",
+          "label": "M",
           "isCorrect": true
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_F",
+          "label": "F",
           "isCorrect": false
         },
         {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
+          "id": "letter_S",
+          "label": "S",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_R",
+          "label": "R",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_F"
+        "letter_lane.letter_M"
       ]
     },
     {
@@ -2619,40 +2445,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the G!",
-      "targetId": "letter_G",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /n/?",
+      "targetId": "letter_N",
+      "mode": "phonics_match",
+      "phonicsSound": "/n/",
       "items": [
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_Z",
+          "label": "Z",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": true
         },
         {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": false
         },
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
+          "id": "letter_U",
+          "label": "U",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_G"
+        "letter_lane.letter_N"
       ]
     },
     {
@@ -2664,40 +2487,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the H!",
-      "targetId": "letter_H",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /o/?",
+      "targetId": "letter_O",
+      "mode": "phonics_match",
+      "phonicsSound": "/o/",
       "items": [
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": true
         },
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_V",
+          "label": "V",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_E",
+          "label": "E",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_X",
+          "label": "X",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_H"
+        "letter_lane.letter_O"
       ]
     },
     {
@@ -2709,40 +2529,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the I!",
-      "targetId": "letter_I",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /p/?",
+      "targetId": "letter_P",
+      "mode": "phonics_match",
+      "phonicsSound": "/p/",
       "items": [
         {
-          "id": "letter_J",
-          "emoji": "J",
-          "label": "J",
+          "id": "letter_R",
+          "label": "R",
           "isCorrect": false
         },
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
+          "id": "letter_P",
+          "label": "P",
           "isCorrect": true
         },
         {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
+          "id": "letter_D",
+          "label": "D",
           "isCorrect": false
         },
         {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_I"
+        "letter_lane.letter_P"
       ]
     },
     {
@@ -2754,40 +2571,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the J!",
-      "targetId": "letter_J",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /q/?",
+      "targetId": "letter_Q",
+      "mode": "phonics_match",
+      "phonicsSound": "/q/",
       "items": [
         {
+          "id": "letter_U",
+          "label": "U",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_D",
+          "label": "D",
+          "isCorrect": false
+        },
+        {
           "id": "letter_B",
-          "emoji": "B",
           "label": "B",
           "isCorrect": false
         },
         {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_J",
-          "emoji": "J",
-          "label": "J",
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": true
-        },
-        {
-          "id": "letter_L",
-          "emoji": "L",
-          "label": "L",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_J"
+        "letter_lane.letter_Q"
       ]
     },
     {
@@ -2799,40 +2613,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the K!",
-      "targetId": "letter_K",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /r/?",
+      "targetId": "letter_R",
+      "mode": "phonics_match",
+      "phonicsSound": "/r/",
       "items": [
         {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
+          "id": "letter_L",
+          "label": "L",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_H",
+          "label": "H",
           "isCorrect": false
         },
         {
           "id": "letter_T",
-          "emoji": "T",
           "label": "T",
           "isCorrect": false
         },
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
+          "id": "letter_R",
+          "label": "R",
           "isCorrect": true
-        },
-        {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_K"
+        "letter_lane.letter_R"
       ]
     },
     {
@@ -2844,40 +2655,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the L!",
-      "targetId": "letter_L",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /s/?",
+      "targetId": "letter_S",
+      "mode": "phonics_match",
+      "phonicsSound": "/s/",
       "items": [
         {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
+          "id": "letter_T",
+          "label": "T",
           "isCorrect": false
         },
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_L",
-          "emoji": "L",
-          "label": "L",
+          "id": "letter_S",
+          "label": "S",
           "isCorrect": true
+        },
+        {
+          "id": "letter_D",
+          "label": "D",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_O",
+          "label": "O",
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_L"
+        "letter_lane.letter_S"
       ]
     },
     {
@@ -2889,40 +2697,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the M!",
-      "targetId": "letter_M",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /t/?",
+      "targetId": "letter_T",
+      "mode": "phonics_match",
+      "phonicsSound": "/t/",
       "items": [
         {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
+          "id": "letter_T",
+          "label": "T",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_P",
+          "label": "P",
           "isCorrect": false
         },
         {
           "id": "letter_L",
-          "emoji": "L",
           "label": "L",
           "isCorrect": false
         },
         {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
-          "isCorrect": false
-        },
-        {
           "id": "letter_M",
-          "emoji": "M",
           "label": "M",
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_M"
+        "letter_lane.letter_T"
       ]
     },
     {
@@ -2934,40 +2739,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the N!",
-      "targetId": "letter_N",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /u/?",
+      "targetId": "letter_U",
+      "mode": "phonics_match",
+      "phonicsSound": "/u/",
       "items": [
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_Z",
+          "label": "Z",
           "isCorrect": false
         },
         {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
-          "isCorrect": true
+          "id": "letter_M",
+          "label": "M",
+          "isCorrect": false
         },
         {
           "id": "letter_F",
-          "emoji": "F",
           "label": "F",
           "isCorrect": false
         },
         {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
-          "isCorrect": false
+          "id": "letter_U",
+          "label": "U",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_N"
+        "letter_lane.letter_U"
       ]
     },
     {
@@ -2979,40 +2781,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the O!",
-      "targetId": "letter_O",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /v/?",
+      "targetId": "letter_V",
+      "mode": "phonics_match",
+      "phonicsSound": "/v/",
       "items": [
         {
           "id": "letter_K",
-          "emoji": "K",
           "label": "K",
           "isCorrect": false
         },
         {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": false
         },
         {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": true
-        },
-        {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_O"
+        "letter_lane.letter_V"
       ]
     },
     {
@@ -3024,40 +2823,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the P!",
-      "targetId": "letter_P",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /w/?",
+      "targetId": "letter_W",
+      "mode": "phonics_match",
+      "phonicsSound": "/w/",
       "items": [
         {
           "id": "letter_F",
-          "emoji": "F",
           "label": "F",
           "isCorrect": false
         },
         {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
+          "id": "letter_X",
+          "label": "X",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_N",
+          "label": "N",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_W",
+          "label": "W",
           "isCorrect": true
-        },
-        {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_P"
+        "letter_lane.letter_W"
       ]
     },
     {
@@ -3069,40 +2865,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Q!",
-      "targetId": "letter_Q",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /x/?",
+      "targetId": "letter_X",
+      "mode": "phonics_match",
+      "phonicsSound": "/x/",
       "items": [
         {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
+          "id": "letter_P",
+          "label": "P",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_C",
+          "label": "C",
           "isCorrect": false
         },
         {
           "id": "letter_Y",
-          "emoji": "Y",
           "label": "Y",
           "isCorrect": false
         },
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_X",
+          "label": "X",
           "isCorrect": true
-        },
-        {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Q"
+        "letter_lane.letter_X"
       ]
     },
     {
@@ -3114,40 +2907,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the R!",
-      "targetId": "letter_R",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /y/?",
+      "targetId": "letter_Y",
+      "mode": "phonics_match",
+      "phonicsSound": "/y/",
       "items": [
         {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
+          "id": "letter_Q",
+          "label": "Q",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": true
         },
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
-          "isCorrect": false
-        },
-        {
           "id": "letter_T",
-          "emoji": "T",
           "label": "T",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_R"
+        "letter_lane.letter_Y"
       ]
     },
     {
@@ -3159,40 +2949,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the S!",
-      "targetId": "letter_S",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /z/?",
+      "targetId": "letter_Z",
+      "mode": "phonics_match",
+      "phonicsSound": "/z/",
       "items": [
         {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
+          "id": "letter_P",
+          "label": "P",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_K",
+          "label": "K",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Z",
+          "label": "Z",
           "isCorrect": true
         },
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_R",
+          "label": "R",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_S"
+        "letter_lane.letter_Z"
       ]
     },
     {
@@ -3204,40 +2991,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the T!",
-      "targetId": "letter_T",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /a/?",
+      "targetId": "letter_A",
+      "mode": "phonics_match",
+      "phonicsSound": "/a/",
       "items": [
         {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
+          "id": "letter_A",
+          "label": "A",
           "isCorrect": true
         },
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
+          "id": "letter_Y",
+          "label": "Y",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Q",
+          "label": "Q",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_T"
+        "letter_lane.letter_A"
       ]
     },
     {
@@ -3249,40 +3033,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the U!",
-      "targetId": "letter_U",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /b/?",
+      "targetId": "letter_B",
+      "mode": "phonics_match",
+      "phonicsSound": "/b/",
       "items": [
         {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
+          "id": "letter_O",
+          "label": "O",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": true
         },
         {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": false
         },
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
+          "id": "letter_V",
+          "label": "V",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_U"
+        "letter_lane.letter_B"
       ]
     },
     {
@@ -3294,40 +3075,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the V!",
-      "targetId": "letter_V",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /c/?",
+      "targetId": "letter_C",
+      "mode": "phonics_match",
+      "phonicsSound": "/c/",
       "items": [
         {
+          "id": "letter_K",
+          "label": "K",
+          "isCorrect": false
+        },
+        {
           "id": "letter_G",
-          "emoji": "G",
           "label": "G",
           "isCorrect": false
         },
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
+          "id": "letter_C",
+          "label": "C",
           "isCorrect": true
         },
         {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
-          "isCorrect": false
-        },
-        {
           "id": "letter_A",
-          "emoji": "A",
           "label": "A",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_V"
+        "letter_lane.letter_C"
       ]
     },
     {
@@ -3339,40 +3117,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the W!",
-      "targetId": "letter_W",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /d/?",
+      "targetId": "letter_D",
+      "mode": "phonics_match",
+      "phonicsSound": "/d/",
       "items": [
         {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
+          "id": "letter_P",
+          "label": "P",
           "isCorrect": false
         },
         {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
+          "id": "letter_X",
+          "label": "X",
           "isCorrect": false
         },
         {
-          "id": "letter_J",
-          "emoji": "J",
-          "label": "J",
-          "isCorrect": false
+          "id": "letter_D",
+          "label": "D",
+          "isCorrect": true
         },
         {
           "id": "letter_W",
-          "emoji": "W",
           "label": "W",
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_W"
+        "letter_lane.letter_D"
       ]
     },
     {
@@ -3384,40 +3159,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the X!",
-      "targetId": "letter_X",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /e/?",
+      "targetId": "letter_E",
+      "mode": "phonics_match",
+      "phonicsSound": "/e/",
       "items": [
         {
-          "id": "letter_L",
-          "emoji": "L",
-          "label": "L",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": false
         },
         {
+          "id": "letter_E",
+          "label": "E",
+          "isCorrect": true
+        },
+        {
           "id": "letter_N",
-          "emoji": "N",
           "label": "N",
           "isCorrect": false
         },
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": false
-        },
-        {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_X"
+        "letter_lane.letter_E"
       ]
     },
     {
@@ -3429,40 +3201,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Y!",
-      "targetId": "letter_Y",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /f/?",
+      "targetId": "letter_F",
+      "mode": "phonics_match",
+      "phonicsSound": "/f/",
       "items": [
         {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
+          "id": "letter_H",
+          "label": "H",
           "isCorrect": false
         },
         {
-          "id": "letter_Y",
-          "emoji": "Y",
-          "label": "Y",
+          "id": "letter_F",
+          "label": "F",
           "isCorrect": true
         },
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_P",
+          "label": "P",
           "isCorrect": false
         },
         {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Y"
+        "letter_lane.letter_F"
       ]
     },
     {
@@ -3474,40 +3243,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Z!",
-      "targetId": "letter_Z",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /g/?",
+      "targetId": "letter_G",
+      "mode": "phonics_match",
+      "phonicsSound": "/g/",
       "items": [
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": false
         },
         {
           "id": "letter_Z",
-          "emoji": "Z",
           "label": "Z",
-          "isCorrect": true
-        },
-        {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
           "isCorrect": false
         },
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
+          "id": "letter_G",
+          "label": "G",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_R",
+          "label": "R",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Z"
+        "letter_lane.letter_G"
       ]
     },
     {
@@ -3519,40 +3285,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the A!",
-      "targetId": "letter_A",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /h/?",
+      "targetId": "letter_H",
+      "mode": "phonics_match",
+      "phonicsSound": "/h/",
       "items": [
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_J",
+          "label": "J",
           "isCorrect": false
         },
         {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_A",
-          "emoji": "A",
-          "label": "A",
+          "id": "letter_H",
+          "label": "H",
           "isCorrect": true
         },
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
+          "id": "letter_D",
+          "label": "D",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_G",
+          "label": "G",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_A"
+        "letter_lane.letter_H"
       ]
     },
     {
@@ -3564,40 +3327,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the B!",
-      "targetId": "letter_B",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /i/?",
+      "targetId": "letter_I",
+      "mode": "phonics_match",
+      "phonicsSound": "/i/",
       "items": [
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
+          "id": "letter_R",
+          "label": "R",
           "isCorrect": false
         },
         {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         },
         {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_U",
+          "label": "U",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_I",
+          "label": "I",
           "isCorrect": true
-        },
-        {
-          "id": "letter_J",
-          "emoji": "J",
-          "label": "J",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_B"
+        "letter_lane.letter_I"
       ]
     },
     {
@@ -3609,40 +3369,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the C!",
-      "targetId": "letter_C",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /j/?",
+      "targetId": "letter_J",
+      "mode": "phonics_match",
+      "phonicsSound": "/j/",
       "items": [
         {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
+          "id": "letter_C",
+          "label": "C",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_H",
+          "label": "H",
           "isCorrect": false
         },
         {
           "id": "letter_Z",
-          "emoji": "Z",
           "label": "Z",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
-          "isCorrect": true
-        },
-        {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_C"
+        "letter_lane.letter_J"
       ]
     },
     {
@@ -3654,40 +3411,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the D!",
-      "targetId": "letter_D",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /k/?",
+      "targetId": "letter_K",
+      "mode": "phonics_match",
+      "phonicsSound": "/k/",
       "items": [
         {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": false
         },
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": true
         },
         {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
+          "id": "letter_M",
+          "label": "M",
           "isCorrect": false
         },
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
+          "id": "letter_Z",
+          "label": "Z",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_D"
+        "letter_lane.letter_K"
       ]
     },
     {
@@ -3699,40 +3453,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the E!",
-      "targetId": "letter_E",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /l/?",
+      "targetId": "letter_L",
+      "mode": "phonics_match",
+      "phonicsSound": "/l/",
       "items": [
         {
+          "id": "letter_T",
+          "label": "T",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_L",
+          "label": "L",
+          "isCorrect": true
+        },
+        {
           "id": "letter_D",
-          "emoji": "D",
           "label": "D",
           "isCorrect": false
         },
         {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
-          "isCorrect": true
-        },
-        {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_E"
+        "letter_lane.letter_L"
       ]
     },
     {
@@ -3744,40 +3495,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the F!",
-      "targetId": "letter_F",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /m/?",
+      "targetId": "letter_M",
+      "mode": "phonics_match",
+      "phonicsSound": "/m/",
       "items": [
         {
+          "id": "letter_Y",
+          "label": "Y",
+          "isCorrect": false
+        },
+        {
           "id": "letter_G",
-          "emoji": "G",
           "label": "G",
           "isCorrect": false
         },
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
+          "id": "letter_S",
+          "label": "S",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_M",
+          "label": "M",
           "isCorrect": true
-        },
-        {
-          "id": "letter_C",
-          "emoji": "C",
-          "label": "C",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_F"
+        "letter_lane.letter_M"
       ]
     },
     {
@@ -3789,40 +3537,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the G!",
-      "targetId": "letter_G",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /n/?",
+      "targetId": "letter_N",
+      "mode": "phonics_match",
+      "phonicsSound": "/n/",
       "items": [
         {
-          "id": "letter_L",
-          "emoji": "L",
-          "label": "L",
+          "id": "letter_H",
+          "label": "H",
           "isCorrect": false
         },
         {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
+          "id": "letter_N",
+          "label": "N",
+          "isCorrect": true
+        },
+        {
+          "id": "letter_C",
+          "label": "C",
           "isCorrect": false
         },
         {
           "id": "letter_B",
-          "emoji": "B",
           "label": "B",
           "isCorrect": false
-        },
-        {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
-          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_G"
+        "letter_lane.letter_N"
       ]
     },
     {
@@ -3834,40 +3579,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the H!",
-      "targetId": "letter_H",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /o/?",
+      "targetId": "letter_O",
+      "mode": "phonics_match",
+      "phonicsSound": "/o/",
       "items": [
         {
+          "id": "letter_F",
+          "label": "F",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_E",
+          "label": "E",
+          "isCorrect": false
+        },
+        {
           "id": "letter_Z",
-          "emoji": "Z",
           "label": "Z",
           "isCorrect": false
         },
         {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_O",
+          "label": "O",
           "isCorrect": true
-        },
-        {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_H"
+        "letter_lane.letter_O"
       ]
     },
     {
@@ -3879,40 +3621,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the I!",
-      "targetId": "letter_I",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /p/?",
+      "targetId": "letter_P",
+      "mode": "phonics_match",
+      "phonicsSound": "/p/",
       "items": [
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_D",
+          "label": "D",
           "isCorrect": false
         },
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
+          "id": "letter_S",
+          "label": "S",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_L",
+          "label": "L",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_P",
+          "label": "P",
           "isCorrect": true
-        },
-        {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
-          "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_I"
+        "letter_lane.letter_P"
       ]
     },
     {
@@ -3924,40 +3663,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the J!",
-      "targetId": "letter_J",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /q/?",
+      "targetId": "letter_Q",
+      "mode": "phonics_match",
+      "phonicsSound": "/q/",
       "items": [
         {
-          "id": "letter_J",
-          "emoji": "J",
-          "label": "J",
+          "id": "letter_R",
+          "label": "R",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Q",
+          "label": "Q",
           "isCorrect": true
         },
         {
-          "id": "letter_F",
-          "emoji": "F",
-          "label": "F",
+          "id": "letter_E",
+          "label": "E",
           "isCorrect": false
         },
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_J"
+        "letter_lane.letter_Q"
       ]
     },
     {
@@ -3969,40 +3705,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the K!",
-      "targetId": "letter_K",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /r/?",
+      "targetId": "letter_R",
+      "mode": "phonics_match",
+      "phonicsSound": "/r/",
       "items": [
         {
           "id": "letter_R",
-          "emoji": "R",
           "label": "R",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_K",
-          "emoji": "K",
-          "label": "K",
           "isCorrect": true
         },
         {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
+          "id": "letter_X",
+          "label": "X",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_O",
+          "label": "O",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_C",
+          "label": "C",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_K"
+        "letter_lane.letter_R"
       ]
     },
     {
@@ -4014,40 +3747,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the L!",
-      "targetId": "letter_L",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /s/?",
+      "targetId": "letter_S",
+      "mode": "phonics_match",
+      "phonicsSound": "/s/",
       "items": [
         {
-          "id": "letter_L",
-          "emoji": "L",
-          "label": "L",
+          "id": "letter_S",
+          "label": "S",
           "isCorrect": true
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": false
         },
         {
-          "id": "letter_Y",
-          "emoji": "Y",
-          "label": "Y",
+          "id": "letter_D",
+          "label": "D",
           "isCorrect": false
         },
         {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_L"
+        "letter_lane.letter_S"
       ]
     },
     {
@@ -4059,40 +3789,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the M!",
-      "targetId": "letter_M",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /t/?",
+      "targetId": "letter_T",
+      "mode": "phonics_match",
+      "phonicsSound": "/t/",
       "items": [
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
+          "id": "letter_T",
+          "label": "T",
           "isCorrect": true
         },
         {
           "id": "letter_P",
-          "emoji": "P",
           "label": "P",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_W",
+          "label": "W",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_S",
+          "label": "S",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_M"
+        "letter_lane.letter_T"
       ]
     },
     {
@@ -4104,40 +3831,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the N!",
-      "targetId": "letter_N",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /u/?",
+      "targetId": "letter_U",
+      "mode": "phonics_match",
+      "phonicsSound": "/u/",
       "items": [
         {
-          "id": "letter_Y",
-          "emoji": "Y",
-          "label": "Y",
+          "id": "letter_M",
+          "label": "M",
           "isCorrect": false
         },
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_N",
-          "emoji": "N",
-          "label": "N",
+          "id": "letter_U",
+          "label": "U",
           "isCorrect": true
         },
         {
-          "id": "letter_B",
-          "emoji": "B",
-          "label": "B",
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_N"
+        "letter_lane.letter_U"
       ]
     },
     {
@@ -4149,40 +3873,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the O!",
-      "targetId": "letter_O",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /v/?",
+      "targetId": "letter_V",
+      "mode": "phonics_match",
+      "phonicsSound": "/v/",
       "items": [
         {
-          "id": "letter_W",
-          "emoji": "W",
-          "label": "W",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
-          "isCorrect": true
-        },
-        {
           "id": "letter_J",
-          "emoji": "J",
           "label": "J",
           "isCorrect": false
         },
         {
-          "id": "letter_M",
-          "emoji": "M",
-          "label": "M",
+          "id": "letter_T",
+          "label": "T",
           "isCorrect": false
+        },
+        {
+          "id": "letter_B",
+          "label": "B",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_V",
+          "label": "V",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_O"
+        "letter_lane.letter_V"
       ]
     },
     {
@@ -4194,40 +3915,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the P!",
-      "targetId": "letter_P",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /w/?",
+      "targetId": "letter_W",
+      "mode": "phonics_match",
+      "phonicsSound": "/w/",
       "items": [
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_E",
+          "label": "E",
           "isCorrect": false
         },
         {
-          "id": "letter_P",
-          "emoji": "P",
-          "label": "P",
-          "isCorrect": true
+          "id": "letter_R",
+          "label": "R",
+          "isCorrect": false
         },
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": false
         },
         {
           "id": "letter_W",
-          "emoji": "W",
           "label": "W",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_P"
+        "letter_lane.letter_W"
       ]
     },
     {
@@ -4239,40 +3957,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the Q!",
-      "targetId": "letter_Q",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /x/?",
+      "targetId": "letter_X",
+      "mode": "phonics_match",
+      "phonicsSound": "/x/",
       "items": [
         {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
+          "id": "letter_Z",
+          "label": "Z",
           "isCorrect": false
         },
         {
-          "id": "letter_Q",
-          "emoji": "Q",
-          "label": "Q",
+          "id": "letter_P",
+          "label": "P",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_X",
+          "label": "X",
           "isCorrect": true
         },
         {
-          "id": "letter_O",
-          "emoji": "O",
-          "label": "O",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_K",
+          "label": "K",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_Q"
+        "letter_lane.letter_X"
       ]
     },
     {
@@ -4284,40 +3999,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the R!",
-      "targetId": "letter_R",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /y/?",
+      "targetId": "letter_Y",
+      "mode": "phonics_match",
+      "phonicsSound": "/y/",
       "items": [
         {
-          "id": "letter_I",
-          "emoji": "I",
-          "label": "I",
+          "id": "letter_J",
+          "label": "J",
           "isCorrect": false
         },
         {
-          "id": "letter_R",
-          "emoji": "R",
-          "label": "R",
+          "id": "letter_Y",
+          "label": "Y",
           "isCorrect": true
         },
         {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": false
         },
         {
-          "id": "letter_E",
-          "emoji": "E",
-          "label": "E",
+          "id": "letter_C",
+          "label": "C",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_R"
+        "letter_lane.letter_Y"
       ]
     },
     {
@@ -4329,40 +4041,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the S!",
-      "targetId": "letter_S",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /z/?",
+      "targetId": "letter_Z",
+      "mode": "phonics_match",
+      "phonicsSound": "/z/",
       "items": [
         {
-          "id": "letter_S",
-          "emoji": "S",
-          "label": "S",
+          "id": "letter_M",
+          "label": "M",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_L",
+          "label": "L",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_Z",
+          "label": "Z",
           "isCorrect": true
         },
         {
-          "id": "letter_H",
-          "emoji": "H",
-          "label": "H",
-          "isCorrect": false
-        },
-        {
           "id": "letter_K",
-          "emoji": "K",
           "label": "K",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_S"
+        "letter_lane.letter_Z"
       ]
     },
     {
@@ -4374,40 +4083,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the T!",
-      "targetId": "letter_T",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /a/?",
+      "targetId": "letter_A",
+      "mode": "phonics_match",
+      "phonicsSound": "/a/",
       "items": [
         {
-          "id": "letter_T",
-          "emoji": "T",
-          "label": "T",
+          "id": "letter_N",
+          "label": "N",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_J",
+          "label": "J",
+          "isCorrect": false
+        },
+        {
+          "id": "letter_A",
+          "label": "A",
           "isCorrect": true
         },
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
-          "isCorrect": false
-        },
-        {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
+          "id": "letter_H",
+          "label": "H",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_T"
+        "letter_lane.letter_A"
       ]
     },
     {
@@ -4419,40 +4125,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the U!",
-      "targetId": "letter_U",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /b/?",
+      "targetId": "letter_B",
+      "mode": "phonics_match",
+      "phonicsSound": "/b/",
       "items": [
         {
           "id": "letter_V",
-          "emoji": "V",
           "label": "V",
           "isCorrect": false
         },
         {
-          "id": "letter_D",
-          "emoji": "D",
-          "label": "D",
+          "id": "letter_I",
+          "label": "I",
           "isCorrect": false
         },
         {
-          "id": "letter_U",
-          "emoji": "U",
-          "label": "U",
+          "id": "letter_B",
+          "label": "B",
           "isCorrect": true
         },
         {
-          "id": "letter_Z",
-          "emoji": "Z",
-          "label": "Z",
+          "id": "letter_T",
+          "label": "T",
           "isCorrect": false
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_U"
+        "letter_lane.letter_B"
       ]
     },
     {
@@ -4464,40 +4167,37 @@
       "starsAvailable": 3,
       "scaffoldHints": 2,
       "learningMethod": [
-        "play_based",
+        "phonics",
         "multisensory"
       ],
-      "lumiLineKey": "Find the V!",
-      "targetId": "letter_V",
-      "mode": "tap_match",
+      "lumiLineKey": "Which letter says /c/?",
+      "targetId": "letter_C",
+      "mode": "phonics_match",
+      "phonicsSound": "/c/",
       "items": [
         {
-          "id": "letter_V",
-          "emoji": "V",
-          "label": "V",
-          "isCorrect": true
+          "id": "letter_R",
+          "label": "R",
+          "isCorrect": false
         },
         {
-          "id": "letter_G",
-          "emoji": "G",
-          "label": "G",
+          "id": "letter_N",
+          "label": "N",
           "isCorrect": false
         },
         {
           "id": "letter_T",
-          "emoji": "T",
           "label": "T",
           "isCorrect": false
         },
         {
-          "id": "letter_X",
-          "emoji": "X",
-          "label": "X",
-          "isCorrect": false
+          "id": "letter_C",
+          "label": "C",
+          "isCorrect": true
         }
       ],
       "relatedConcepts": [
-        "letter_lane.letter_V"
+        "letter_lane.letter_C"
       ]
     }
   ]

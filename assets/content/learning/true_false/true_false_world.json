@@ -1,0 +1,454 @@
+{
+  "levels": [
+    {
+      "id": "true_false_world_001",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 1,
+      "difficulty": 0,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "The Eiffel Tower is in France.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_002",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Pizza originally comes from Italy.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_003",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Kangaroos live in Australia.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_004",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "The Great Wall is in China.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_005",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Pyramids are found in Egypt.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_006",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Tokyo is a city in Japan.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_007",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "The Statue of Liberty is in New York.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_008",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Penguins live at the North Pole.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_009",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Camels are called ships of the desert.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_010",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "The Sahara is a hot desert.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_011",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "India is famous for spicy curry.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_012",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 12,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Soccer is popular around the world.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_013",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 13,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Mount Everest is the tallest mountain.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_014",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 14,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Brazil is famous for samba dance.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_015",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 15,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "The Nile is a long river in Africa.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_016",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 16,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Canada is south of the USA.",
+      "isTrue": false,
+      "explanationKey": "Not quite — try again next time!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_017",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 17,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Baguettes are a bread from France.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_018",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 18,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Lions live wild in India too.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_019",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 19,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "The Amazon is a rainforest.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_020",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 20,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Mexico is famous for tacos.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_021",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 21,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "London is the capital of England.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_022",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 22,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Polar bears live in the Arctic.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_023",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 23,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Rice is eaten in many Asian countries.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_024",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 24,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "The Taj Mahal is in India.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    },
+    {
+      "id": "true_false_world_025",
+      "gameType": "true_false_world",
+      "zoneId": "world_village",
+      "levelNumber": 25,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "inquiry"
+      ],
+      "statementKey": "Hawaii is part of the United States.",
+      "isTrue": true,
+      "explanationKey": "Correct!",
+      "relatedConcepts": [
+        "facts.true_false_world"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:toodler_kids/core/constants/app_constants.dart';
 import 'package:toodler_kids/core/di/injection.dart';
-import 'package:toodler_kids/core/drawing/coloring_svg_canvas.dart';
+import 'package:toodler_kids/core/drawing/template_brush_canvas.dart';
 import 'package:toodler_kids/core/drawing/drawing_engine.dart';
 import 'package:toodler_kids/core/theme/app_theme.dart';
 import 'package:toodler_kids/core/theme/responsive.dart';
@@ -66,7 +66,7 @@ class _DrawingDenView extends StatelessWidget {
                 child: LumiWidget(
                   emotion: LumiEmotion.excited,
                   message: state.mode == DrawingMode.colorFill
-                      ? 'Pick a picture and tap to color!'
+                      ? 'Zoom in, then paint inside the lines!'
                       : 'Draw anything you like!',
                   size: 44,
                   compact: true,
@@ -103,9 +103,12 @@ class _DrawingDenView extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 8),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  padding: EdgeInsets.symmetric(horizontal: Responsive.pad(context)),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
                     CartoonPillToggle(
                       label: '🎨 Color',
                       selected: state.mode == DrawingMode.colorFill,
@@ -138,6 +141,7 @@ class _DrawingDenView extends StatelessWidget {
                     ),
                   ],
                 ),
+                ),
               ),
               Expanded(
                 child: Padding(
@@ -155,17 +159,14 @@ class _DrawingDenView extends StatelessWidget {
                                   ),
                                 ),
                               )
-                            : ColoringSvgCanvas(
+                            : TemplateBrushCanvas(
                                 svgAssetPath: state.selectedTemplate!.svgPath,
-                                regions: state.fillRegions,
-                                regionColors: state.regionColors,
-                                selectedColor: state.selectedColor,
-                                onRegionFilled: (id, color) {
+                                color: state.selectedColor,
+                                strokeWidth: state.colorStrokeWidth,
+                                strokes: state.colorStrokes,
+                                onStrokeComplete: (stroke) {
                                   context.read<DrawingDenBloc>().add(
-                                        DrawingDenRegionFilled(
-                                          regionId: id,
-                                          color: color,
-                                        ),
+                                        DrawingDenStrokeAdded(stroke),
                                       );
                                 },
                               )

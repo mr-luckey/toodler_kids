@@ -679,14 +679,12 @@ String _hitPathForId(String svg, String id) {
       final cy = _attr(tag, 'cy') ?? 100;
       final rx = _attr(tag, 'rx') ?? 10;
       final ry = _attr(tag, 'ry') ?? 10;
-      return 'rect:${(cx - rx) / _viewBox},${(cy - ry) / _viewBox},'
-          '${(2 * rx) / _viewBox},${(2 * ry) / _viewBox}';
-    case 'rect':
-      final x = _attr(tag, 'x') ?? 0;
-      final y = _attr(tag, 'y') ?? 0;
-      final w = _attr(tag, 'width') ?? 20;
-      final h = _attr(tag, 'height') ?? 20;
-      return 'rect:${x / _viewBox},${y / _viewBox},${w / _viewBox},${h / _viewBox}';
+      return 'ellipse:${cx / _viewBox},${cy / _viewBox},'
+          '${rx / _viewBox},${ry / _viewBox}';
+    case 'path':
+      final d = _attrStr(tag, 'd');
+      if (d == null || d.isEmpty) return 'rect:0.35,0.35,0.3,0.3';
+      return 'pathd:$d';
     case 'polygon':
       final points = _attrStr(tag, 'points');
       if (points == null) return 'rect:0.4,0.4,0.2,0.2';
@@ -696,29 +694,29 @@ String _hitPathForId(String svg, String id) {
           .map(double.parse)
           .toList();
       if (coords.length < 4) return 'rect:0.4,0.4,0.2,0.2';
-      var minX = coords[0];
-      var maxX = coords[0];
-      var minY = coords[1];
-      var maxY = coords[1];
-      for (var i = 2; i < coords.length; i += 2) {
-        minX = minX < coords[i] ? minX : coords[i];
-        maxX = maxX > coords[i] ? maxX : coords[i];
-        minY = minY < coords[i + 1] ? minY : coords[i + 1];
-        maxY = maxY > coords[i + 1] ? maxY : coords[i + 1];
-      }
-      return 'rect:${minX / _viewBox},${minY / _viewBox},'
-          '${(maxX - minX) / _viewBox},${(maxY - minY) / _viewBox}';
+      final normalized = coords
+          .asMap()
+          .entries
+          .map((e) => e.value / _viewBox)
+          .join(',');
+      return 'poly:$normalized';
+    case 'rect':
+      final x = _attr(tag, 'x') ?? 0;
+      final y = _attr(tag, 'y') ?? 0;
+      final w = _attr(tag, 'width') ?? 20;
+      final h = _attr(tag, 'height') ?? 20;
+      return 'rect:${x / _viewBox},${y / _viewBox},${w / _viewBox},${h / _viewBox}';
     default:
       return 'rect:0.35,0.35,0.3,0.3';
   }
 }
 
 double? _attr(String tag, String name) {
-  final m = RegExp('$name="([\\d.]+)"').firstMatch(tag);
+  final m = RegExp('(?:^|\\s)$name="([\\d.]+)"').firstMatch(tag);
   return m != null ? double.tryParse(m.group(1)!) : null;
 }
 
 String? _attrStr(String tag, String name) {
-  final m = RegExp('$name="([^"]+)"').firstMatch(tag);
+  final m = RegExp('(?:^|\\s)$name="([^"]+)"').firstMatch(tag);
   return m?.group(1);
 }

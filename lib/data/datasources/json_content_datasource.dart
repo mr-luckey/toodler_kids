@@ -99,6 +99,8 @@ class JsonContentDataSource {
       'true_false_animals': ['assets/content/learning/true_false/true_false_animals.json'],
       'true_false_dino': ['assets/content/learning/true_false/true_false_dino.json'],
       'true_false_space': ['assets/content/learning/true_false/true_false_space.json'],
+      'true_false_world': ['assets/content/learning/true_false/true_false_world.json'],
+      'simon_says': ['assets/content/games/simon_says/levels.json'],
     };
     return paths[gameType] ?? [];
   }

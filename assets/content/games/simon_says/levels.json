@@ -1,0 +1,2474 @@
+{
+  "levels": [
+    {
+      "id": "simon_001",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 1,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_002",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 2,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_003",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 3,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_004",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 4,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_005",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 5,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_006",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 6,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_007",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 7,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_008",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 8,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_009",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 9,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        0,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_010",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 10,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        1,
+        2,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_011",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 11,
+      "difficulty": 1,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        1,
+        2,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_012",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 12,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        0,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_013",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 13,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        3,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_014",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 14,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        1,
+        2,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_015",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 15,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        3,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_016",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 16,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        1,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_017",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 17,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        3,
+        1,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_018",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 18,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        3,
+        0,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_019",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 19,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        0,
+        3,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_020",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 20,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        3,
+        1,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_021",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 21,
+      "difficulty": 2,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_022",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 22,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_023",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 23,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_024",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 24,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_025",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 25,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        3,
+        2,
+        2,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_026",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 26,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        3,
+        1,
+        1,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_027",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 27,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        2,
+        0,
+        2,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_028",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 28,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        2,
+        3,
+        1,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_029",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 29,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        2,
+        3,
+        0,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_030",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 30,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        0,
+        0,
+        3,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_031",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 31,
+      "difficulty": 3,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        2,
+        3,
+        2,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_032",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 32,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        2,
+        0,
+        1,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_033",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 33,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        3,
+        2,
+        0,
+        3,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_034",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 34,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        1,
+        3,
+        1,
+        1,
+        0,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_035",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 35,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        3,
+        3,
+        1,
+        2,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_036",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 36,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_037",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 37,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        2,
+        3,
+        3,
+        2,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_038",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 38,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_039",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 39,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        1,
+        3,
+        3,
+        0,
+        0,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_040",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 40,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        1,
+        1,
+        2,
+        2,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_041",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 41,
+      "difficulty": 4,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        3,
+        1,
+        0,
+        2,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_042",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 42,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        1,
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_043",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 43,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        1,
+        3,
+        1,
+        1,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_044",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 44,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        1,
+        1,
+        2,
+        3,
+        0,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_045",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 45,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_046",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 46,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_047",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 47,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        1,
+        3,
+        1,
+        1,
+        0,
+        0
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_048",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 48,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_049",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 49,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        3,
+        3,
+        2,
+        1,
+        2,
+        3
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    },
+    {
+      "id": "simon_050",
+      "gameType": "simon_says",
+      "zoneId": "music_meadow",
+      "levelNumber": 50,
+      "difficulty": 5,
+      "starsAvailable": 3,
+      "scaffoldHints": 1,
+      "learningMethod": [
+        "memory",
+        "music"
+      ],
+      "lumiLineKey": "Watch the pattern, then copy it!",
+      "sequenceItems": [
+        {
+          "id": "0",
+          "emoji": "🥁",
+          "label": "Drum",
+          "color": "#E53935"
+        },
+        {
+          "id": "1",
+          "emoji": "🎹",
+          "label": "Piano",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "2",
+          "emoji": "🎸",
+          "label": "Guitar",
+          "color": "#43A047"
+        },
+        {
+          "id": "3",
+          "emoji": "🎺",
+          "label": "Trumpet",
+          "color": "#FFB300"
+        }
+      ],
+      "sequence": [
+        0,
+        3,
+        0,
+        0,
+        2,
+        2
+      ],
+      "relatedConcepts": [
+        "music_meadow.simon"
+      ]
+    }
+  ]
+}

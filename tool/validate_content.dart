@@ -15,6 +15,7 @@ void main() {
   _validateManifest(errors);
   _validateLevelFiles(errors);
   _validateTapMatchLevels(errors);
+  _validateZoneAssignments(errors);
 
   if (errors.isEmpty) {
     print('✅ All content validation passed!');
@@ -101,9 +102,14 @@ void _validateTapMatchLevels(List<String> errors) {
       if (levelRaw is! Map<String, dynamic>) continue;
       final gameType = levelRaw['gameType'] as String? ?? '';
       final mechanic = _mechanicFor(gameType);
-      if (mechanic != 'tap_match' && mechanic != 'name_match') continue;
+      if (mechanic != 'tap_match' &&
+          mechanic != 'name_match' &&
+          mechanic != 'opposite_match') {
+        continue;
+      }
 
       final levelId = levelRaw['id'] as String? ?? 'unknown';
+      final mode = levelRaw['mode'] as String?;
       final items = levelRaw['items'] as List<dynamic>? ?? [];
       final options = levelRaw['options'] as List<dynamic>? ?? [];
       final choices = options.isNotEmpty ? options : items;
@@ -122,6 +128,22 @@ void _validateTapMatchLevels(List<String> errors) {
         errors.add(
           '$path [$levelId]: expected exactly 1 correct choice, found $correct',
         );
+      }
+
+      if (mode == 'opposite_match' || mechanic == 'opposite_match') {
+        final answerId = levelRaw['answerId'] as String?;
+        if (answerId != null) {
+          final hasAnswer = choices.any((c) {
+            if (c is! Map<String, dynamic>) return false;
+            return _idMatches(c['id'] as String?, answerId);
+          });
+          if (!hasAnswer) {
+            errors.add(
+              '$path [$levelId]: opposite answer "$answerId" missing from choices',
+            );
+          }
+        }
+        continue;
       }
 
       final targetId = levelRaw['targetId'] as String?;
@@ -163,8 +185,8 @@ String _mechanicFor(String gameType) {
     'household_items',
     'fun_colors',
     'color_recognition',
-    'opposites',
   };
+  if (gameType == 'opposites') return 'opposite_match';
   if (tapMatch.contains(gameType) || gameType == 'animal_names') {
     return gameType == 'animal_names' ? 'name_match' : 'tap_match';
   }
@@ -181,4 +203,67 @@ bool _idMatches(String? id, String targetId) {
   if (value.replaceAll('_', '') == target.replaceAll('_', '')) return true;
   if (value.endsWith('_$target') || value.endsWith(target)) return true;
   return false;
+}
+
+void _validateZoneAssignments(List<String> errors) {
+  final manifestFile = File('assets/content/manifest.json');
+  if (!manifestFile.existsSync()) return;
+
+  final manifest =
+      jsonDecode(manifestFile.readAsStringSync()) as Map<String, dynamic>;
+  final zones = manifest['zones'] as List<dynamic>? ?? [];
+  final registry =
+      manifest['gameTypeRegistry'] as Map<String, dynamic>? ?? {};
+
+  final gameToZones = <String, Set<String>>{};
+  for (final zoneRaw in zones) {
+    if (zoneRaw is! Map<String, dynamic>) continue;
+    final zoneId = zoneRaw['id'] as String? ?? '';
+    final gameTypes = zoneRaw['gameTypes'] as List<dynamic>? ?? [];
+    for (final gt in gameTypes) {
+      if (gt is! String || gt == 'coloring' || gt == 'free_draw') continue;
+      gameToZones.putIfAbsent(gt, () => {}).add(zoneId);
+    }
+  }
+
+  for (final entry in registry.entries) {
+    final gameType = entry.key;
+    final info = entry.value as Map<String, dynamic>;
+    final paths = (info['contentPaths'] as List<dynamic>? ?? [])
+        .map((e) => e as String)
+        .toList();
+    final minLevels = info['minLevels'] as int? ?? 0;
+    var totalLevels = 0;
+
+    for (final path in paths) {
+      final file = File(path);
+      if (!file.existsSync()) {
+        errors.add('Registry $gameType: missing content file $path');
+        continue;
+      }
+      final root = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+      final levels = root['levels'] as List<dynamic>? ?? [];
+      totalLevels += levels.length;
+
+      for (final levelRaw in levels) {
+        if (levelRaw is! Map<String, dynamic>) continue;
+        final levelId = levelRaw['id'] as String? ?? 'unknown';
+        final zoneId = levelRaw['zoneId'] as String?;
+        final expectedZones = gameToZones[gameType];
+        if (expectedZones != null &&
+            zoneId != null &&
+            !expectedZones.contains(zoneId)) {
+          errors.add(
+            '$path [$levelId]: zoneId "$zoneId" not in manifest zones for $gameType ($expectedZones)',
+          );
+        }
+      }
+    }
+
+    if (totalLevels < minLevels) {
+      errors.add(
+        'Registry $gameType: $totalLevels levels, expected min $minLevels',
+      );
+    }
+  }
 }

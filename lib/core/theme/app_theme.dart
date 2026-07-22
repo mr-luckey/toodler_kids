@@ -4,15 +4,15 @@ import 'package:google_fonts/google_fonts.dart';
 class AppTheme {
   AppTheme._();
 
-  static const Color primary = Color(0xFF6C63FF);
-  static const Color primaryDark = Color(0xFF4E47C6);
-  static const Color secondary = Color(0xFFFFB74D);
+  static const Color primary = Color(0xFFFF6B6B);
+  static const Color primaryDark = Color(0xFFE53935);
+  static const Color secondary = Color(0xFFFFC107);
   static const Color success = Color(0xFF66BB6A);
-  static const Color error = Color(0xFFEF5350);
-  static const Color background = Color(0xFFFFF8F0);
+  static const Color error = Color(0xFFFF5252);
+  static const Color background = Color(0xFFFFF8E7);
   static const Color surface = Colors.white;
   static const Color textDark = Color(0xFF2D3142);
-  static const Color cartoonBorder = Color(0xFF5C6BC0);
+  static const Color cartoonBorder = Color(0xFFFF8A65);
 
   static TextStyle get displayFont => GoogleFonts.fredoka();
   static TextStyle get bodyFont => GoogleFonts.baloo2();
